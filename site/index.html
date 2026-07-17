@@ -19,20 +19,15 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#/" aria-label="Zur Startseite">
-      <span class="brand-mark" aria-hidden="true">🍰</span>
-      <span class="brand-text">Kochbuch</span>
-    </a>
-  </header>
+  <div class="page">
+    <main id="app" aria-live="polite">
+      <p class="loading">Lädt Rezepte …</p>
+    </main>
 
-  <main id="app" aria-live="polite">
-    <p class="loading">Lädt Rezepte …</p>
-  </main>
-
-  <footer class="site-footer">
-    <p>Mit ♥ gepflegt · <span id="recipe-total"></span></p>
-  </footer>
+    <footer class="site-footer">
+      <p>Mit ♥ von KI gepflegt · <span id="recipe-total"></span></p>
+    </footer>
+  </div>
 
   <script src="app.js"></script>
 </body>

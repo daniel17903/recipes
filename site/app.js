@@ -233,13 +233,13 @@ function renderRecipe(r) {
   if (r.times && r.times.cook) meta.push(`🔥 Backen/Kochen: ${esc(r.times.cook)}`);
   if (r.source && r.source.url) {
     const label = r.source.name || hostOf(r.source.url);
-    meta.push(`🔗 <a class="source-link" href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
+    meta.push(`Quelle: <a class="source-link" href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
   } else if (r.source && r.source.name) {
-    meta.push(`🔗 ${esc(r.source.name)}`);
+    meta.push(`Quelle: ${esc(r.source.name)}`);
   }
 
   app.innerHTML = `
-    <button class="back" id="back">← Übersicht</button>
+    <button class="back" id="back">← Alle Rezepte</button>
     ${hero}
     <div class="recipe-cat">${esc(r.category)}</div>
     <h1 class="recipe-title">${esc(r.title)}</h1>
