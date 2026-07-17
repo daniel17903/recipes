@@ -110,7 +110,14 @@
       "group": null,
       "amount": 150,
       "unit": "g",
-      "name": "pürierte Himbeeren + 2 EL Chiasamen (30min quellen lassen)"
+      "name": "pürierte Himbeeren"
+    },
+    {
+      "group": null,
+      "amount": 24,
+      "unit": "g",
+      "name": "Chiasamen",
+      "note": "entspricht 2 EL; mit den Himbeeren mischen und 30 min quellen lassen"
     }
   ],
   "steps": [

@@ -3,8 +3,8 @@
   "title": "Apfel Pudding Kuchen",
   "category": "Kuchen",
   "yield": {
-    "amount": 26,
-    "unit": "cm Form"
+    "amount": 1,
+    "unit": "26cm-Form"
   },
   "ingredients": [
     {
@@ -36,7 +36,8 @@
       "group": null,
       "amount": 1.33,
       "unit": "Pck.",
-      "name": "Vanille-Puddingpulver oder 40 g Speisestärke + 1 TL Vanilleextrakt"
+      "name": "Vanille-Puddingpulver",
+      "note": "alternativ: 40 g Speisestärke + 1 TL Vanilleextrakt"
     },
     {
       "group": null,

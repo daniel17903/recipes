@@ -4,7 +4,7 @@
   "category": "Brot",
   "yield": {
     "amount": 8,
-    "unit": "brötchen"
+    "unit": "Brötchen"
   },
   "ingredients": [
     {
@@ -42,7 +42,8 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "ein wenig Hefe (ca 1/2 TL Trockenhefe oder 1/10 Würfel Frischhefe)"
+      "name": "Hefe",
+      "note": "ein wenig; ca. 1/2 TL Trockenhefe oder 1/10 Würfel Frischhefe"
     },
     {
       "group": null,

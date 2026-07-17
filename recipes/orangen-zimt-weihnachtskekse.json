@@ -9,13 +9,13 @@
   "ingredients": [
     {
       "group": "Teig",
-      "amount": 240,
+      "amount": 200,
       "unit": "g",
       "name": "gemahlene Mandeln"
     },
     {
       "group": "Teig",
-      "amount": 210,
+      "amount": 175,
       "unit": "g",
       "name": "gemahlene Haselnüsse"
     },
@@ -49,7 +49,7 @@
     },
     {
       "group": "Teig",
-      "amount": 60,
+      "amount": 120,
       "unit": "ml",
       "name": "Wasser",
       "note": "ca. 1/2 Tasse"

@@ -78,9 +78,10 @@
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "optional: 1 Tasse Espresso (40 ml)"
+      "amount": 40,
+      "unit": "ml",
+      "name": "Espresso",
+      "note": "optional"
     },
     {
       "group": "Glasur",

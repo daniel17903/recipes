@@ -194,6 +194,7 @@ function card(r) {
 
 function renderRecipe(r) {
   const base = r.yield ? r.yield.amount : 1;
+  const unit = r.yield ? r.yield.unit : "Portionen";
   let hero = "";
   if (r.images && r.images.length) {
     hero = `<div class="recipe-hero"><img src="images/${esc(r.images[0])}" alt="${esc(r.title)}"></div>`;
@@ -228,7 +229,7 @@ function renderRecipe(r) {
           <button id="dec" aria-label="weniger">−</button>
           <input id="portions" type="text" value="${fmtNum(base)}"
             inputmode="decimal" aria-label="Menge">
-          <span class="yield-unit">${esc(r.yield ? r.yield.unit : "Portionen")}</span>
+          <span class="yield-unit" id="yield-unit">${esc(yieldUnitLabel(unit, base))}</span>
           <button id="inc" aria-label="mehr">+</button>
         </div>
       </div>
@@ -255,6 +256,7 @@ function renderRecipe(r) {
     if (!val || val <= 0) val = base;
     const factor = val / base;
     document.getElementById("ing-list").innerHTML = ingredientsHtml(r, factor);
+    document.getElementById("yield-unit").textContent = yieldUnitLabel(unit, val);
   };
   document.getElementById("inc").addEventListener("click", () => {
     input.value = fmtNum((parseFloat(String(input.value).replace(",", ".")) || base) + stepFor(base));
@@ -267,6 +269,11 @@ function renderRecipe(r) {
   });
   input.addEventListener("input", renderIng);
   renderIng();
+}
+
+const SINGULAR_UNITS = { "Portionen": "Portion", "Pancakes": "Pancake", "kleine Gläser": "kleines Glas" };
+function yieldUnitLabel(unit, value) {
+  return value === 1 && SINGULAR_UNITS[unit] ? SINGULAR_UNITS[unit] : unit;
 }
 
 function stepFor(base) { return base >= 4 ? 1 : 0.5; }

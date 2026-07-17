@@ -24,6 +24,8 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ALLOWED_UNITS = {"g", "ml", "Stück", "Pck.", "Prise", "Msp.", "Blatt",
                  "Zehe", "Bund", "Dose", "Glas", None}
 FORBIDDEN_UNITS = {"EL", "TL", "Tasse", "cup", "Cup", "tbsp", "tsp"}
+YIELD_UNIT_EMPTY_PARENS_RE = re.compile(r"\(\s*(x|ø)?\s*\)|\(\s*x\s*cm\s*\)", re.IGNORECASE)
+YIELD_UNIT_BAD_VALUES = {"portion(en)", "portions"}
 
 
 def load_categories() -> list[str]:
@@ -70,6 +72,16 @@ def validate_recipe(path: str, categories: set[str], errors: list[str],
             err(f"'yield.amount' muss eine positive Zahl sein: {y['amount']!r}")
         if not isinstance(y["unit"], str) or not y["unit"]:
             err("'yield.unit' muss ein nicht-leerer String sein")
+        elif isinstance(y["unit"], str):
+            unit = y["unit"]
+            if "  " in unit:
+                err(f"'yield.unit' enthält Doppel-Leerzeichen: {unit!r}")
+            if YIELD_UNIT_EMPTY_PARENS_RE.search(unit):
+                err(f"'yield.unit' enthält leere Klammer-Reste: {unit!r}")
+            if unit.lower() in YIELD_UNIT_BAD_VALUES:
+                err(f"'yield.unit' ist unnormalisiert: {unit!r} (erwartet 'Portionen')")
+            if unit.startswith("cm "):
+                err(f"'yield.unit' beginnt mit 'cm ': {unit!r}")
 
     # ingredients
     ings = r.get("ingredients")
@@ -138,17 +150,25 @@ def main() -> int:
         return 1
 
     ids: dict[str, str] = {}
+    titles: dict[str, str] = {}
     for f in files:
         path = os.path.join(RECIPES_DIR, f)
         with open(path, encoding="utf-8") as fh:
             try:
-                rid = json.load(fh).get("id")
+                data = json.load(fh)
             except json.JSONDecodeError:
-                rid = None
+                data = {}
+        rid = data.get("id")
         if rid in ids:
             errors.append(f"{f}: doppelte id {rid!r} (auch in {ids[rid]})")
         elif rid:
             ids[rid] = f
+        title = data.get("title")
+        if isinstance(title, str) and title:
+            if title in titles:
+                errors.append(f"{f}: doppelter title {title!r} (auch in {titles[title]})")
+            else:
+                titles[title] = f
         validate_recipe(path, cat_set, errors, used_images)
 
     # verwaiste Bilder

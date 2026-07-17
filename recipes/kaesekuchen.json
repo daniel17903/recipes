@@ -77,7 +77,8 @@
       "group": "Füllung",
       "amount": 2,
       "unit": "Pck.",
-      "name": "Vanillepuddingpulver oder 80g Speisestärke + 1/2 TL Vanille"
+      "name": "Vanillepuddingpulver",
+      "note": "alternativ: 80 g Speisestärke + 1/2 TL Vanille"
     }
   ],
   "steps": [

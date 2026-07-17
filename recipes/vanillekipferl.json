@@ -3,8 +3,8 @@
   "title": "Vanillekipferl",
   "category": "Weihnachten",
   "yield": {
-    "amount": 1,
-    "unit": "Blech ( Stück)"
+    "amount": 35,
+    "unit": "Stück"
   },
   "ingredients": [
     {

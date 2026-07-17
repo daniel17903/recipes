@@ -4,7 +4,7 @@
   "category": "Brot",
   "yield": {
     "amount": 12,
-    "unit": "portion(en)"
+    "unit": "Portionen"
   },
   "ingredients": [
     {
@@ -17,13 +17,15 @@
       "group": null,
       "amount": 200,
       "unit": "g",
-      "name": "Vollkornmehl ,ich nehme Weizenvollkornmehl, alternativ geht auch Roggenmehl, Weißmehl, Dinkelmehl.."
+      "name": "Vollkornmehl",
+      "note": "ich nehme Weizenvollkornmehl, alternativ geht auch Roggenmehl, Weißmehl, Dinkelmehl"
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "Zimt, ich nehme 1 TL voll"
+      "amount": 3,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 1 TL"
     },
     {
       "group": null,

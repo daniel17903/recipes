@@ -4,7 +4,7 @@
   "category": "Kuchen",
   "yield": {
     "amount": 1,
-    "unit": "standardbackblech ca. xcm"
+    "unit": "Standardbackblech (ca. 30 x 40 cm)"
   },
   "ingredients": [
     {
@@ -47,8 +47,8 @@
       "group": null,
       "amount": 16,
       "unit": "g",
-      "name": "Pumpkin Spice (oder 1 EL Zimt, 1½ TL Muskat, ½ zerstoße Nelke oder 1 Prise Nelkenpulver, ½ TL Ingerpulver, ¼ TL Pfeffer)",
-      "note": "entspricht 2 EL"
+      "name": "Pumpkin Spice",
+      "note": "entspricht 2 EL; alternativ: 1 EL Zimt, 1½ TL Muskat, ½ zerstoßene Nelke oder 1 Prise Nelkenpulver, ½ TL Ingwerpulver, ¼ TL Pfeffer"
     },
     {
       "group": null,

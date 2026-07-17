@@ -4,7 +4,7 @@
   "category": "Hauptgerichte",
   "yield": {
     "amount": 2,
-    "unit": "portion(en)"
+    "unit": "Portionen"
   },
   "ingredients": [
     {

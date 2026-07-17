@@ -20,6 +20,7 @@
     "milch": { "target": "ml", "tsp": 5, "tbsp": 15, "cup": 240, "aliases": ["hafermilch", "sojamilch", "pflanzenmilch", "pflanzendrink", "wasser", "mandelmilch"] },
     "butter": { "target": "g", "tsp": 5, "tbsp": 15, "cup": 225, "aliases": ["margarine", "vegane butter"] },
     "gewuerz gemahlen": { "target": "g", "tsp": 3, "tbsp": 8, "aliases": ["zimt", "paprikapulver", "kreuzkuemmel", "kurkuma", "muskatnuss"] },
-    "tahini": { "target": "g", "tsp": 6, "tbsp": 18, "aliases": ["nussmus", "mandelmus", "erdnussmus", "erdnussbutter"] }
+    "tahini": { "target": "g", "tsp": 6, "tbsp": 18, "aliases": ["nussmus", "mandelmus", "erdnussmus", "erdnussbutter"] },
+    "chiasamen": { "target": "g", "tsp": 4, "tbsp": 12, "cup": 192 }
   }
 }
