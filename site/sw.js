@@ -1,12 +1,16 @@
 "use strict";
 
-const CACHE_NAME = "kochbuch-v1";
+const CACHE_NAME = "kochbuch-v2";
 const APP_FILES = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
   "./manifest.webmanifest",
+  "./icons/favicon-48.png",
+  "./icons/apple-touch-icon.png",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
   "./recipes.json",
 ];
 
