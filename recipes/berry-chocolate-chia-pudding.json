@@ -19,10 +19,10 @@
     },
     {
       "group": null,
-      "amount": 150,
+      "amount": 250,
       "unit": "g",
       "name": "Erdbeeren oder Blaubeeren (oder andere Beeren)",
-      "note": "entspricht etwa 1¼ Tassen; je nach Beerensorte leicht unterschiedlich"
+      "note": "entspricht 1¼ Tassen"
     },
     {
       "group": null,
@@ -40,8 +40,8 @@
     },
     {
       "group": null,
-      "amount": 170,
-      "unit": "g",
+      "amount": 120,
+      "unit": "ml",
       "name": "Dattelsirup",
       "note": "entspricht ½ Tasse"
     },
@@ -54,7 +54,7 @@
     },
     {
       "group": null,
-      "amount": 48,
+      "amount": 40,
       "unit": "g",
       "name": "Chiasamen",
       "note": "entspricht ¼ Tasse"
@@ -73,7 +73,7 @@
     "Abdecken und mindestens 8 Stunden kalt stellen.",
     "In 4 kleine Dessertschalen verteilen und nach Wunsch garnieren. Vor dem Servieren weitere 20 Minuten kühlen."
   ],
-  "notes": "Veganes Dessert. Mengenangaben aus dem zugesandten Rezeptbild; die Tassen- und Löffelangaben wurden gemäß dem Umrechnungsschema des Kochbuchs in g/ml umgerechnet.",
+  "notes": "Veganes Dessert. Wenn im Original neben Volumenangaben g/ml angegeben waren, wurden diese Originalwerte übernommen; nur Kakaopulver und Mandelmus haben dort ausschließlich EL-Angaben.",
   "source": {
     "name": "NutritionFacts.org / The How Not to Die Cookbook",
     "url": "https://nutritionfacts.org/recipe/berry-chocolate-chia-pudding/"
