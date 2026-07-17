@@ -1,7 +1,7 @@
 {
   "id": "berry-chocolate-chia-pudding",
-  "title": "Berry Chocolate Chia Pudding",
-  "category": "Dessert",
+  "title": "Beeren-Schoko-Chia-Pudding",
+  "category": "Nachtische",
   "yield": {
     "amount": 4,
     "unit": "Portionen"
@@ -14,49 +14,50 @@
     {
       "group": null,
       "amount": 0.5,
-      "unit": null,
+      "unit": "Stück",
       "name": "reife Hass-Avocado, halbiert und entkernt"
     },
     {
       "group": null,
-      "amount": 1.25,
-      "unit": null,
-      "name": "Erdbeeren oder Blaubeeren (oder andere Beeren)"
+      "amount": 150,
+      "unit": "g",
+      "name": "Erdbeeren oder Blaubeeren (oder andere Beeren)",
+      "note": "entspricht etwa 1¼ Tassen; je nach Beerensorte leicht unterschiedlich"
     },
     {
       "group": null,
-      "amount": 3,
-      "unit": null,
+      "amount": 24,
+      "unit": "g",
       "name": "ungesüßtes Kakaopulver",
-      "note": "Esslöffel"
+      "note": "entspricht 3 EL"
     },
     {
       "group": null,
-      "amount": 2,
-      "unit": null,
+      "amount": 36,
+      "unit": "g",
       "name": "Mandelmus",
-      "note": "Esslöffel"
+      "note": "entspricht 2 EL"
     },
     {
       "group": null,
-      "amount": 0.5,
-      "unit": null,
+      "amount": 170,
+      "unit": "g",
       "name": "Dattelsirup",
-      "note": "Tasse"
+      "note": "entspricht ½ Tasse"
     },
     {
       "group": null,
-      "amount": 1.5,
-      "unit": null,
+      "amount": 360,
+      "unit": "ml",
       "name": "Mandelmilch",
-      "note": "Tassen"
+      "note": "entspricht 1½ Tassen"
     },
     {
       "group": null,
-      "amount": 0.25,
-      "unit": null,
+      "amount": 48,
+      "unit": "g",
       "name": "Chiasamen",
-      "note": "Tasse"
+      "note": "entspricht ¼ Tasse"
     },
     {
       "group": null,
@@ -72,7 +73,7 @@
     "Abdecken und mindestens 8 Stunden kalt stellen.",
     "In 4 kleine Dessertschalen verteilen und nach Wunsch garnieren. Vor dem Servieren weitere 20 Minuten kühlen."
   ],
-  "notes": "Einfaches veganes Dessert. Mengenangaben aus dem zugesandten Rezeptbild.",
+  "notes": "Veganes Dessert. Mengenangaben aus dem zugesandten Rezeptbild; die Tassen- und Löffelangaben wurden gemäß dem Umrechnungsschema des Kochbuchs in g/ml umgerechnet.",
   "source": {
     "name": "NutritionFacts.org / The How Not to Die Cookbook",
     "url": "https://nutritionfacts.org/recipe/berry-chocolate-chia-pudding/"
