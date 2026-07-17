@@ -9,26 +9,26 @@
   "ingredients": [
     {
       "group": null,
-      "amount": 250,
+      "amount": 400,
       "unit": "g",
       "name": "gehackte Tomaten aus der Dose"
     },
     {
       "group": null,
-      "amount": 6,
+      "amount": 9.6,
       "unit": "g",
       "name": "abgeriebene Orangenschalen",
-      "note": "entspricht 2 TL"
+      "note": "entspricht 3.2 TL"
     },
     {
       "group": null,
-      "amount": 1,
+      "amount": 1.6,
       "unit": "Stück",
       "name": "Banane"
     },
     {
       "group": null,
-      "amount": 80,
+      "amount": 128,
       "unit": "g",
       "name": "Öl"
     },
@@ -40,29 +40,29 @@
     },
     {
       "group": null,
-      "amount": 100,
+      "amount": 160,
       "unit": "g",
       "name": "Zucker"
     },
     {
       "group": null,
-      "amount": 250,
+      "amount": 400,
       "unit": "g",
       "name": "Mehl"
     },
     {
       "group": null,
-      "amount": 3,
+      "amount": 4.8,
       "unit": "g",
       "name": "Natron",
-      "note": "entspricht 1 TL"
+      "note": "entspricht 1.6 TL"
     },
     {
       "group": null,
-      "amount": 1.5,
+      "amount": 2.4,
       "unit": "g",
       "name": "Backpulver",
-      "note": "entspricht 1/2 TL"
+      "note": "entspricht 0.8 TL"
     }
   ],
   "steps": [
