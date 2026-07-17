@@ -1,5 +1,6 @@
 /* Mobile-first Kochbuch. Basis = Handy, größere Breakpoints erweitern. */
 :root {
+  color-scheme: light;
   --bg: oklch(0.972 0.01 75);
   --surface: #ffffff;
   --surface-2: oklch(0.93 0.015 75);
@@ -15,20 +16,6 @@
   --safe-l: env(safe-area-inset-left, 0px);
   --safe-r: env(safe-area-inset-right, 0px);
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: oklch(0.17 0.01 75);
-    --surface: oklch(0.21 0.012 75);
-    --surface-2: oklch(0.25 0.014 75);
-    --text: oklch(0.93 0.01 75);
-    --muted: oklch(0.7 0.03 75);
-    --accent: oklch(0.72 0.11 75);
-    --accent-soft: oklch(0.32 0.05 75);
-    --border: oklch(0.3 0.015 75);
-    --hairline: oklch(0.27 0.012 75);
-  }
-}
-
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
