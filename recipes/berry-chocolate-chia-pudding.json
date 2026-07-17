@@ -1,0 +1,81 @@
+{
+  "id": "berry-chocolate-chia-pudding",
+  "title": "Berry Chocolate Chia Pudding",
+  "category": "Dessert",
+  "yield": {
+    "amount": 4,
+    "unit": "Portionen"
+  },
+  "times": {
+    "prep": "20 min",
+    "cook": "mindestens 8 h kühlen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 0.5,
+      "unit": null,
+      "name": "reife Hass-Avocado, halbiert und entkernt"
+    },
+    {
+      "group": null,
+      "amount": 1.25,
+      "unit": null,
+      "name": "Erdbeeren oder Blaubeeren (oder andere Beeren)"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": null,
+      "name": "ungesüßtes Kakaopulver",
+      "note": "Esslöffel"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": null,
+      "name": "Mandelmus",
+      "note": "Esslöffel"
+    },
+    {
+      "group": null,
+      "amount": 0.5,
+      "unit": null,
+      "name": "Dattelsirup",
+      "note": "Tasse"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": null,
+      "name": "Mandelmilch",
+      "note": "Tassen"
+    },
+    {
+      "group": null,
+      "amount": 0.25,
+      "unit": null,
+      "name": "Chiasamen",
+      "note": "Tasse"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Beeren, gehobelte Mandeln oder Kakaonibs zum Garnieren",
+      "note": "optional"
+    }
+  ],
+  "steps": [
+    "Avocadofruchtfleisch, Beeren, Kakaopulver, Mandelmus, Dattelsirup und Mandelmilch in einem Hochleistungsmixer oder einer Küchenmaschine vollständig glatt pürieren.",
+    "Die Mischung in eine Schüssel geben und die Chiasamen einrühren, bis sie gleichmäßig verteilt sind.",
+    "Abdecken und mindestens 8 Stunden kalt stellen.",
+    "In 4 kleine Dessertschalen verteilen und nach Wunsch garnieren. Vor dem Servieren weitere 20 Minuten kühlen."
+  ],
+  "notes": "Einfaches veganes Dessert. Mengenangaben aus dem zugesandten Rezeptbild.",
+  "source": {
+    "name": "NutritionFacts.org / The How Not to Die Cookbook",
+    "url": "https://nutritionfacts.org/recipe/berry-chocolate-chia-pudding/"
+  },
+  "dateAdded": "2026-07-17"
+}
