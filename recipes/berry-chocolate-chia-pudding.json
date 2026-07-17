@@ -78,5 +78,8 @@
     "name": "NutritionFacts.org / The How Not to Die Cookbook",
     "url": "https://nutritionfacts.org/recipe/berry-chocolate-chia-pudding/"
   },
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "images": [
+    "berry-chocolate-chia-pudding.webp"
+  ]
 }
