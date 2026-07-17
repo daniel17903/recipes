@@ -1,0 +1,61 @@
+{
+  "id": "weisse-bohnen-mandel-aufstrich",
+  "title": "Weiße Bohnen Mandel Aufstrich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "weiße Bohnen"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "g",
+      "name": "Mandeln geröstet"
+    },
+    {
+      "group": null,
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Zitrone"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Rosmarin",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Olivenöl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Wasser"
+    }
+  ],
+  "steps": [
+    "Weiße Bohnen abgießen und abspülen, Mandeln rösten.",
+    "Bohnen, Mandeln, Saft der halben Zitrone, Rosmarin und etwas Olivenöl mit dem Pürierstab pürieren; mit Wasser die gewünschte Konsistenz einstellen.",
+    "Mit Salz und Pfeffer abschmecken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

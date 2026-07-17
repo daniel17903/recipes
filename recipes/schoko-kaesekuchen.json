@@ -1,0 +1,119 @@
+{
+  "id": "schoko-kaesekuchen",
+  "title": "Schoko-Käsekuchen",
+  "category": "Torten",
+  "yield": {
+    "amount": 22,
+    "unit": "cm Form"
+  },
+  "ingredients": [
+    {
+      "group": "Nussboden",
+      "amount": 75,
+      "unit": "g",
+      "name": "gemahlene Haselnüsse"
+    },
+    {
+      "group": "Nussboden",
+      "amount": 37,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Nussboden",
+      "amount": 40,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Nussboden",
+      "amount": 60,
+      "unit": "g",
+      "name": "kalte Margarine"
+    },
+    {
+      "group": "Füllung",
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Blöcke Naturtofu (180-200g)"
+    },
+    {
+      "group": "Füllung",
+      "amount": 30,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": "Füllung",
+      "amount": 250,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": "Füllung",
+      "amount": 200,
+      "unit": "g",
+      "name": "dunkle Schokolade"
+    },
+    {
+      "group": "Füllung",
+      "amount": 100,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Füllung",
+      "amount": 32,
+      "unit": "g",
+      "name": "Kakaopulver",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": "Füllung",
+      "amount": 7.5,
+      "unit": "g",
+      "name": "Agar Agar",
+      "note": "entspricht 2,5 TL"
+    },
+    {
+      "group": "Füllung",
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
+    },
+    {
+      "group": "Füllung",
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": "Schokoladenguss",
+      "amount": 50,
+      "unit": "g",
+      "name": "dunkle Schokoladen"
+    },
+    {
+      "group": "Schokoladenguss",
+      "amount": 60,
+      "unit": "ml",
+      "name": "Espresso"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten für den Nussboden vermischen.",
+    "Kalte Margarine mit einer Gabel zerdrücken.",
+    "Ca 25min bei 180C Ober- Unterhitze backen.",
+    "Backpapier in die Springform legen, damit der Boden beim Rausnehmen nicht zerbricht.",
+    "Dann abkühlen lassen.",
+    "Tofu zerbröseln.",
+    "Zusammen mit Zitronensaft, Vanille und Salz pürieren.",
+    "Pflanzenmilch, Schokolade, Zucker, Kakaopulver und Agar Agar erhitzen, dabei die ganze Zeit rühren und 2min köcheln lassen.",
+    "Tofumasse zsm mit Schokomasse pürieren, dann in die Form füllen und 2-3h kühlen.",
+    "Für den Schokoladenguss alle Zutaten erhitzen bis die Schokolade geschmolzen ist.",
+    "Dann wieder so lange abkühlen lassen bis sie nicht mehr ganz flüssig ist und auf dem Kuchen verteilen.",
+    "Dann kühlen."
+  ],
+  "dateAdded": "2026-07-17"
+}

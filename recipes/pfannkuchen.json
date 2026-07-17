@@ -1,0 +1,74 @@
+{
+  "id": "pfannkuchen",
+  "title": "Pfannkuchen",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 8,
+    "unit": "Pfannkuchen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Backpulver"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 7.5,
+      "unit": "g",
+      "name": "Veggs",
+      "note": "entspricht 2.5 TL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Öl neutral",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 420,
+      "unit": "ml",
+      "name": "Milch"
+    },
+    {
+      "group": "Optional",
+      "amount": null,
+      "unit": null,
+      "name": "Zucker"
+    },
+    {
+      "group": "Optional",
+      "amount": null,
+      "unit": null,
+      "name": "Agavendicksaft"
+    },
+    {
+      "group": "Optional",
+      "amount": null,
+      "unit": null,
+      "name": "Gewürze"
+    }
+  ],
+  "steps": [
+    "Mehl, Backpulver, Salz und das Ei-Ersatz-Pulver (Veggs) vermengen.",
+    "Milch und Öl zugeben und zu einem glatten Teig verrühren. Nach Geschmack mit Zucker, Agavendicksaft und Gewürzen abschmecken.",
+    "In einer Pfanne mit etwas Öl portionsweise goldbraune Pfannkuchen ausbacken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

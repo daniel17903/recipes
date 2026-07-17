@@ -1,0 +1,89 @@
+{
+  "id": "rote-linsen-brokkoli-suppe",
+  "title": "Rote Linsen Brokkoli Suppe",
+  "category": "Suppen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Zwiebeln"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Stangen Lauch",
+      "note": "1-2"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Zehe",
+      "name": "Knoblauch"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "großer Brokkoli"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "rote Linsen"
+    },
+    {
+      "group": null,
+      "amount": 1000,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Paprika"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Sojasahne"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Hefeflocken"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Petersilie"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Olivenöl"
+    }
+  ],
+  "steps": [
+    "Brokkoli in Röschen schneiden und das restliche Gemüse klein schneiden.",
+    "Linsen in einem Sieb waschen.",
+    "Zwiebeln, Lauch und Knoblauch in einem großen Topf einige Minuten anbraten.",
+    "Brokkoli kurz mitbraten, dann die Gemüsebrühe und die Sojasahne hinzufügen.",
+    "Sobald alles kocht die Linsen dazugeben und ca 15min kochen bis sie weich sind.",
+    "Kurz vor Ende der Kochzeit die Paprika dazugeben.",
+    "Alles pürieren und mit Salz, Pfeffer, Kurkuma und Hefeflocken würzen.",
+    "Vor dem Servieren etwas Olivenöl dazugeben und gehackte Petersilie darüber streuen."
+  ],
+  "dateAdded": "2026-07-17"
+}

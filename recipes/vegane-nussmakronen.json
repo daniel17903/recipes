@@ -1,0 +1,87 @@
+{
+  "id": "vegane-nussmakronen",
+  "title": "Vegane Nussmakronen",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 15,
+    "unit": "stück"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zutaten"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Aquafaba (Wasser aus der Kichererbsen-Dose)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 0.25 TL"
+    },
+    {
+      "group": null,
+      "amount": 75,
+      "unit": "g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "g",
+      "name": "Vanilleextrakt",
+      "note": "entspricht 0.25 TL"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "gemahlene Haselnüsse"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "Blatt",
+      "name": "(ø 5 cm)"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "Stück",
+      "name": "ganze Haselnüsse"
+    }
+  ],
+  "steps": [
+    "Ofen auf 180 °C (Umluft) vorheizen.",
+    "Aquafaba und Backpulver in eine große Schüssel geben und mit dem Handrührgerät oder der Küchenmaschine aufschlagen, bis eine schnittfeste Konsistenz erreicht ist.",
+    "Puderzucker nach und nach hineinsieben und vorsichtig unterheben.",
+    "Vanilleextrakt hinzugeben und gemeinsam mit den gemahlenen Haselnüssen unterheben.",
+    "Tipp: Bei diesem Rezept ist die Konsistenz eures Teiges entscheidend.",
+    "Gebt die Haselnüsse am besten Stück für Stück hinzu, sodass ihr die Konsistenz des Teiges im Auge behalten könnt.",
+    "Er sollte so weich sein, dass ihr ihn mit dem Spritzbeutel gut verarbeiten könnt.",
+    "Nach dem Aufspritzen sollte er jedoch nicht auseinanderlaufen.",
+    "Die Konsistenz sollte der von Zahnpasta ähneln.",
+    "Oblaten auf einem mit Backpapier ausgelegten Backblech verteilen.",
+    "Anschließend Nussmasse in einen Spritzbeutel mit großer Spritztülle (circa 1 Zentimeter) geben.",
+    "Die Spritztülle jeweils etwas über der Mitte der Oblate ansetzen.",
+    "Anschließend den Teig herausdrücken, ohne die Spitze der Tülle zu bewegen.",
+    "Auf diese Art und Weise sollte sich die Nussmasse auf der gesamten Oblate gleichmäßig verteilen.",
+    "Die Makronen sollten etwa 0.5 Zentimeter hoch sein.",
+    "In die Mitte jeder Makrone eine Haselnuss geben und die Plätzchen für 10–12 Minuten bei 180 °C (Umluft) backen.",
+    "Nach dem Backen gut auskühlen lassen, da sie frisch aus dem Ofen noch sehr weich sind."
+  ],
+  "source": {
+    "url": "https://www.zuckerjagdwurst.com/de/rezepte/vegane-nussmakronen"
+  },
+  "images": [
+    "vegane-nussmakronen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

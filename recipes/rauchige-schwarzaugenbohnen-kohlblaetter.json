@@ -1,0 +1,87 @@
+{
+  "id": "rauchige-schwarzaugenbohnen-kohlblaetter",
+  "title": "Rauchige Schwarzaugenbohnen & Kohlblätter",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 4,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 700,
+      "unit": "g",
+      "name": "frische grüne Kohlblätter, gründlich gewaschen, harte Stiele entfernt"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "kleine rote Zwiebel, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Knoblauchzehe, fein gehackt"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Paprikapulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Kurkumawurzel gerieben oder 1/4 TL Kurkumapulver"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "pikante Gewürzmischung"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "weiße Misopaste",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "stückige Tomaten"
+    },
+    {
+      "group": null,
+      "amount": 320,
+      "unit": "g",
+      "name": "gekoche schwarzaugen Bohnen oder 1 Dose"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "dazu Quinoa, roter, schwarzer oder Naturreis"
+    }
+  ],
+  "steps": [
+    "Kohlblätter in einem großen Topf mit kochendem Wasser ca 20min weich kochen.",
+    "4 EL des Kochwassers aufbewahren, den Rest abgießen.",
+    "Kohlblätter grob hacken und beiseitestellen.",
+    "Das aufbewahrte Kochwasser in einer großen Pfanne auf mittlerer Flamme erhitzen.",
+    "Zwiebel, Knoblauch, Paprikapulver, Kurkuma und pikante Gewürzmischung nach Geschmack einrühren.",
+    "Abdecken und 4min köcheln lassen, bis die Zwiebel weich ist.",
+    "Misopaste, Tomaten, Schwarzaugenbohnen, gehackte Kohlblätter nach Geschmack einrühren.",
+    "10min köcheln lassen."
+  ],
+  "images": [
+    "rauchige-schwarzaugenbohnen-kohlblaetter.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

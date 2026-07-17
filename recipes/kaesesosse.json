@@ -1,0 +1,98 @@
+{
+  "id": "kaesesosse",
+  "title": "Käsesoße",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Kartoffeln mehlig kochend"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Karotten (ungeschält)"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "g",
+      "name": "Cashews"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "Hefeflocken"
+    },
+    {
+      "group": null,
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Paprika"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "kleine Zwiebel"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Saft einer 1/2 Zitrone"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Zehe",
+      "name": "Knoblauch",
+      "note": "1-2"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Senf",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kurkuma"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Muskatnuss"
+    }
+  ],
+  "steps": [
+    "Kartoffeln schälen, dann Karotten und Kartoffeln klein schneiden.",
+    "10-15min weich kochen.",
+    "Gegen Ende der Kochzeit die Cashewkerne dazugeben.",
+    "Zwiebel glasig dünsten.",
+    "Gegen Ende den Knoblauch dazu pressen.",
+    "50ml Kochwasser mit allen Zutaten pürieren."
+  ],
+  "images": [
+    "kaesesosse.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

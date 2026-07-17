@@ -1,0 +1,47 @@
+{
+  "id": "schoko-aufstrich",
+  "title": "Schoko-Aufstrich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 130,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 90,
+      "unit": "ml",
+      "name": "Pflanzenmilch",
+      "note": "6-8; entspricht 6-8 EL"
+    },
+    {
+      "group": null,
+      "amount": 35,
+      "unit": "g",
+      "name": "Kakaopulver"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Nussmus oder Nüsse"
+    }
+  ],
+  "steps": [
+    "Die Datteln für 20min in heißem Wasser einweichen.",
+    "Dann alles pürieren und so viel Pflanzenmilch zugeben dass die Konsistenz stimmt."
+  ],
+  "dateAdded": "2026-07-17"
+}

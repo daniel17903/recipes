@@ -1,0 +1,96 @@
+{
+  "id": "rotkohl-apfel-salat",
+  "title": "Rotkohl-Apfel-Salat",
+  "category": "Salat",
+  "yield": {
+    "amount": 4,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 550,
+      "unit": "g",
+      "name": "Rotkohl"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Äpfel, säuerliche"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Möhre(n)"
+    },
+    {
+      "group": null,
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "Schnittlauch"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Frühlingszwiebel(n)"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Olivenöl oder Sonnenblumenöl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Dijonsenf",
+      "note": "entspricht 4 TL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Weißweinessig",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 45,
+      "unit": "ml",
+      "name": "Apfelsaft",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "etwas Zucker oder Honig, evtl."
+    }
+  ],
+  "steps": [
+    "Aus Öl, Senf, Essig und Apfelsaft ein Dressing anrühren.",
+    "Vom Rotkohl den Strunk entfernen, den Kohl fein raspeln.",
+    "Die Äpfel und die geschälten Möhren raspeln, die Frühlingszwiebeln fein hacken.Das Gemüse und das Dressing gut mischen.",
+    "Nach Geschmack salzen, pfeffern und evtl. etwas zuckern.",
+    "Kurz ziehen lassen.",
+    "Mit Schnittlauch servieren."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/2472461389352226/Rotkohl-Apfel-Salat.html"
+  },
+  "images": [
+    "rotkohl-apfel-salat.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "haferflockenkekse",
+  "title": "Haferflockenkekse",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "Stück",
+      "name": "sehr reife Bananen"
+    },
+    {
+      "group": null,
+      "amount": 240,
+      "unit": "g",
+      "name": "Haferflocken (zart)"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Trockenfrüchte (wie Pflaumen oder Aprikosen)"
+    },
+    {
+      "group": null,
+      "amount": 36,
+      "unit": "g",
+      "name": "Erdnussbutter (crunchy)",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zimt"
+    }
+  ],
+  "steps": [
+    "Die reifen Bananen zu feinem Mus pürieren.",
+    "Ofen auf 175 Grad Ober- und Unterhitze vorheizen.",
+    "Für die Basisvariante das Mus einfach mit den Haferflocken verrühren.",
+    "Für die Erdnussbutter-Variante das Bananenmus zunächst mit der Erdnussbutter und nach Belieben etwas Zimt verrühren, dann die Haferflocken zugeben.",
+    "Für die Trockenobst-Variante die Früchte mit kochendem Wasser bedecken, einige Minuten einweichen lassen und in kleine Stücke hacken.",
+    "Mit den Haferflocken unter das Bananenmus rühren.",
+    "Kleine Kugeln formen und auf ein mit Backpapier belegtes Blech legen.",
+    "Die Kekse leicht mit den Händen oder einem Löffel flachdrücken.",
+    "Rund 15 Minuten backen."
+  ],
+  "source": {
+    "url": "https://www.backenmachtgluecklich.de/rezepte/gesunde-haferflocken-kekse-ohne-zucker-butter-und-ei.html"
+  },
+  "images": [
+    "haferflockenkekse.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

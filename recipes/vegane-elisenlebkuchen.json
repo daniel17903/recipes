@@ -1,0 +1,111 @@
+{
+  "id": "vegane-elisenlebkuchen",
+  "title": "Vegane Elisenlebkuchen",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 10,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Haselnüsse"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Mandeln"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Orangeat"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "g",
+      "name": "Marzipan"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Lebkuchengewürz",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 4.5,
+      "unit": "g",
+      "name": "Pottasche",
+      "note": "entspricht 1 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "ml",
+      "name": "Wasser"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "g",
+      "name": "Dinkelmehl Type 630"
+    },
+    {
+      "group": null,
+      "amount": 14,
+      "unit": "Blatt",
+      "name": "(70 mm Durchmesser)"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Kuvertüre"
+    }
+  ],
+  "steps": [
+    "Datteln mit kochendem Wasser übergießen und 10 Minuten einweichen.",
+    "Anschließend das Einweichwasser bis auf 3 EL abgießen und alles zusammen mit dem Marzipan fein pürieren.",
+    "Haselnüsse und Mandeln in einer Pfanne ohne Öl bei mittlerer bis hoher Hitze 3-5 Minuten rösten bis sie duften.",
+    "Ab und zu schwenken und aufpassen, dass sie nicht verbrennen Anschließend in einer Küchenmaschine mittelfein mahlen oder alternativ in ein sauberes Tuch einschlagen und mit dem Nudelholz darauf hauen, bis die Nüsse zerkleinert sind.",
+    "Orangeat fein hacken, Marzipan in grobe Stücke brechen.",
+    "Dattelpüree, Nüsse, Orangeat und Marzipan zusammen mit Lebkuchengewürz, Pottasche, Backpulver und 60 ml Wasser in die Kenwood Chef Titanium Küchenmaschine geben und 5 Minuten auf Stufe 2 verrühren.",
+    "Mehl dazu geben und weitere 5 Minuten rühren bis eine zähe, homogene Masse entstanden ist.",
+    "Backofen auf 170 °C Ober-/Unterhitze vorheizen.",
+    "Jeweils ca.",
+    "55 g Lebkuchenmasse zu flachen Patties formen und auf die Oblaten legen.",
+    "Mit den Fingern vorsichtig in Form bringen, so dass die Lebkuchenmasse genau mit der Oblate abschließt.",
+    "Ergibt ca 14 Lebkuchen (knappes Blech).",
+    "Lebkuchen vorsichtig auf ein mit Backpapier ausgelegtes Backblech geben und 15 Minuten backen.",
+    "Anschließend auf einem Kuchengitter komplett auskühlen lassen.",
+    "Für die Glasur die Kuvertüre vorsichtig und langsam im Wasserbad schmelzen.",
+    "Anschließend mit einem Esslöffel auf den Lebkuchen verteilen und gut trocknen lassen."
+  ],
+  "source": {
+    "url": "https://www.eat-this.org/die-besten-veganen-elisenlebkuchen/"
+  },
+  "images": [
+    "vegane-elisenlebkuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

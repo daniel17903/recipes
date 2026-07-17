@@ -1,0 +1,101 @@
+{
+  "id": "mirabellentarte",
+  "title": "Mirabellentarte",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 12,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 200,
+      "unit": "g",
+      "name": "Dinkelmehl, Typ 630"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 30,
+      "unit": "g",
+      "name": "feiner Zucker, hier Puderzucker"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 100,
+      "unit": "ml",
+      "name": "kaltes Wasser"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 100,
+      "unit": "g",
+      "name": "kalte vegane Margarine"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": null,
+      "unit": null,
+      "name": "Für den Belag"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 650,
+      "unit": "g",
+      "name": "Mirabellen"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": null,
+      "unit": null,
+      "name": "Fett für die Form"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": null,
+      "unit": null,
+      "name": "Für die Creme"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 200,
+      "unit": "ml",
+      "name": "vegane Kochsahne"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 25,
+      "unit": "g",
+      "name": "Vanilllepuddingpulver oder 25 g Speisestärke"
+    },
+    {
+      "group": "Zutaten für 12 - 16 Portionen",
+      "amount": 40,
+      "unit": "g",
+      "name": "Puderzucker"
+    }
+  ],
+  "steps": [
+    "Aus den Zutaten einen Teig kneten und mindestens 1h kühlen.",
+    "Mirabellen entkernen und halbieren.",
+    "Teig in die Form füllen, Rand hochziehen.",
+    "Mirabellen von außen nach innen darauflegen.",
+    "Alle Zutaten für die Creme verrühren.",
+    "25min bei 180C Ober- Unterhitze backen.",
+    "Dann Creme über die Mirabellen gießen.",
+    "Nochmal 25min backen.",
+    "Für eine 26cm Form."
+  ],
+  "source": {
+    "url": "https://veganundmunter.com/2019/08/30/cremige-mirabellentarte-vegan/"
+  },
+  "images": [
+    "mirabellentarte.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

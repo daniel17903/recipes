@@ -1,0 +1,30 @@
+{
+  "id": "agar-agar-sahne",
+  "title": "Agar Agar Sahne",
+  "category": "Torten",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Soja Sahne"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Agar Agar",
+      "note": "entspricht 1/2 TL"
+    }
+  ],
+  "steps": [
+    "10% der Sahne zur Seite stellen.",
+    "Den Rest mit dem Agar Agar kurz aufkochen, dann komplett auskühlen lassen.",
+    "Zucker / Vanille dazugeben und mit dem Rest flüssiger Sahne mixen."
+  ],
+  "dateAdded": "2026-07-17"
+}

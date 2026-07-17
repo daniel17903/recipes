@@ -1,0 +1,82 @@
+{
+  "id": "vegane-pancakes",
+  "title": "Vegane Pancakes",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 12,
+    "unit": "ca  Pancakes"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "ml",
+      "name": "Sojadrink"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "ml",
+      "name": "Mineralwasser"
+    },
+    {
+      "group": null,
+      "amount": 12,
+      "unit": "g",
+      "name": "Haferflocken",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "gemahlene Haselnusskerne",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Öl",
+      "note": "2 - 3; entspricht 2 - 3 EL"
+    }
+  ],
+  "steps": [
+    "Den Backofen auf 100C vorheizen.",
+    "Für den Teig Mehl, Haferflocken, Nüsse, Backpulver, Zucker und 1 Prise Salz in einer Schüssel mischen.",
+    "Sojadrink und 50ml Wasser zur Mehlmischung geben und alles mit dem Schneebesen zügig unterrühren.",
+    "In einer großen beschichteten Pfanne das Öl erhitzen.",
+    "Pro Pancake 1 - 2 EL Teig hineingeben und bei mittlerer Hitze auf jeder Seite 3-4min backen.",
+    "Auf diese Art ca 12 Pancakes backen, auf einem Teller im heißen Ofen (unten) warm halten."
+  ],
+  "images": [
+    "vegane-pancakes.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

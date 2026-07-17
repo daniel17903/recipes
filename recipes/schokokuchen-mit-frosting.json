@@ -1,0 +1,100 @@
+{
+  "id": "schokokuchen-mit-frosting",
+  "title": "Schokokuchen mit Frosting",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 26,
+    "unit": "cm Form"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": null,
+      "amount": 167,
+      "unit": "g",
+      "name": "Apfelmark oder Apfelmus"
+    },
+    {
+      "group": null,
+      "amount": 26,
+      "unit": "ml",
+      "name": "Apfelessig",
+      "note": "entspricht 1.7 EL"
+    },
+    {
+      "group": null,
+      "amount": 7.5,
+      "unit": "g",
+      "name": "Vanille Extrakt",
+      "note": "entspricht 2.5 TL"
+    },
+    {
+      "group": null,
+      "amount": 167,
+      "unit": "ml",
+      "name": "Öl"
+    },
+    {
+      "group": null,
+      "amount": 334,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 84,
+      "unit": "g",
+      "name": "Kakao Pulver"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 12,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 4 TL"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": "Frosting",
+      "amount": 400,
+      "unit": "ml",
+      "name": "cremige Kokosmilch aus der Dose oder andere Pflanzensahne"
+    },
+    {
+      "group": "Frosting",
+      "amount": 284,
+      "unit": "g",
+      "name": "dunkle Schokolade gehackt"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten für den Teig verrühren.",
+    "Bei 180C ca 50min (Achtung vermutlich länger) backen.",
+    "Mit einem Zahnstocher testen.",
+    "Abkühlen lassen.",
+    "Frosting Die Kokosmilch in einem Topf erhitzen bis sie fast aufkocht.",
+    "Die gehackte Schokolade in eine hitzebeständige Schüssel geben und mit der heißen Kokosmilch begießen.",
+    "Kurz stehen lassen, sodass die Schokolade schmilzt.",
+    "Dann verrühren, bis eine cremige Ganache entsteht.",
+    "Anschließend abkühlen lassen und bei Bedarf in den Kühlschrank stellen, damit aus der Ganache ein streichfähiges Frosting entsteht.",
+    "Den Kuchen mit dem Frosting bestreichen und nach Belieben You can find this recipe here: https://biancazapatka.com/de/veganer-schokokuchen/#recipe ."
+  ],
+  "dateAdded": "2026-07-17"
+}

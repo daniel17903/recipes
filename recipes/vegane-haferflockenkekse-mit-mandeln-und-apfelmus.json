@@ -1,0 +1,75 @@
+{
+  "id": "vegane-haferflockenkekse-mit-mandeln-und-apfelmus",
+  "title": "Vegane Haferflockenkekse Mit Mandeln Und Apfelmus",
+  "category": "Kekse",
+  "yield": {
+    "amount": 16,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Mehl (Weizenmehl 405, Weizenmehl 550 oder Dinkelmehl 630)"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "zarte Haferflocken ()"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 75,
+      "unit": "g",
+      "name": "Gehackte Mandeln"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "g",
+      "name": "Vegane Margarine (vegane Butter)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Dr. Oetker Finesse | Natürliches Bourboun-Vanille Aroma"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Apfelmus"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Zucker"
+    }
+  ],
+  "steps": [
+    "Mehl-Haferflocken-Mandel-Mischung: In einer Schüssel mischen:100 g Mehl50 g zarte Haferflocken2 TL Backpulver75 g gehackte Mandeln Gut miteinander vermischen.",
+    "Margarine-Zucker-Apfelmus-Mischung: In einer zweiten Schüssel mischen:125 g zimmerwarme vegane Butter (vegane Margarine)1 Packung Vanillearoma (oder etwas gemahlene Vanille, oder 1 TL Vanilleextrakt, oder 1 Päckchen Vanillezucker)40 g Apfelmus100 g Zucker Mit einem elektrischen Handmixer gut durchmixen.(Rührhaken verwenden) Alles vermischen: Die Mehl-Haferflocken-Mandel-Mischung nach und nach zu der Margarine-Zucker-Apfelmus-Mischung geben.Dabei gut mixen.",
+    "Jetzt den Ofen vorheizen auf 180 °C (Umluft).",
+    "Teighäufchen auf Backpapier setzen: Ein Backblech mit Backpapier auslegen.",
+    "Mit einem Esslöffel oder einem Teigportionierer kleine Teighäufchen auf das Backpapier setzen.",
+    "Ausreichend Abstand halten.Die Häufchen laufen beim Backen auseinander und werden flache Kekse Backen: Im vorgeheizten Ofen bei 180 °C (Umluft) 10 Minuten backen."
+  ],
+  "source": {
+    "url": "https://veggie-einhorn.de/schnelle-vegane-mandel-haferflocken-kekse-einfaches-rezept/"
+  },
+  "images": [
+    "vegane-haferflockenkekse-mit-mandeln-und-apfelmus.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

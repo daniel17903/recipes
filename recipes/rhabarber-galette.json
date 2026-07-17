@@ -1,0 +1,53 @@
+{
+  "id": "rhabarber-galette",
+  "title": "Rhabarber Galette",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "Dinkelvollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "kalte Margarine"
+    },
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "g",
+      "name": "Rhabarber"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Haselnüsse / Mandeln"
+    }
+  ],
+  "steps": [
+    "Mehl mit Zucker und Margarine zu einem Teig kneten und für ca 30min in den Kühlschrank stellen",
+    "Rhabarber schälen",
+    "Teig ausrollen, Nüsse (optional) und Rhabarber drauflegen und außen umklappen",
+    "etwas Zucker über den Rhabarber streuen",
+    "Nüsse drüber streuen und am Rand festdrücken",
+    "Bei 200C Ober- / Unterhitze für ca 30min backen Rhabarber kann auch ersetzt werden, z.B. mit Grapefruit"
+  ],
+  "images": [
+    "rhabarber-galette.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

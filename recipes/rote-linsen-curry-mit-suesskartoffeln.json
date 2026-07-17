@@ -1,0 +1,111 @@
+{
+  "id": "rote-linsen-curry-mit-suesskartoffeln",
+  "title": "Rote Linsen-Curry Mit Süßkartoffeln",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 3,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 450,
+      "unit": "g",
+      "name": "Süßkartoffel(n)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "große Paprikaschote(n), rot"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Linsen, rote"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "m.-große Zwiebel(n)"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Knoblauchzehe(n)"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "ml",
+      "name": "Kokosmilch"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Tomatenmark",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Currypulver",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Kurkuma",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Garam Masala",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    }
+  ],
+  "steps": [
+    "Die Süßkartoffeln schälen und würfeln.",
+    "Die Paprikaschote würfeln, den Knoblauch schälen und die Zwiebeln klein schneiden.",
+    "Das Olivenöl in einem großen Topf erhitzen und die Zwiebeln glasig anschwitzen.",
+    "Den Knoblauch durch die Presse in den Topf drücken, kurz mitbraten und dann Süßkartoffeln und Paprika in den Topf geben.",
+    "Das Tomatenmark und die Gewürze dazugeben, kurz mitbraten, anschließend die Linsen hinzufügen.",
+    "Nun alles mit Kokosmilch und Gemüsebrühe aufgießen und ca.",
+    "25 min. köcheln lassen.",
+    "Das Curry schmeckt am nächsten Tag meist noch besser und lässt sich auch gut einfrieren."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/3023041455110341/Rote-Linsen-Curry-mit-Suesskartoffeln.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"
+  },
+  "images": [
+    "rote-linsen-curry-mit-suesskartoffeln.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

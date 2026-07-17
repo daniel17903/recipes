@@ -1,0 +1,110 @@
+{
+  "id": "apfel-pudding-kuchen",
+  "title": "Apfel Pudding Kuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 26,
+    "unit": "cm Form"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 533.33,
+      "unit": "g",
+      "name": "Soja-Joghurt Natur oder mit Vanillegeschmack"
+    },
+    {
+      "group": null,
+      "amount": 320,
+      "unit": "ml",
+      "name": "Kokosmilch oder andere Pflanzensahne / Cuisine"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Vanilleextrakt optional, wenn Natur-Joghurt verwendet wird",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": "Prise",
+      "name": "Kurkuma optional für die Farbe"
+    },
+    {
+      "group": null,
+      "amount": 1.33,
+      "unit": "Pck.",
+      "name": "Vanille-Puddingpulver oder 40 g Speisestärke + 1 TL Vanilleextrakt"
+    },
+    {
+      "group": null,
+      "amount": 133.33,
+      "unit": "g",
+      "name": "Rohrohrzucker oder normaler Zucker"
+    },
+    {
+      "group": null,
+      "amount": 160,
+      "unit": "g",
+      "name": "Mehl Weizen-, Dinkel- oder glutenfreies Mehl"
+    },
+    {
+      "group": null,
+      "amount": 4,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1.33 TL"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "Stück",
+      "name": "Äpfel beliebige Sorte, fein gehobelt"
+    },
+    {
+      "group": "Topping (optional)",
+      "amount": 1.33,
+      "unit": "Stück",
+      "name": "kleiner Mini-Apfel fein gehobelt"
+    },
+    {
+      "group": "Topping (optional)",
+      "amount": 27,
+      "unit": "g",
+      "name": "gehobelte Mandeln",
+      "note": "entspricht 2.67 EL"
+    },
+    {
+      "group": "Topping (optional)",
+      "amount": 11,
+      "unit": "g",
+      "name": "Brauner Zucker",
+      "note": "entspricht 2.67 TL"
+    },
+    {
+      "group": "Topping (optional)",
+      "amount": null,
+      "unit": null,
+      "name": "Puderzucker optional zum Bestäuben"
+    }
+  ],
+  "steps": [
+    "Den Ofen auf 180 °C Ober-/ Unterhitze vorheizen.",
+    "Die Seiten einer runden 22 cm Backform einfetten und den Boden mit Backpapier auslegen (oder eine eckige Backform oder eine Kastenform mit Backpapier auslegen).",
+    "Soja-Joghurt, Kokosmilch, Vanilleextrakt, Kurkuma, Vanille-Puddingpulver und Zucker in eine große Schüssel geben und mit einem Handmixer cremig mixen.",
+    "Dann das Mehl und Backpulver hineinsieben und kurz untermixen.",
+    "Die Äpfel sehr fein hobeln und das Kerngehäuse entfernen.",
+    "Dann mit einem Teigschaber unter den Teig mischen.",
+    "Den Teig in die vorbereitete Backform geben und glatt streichen.",
+    "Nach Belieben mit noch ein paar Apfelscheiben dekorieren.",
+    "Gehobelte Mandeln und etwas braunen Zucker darüber streuen und den Kuchen etwa ca 55 Minuten lang backen, bis die Oberfläche nicht mehr flüssig ist.",
+    "Anschließend herausnehmen und zunächst auf Raumtemperatur abkühlen lassen.",
+    "Dann über Nacht in den Kühlschrank stellen, damit der Kuchen vollständig fest wirst."
+  ],
+  "source": {
+    "url": "https://biancazapatka.com/de/wprm_print/66146"
+  },
+  "dateAdded": "2026-07-17"
+}

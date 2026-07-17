@@ -1,0 +1,67 @@
+{
+  "id": "erdnussbutter-schoko-kekse",
+  "title": "Erdnussbutter-Schoko-Kekse",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "Blech mit  -  Keksen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "Stück",
+      "name": "reife Banenen",
+      "note": "3-4"
+    },
+    {
+      "group": null,
+      "amount": 240,
+      "unit": "g",
+      "name": "Erdnussmus (mit Stücken)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "ca 150g Vollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "dunkle Schokolade"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "gemahlene Nüsse"
+    },
+    {
+      "group": null,
+      "amount": 75,
+      "unit": "g",
+      "name": "brauner Zucker"
+    }
+  ],
+  "steps": [
+    "Die Schokolade grob hacken.",
+    "Die Banenen zerdrücken.",
+    "Den Backofen auf 200C vorheizen.",
+    "Alle Zutaten vermischen und 12 Kekse formen.",
+    "Auf einem mit Backpapier ausgelegten Backblech ca 20-30min backen bis sie sich fest anfühlen.",
+    "In der Mitte sollten sie aber noch weich sein."
+  ],
+  "images": [
+    "erdnussbutter-schoko-kekse.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

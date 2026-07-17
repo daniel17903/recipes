@@ -1,0 +1,37 @@
+{
+  "id": "cashew-kaese",
+  "title": "Cashew Käse",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 450,
+      "unit": "g",
+      "name": "Cashews"
+    },
+    {
+      "group": null,
+      "amount": 720,
+      "unit": "g",
+      "name": "Sojamilch"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Bulgarie Joghurt Kultur"
+    }
+  ],
+  "steps": [
+    "Cashews über Nacht in Wasser einweichen, dann abgießen, kurz aufkochen und abspülen.",
+    "Cashews mit der Sojamilch fein pürieren (Verhältnis ca. 64 g Cashews zu 103 g Milch pro Glas).",
+    "Die Joghurtkultur einrühren und die Masse in saubere Gläser füllen.",
+    "Im Joghurtbereiter etwa 15 Stunden fermentieren lassen, anschließend kalt stellen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "spargel-mit-tahini-sosse",
+  "title": "Spargel mit Tahini-Soße",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1000,
+      "unit": "g",
+      "name": "Spargel"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Natives Olivenöl extra",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Petersilie"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": 75,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 5 EL"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": 38,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 2,5 EL"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": 25,
+      "unit": "g",
+      "name": "Tahin",
+      "note": "entspricht 2,5 EL"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Knoblauchzehen",
+      "note": "2-3"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": null,
+      "unit": null,
+      "name": "Pfeffer"
+    },
+    {
+      "group": "Für die Soße",
+      "amount": 15,
+      "unit": "ml",
+      "name": "lauwarmes Wasser",
+      "note": "entspricht 1 EL"
+    }
+  ],
+  "steps": [
+    "Spargel schälen und auf einem Backpapier mit Olivenöl, Salz und Pfeffer marinieren.",
+    "Dann für 25-30min bei 200C backen.",
+    "Dann alle Zutaten für die Soße verrühren."
+  ],
+  "source": {
+    "url": "https://ellerepublic.de/geroesteter-spargel-mit-tahin-zitronen-sosse/"
+  },
+  "images": [
+    "spargel-mit-tahini-sosse.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

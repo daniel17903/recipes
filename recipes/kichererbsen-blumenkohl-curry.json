@@ -1,0 +1,107 @@
+{
+  "id": "kichererbsen-blumenkohl-curry",
+  "title": "Kichererbsen-Blumenkohl-Curry",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 4,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Zwiebel, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Knoblauchzehen, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "Currypulver",
+      "note": "entspricht 1,5 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Blumenkohl, in kleine Röschen geschnitten"
+    },
+    {
+      "group": null,
+      "amount": 225,
+      "unit": "g",
+      "name": "grüne Bohnen, Enden gekürzt und in 2,5cm große Stücke geschnitten"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "stückige Tomaten"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "rote Paprika"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "Mandelmilch"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Hefeflocken",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Paprikapulver",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 270,
+      "unit": "g",
+      "name": "gekochte Kichererbsen oder 1 Dose abgegossen und gespült"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "gekochter Naturreis"
+    }
+  ],
+  "steps": [
+    "In einem großen Topf die Gemüsebrühe auf mittlerer Flamme erhitzen, Zwiebel und Knoblauch hineingeben und ca 3min weich kochen.",
+    "Currypulver einrühren.",
+    "Blumenkohl, grüne Bohnen, Tomaten und Paprika hinzufügen.",
+    "Abdecken und zum Kochen bringen.",
+    "Flamme niedrig stellen und ca 20min köcheln lassen, bis das Gemüse gar ist.",
+    "Mit einem Pürierstab das Gemüse zerkleinern.",
+    "Mandelmilch, Hefeflocken, Paprikapulver und Kichererbsen einrühren.",
+    "5-10 weitere Minuten köcheln lassen.",
+    "Warm auf einem Bett aus gekochtem Naturreis servieren."
+  ],
+  "images": [
+    "kichererbsen-blumenkohl-curry.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

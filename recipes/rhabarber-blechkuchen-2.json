@@ -1,0 +1,88 @@
+{
+  "id": "rhabarber-blechkuchen-2",
+  "title": "Rhabarber-Blechkuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 400,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Würfel Hefe"
+    },
+    {
+      "group": "Teig",
+      "amount": 150,
+      "unit": "ml",
+      "name": "Sojamilch"
+    },
+    {
+      "group": "Teig",
+      "amount": 80,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": "Teig",
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": "Teig",
+      "amount": 60,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Belag",
+      "amount": 1000,
+      "unit": "g",
+      "name": "Rhabarber"
+    },
+    {
+      "group": "Belag",
+      "amount": 60,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Belag",
+      "amount": 300,
+      "unit": "ml",
+      "name": "Milch"
+    },
+    {
+      "group": "Belag",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillepudding Pulver"
+    },
+    {
+      "group": "Belag",
+      "amount": 100,
+      "unit": "g",
+      "name": "gehobelte Mandeln"
+    }
+  ],
+  "steps": [
+    "Rhabarber schälen, mit Zucker mischen und 2h abtropfen lassen.",
+    "Wasser auffangen.",
+    "Den Hefeteig kneten und 1h gehen lassen.",
+    "Das Blech mit dem ausgerollten Hefeteig auslegen.",
+    "Mit der Milch und dem Rhabarbersaft (insgesamt 400ml) den Vanillepudding zubereiten.",
+    "Auf dem Hefeteig verteilen, danach die Rhabarberstücke hineindrücken.",
+    "Mit gehobelten Mandeln bestreuen.",
+    "20-30min bei 180C Umluft backen."
+  ],
+  "dateAdded": "2026-07-17"
+}

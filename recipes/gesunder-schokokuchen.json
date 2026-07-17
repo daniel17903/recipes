@@ -1,0 +1,129 @@
+{
+  "id": "gesunder-schokokuchen",
+  "title": "Gesunder Schokokuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Dinkelmehl Typ 630"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Mandeln (Alternativ mehr Dinkelmehl)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillepuddingpulver (Alternativ 30 g Stärke und Mark einer Vanilleschote)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Natron",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Weinsteinbackpulver",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Kakaopulver"
+    },
+    {
+      "group": null,
+      "amount": 220,
+      "unit": "g",
+      "name": "Apfelmark"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 63,
+      "unit": "g",
+      "name": "Öl"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "optional: 1 Tasse Espresso (40 ml)"
+    },
+    {
+      "group": "Glasur",
+      "amount": 20,
+      "unit": "g",
+      "name": "Kakaobutter"
+    },
+    {
+      "group": "Glasur",
+      "amount": 16,
+      "unit": "g",
+      "name": "Kakaopulver",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": "Glasur",
+      "amount": 18,
+      "unit": "g",
+      "name": "Cashewmus (oder anderes Nussmus)",
+      "note": "entspricht 3 TL"
+    },
+    {
+      "group": "Glasur",
+      "amount": 20,
+      "unit": "g",
+      "name": "Ahornsirup (oder Dattelmus)",
+      "note": "entspricht 1 EL"
+    }
+  ],
+  "steps": [
+    "Den Ofen auf 160 °C Ober-Unterhitze vorheizen.",
+    "Alle trockenen Zutaten (von Mehl bis Kakaopulver) miteinander vermischen.",
+    "Die Datteln in das Apfelmark pürieren, das Öl und optional den Espresso hinzugeben und verrühren.",
+    "Nun die trockenen mit den feuchten Zutaten und dem TL Zitronensaft mit einem Löffel kurz verrühren bis alle Zutaten miteinander vermischt sind.",
+    "Den Teig in eine gefettete Gugelhupfform geben und im Ofen bei 160 °C ca.",
+    "40 Minuten backen (Stäbchenprobe!) Für die Glasur die Kakaobutter bei geringer Hitze schmelzen lassen, dann den Kakao, Nussmus und Ahornsirup/Dattelmus unterrühren, andicken lassen und auf dem abgekühlten Kuchen verteilen.",
+    "Beliebig verzieren."
+  ],
+  "source": {
+    "url": "https://bakeitnaked.de/2019/11/10/blitzschneller-gesunder-schokokuchen-vegan/"
+  },
+  "images": [
+    "gesunder-schokokuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

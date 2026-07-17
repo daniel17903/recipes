@@ -1,0 +1,104 @@
+{
+  "id": "suesskartoffel-paprika-gemuese",
+  "title": "Süßkartoffel-Paprika-Gemüse",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 4,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Süßkartoffeln (ca 700g)"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "rote Paprikaschoten"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Sesamsamen",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Öl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Ahornsirup oder Agavendicksaft",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Prise",
+      "name": "Zimt"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Prise",
+      "name": "gemahlener Kreuzkümmel"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "2-4; entspricht 2-4 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kräutersalz"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Rosinen"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Bulgur oder Couscous"
+    }
+  ],
+  "steps": [
+    "Süßkartoffeln schälen, längs halbieren und quer in ca 0,5cm dicke Scheiben schneiden.",
+    "Paprikaschote putzen, waschen und in lange breite Streifen schneiden und quer dritteln.",
+    "Den Sesam ohne Fett hellbraun anrösten, herausnehmen.",
+    "Das Öl in der Pfanne erhitzen.",
+    "Darin Paprika und Süßkartoffeln ca 5min anbraten.",
+    "Ahornsirup dazugeben, kurz karamellisieren lassen.",
+    "Das Süßkartoffel-Paprika-Gemüse mit Zimt und Kreuzkümmel würzen, Zitronensaft dazugeben und ganz kurz einkochen lassen.",
+    "200ml Wasser dazugießen, mit Kräutersalz würzen, Rosinen hinzufügen und bei geringer Hitze ca 10min zugedeckt köcheln lassen.",
+    "Den Sesam unter das Gemüse mischen, mit Kräutersalz, Pfeffer und evtl Zitronensaft abschmecken.",
+    "Gemüse auf Teller verteilen und servieren.",
+    "Dazu passen Bulgur oder Couscous."
+  ],
+  "images": [
+    "suesskartoffel-paprika-gemuese.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "apfel-walnuss-brot",
+  "title": "Apfel-Walnuss-Brot",
+  "category": "Brot",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "ml",
+      "name": "Reisdrink (ersatzweise Haferdrink)"
+    },
+    {
+      "group": null,
+      "amount": 0.75,
+      "unit": "Stück",
+      "name": "Würfel Hefe (30 g)"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht 3 TL"
+    },
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Dinkelvollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Walnusskerne"
+    },
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "säuerliche Äpfel (z. B. Boskop)"
+    },
+    {
+      "group": null,
+      "amount": 45,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": null,
+      "amount": 8,
+      "unit": "Stück",
+      "name": "getrocknete Datteln (ohne Stein)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Mehl zum Arbeiten"
+    }
+  ],
+  "steps": [
+    "Den Reisdrink mit 200 ml warmem Wasser in einer Schüssel verrühren.",
+    "Die Hefe hineinbröckeln, Zucker dazugeben und glatt rühren.",
+    "Zugedeckt 15 Min. bei Zimmertemperatur ruhen lassen.",
+    "Das Mehl in eine große Schüssel sieben, 1 TL Salz untermischen.",
+    "Hefemischung dazugießen und alles in ca.",
+    "5 Min. zu einem glatten, geschmeidigen Teig verkneten.",
+    "Den Teig zu einer Kugel formen und zugedeckt an einem warmen Ort 25 Min. gehen lassen.",
+    "Inzwischen die Walnüsse grob hacken.",
+    "Die Äpfel schälen, längs vierteln und entkernen.",
+    "Die Apfelviertel längs halbieren und quer in Scheiben schneiden.",
+    "Die Apfelscheiben mit dem Zitronensaft mischen.",
+    "Die Datteln hacken und untermengen.",
+    "Ein Backblech mit Backpapier auslegen.",
+    "Walnüsse und Apfelmischung unter den Teig kneten.",
+    "Den Teig auf der leicht bemehlten Arbeitsfläche zu einem runden Laib formen und auf das Backpapier legen.",
+    "Die Oberfläche rautenförmig ca.",
+    "1 cm tief einschneiden.",
+    "Das Brot mit Mehl bestäuben und zugedeckt 15 Min. an einem warmen Ort gehen lassen.",
+    "Den Backofen auf 250° vorheizen.",
+    "Eine ofenfeste Form mit ca.",
+    "200 ml Wasser auf den Backofenboden stellen.",
+    "Das Brot im Ofen (Mitte) 10 Min. backen.",
+    "Die Temperatur auf 200° zurückschalten und das Brot in 40 Min. fertig backen.",
+    "Aus dem Ofen nehmen.",
+    "Das Brot schmeckt warm oder abgekühlt."
+  ],
+  "images": [
+    "apfel-walnuss-brot.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

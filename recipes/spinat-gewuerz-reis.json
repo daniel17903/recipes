@@ -1,0 +1,101 @@
+{
+  "id": "spinat-gewuerz-reis",
+  "title": "Spinat-Gewürz-Reis",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Zwiebeln"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "getrocknete Cranberrys"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Kardamonkapseln"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zimtstange"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Kurkumapulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "Basmatireis"
+    },
+    {
+      "group": null,
+      "amount": 600,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "zarter Blattspinat"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "grob gehackte Mandelkerne"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Harissa (tunesische Chilipaste)",
+      "note": "entspricht 1/2 TL"
+    }
+  ],
+  "steps": [
+    "Die Zwiebeln schälen und in feine Würfel schneiden.",
+    "Die Cranberrys grob hacken, die Kardamomkapseln zerdrücken.",
+    "In einem breiten Topf 2 EL Öl erhitzen und die Hälfte der Zwiebeln darin glasig dünsten.",
+    "Kardamon, Zimt, Kurkuma, Cranberrys und Reis zugeben und alles unter Rühren kurz mitrösten.",
+    "Danach mit heißer Gemüsebrühe aufgießen, zum Kochen bringen und den Reis zugedeckt bei mittlerer Hitze 12 - 15min quellen lassen.",
+    "Inzwischen den Spinat verlesen, abbrausen und trocken schleudern.",
+    "Das restliche Öl in einer großen Pfanne erhitzen und die übrigen Zwiebeln darin glasig dünsten.",
+    "Die Mandeln und den Spinat zufügen und alles bei mittlerer Hitze 2-3min mitdünsten, bis die Spinatblätter zusammengefallen sind.",
+    "Die Spinatmischung locker unter den fertigen Reis mischen, mit Salz und Harissa pikant-scharf abschmecken und sofort servieren."
+  ],
+  "images": [
+    "spinat-gewuerz-reis.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

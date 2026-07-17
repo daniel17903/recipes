@@ -1,0 +1,30 @@
+{
+  "id": "tofu",
+  "title": "Tofu",
+  "category": "Raclette",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Tofu"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Sojasoße"
+    }
+  ],
+  "steps": [
+    "Tofu trockentupfen und in Scheiben oder Würfel schneiden.",
+    "In einer Pfanne mit etwas Öl rundum knusprig anbraten.",
+    "Mit Sojasoße ablöschen und kurz karamellisieren lassen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

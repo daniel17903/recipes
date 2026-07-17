@@ -1,0 +1,79 @@
+{
+  "id": "orangen-schoko-cookies",
+  "title": "Orangen Schoko Cookies",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Speisestärke"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 130,
+      "unit": "g",
+      "name": "brauner Zucker"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "geriebene Schale von 2 großen Orangen"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "dunkle Schokolade gehackt"
+    },
+    {
+      "group": null,
+      "amount": 0.25,
+      "unit": "Stück",
+      "name": "Tonkabohne"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten außer Schokolade zu einem Teig verarbeiten.",
+    "Falls zu fest moch etwas Wasser oder Pflanzendrink hinzufügen.",
+    "Schokolade am Ende unterheben.",
+    "Teig kalt stellen bis er fest geworden ist.",
+    "12 Kekse formen.",
+    "Sollten ca 1cm hoch sein.",
+    "Bei 180C Umluft ca 20min backen."
+  ],
+  "images": [
+    "orangen-schoko-cookies.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

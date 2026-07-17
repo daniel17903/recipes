@@ -1,0 +1,90 @@
+{
+  "id": "curry-blumenkohl-suppe",
+  "title": "Curry-Blumenkohl-Suppe",
+  "category": "Suppen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1000,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Zwiebel, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Knoblauchzehe, fein gehackt"
+    },
+    {
+      "group": null,
+      "amount": 4.5,
+      "unit": "g",
+      "name": "frischer Ingwer, gerieben",
+      "note": "entspricht 1,5 TL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "Currypulver",
+      "note": "entspricht 1,5 EL"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Dattelzucker",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "pikante Gewürzmischung",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Kopf Blumenkohl, grob gehackt"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "geschälte Zitrone, püriert",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Eiertomate, fein gehackt, zum Garnieren"
+    }
+  ],
+  "steps": [
+    "In einem großen Topf 250ml Gemüsebrühe auf mittlerer bis hoher Flamme erhitzen.",
+    "Zwiebel hineingeben und ca 5min köcheln lassen, bis sie weich ist.",
+    "Knoblauch, Ingwer, Currypulver, Dattelzucker und pikante Gewürzmischung hinzufügen.",
+    "Blumenkohl und die restlichen 750ml Gemüsebrühe zugeben und zum Kochen bringen.",
+    "Flamme niedrig stellen, Topf abdecken und 30min köcheln lassen, bis der Blumenkohl weich ist.",
+    "Suppe pürieren, Zitrone einrühren.",
+    "Abschmecken und mit gehackter Tomate garnieren.",
+    "Variationen: Vor dem Servieren eine oder mehrere der folgenden Zutaten hinzufügen: gekochten roten / schwarzen oder Naturreis, grüne Erbsen, gehackten gedünsteten Spinat, fein gehackten Schnittlauch oder gehackte Frühlingszwiebeln."
+  ],
+  "images": [
+    "curry-blumenkohl-suppe.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

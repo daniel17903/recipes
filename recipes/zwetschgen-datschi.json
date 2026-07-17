@@ -1,0 +1,57 @@
+{
+  "id": "zwetschgen-datschi",
+  "title": "Zwetschgen Datschi",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Blech"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Vollkorn Mehl"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "g",
+      "name": "Sojamilch"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Gewürze (Zimt, Kardamon, Nelken, Piment)"
+    },
+    {
+      "group": null,
+      "amount": 1500,
+      "unit": "g",
+      "name": "Zwetschgen"
+    }
+  ],
+  "steps": [
+    "ca 25min bei 200C backen"
+  ],
+  "dateAdded": "2026-07-17"
+}

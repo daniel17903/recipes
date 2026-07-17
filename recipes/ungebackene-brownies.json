@@ -1,0 +1,55 @@
+{
+  "id": "ungebackene-brownies",
+  "title": "Ungebackene Brownies",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 16,
+    "unit": "Stück"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Walnüsse"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Datteln, entsteint"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Mandelmus"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "g",
+      "name": "ungesüßtes Kakaopulver"
+    },
+    {
+      "group": null,
+      "amount": 35,
+      "unit": "g",
+      "name": "Pekannüsse, gehackt"
+    }
+  ],
+  "steps": [
+    "Walnüsse und Datteln in einer Küchenmaschine fein mahlen.",
+    "Mandelmus hinzufügen und untermixen.",
+    "Kakaopulver zugeben und ebenfalls untermixen.",
+    "Den Brownie-Mix in eine circa 20 × 20 cm große Auflaufform löffeln. (Wenn Sie die Form vorher mit Backpapier auslegen, lassen sich die Brownies später leichter herauslösen.) Den Mix mit den Fingern gleichmäßig in die Form drücken. (Sie können auch eine Lage Backpapier auf den Mix legen und ihn dann glatt pressen, damit er nicht an Ihren Händen kleben bleibt.) Den Mix danach gleichmäßig mit den gehackten Pekannüssen bestreuen und diese leicht andrücken.",
+    "Abdecken und vor dem Schneiden in Quadrate mindestens 1 Stunde im Kühlschrank kalt stellen und festwerden lassen."
+  ],
+  "source": {
+    "url": "https://nutritionfacts.org/recipe/fudgy-no-bake-brownies/"
+  },
+  "images": [
+    "ungebackene-brownies.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

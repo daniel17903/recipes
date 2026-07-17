@@ -1,0 +1,90 @@
+{
+  "id": "rote-beete-schokokuchen",
+  "title": "Rote Beete Schokokuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 12,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 190,
+      "unit": "g",
+      "name": "Rote Beete (frisch)"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Sonneblumenöl"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "g",
+      "name": "brauner Zucker"
+    },
+    {
+      "group": null,
+      "amount": 220,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 18,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Kakaopulver"
+    },
+    {
+      "group": null,
+      "amount": 220,
+      "unit": "g",
+      "name": "Sojajoghurt"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "gehackte Schokolade"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Vanillepaste oder Päckchen Vanillezucker",
+      "note": "entspricht 1 TL"
+    }
+  ],
+  "steps": [
+    "Backofen auf 160°C Heißluft/Umluft vorheizen.",
+    "Die Rote Beete in kleine Stücke schneiden und mit dem Pürierstab pürieren.",
+    "2 TL davon für den Guss zur Seite stellen.",
+    "Rote Beete mit Sonnenblumenöl, Zucker, Mehl, Backpulver, Kakaopulver, Sojajoghurt, Salz und Vanillepaste (alternativ Vanillezucker) vermengen und gut verrühren.",
+    "Eine Kastenform etwas einfetten und den Teig hineingeben.",
+    "Bei 160°C für 50-60 Minuten backen.",
+    "Mit der Stäbchenprobe überprüfen, ob der Kuchen fertig ist.",
+    "Aus dem Backofen nehmen und abkühlen lassen."
+  ],
+  "source": {
+    "url": "https://meinebackbox.de/blog/rote-beete-schokokuchen-vegan/"
+  },
+  "images": [
+    "rote-beete-schokokuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "linzertorte",
+  "title": "Linzertorte",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Margarine kalt"
+    },
+    {
+      "group": null,
+      "amount": 70,
+      "unit": "g",
+      "name": "geriebener Apfel"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "gemahlene Haselnüsse"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Msp.",
+      "name": "Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Tropfen Bittermandel-Aroma"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "gemahlene Nelken"
+    },
+    {
+      "group": null,
+      "amount": 9,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 3 TL"
+    },
+    {
+      "group": null,
+      "amount": 16,
+      "unit": "g",
+      "name": "Kakao",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Kirschwasser",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Sojamilch (optional)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 350,
+      "unit": "g",
+      "name": "Zwetschgenmarmelade"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "oder"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "pürierte Himbeeren + 2 EL Chiasamen (30min quellen lassen)"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten zu einem Teig verkneten. min 60min kühlen Mit der Hälfte oder 2/3 des Teiges den Boden (ohne Rand) formen.",
+    "Die Füllung darauf verteilelen.",
+    "Aus der anderen Hälfte des Teiges dünne Streifen formen und darüberlegen.",
+    "Am Ende den Rand formen.",
+    "Mit Sojamilch bestreichen. ca 45min bei 170C backen"
+  ],
+  "images": [
+    "linzertorte.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

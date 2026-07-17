@@ -1,0 +1,25 @@
+{
+  "_comment": "Umrechnung von Volumen-/Löffeleinheiten in Masse (g) bzw. Volumen (ml). Werte pro 1 TL / 1 EL / 1 Tasse (cup). Feste Zutaten -> g, Flüssigkeiten -> ml. Bei jedem Import um fehlende Zutaten erweitern (Werte recherchieren, nicht raten).",
+  "conversions": {
+    "mehl": { "target": "g", "tsp": 3, "tbsp": 10, "cup": 120, "aliases": ["weizenmehl", "dinkelmehl", "vollkornmehl", "weizenvollkornmehl", "roggenmehl", "mandelmehl"] },
+    "zucker": { "target": "g", "tsp": 5, "tbsp": 15, "cup": 200, "aliases": ["rohrzucker", "rohrohrzucker", "kristallzucker", "birkenzucker"] },
+    "brauner zucker": { "target": "g", "tsp": 4, "tbsp": 12, "cup": 180 },
+    "puderzucker": { "target": "g", "tsp": 3, "tbsp": 10, "cup": 120 },
+    "speisestaerke": { "target": "g", "tsp": 3, "tbsp": 9, "cup": 110, "aliases": ["staerke", "maisstaerke"] },
+    "kakaopulver": { "target": "g", "tsp": 3, "tbsp": 8, "cup": 100, "aliases": ["kakao"] },
+    "backpulver": { "target": "g", "tsp": 3, "tbsp": 9 },
+    "natron": { "target": "g", "tsp": 3, "tbsp": 9 },
+    "salz": { "target": "g", "tsp": 5, "tbsp": 15 },
+    "haferflocken": { "target": "g", "tsp": 3, "tbsp": 6, "cup": 90 },
+    "nuesse gemahlen": { "target": "g", "tsp": 3, "tbsp": 7, "cup": 100, "aliases": ["gemahlene mandeln", "gemahlene nuesse", "gemahlene haselnuesse"] },
+    "honig": { "target": "g", "tsp": 7, "tbsp": 20, "cup": 340 },
+    "sirup": { "target": "g", "tsp": 7, "tbsp": 20, "cup": 340, "aliases": ["ahornsirup", "agavendicksaft", "agavensirup"] },
+    "senf": { "target": "g", "tsp": 5, "tbsp": 15 },
+    "tomatenmark": { "target": "g", "tsp": 5, "tbsp": 15 },
+    "oel": { "target": "ml", "tsp": 5, "tbsp": 15, "cup": 240, "aliases": ["olivenoel", "rapsoel", "sonnenblumenoel", "kokosoel", "neutrales oel"] },
+    "milch": { "target": "ml", "tsp": 5, "tbsp": 15, "cup": 240, "aliases": ["hafermilch", "sojamilch", "pflanzenmilch", "pflanzendrink", "wasser", "mandelmilch"] },
+    "butter": { "target": "g", "tsp": 5, "tbsp": 15, "cup": 225, "aliases": ["margarine", "vegane butter"] },
+    "gewuerz gemahlen": { "target": "g", "tsp": 3, "tbsp": 8, "aliases": ["zimt", "paprikapulver", "kreuzkuemmel", "kurkuma", "muskatnuss"] },
+    "tahini": { "target": "g", "tsp": 6, "tbsp": 18, "aliases": ["nussmus", "mandelmus", "erdnussmus", "erdnussbutter"] }
+  }
+}

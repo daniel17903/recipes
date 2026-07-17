@@ -1,0 +1,134 @@
+{
+  "id": "sachertorte",
+  "title": "Sachertorte",
+  "category": "Torten",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 150,
+      "unit": "g",
+      "name": "dunkle Schokolade"
+    },
+    {
+      "group": "Teig",
+      "amount": 30,
+      "unit": "g",
+      "name": "Kakao"
+    },
+    {
+      "group": "Teig",
+      "amount": 350,
+      "unit": "g",
+      "name": "glattes Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 90,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 8,
+      "unit": "g",
+      "name": "Backpulver"
+    },
+    {
+      "group": "Teig",
+      "amount": 4,
+      "unit": "g",
+      "name": "Natron"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Pkg. Vanillezucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Teig",
+      "amount": 80,
+      "unit": "g",
+      "name": "vegane Butter weich"
+    },
+    {
+      "group": "Teig",
+      "amount": 350,
+      "unit": "ml",
+      "name": "pflanzliche Milch"
+    },
+    {
+      "group": "Teig",
+      "amount": 220,
+      "unit": "g",
+      "name": "Apfelmus"
+    },
+    {
+      "group": "Glasur",
+      "amount": 175,
+      "unit": "g",
+      "name": "dunkle Schokolade"
+    },
+    {
+      "group": "Glasur",
+      "amount": 200,
+      "unit": "g",
+      "name": "Sojasahne"
+    },
+    {
+      "group": "Glasur",
+      "amount": 400,
+      "unit": "g",
+      "name": "Marillenmarmelade fein passiert"
+    }
+  ],
+  "steps": [
+    "Die Butter mit der Schokolade in einem Topf auf mittlerer Hitze schmelzen.",
+    "Achtung, unbedingt darauf aufpassen, dass die Schokolade nicht zu heiß wird und auskristallisiert.",
+    "Schokolade sollte nie über 50°C erhitzt werden, da sich ihre Struktur sonst so verändert, dass sie nicht mehr “rettbar” ist.",
+    "Nun die Hafermilch, das Apfelmus, Zucker und Vanillezucker zusammen leeren und kurz langsam durch rühren lassen.",
+    "Das machen wir aus dem einfachen Grund, den Zucker ein wenig zu lösen.",
+    "Wem es hier zu sehr spritzt kann auch schon eine kleine Partie des Mehls mit dazu leeren Wenn das verrührt ist, das restliche Mehl und zum Schluss das Backpulver unterlaufen lassen.",
+    "Backpulver ist ein chemisches Mittel bestehend aus Natron, Stärke und Zitronen- oder Weinsteinsäure.",
+    "Natron ist ein natürlich vorkommendes Salz.",
+    "Das Natron reagiert mit der Säure und es entsteht CO2.",
+    "Natron kann ohne Probleme deshalb durch Backpulver ersetzt werden.",
+    "Andersrum funktioniert das aber nicht!",
+    "In amerikanischen Rezepten wird meist nur mehr Natron in den Teig gegeben, weil da meist schon im Mehl das Backpulver enthalten ist (self-rising flour).",
+    "Zum Schluss das geschmolzene Schokoladen-Butter-Gemisch unterrühren und kurz vermengen.",
+    "Achtet hier darauf, dass sich am Boden der Rührschüssel keine hellen Teigreste mehr abgelagert haben, sondern alles gut durchmischt ist Die 26cm Springform mit neutralem Öl auspinseln und den fertigen Teig in die Form füllen.",
+    "Vegane Kuchen sind meist gerade am Boden ein wenig feuchter als herkömmliche.",
+    "Wer seiner Kuchenform nicht recht über den Weg traut nimmt ruhig ein Backpapier um ein Ankleben zu verhindern.",
+    "Unser Sacherboden backt jetzt bei 180°C Umluft ca 40 Minuten.",
+    "Um sicher zu gehen,dass er fertig ist, macht vor dem Herausnehmen eine Stäbchenprobe.",
+    "Dazu nehmt ihr einen Zahnstocher oder einen Schaschlikspieß und steckt ihn in die Mitte der Torte, denn ein Kuchen backt immer von außen nach innen.",
+    "Wenn beim Herausziehen noch nasser Teig oder Teigklümpchen hängenbleiben, backt ihr euren Boden einfach noch weiter, dann ist er noch nicht durch.",
+    "Nach dem Backen lasst ihr euren Boden in der Form auskühlen, damit er im nächsten Schritt besser zu schneiden ist Wenn der Boden kalt ist, löst den Ring von der Torte und halbiert ihn mit einem langen Wellenschliff Messer waagerecht in zwei Hälften.",
+    "Wer sich das nicht zutraut, kann den Boden auch ganz lassen und die Torte nur außenrum mit Marmelade bestreichen.",
+    "Nun den einen Boden abnehmen und mit Marmelade bestreichen.",
+    "Die untere Hälfte wird normalerweise mit der Schnittfläche nach unten auf den bestrichenen Boden gegeben.",
+    "So ist eure Oberseite immer gerade, weil der Boden der Torte ja keine Backwölbung entwickeln kann.",
+    "Die passierte Marillenmarmelade unbedingt vorher mit einem Schneebesen glatt rühren, damit keine Klümpchen auf der Torte landen Nun die Torte rundherum mit passierter Marillenmarmelade bestreichen und im Kühlschrank ein wenig fest werden lassen Inzwischen könnt ihr eure Glasur kochen.",
+    "Dazu das Wasser in einen Topf leeren und den Zucker dazu geben.",
+    "So wird der Zucker sofort feucht und kann in Folge nicht mehr am Topfboden karamellisieren oder anbrennen Wenn der Zucker ca 10 Minuten sprudelnd gekocht hat und sich die Zucker Wasser Mischung klärt, den Läuterzucker über die klein gehackte Schokolade leeren und ca auf Körpertemperatur abkühlen lassen Wenn die Glasur schön dickflüssig ist und nicht zu schnell von der Teigspachtel rinnt, kann die Torte glasiert werden.",
+    "Dazu die Torte auf ein Glasiergitter geben und die Glasur schön oben drauf leeren bis die Oberfläche bedeckt ist.",
+    "Nun die Torte mit dem Gitter in die Hand nehmen und vorsichtig in alle Richtungen kippen, sodass die Glasur an der Seite herunter laufen kann.",
+    "Wenn jetzt noch Lücken am Rand zu sehen sind, könnt ihr einen Pinsel in die Glasur tunken und damit die Lücken verschließen.",
+    "Wenn unten am Gitter keine Glasur mehr abtropft, kann die Torte auf eine Servierplatte gegeben werden.",
+    "Die Glasur unbedingt fest werden lassen und dann erst servieren."
+  ],
+  "source": {
+    "url": "https://www.backademie.com/rezept/vegane-sachertorte/"
+  },
+  "dateAdded": "2026-07-17"
+}

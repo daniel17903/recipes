@@ -1,0 +1,60 @@
+{
+  "id": "erbsen-aufstrich",
+  "title": "Erbsen Aufstrich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "TK Erbsen"
+    },
+    {
+      "group": null,
+      "amount": 90,
+      "unit": "g",
+      "name": "Cashewkerne"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zitrone"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Olivenöl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Minze oder Dill"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Agavendicksaft"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    }
+  ],
+  "steps": [
+    "Cashewkerne nach Belieben vorher einweichen. TK-Erbsen kurz auftauen bzw. blanchieren.",
+    "Erbsen, Cashews, Saft der Zitrone, etwas Olivenöl, Minze bzw. Dill und einen Spritzer Agavendicksaft mit dem Pürierstab zu einer streichfähigen Masse pürieren.",
+    "Mit Salz abschmecken; bei Bedarf mit etwas Wasser oder Öl verdünnen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

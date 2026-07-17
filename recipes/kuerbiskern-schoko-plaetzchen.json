@@ -1,0 +1,81 @@
+{
+  "id": "kuerbiskern-schoko-plaetzchen",
+  "title": "Kürbiskern-Schoko-Plätzchen",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Kürbiskerne"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Leinsamenei",
+      "note": "1 EL geschroteter Leinsamen + 3 EL heißes Wasser, 10 Minuten quellen lassen"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Birkenzucker",
+      "note": "oder Zucker nach Wahl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "g",
+      "name": "vegane Butter"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "g",
+      "name": "Mehl",
+      "note": "ca.; nach Wahl, z. B. Mandelmehl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Zum Verzieren",
+      "amount": 80,
+      "unit": "g",
+      "name": "Zartbitterschokolade"
+    },
+    {
+      "group": "Zum Verzieren",
+      "amount": null,
+      "unit": null,
+      "name": "Kürbiskerne und/oder gehackte Pistazien"
+    }
+  ],
+  "steps": [
+    "Für das Leinsamenei 1 EL geschroteten Leinsamen mit 3 EL heißem Wasser verrühren und 10 Minuten quellen lassen.",
+    "Kürbiskerne fein mahlen und mit Mehl, Birkenzucker, Vanillezucker und Salz mischen.",
+    "Vegane Butter und das Leinsamenei zugeben und zu einem geschmeidigen Teig verkneten. Bei Bedarf kalt stellen.",
+    "Aus dem Teig kleine Plätzchen formen und auf ein mit Backpapier belegtes Blech setzen.",
+    "Bei 180 °C etwa 12–15 Minuten goldbraun backen und vollständig auskühlen lassen.",
+    "Zartbitterschokolade schmelzen, die Plätzchen halb eintauchen und mit gehackten Kürbiskernen bzw. Pistazien verzieren."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte). Titel aus dem Inhalt rekonstruiert (Original: „Ohne Titel“).",
+  "source": {
+    "url": "https://www.instagram.com/p/CXqSa10r3G0/"
+  },
+  "dateAdded": "2026-07-17"
+}

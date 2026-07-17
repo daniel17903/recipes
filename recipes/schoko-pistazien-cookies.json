@@ -1,0 +1,69 @@
+{
+  "id": "schoko-pistazien-cookies",
+  "title": "Schoko-Pistazien Cookies",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Dinkelmehl 630 oder Weizenmehl 550"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Kakao"
+    },
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Pistazien"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "gehackte Schokolade"
+    }
+  ],
+  "steps": [
+    "Mehl, Kakao, Zucker, Salz und Backpulver vermengen.",
+    "Margarine zugeben und zu einem Teig verkneten, Pistazien und gehackte Schokolade unterkneten.",
+    "Aus dem Teig Kugeln formen, auf ein Blech setzen und leicht flach drücken.",
+    "Bei 180 °C etwa 12–15 Minuten backen und auf dem Blech auskühlen lassen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

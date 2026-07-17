@@ -1,0 +1,80 @@
+{
+  "id": "haferflocken-brot",
+  "title": "Haferflocken Brot",
+  "category": "Brot",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Haferflocken"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Chia-Samen",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Flohsamenschalen",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "geschrotete Leinsamen",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Sonnenblumenkerne",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Kürbiskerne",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 520,
+      "unit": "ml",
+      "name": "heißes Wasser"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    }
+  ],
+  "steps": [
+    "Die trockenen Zutaten gut vermischen und mit dem Wasser verrühren.",
+    "Erfahrungsgemäß braucht das Rezept viel Wasser, damit das Brot nicht bröselig wird.",
+    "Die Masse in eine Brotkastenform füllen und glattstreichen.",
+    "Am besten vorher Backpapier in die Form legen.",
+    "2 Stunden quellen lassen.",
+    "40 Minuten bei 180 Grad im Backofen backen, dann das Brot aus der Form nehmen und ohne Form weitere 30 Minuten bei 180 Grad fertigbacken.",
+    "Das Brot hält sich am besten im Kühlschrank in ein Küchentuch eingewickelt."
+  ],
+  "source": {
+    "url": "https://yogaammeer.de/glutenfreies-brot/"
+  },
+  "images": [
+    "haferflocken-brot.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

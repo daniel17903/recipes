@@ -1,0 +1,68 @@
+{
+  "id": "vanillekipferl",
+  "title": "Vanillekipferl",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 1,
+    "unit": "Blech ( Stück)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 130,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Speisestärke",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "g",
+      "name": "gemahlene Vanille",
+      "note": "entspricht 2/3 TL"
+    },
+    {
+      "group": null,
+      "amount": 110,
+      "unit": "g",
+      "name": "kalte Margarine"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "helles Mandelmus"
+    }
+  ],
+  "steps": [
+    "Mehl, Stärke, Mandeln, Margarine, 50g Puderzucker und 1/3TL Vanille zu einem Teig verkneten.",
+    "Mindestens 1h kühlen.",
+    "35 Vanillekipferl (ca 11g pro Stück) formen und bei 180C 10-12min backen.",
+    "10min abkühlen lassen.",
+    "Im restlichen Puderzucker (30g) und der übrigen Vanille 1/3TL wenden.",
+    "Danach ganz auskühlen lassen.",
+    "In einer Blechdose kühl aufbewahren."
+  ],
+  "images": [
+    "vanillekipferl.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

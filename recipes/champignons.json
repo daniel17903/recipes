@@ -1,0 +1,42 @@
+{
+  "id": "champignons",
+  "title": "Champignons",
+  "category": "Raclette",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Champignons"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zwiebeln"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Knoblauch"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Balsamikoessig"
+    }
+  ],
+  "steps": [
+    "Champignons putzen und in Scheiben schneiden, Zwiebeln und Knoblauch fein würfeln.",
+    "Alles in einer Pfanne in etwas Öl anbraten, bis die Champignons Farbe nehmen.",
+    "Mit Balsamicoessig ablöschen, kurz einkochen lassen und mit Salz und Pfeffer abschmecken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

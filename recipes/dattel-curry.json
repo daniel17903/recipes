@@ -1,0 +1,55 @@
+{
+  "id": "dattel-curry",
+  "title": "Dattel Curry",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "Stück",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Cashews"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Knoblauch"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Sojajoghurt",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Curry",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zitronensaft"
+    }
+  ],
+  "steps": [
+    "Datteln in heißem Wasser einweichen.",
+    "Knoblauch mit Curry in der Pfanne erhitzen.",
+    "Alles pürieren."
+  ],
+  "dateAdded": "2026-07-17"
+}

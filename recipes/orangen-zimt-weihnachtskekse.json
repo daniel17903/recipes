@@ -1,0 +1,94 @@
+{
+  "id": "orangen-zimt-weihnachtskekse",
+  "title": "Orangen-Zimt-Weihnachtskekse",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 20,
+    "unit": "Stück"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 240,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": "Teig",
+      "amount": 210,
+      "unit": "g",
+      "name": "gemahlene Haselnüsse"
+    },
+    {
+      "group": "Teig",
+      "amount": 90,
+      "unit": "g",
+      "name": "brauner Zucker",
+      "note": "fein gemahlen; entspricht ca. 3/4 Tasse"
+    },
+    {
+      "group": "Teig",
+      "amount": 90,
+      "unit": "g",
+      "name": "Hafermehl oder Vollkornmehl",
+      "note": "ca. 3/4 Tasse; für glutenfrei Hafermehl verwenden"
+    },
+    {
+      "group": "Teig",
+      "amount": 15,
+      "unit": "ml",
+      "name": "Orangensaft",
+      "note": "1 EL"
+    },
+    {
+      "group": "Teig",
+      "amount": 16,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "2 EL"
+    },
+    {
+      "group": "Teig",
+      "amount": 60,
+      "unit": "ml",
+      "name": "Wasser",
+      "note": "ca. 1/2 Tasse"
+    },
+    {
+      "group": "Guss",
+      "amount": 60,
+      "unit": "g",
+      "name": "Puderzucker",
+      "note": "aus braunem Zucker, gemahlen; ca. 1/2 Tasse"
+    },
+    {
+      "group": "Guss",
+      "amount": 2,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "1/2 TL"
+    },
+    {
+      "group": "Guss",
+      "amount": null,
+      "unit": null,
+      "name": "Wasser oder Pflanzenmilch",
+      "note": "ca. 1–1 1/2 EL, nach Bedarf"
+    }
+  ],
+  "steps": [
+    "Für den Teig braunen Zucker im Mixer fein pulverisieren. Bei Hafermehl die Haferflocken ebenso fein mahlen.",
+    "Gemahlene Mandeln, Haselnüsse, den gemahlenen Zucker, das Mehl und den Zimt vermengen.",
+    "Orangensaft und Wasser zugeben und alles zu einem festen Teig verkneten. Bei Bedarf etwas Wasser ergänzen.",
+    "Den Teig ausrollen, Kekse ausstechen und auf ein mit Backpapier belegtes Blech legen.",
+    "Bei 180 °C etwa 12–15 Minuten backen und auskühlen lassen.",
+    "Für den Guss gemahlenen braunen Zucker mit Zimt und so viel Wasser bzw. Pflanzenmilch verrühren, dass ein streichfähiger Guss entsteht. Die Kekse damit verzieren."
+  ],
+  "source": {
+    "url": "https://veganheaven.org/wprm_print/8107"
+  },
+  "images": [
+    "orangen-zimt-weihnachtskekse.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

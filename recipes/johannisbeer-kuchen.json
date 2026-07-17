@@ -1,0 +1,84 @@
+{
+  "id": "johannisbeer-kuchen",
+  "title": "Johannisbeer Kuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 350,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 120,
+      "unit": "g",
+      "name": "gemahlene Haselnüsse"
+    },
+    {
+      "group": "Teig",
+      "amount": 162,
+      "unit": "g",
+      "name": "Öl"
+    },
+    {
+      "group": "Teig",
+      "amount": 40,
+      "unit": "ml",
+      "name": "Wasser"
+    },
+    {
+      "group": "Teig",
+      "amount": 120,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": "Füllung",
+      "amount": 500,
+      "unit": "g",
+      "name": "Johannisbeeren"
+    },
+    {
+      "group": "Füllung",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillepuddingpulver"
+    },
+    {
+      "group": "Füllung",
+      "amount": 48,
+      "unit": "g",
+      "name": "brauner Zucker",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": "Füllung",
+      "amount": 250,
+      "unit": "ml",
+      "name": "Mandelmilch"
+    }
+  ],
+  "steps": [
+    "Für 26cm Springform Alle Zutaten zu einem Teig verkneten, dann mindestens 30min kühlen.",
+    "2/3 des Teigs in eine Springform geben und einen Rand hochziehen (niedrig).",
+    "Puddingpulver mit wenig Flüssigkeit anrühren.",
+    "Dann alle Zutaten für die Füllung mit den Beeren kurz aufkochen und etwas abkühlen lassen.",
+    "Dann in den Teig füllen und den restlichen Teig als Streusel oben drauf verstreuen.",
+    "40min bei 180C Umluft backen"
+  ],
+  "images": [
+    "johannisbeer-kuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "tomatenaufstrich-mit-walnuessen",
+  "title": "Tomatenaufstrich mit Walnüssen",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "weiße Bohnen (aus der Dose)"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "Stück",
+      "name": "getrocknete Tomaten (aus dem Glas)"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "von dem Einlegeöl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Bund",
+      "name": "Dill"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Walnusskerne"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Schale von ½ Bio-Zitrone"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    }
+  ],
+  "steps": [
+    "Weiße Bohnen abgießen und abspülen.",
+    "Bohnen mit getrockneten Tomaten, dem Einlegeöl, Dill, Walnusskernen und der Zitronenschale zu einer streichfähigen Masse pürieren.",
+    "Mit Salz und Pfeffer abschmecken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

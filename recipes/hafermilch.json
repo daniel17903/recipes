@@ -1,0 +1,43 @@
+{
+  "id": "hafermilch",
+  "title": "Hafermilch",
+  "category": "Grundrezepte",
+  "yield": {
+    "amount": 1,
+    "unit": "Liter"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1000,
+      "unit": "ml",
+      "name": "Wasser"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Haferflocken"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "neutrales Öl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Salz"
+    }
+  ],
+  "steps": [
+    "Haferflocken mit dem Wasser, dem Öl und dem Salz etwa 30 Sekunden kräftig durchmixen – nicht länger, sonst wird die Milch schleimig.",
+    "Die Masse durch ein feines Sieb, einen Nussmilchbeutel oder ein sauberes Küchentuch abseihen.",
+    "Die fertige Hafermilch in eine Flasche füllen und gekühlt innerhalb von 3–4 Tagen verbrauchen. Vor Gebrauch schütteln."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

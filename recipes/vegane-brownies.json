@@ -1,0 +1,97 @@
+{
+  "id": "vegane-brownies",
+  "title": "Vegane Brownies",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "vegane Zartbitterschokolade (sojafrei)"
+    },
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Kakaopulver"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Zimtpulver",
+      "note": "entspricht ½ TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Haferdrink"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Agavendicksaft"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Rapsöl"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Apfelsaft"
+    }
+  ],
+  "steps": [
+    "1 Den Backofen auf 180° vorheizen.",
+    "Eine Auflaufform (ca.",
+    "36 × 23 cm) mit Backpapier auslegen.",
+    "Die Schokolade mit einem Messer klein hacken.",
+    "Mehl, Zucker, Kakao, Vanillezucker, Zimt und Backpulver in einer Schüssel mischen.",
+    "Haferdrink, Agavendicksaft, Öl und Apfelsaft verquirlen.",
+    "Zur Mehlmischung gießen und alles mit den Quirlen des Handrührgeräts auf höchster Stufe 2 Min. verrühren.",
+    "Die Schokolade unterheben.",
+    "2 Den Teig in die Form füllen, glatt streichen und im Ofen (Mitte) ca.",
+    "40 Min. backen.",
+    "Aus dem Ofen nehmen und abkühlen lassen.",
+    "Zum Servieren in kleine Rechtecke schneiden."
+  ],
+  "images": [
+    "vegane-brownies.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

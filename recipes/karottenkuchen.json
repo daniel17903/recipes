@@ -1,0 +1,118 @@
+{
+  "id": "karottenkuchen",
+  "title": "Karottenkuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 300,
+      "unit": "g",
+      "name": "Karotten"
+    },
+    {
+      "group": "Teig",
+      "amount": 300,
+      "unit": "g",
+      "name": "Weizen oder Dinkelmehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 150,
+      "unit": "g",
+      "name": "Rohrzucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 200,
+      "unit": "g",
+      "name": "Öl"
+    },
+    {
+      "group": "Teig",
+      "amount": 30,
+      "unit": "g",
+      "name": "gemahlene Leinsamen",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": "Teig",
+      "amount": 4.5,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1,5 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 4.5,
+      "unit": "g",
+      "name": "Natron",
+      "note": "entspricht 1,5 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 4.5,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 1,5 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 3,
+      "unit": "g",
+      "name": "gemahlener Ingwer",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "g",
+      "name": "Muskatnuss",
+      "note": "entspricht 0,25 TL"
+    },
+    {
+      "group": "Creme",
+      "amount": 130,
+      "unit": "g",
+      "name": "Cashewkerne"
+    },
+    {
+      "group": "Creme",
+      "amount": 70,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": "Creme",
+      "amount": 40,
+      "unit": "g",
+      "name": "Agavendicksaft",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": "Creme",
+      "amount": 30,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 2 EL"
+    }
+  ],
+  "steps": [
+    "Cashewkerne über Nacht in Wasser einweichen.",
+    "Karotten grob raspeln und Leinsamen in warmem Wasser für einige Minuten einweichen.",
+    "Backofen auf 180C vorheizen.",
+    "Alle Zutaten für den Teig mischen und in einer 26cm Springform für 40-45min backen.",
+    "Für die Creme alle Zutaten pürieren und den Kuchen nach dem Ablühlen damit bestreichen."
+  ],
+  "dateAdded": "2026-07-17"
+}

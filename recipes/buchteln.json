@@ -1,0 +1,62 @@
+{
+  "id": "buchteln",
+  "title": "Buchteln",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Hefeteig",
+      "amount": 500,
+      "unit": "g",
+      "name": "Weizen- oder Dinkelmehl"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 120,
+      "unit": "ml",
+      "name": "Sojamilch lauwarm bei 40°C"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 75,
+      "unit": "g",
+      "name": "brauner Zucker oder anderer Zucker"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 7,
+      "unit": "g",
+      "name": "Trockenhefe oder 21 g frische Hefe"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 160,
+      "unit": "g",
+      "name": "Soja-Joghurt bei Raumtemperatur (notfalls auch mehr Milch)"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 75,
+      "unit": "g",
+      "name": "vegane Butter in Stücke geschnitten + bei Raumtemperatur (oder Margarine)"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten zu einem Teig verarbeiten.",
+    "5min kneten.",
+    "Ca 60min ruhen lassen bis sich das Volumen verdoppelt hat."
+  ],
+  "source": {
+    "url": "https://biancazapatka.com/de/vegane-buchteln-mit-apfel-zimt-fuellung/"
+  },
+  "dateAdded": "2026-07-17"
+}

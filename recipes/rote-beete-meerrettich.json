@@ -1,0 +1,74 @@
+{
+  "id": "rote-beete-meerrettich",
+  "title": "Rote Beete Meerrettich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Rote Bete, gekocht"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "g",
+      "name": "Sonnenblumenkerne"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Meerrettich, aus dem Glas",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Apfelessig",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 45,
+      "unit": "ml",
+      "name": "Olivenöl, kaltgepresst",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Koriander, gehackt",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kristallsalz und Pfeffer aus der Mühle"
+    }
+  ],
+  "steps": [
+    "Sonnenblumenkerne nach Belieben einweichen.",
+    "Gekochte Rote Bete mit Sonnenblumenkernen, Meerrettich, Apfelessig, Olivenöl, Zitronensaft und gehacktem Koriander fein pürieren.",
+    "Mit Salz und Pfeffer abschmecken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "source": {
+    "url": "https://www.zentrum-der-gesundheit.de/rezepte/saucen-dips/aufstriche/rote-bete-aufstrich"
+  },
+  "dateAdded": "2026-07-17"
+}

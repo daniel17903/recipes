@@ -1,0 +1,132 @@
+{
+  "id": "zitronen-upside-down-kuchen",
+  "title": "Zitronen-Upside-Down-Kuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 12,
+    "unit": "stücke"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zutaten"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "pflanzliche Butter",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "weißer Zucker",
+      "note": "1-2; entspricht 1-2 EL"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "Stück",
+      "name": "Zitronen"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Puderzucker (zum Dekorieren)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Teig"
+    },
+    {
+      "group": null,
+      "amount": 450,
+      "unit": "g",
+      "name": "Weizenmehl"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 0.5 TL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 8,
+      "unit": "g",
+      "name": "Bio Bourbon Vanille-Zucker (z.B. von RUF)"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Bio Zitronenschale (z.B. von RUF)"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "pflanzliche Butter"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "ml",
+      "name": "pflanzliche Milch"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Wasser mit Kohlensäure"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zitrone"
+    }
+  ],
+  "steps": [
+    "Zubereitung Den Ofen auf 180°C Umluft vorheizen.",
+    "Den Boden einer Backform mit Backpapier auslegen.",
+    "Die Backform mit 1 EL pflanzlicher Butter einfetten.",
+    "Den Boden der Form mit 1-2 EL weißem Zucker bestreuen.",
+    "5 Zitronen waschen, in Scheiben schneiden, die Kerne entfernen und den Boden der Form mit den Zitronenscheiben auslegen.",
+    "Die Backform bei Seite stellen.",
+    "In einer kleineren Schüssel Weizenmehl, Salz, Backpulver, Bio Bourbon Vanille-Zucker und Bio Zitronenschale vermischen.",
+    "In einer zweiten Schüssel die vegane Butter mit dem Zucker aufschlagen und nach und nach die Mehlmischung unterrühren.",
+    "Nach und nach ebenfalls die pflanzliche Milch, das Wasser mit Kohlensäure und den Saft und die Schale von einer Zitrone hinzugeben, bis ein glatter Teig entsteht.",
+    "Den Teig in die Backform füllen, sodass alle Zitronenscheiben mit dem Teig bedeckt sind.",
+    "Den Kuchen bei 180°C auf mittlerer Stufe etwa 60 Minuten backen.",
+    "Anschließend 10 Minuten in der Form auskühlen lassen und auf ein Kuchengitter stürzen.",
+    "Mit Puderzucker servieren."
+  ],
+  "source": {
+    "url": "https://www.zuckerjagdwurst.com/de/rezepte/veganer-zitronen-upside-down-kuchen"
+  },
+  "images": [
+    "zitronen-upside-down-kuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

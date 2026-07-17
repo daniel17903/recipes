@@ -1,0 +1,110 @@
+{
+  "id": "nusskuchen",
+  "title": "Nusskuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "Mehl (Weizen 550 oder Dinkel 630)"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Tapiokastärke",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "g",
+      "name": "Haselnüsse, geröstet und gemahlen"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 0.75,
+      "unit": "Pck.",
+      "name": "Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Msp.",
+      "name": "Vanille"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Zimt"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Pflanzenöl"
+    },
+    {
+      "group": null,
+      "amount": 350,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Apfelessig",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Für den Zuckerguss (optional)"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "20-25"
+    }
+  ],
+  "steps": [
+    "Mehl, Tapiokastärke, gemahlene Haselnüsse, Zucker, Backpulver, Vanille, Zimt und Salz vermengen.",
+    "Öl und Pflanzenmilch zugeben und zu einem glatten Teig verrühren.",
+    "Zum Schluss den Apfelessig unterrühren und den Teig in eine gefettete Kastenform füllen.",
+    "Bei 180 °C etwa 50–60 Minuten backen (Stäbchenprobe) und auskühlen lassen.",
+    "Für den optionalen Zuckerguss Puderzucker mit Zitronensaft verrühren und den Kuchen damit überziehen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "images": [
+    "nusskuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

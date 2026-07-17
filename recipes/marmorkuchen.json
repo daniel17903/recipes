@@ -1,0 +1,91 @@
+{
+  "id": "marmorkuchen",
+  "title": "Marmorkuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 400,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 150,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Backpulver"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht ½ TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 160,
+      "unit": "g",
+      "name": "neutrales Öl (oder Rapsöl mit Buttergeschmack)"
+    },
+    {
+      "group": "Teig",
+      "amount": 325,
+      "unit": "g",
+      "name": "Sojamilch (oder andere Pflanzenmilch)"
+    },
+    {
+      "group": "Für dunklen Teig zusätzlich",
+      "amount": 30,
+      "unit": "g",
+      "name": "Kakaopulver ((Backkakao))"
+    },
+    {
+      "group": "Für dunklen Teig zusätzlich",
+      "amount": 15,
+      "unit": "ml",
+      "name": "Sojamilch",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": "Für dunklen Teig zusätzlich",
+      "amount": 30,
+      "unit": "g",
+      "name": "gehackte Schokolade"
+    }
+  ],
+  "steps": [
+    "Für Gugelhupf Form Alle Zutaten für den hellen Teig kurz gut durchmixen.(Mit einem elektrischen Handmixer oder Rührlöffel)Nicht lange rühren.",
+    "Einen Teil des Teiges in eine zweite Schüssel geben.(ca. ein Drittel des Teiges) und die Zutaten für den dunklen Teig hinzufügen.",
+    "Kurz gut untermixen.",
+    "In die Backform füllen: Hellen und dunklen Teig abwechselnd in die Backform füllen.",
+    "Eine Gabel durch den Teig ziehen, so dass ein Muster entsteht.",
+    "Backen: Im vorgeheizten Ofen bei 180 °C (Ober-Unterhitze) ca 70 Minuten backen.(Stäbchenprobe) Den Kuchen in der Backform auf einem Kuchengitter abkühlen lassen.",
+    "Erst aus der Form nehmen, wenn er ganz abgekühlt ist.",
+    "Evtl. verzieren:: Als Deko eignet sich Puderzucker oder Schokoglasur.",
+    "Der Kuchen kann auch noch mit Zuckerstreuseln, gehackten Nüssen oder Schokolinsen usw. verziert werden."
+  ],
+  "source": {
+    "url": "https://veggie-einhorn.de/veganer-marmorkuchen-ohne-ei/"
+  },
+  "images": [
+    "marmorkuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

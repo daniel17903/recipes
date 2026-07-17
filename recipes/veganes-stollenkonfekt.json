@@ -1,0 +1,138 @@
+{
+  "id": "veganes-stollenkonfekt",
+  "title": "Veganes Stollenkonfekt",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 55,
+    "unit": "Ca.  stück"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Walnüsse"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Orangeat"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Zitronat"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Rosinen (oder Cranberrys)"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "Orangensaft"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 500,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 150,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 3,
+      "unit": "g",
+      "name": "Christstollengewürz",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "(7 g) Trockenhefe"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "(7 g) Vanillezucker"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 50,
+      "unit": "ml",
+      "name": "Pflanzenöl"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 200,
+      "unit": "g",
+      "name": "pflanzliche Butter"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Bittermandelaroma",
+      "note": "entspricht 0.5 TL"
+    },
+    {
+      "group": "Für den Teig",
+      "amount": 150,
+      "unit": "ml",
+      "name": "pflanzliche Milch"
+    },
+    {
+      "group": "Zum Servieren",
+      "amount": null,
+      "unit": null,
+      "name": "Puderzucker"
+    }
+  ],
+  "steps": [
+    "Walnüsse hacken und zusammen mit Orangeat, Zitronat und Rosinen in eine Schüssel geben.",
+    "Orangensaft dazugeben und das ganze über Nacht ziehen lassen.",
+    "Mehl, Zucker, gemahlene Mandeln, Christstollengewürz, Trockenbackhefe und Vanillezucker in einer Schüssel vermischen.",
+    "Anschließend Pflanzenöl, pflanzliche Butter, Bittermandelaroma und pflanzliche Milch dazugeben.",
+    "Die Zutaten zu einem leicht klebrigen Teig verkneten.",
+    "Überschüssigen Orangensaft der eingeweichten Mischung mit Orangeat und Co. abgießen und den eingeweichten Mix zum Teig geben und unterkneten.",
+    "Dabei so viel Mehl wie nötig dazugeben, damit der Teig nicht mehr klebt.",
+    "Den Teig ca.",
+    "30 Minuten an einem warmen Platz ruhen lassen.",
+    "In der Zwischenzeit den Ofen auf 180°C (Umluft) vorheizen und ein Backblech mit Backpapier auslegen.",
+    "Den Teig auf einer bemehlten Fläche ca.",
+    "2-3 cm dick ausrollen und in kleine Stücke schneiden.",
+    "Diese auf dem vorbereiteten Backblech verteilen – sehr wahrscheinlich werdet ihr zwei Backbleche benötigen.",
+    "Ihr könnt also entweder direkt zwei Backbleche in den Ofen schieben oder das Stollenkonfekt einfach in Portionen backen.",
+    "Das Stollenkonfekt ca.",
+    "13 Minuten backen.",
+    "Es sollte an der Oberfläche noch nicht gebräunt und knusprig werden, wenn ihr das Blech aus dem Ofen holt, sondern eher noch ein bisschen zu weich wirken.",
+    "Die kleinen Stückchen auf einem Kuchengitter abkühlen lassen.",
+    "Falls ihr das Stollenkonfekt in mehreren Portionen backt, können jetzt die restlichen Stückchen auf das Backblech.",
+    "Das Stollenkonfekt dick mit Puderzucker bestäuben und in einem luftdichten Behälter aufbewahren."
+  ],
+  "source": {
+    "url": "https://www.zuckerjagdwurst.com/de/rezepte/veganes-stollenkonfekt"
+  },
+  "images": [
+    "veganes-stollenkonfekt.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

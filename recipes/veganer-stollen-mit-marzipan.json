@@ -1,0 +1,100 @@
+{
+  "id": "veganer-stollen-mit-marzipan",
+  "title": "Veganer Stollen mit Marzipan",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Trockenhefe"
+    },
+    {
+      "group": null,
+      "amount": 130,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Msp.",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "abgeriebene Zitrone (ungespritzt!)",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Pflanzenmargarine"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Sultaninen / Cranberries / getrocknete Aprikosen"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Marzipan"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Puderzucker"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Pflanzenmargarine",
+      "note": "2-3; entspricht 2-3 EL"
+    }
+  ],
+  "steps": [
+    "Mehl mit Trockenhefe, Zucker und Salz mischen. Lauwarme Pflanzenmilch und weiche Margarine zugeben und zu einem geschmeidigen Hefeteig verkneten. Abgeriebene Zitronenschale und gemahlene Mandeln unterkneten.",
+    "Sultaninen bzw. Trockenfrüchte unterarbeiten und den Teig abgedeckt an einem warmen Ort etwa 1 Stunde gehen lassen.",
+    "Das Marzipan zu einer Rolle formen. Den Teig länglich ausrollen, das Marzipan mittig einlegen und den Stollen formen.",
+    "Auf ein Blech setzen und bei 180 °C etwa 50–60 Minuten backen; bei zu starker Bräunung mit Backpapier abdecken.",
+    "Den noch warmen Stollen mit 30 g geschmolzener Margarine bestreichen und dick mit Puderzucker bestäuben."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "source": {
+    "url": "https://www.peta.de/rezepte/christstollen/"
+  },
+  "images": [
+    "veganer-stollen-mit-marzipan.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

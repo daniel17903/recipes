@@ -1,0 +1,98 @@
+{
+  "id": "zitronen-ingwer-kuchen",
+  "title": "Zitronen-Ingwer-Kuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "ZUTATEN"
+    },
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "großes Stück Ingwer"
+    },
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "ml",
+      "name": "Wasser"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "ml",
+      "name": "Kokosöl (alternativ: Pflanzenöl)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "unbehandelte Zitrone"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Apfelessig",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    }
+  ],
+  "steps": [
+    "SCHRITT 1 Eine Springform mit Backpapier auslegen und den Rand einfetten.",
+    "Den Backofen auf 175° C Umluft vorheizen.",
+    "Die Zitrone abwaschen und fein reiben.",
+    "Anschließend die Zitrone auspressen.",
+    "Den Ingwer schälen und ebenfalls fein reiben.",
+    "Das glutenfreie Mehl mit Wasser, Zucker, Vanillezucker, Backpulver, Zitronenabrieb, 4 EL Zitronensaft, Ingwer, Apfelessig, Kokosöl und Salz mit einem Handrührgerät oder einer Küchenmaschine verrühren.",
+    "Die Teigmasse in die Springform füllen und den Backofen auf den mittleren Rost schieben.",
+    "In ca.",
+    "45 Minuten fertig backen.",
+    "Optional noch Glasur mit Zitronensaft + Puderzucker"
+  ],
+  "source": {
+    "url": "https://www.heimgourmet.com/rezept-56580-schneller-zitronen-ingwer-kuchen-vegan-glutenfrei.htm"
+  },
+  "images": [
+    "zitronen-ingwer-kuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

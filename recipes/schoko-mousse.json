@@ -1,0 +1,59 @@
+{
+  "id": "schoko-mousse",
+  "title": "Schoko Mousse",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 4,
+    "unit": "ca  kleine Gläser"
+  },
+  "ingredients": [
+    {
+      "group": "Schoko Mousse",
+      "amount": 300,
+      "unit": "g",
+      "name": "Seidentofu"
+    },
+    {
+      "group": "Schoko Mousse",
+      "amount": 100,
+      "unit": "g",
+      "name": "Schokolade (70-80%)"
+    },
+    {
+      "group": "Schoko Mousse",
+      "amount": 5,
+      "unit": "Stück",
+      "name": "Datteln"
+    },
+    {
+      "group": "Soße",
+      "amount": 200,
+      "unit": "g",
+      "name": "TK Erdbeeren / Himbeeren"
+    },
+    {
+      "group": "Soße",
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Zitrone"
+    },
+    {
+      "group": "Soße",
+      "amount": null,
+      "unit": null,
+      "name": "Puderzucker"
+    }
+  ],
+  "steps": [
+    "Datteln in heißem Wasser einweichen.",
+    "Schokolade im Topf schmelzen.",
+    "Dann den Seidentofu und die Datteln in den Topf geben und alles pürieren.",
+    "Dann in Gläser füllen und kühlen.",
+    "Die Beeren auftauen lassen, dann mit etwas Zitronensaft und Puderzucker pürieren.",
+    "In die abgekühlten Gläser füllen."
+  ],
+  "images": [
+    "schoko-mousse.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

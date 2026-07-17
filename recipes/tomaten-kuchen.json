@@ -1,0 +1,74 @@
+{
+  "id": "tomaten-kuchen",
+  "title": "Tomaten Kuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "gehackte Tomaten aus der Dose"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "abgeriebene Orangenschalen",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Banane"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Öl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Ingwer oder Safran"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Natron",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1/2 TL"
+    }
+  ],
+  "steps": [
+    "Tomaten, Orangenschalen, Banane, Öl und Ingwer pürieren.",
+    "Dann mit den restlichen Zutaten vermischen.",
+    "Bei 180C für ca 50min in einer Gugelhupf Form backen."
+  ],
+  "dateAdded": "2026-07-17"
+}

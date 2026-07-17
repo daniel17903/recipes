@@ -1,0 +1,86 @@
+{
+  "id": "suesskartoffelpfanne",
+  "title": "Süßkartoffelpfanne",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Süßkartoffel, geschält und gewürfelt"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Blumenkohl, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "kleine rote Zwiebel, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Paprika, gehackt"
+    },
+    {
+      "group": null,
+      "amount": 230,
+      "unit": "g",
+      "name": "Pilze, grob gehackt"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "gekochte schwarze Bohnen oder 1 Dose (400g)"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "pikante Gewürzmischung",
+      "note": "2-3; entspricht 2-3 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "g",
+      "name": "Cayennepfeffer oder Chiliflocken",
+      "note": "entspricht 1/4 TL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Umami-Soße",
+      "note": "3-4; entspricht 3-4 EL"
+    }
+  ],
+  "steps": [
+    "Ofen auf 220C vorheizen und ein Backblech mit Backpapier auslegen.",
+    "Die Süßkartoffel auf dem Backblech verteilen und 10min im Ofen rösten.",
+    "Blech herausnehmen und Blumenkohl hinzufügen.",
+    "Weitere 20min im Ofen rösten, bis die Kartoffeln und der Blumenkohl bisszart sind.",
+    "Aus dem Ofen nehmen und beiseitestellen.",
+    "In einer Pfanne 2 EL Wasser auf mittlerer Flamme erhitzen.",
+    "Zwiebel hineingeben, abdecken und 5min weich dünsten.",
+    "Paprika und Pilze hinzufügen und ohne Deckel ca 5min unter Rühren schmoren, bis das Gemüse weich ist.",
+    "Bohnen, pikante Gewürzmischung, Cayennepfeffer und geröstetes Gemüse in die Pfanne geben und 5min braten, bis alles gut durchgewärmt ist.",
+    "Auf Wunsch die Zutaten leicht mit einem Pfannenwender zerdrücken.",
+    "Mit Umami-Soße beträufeln und warm servieren.",
+    "Geht auch mit Zuchini oder anderem Gemüse statt Blumenkohl."
+  ],
+  "images": [
+    "suesskartoffelpfanne.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

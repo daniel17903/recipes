@@ -1,0 +1,55 @@
+{
+  "id": "waffeln",
+  "title": "Waffeln",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 8,
+    "unit": "Waffeln"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "brauner Zucker"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "Hafermilch oder Sojamilch"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Apfelmus"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Öl",
+      "note": "entspricht 2 EL"
+    }
+  ],
+  "steps": [
+    "Mehl, braunen Zucker und Backpulver in einer Schüssel vermengen.",
+    "Pflanzenmilch, Apfelmus und Öl zugeben und zu einem glatten Teig verrühren. Kurz quellen lassen.",
+    "Das Waffeleisen vorheizen, leicht einfetten und portionsweise goldbraune Waffeln ausbacken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

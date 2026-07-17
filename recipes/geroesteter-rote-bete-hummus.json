@@ -1,0 +1,95 @@
+{
+  "id": "geroesteter-rote-bete-hummus",
+  "title": "Gerösteter Rote Bete-Hummus",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Kichererbsen"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Knolle/n Rote Bete"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "Stück",
+      "name": "Zehe/n Knoblauch"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Sesampaste",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Kreuzkümmelpulver",
+      "note": "entspricht ½ TL"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht ½ TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "n. B. Cayennepfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "etwas Petersilie zum Garnieren"
+    }
+  ],
+  "steps": [
+    "Den Ofen auf 180 Grad vorheizen.",
+    "Die Roten Bete sparsam schälen, halbieren, mehrmals mit einem Messer oder einer Gabel einstechen.",
+    "Rote Bete und den Knoblauch voneinander getrennt auf zwei Folien legen und mit Olivenöl beträufeln.",
+    "Die Folie zuklappen und das Gemüse etwa 40 Minuten rösten.",
+    "Aus dem Ofen nehmen und komplett abkühlen lassen.",
+    "Anschließend die Roten Bete in Stücke schneiden, zusammen mit den Kichererbsen und dem geschälten Knoblauch pürieren.",
+    "Zum Schluss die Gewürze hinzufügen und alles gut miteinander verrühren.",
+    "Abschmecken.",
+    "Den Hummus auf einen Teller geben, mit Olivenöl und Petersilie garnieren und z.B. mit Pita Brot servieren.Tipp: Man kann sich das Rösten sparen, gekochte Rote Bete verwenden und den Knoblauch frisch pressen.",
+    "Allerdings verändert sich dadurch der Geschmack."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/2944791446728264/Geroesteter-Rote-Bete-Hummus.html"
+  },
+  "images": [
+    "geroesteter-rote-bete-hummus.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

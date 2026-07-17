@@ -1,0 +1,54 @@
+{
+  "id": "kidney-bohnen-aufstrich",
+  "title": "Kidney Bohnen Aufstrich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Kidney Bohnen"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Ajvar"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Tomatenmark"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zitronensaft"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Pfeffer"
+    }
+  ],
+  "steps": [
+    "Kidneybohnen abgießen und abspülen.",
+    "Bohnen mit Ajvar, Tomatenmark und Zitronensaft zu einer streichfähigen Masse pürieren oder mit der Gabel zerdrücken.",
+    "Mit Salz und Pfeffer abschmecken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "kaesekuchen",
+  "title": "Käsekuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Boden",
+      "amount": 260,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Boden",
+      "amount": 0.5,
+      "unit": "Pck.",
+      "name": "Backpulver"
+    },
+    {
+      "group": "Boden",
+      "amount": 120,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Boden",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Boden",
+      "amount": 2,
+      "unit": "Msp.",
+      "name": "Vanille"
+    },
+    {
+      "group": "Boden",
+      "amount": 160,
+      "unit": "g",
+      "name": "weiche Margarine"
+    },
+    {
+      "group": "Füllung",
+      "amount": 800,
+      "unit": "g",
+      "name": "Seidentofu"
+    },
+    {
+      "group": "Füllung",
+      "amount": 400,
+      "unit": "g",
+      "name": "Naturtofu"
+    },
+    {
+      "group": "Füllung",
+      "amount": 240,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": "Füllung",
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Bio Zitronen"
+    },
+    {
+      "group": "Füllung",
+      "amount": 160,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Füllung",
+      "amount": 2,
+      "unit": "Pck.",
+      "name": "Vanillepuddingpulver oder 80g Speisestärke + 1/2 TL Vanille"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten für den Boden zu einem Teig verkneten und Boden und hohen Rand in einer eingefetteten 26-28cm Springform formen.",
+    "Springform für mindestens 1h kühlen.",
+    "Seidentofu in einem mit Küchenpapier ausgelegtem Sieb 10min abtropfen lassen.",
+    "Geschmolzene Margarine, abgeriebene Schale und Saft beider Zitronen, Seidentofu, Naturtofu, Zucker und Vanillepuddingpulver in eine Schüssel geben und glatt pürieren.",
+    "Die Tofumasse auf den Boden gießen und glatt streichen. Bei 180C 65min backen. Dann Stäbchenprobe machen."
+  ],
+  "images": [
+    "kaesekuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,194 @@
+{
+  "id": "schwarzwaelder-kirschtorte",
+  "title": "Schwarzwälder Kirschtorte",
+  "category": "Torten",
+  "yield": {
+    "amount": 22,
+    "unit": "cm Form"
+  },
+  "ingredients": [
+    {
+      "group": "Nussboden",
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Haselnüsse"
+    },
+    {
+      "group": "Nussboden",
+      "amount": 60,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Nussboden",
+      "amount": 40,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Nussboden",
+      "amount": 70,
+      "unit": "g",
+      "name": "kalte Margarine"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 225,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 100,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 15,
+      "unit": "g",
+      "name": "Speisestärke",
+      "note": "entspricht 1,5 EL"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 30,
+      "unit": "g",
+      "name": "Kakao"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 15,
+      "unit": "g",
+      "name": "Backpulver"
+    },
+    {
+      "group": "Biskuit",
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
+    },
+    {
+      "group": "Biskuit",
+      "amount": null,
+      "unit": null,
+      "name": "Zimt"
+    },
+    {
+      "group": "Biskuit",
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 80,
+      "unit": "g",
+      "name": "Öl"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 290,
+      "unit": "ml",
+      "name": "Sprudel"
+    },
+    {
+      "group": "Biskuit",
+      "amount": 22,
+      "unit": "ml",
+      "name": "Apfelessig",
+      "note": "entspricht 1,5 EL"
+    },
+    {
+      "group": "Kirschfüllung",
+      "amount": 200,
+      "unit": "ml",
+      "name": "Kirschsaft (aus einem Glas Schattenmorellen)"
+    },
+    {
+      "group": "Kirschfüllung",
+      "amount": 0.75,
+      "unit": "Glas",
+      "name": "Schattenmorellen (350g Abtropfgewicht)"
+    },
+    {
+      "group": "Kirschfüllung",
+      "amount": 15,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": "Kirschfüllung",
+      "amount": 30,
+      "unit": "g",
+      "name": "Speisestärke",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": "Kirschfüllung",
+      "amount": 30,
+      "unit": "ml",
+      "name": "Kirschwasser (optional)"
+    },
+    {
+      "group": "Sahne",
+      "amount": 800,
+      "unit": "ml",
+      "name": "Sojasahne"
+    },
+    {
+      "group": "Sahne",
+      "amount": 12,
+      "unit": "g",
+      "name": "Agar Agar",
+      "note": "entspricht 4 TL"
+    },
+    {
+      "group": "Sahne",
+      "amount": 2,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": "Deko",
+      "amount": 50,
+      "unit": "g",
+      "name": "Schokoladenraspeln, zartbitter"
+    },
+    {
+      "group": "Deko",
+      "amount": 12,
+      "unit": "Stück",
+      "name": "schöne Kirschen"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten für den Nussboden vermischen.",
+    "Kalte Margarine mit einer Gabel zerdrücken.",
+    "Ca 25min bei 180C Ober- Unterhitze backen.",
+    "Backpapier in die Springform legen, damit der Boden beim Rausnehmen nicht zerbricht.",
+    "Für das Biskuit alle Zutaten zu einem glatten Teig verrühren.",
+    "Dann ca 25min bei 180C backen.",
+    "Stäbchenprobe machen.",
+    "Abkühlen lassen, dann in der Mitte auseinanderschneiden.",
+    "Sahne zubereiten und kühlen (siehe anderes Rezept).",
+    "5EL Kirschsaft mit Stärke und Zucker glatt rühren.",
+    "Den restlichen Kirschsaft aufkochen, vom Herd nehmen und die Stärkemischung mit dem Schneebeesen einrühren.",
+    "Dann nochmal kurz aufkochen.",
+    "Dann vom Herd nehmen, etwas abkühlen lassen, dann die Kirschen dazugeben.",
+    "Sollte nicht ganz abkühlen bevor es auf die Torte kommt da es sonst schon zu fest wird.",
+    "Den Nussboden auf eine Tortenplatte legen und mit einem Tortenring oder einer Springform umschließen.",
+    "Dann die Kirschfüllung darauf verteilen.",
+    "Einen Biskuit darauf legen.",
+    "Mit Kirschwasser beträufeln.",
+    "Darauf einige EL Sahne verteilen.",
+    "Dann den zweiten Biskuit darauf legen, mit Kirschwasser beträufeln und die Sahne rundherum gleichmäßig verstreichen.",
+    "Zuerst mit Kirschen, dann mit der Schokolade dekorieren."
+  ],
+  "images": [
+    "schwarzwaelder-kirschtorte.webp",
+    "schwarzwaelder-kirschtorte-2.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

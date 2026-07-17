@@ -1,0 +1,68 @@
+{
+  "id": "pfirsichkuchen",
+  "title": "Pfirsichkuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Blech"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1500,
+      "unit": "g",
+      "name": "Pfirsiche"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "Pflanzendrink"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "ml",
+      "name": "Öl"
+    },
+    {
+      "group": null,
+      "amount": 450,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 130,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Backpulver (1-2 Päckchen)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zimt"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Lebkuchengewürz (optional)"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten mischen, von den flüssigen zuerst weniger verwenden.",
+    "Den Teig auf einem Backblech verteilen und mit Pfirsichspalten belegen.",
+    "Bei 180C Ober- Unterhitze oder 160C Umluft für ca 40min backen."
+  ],
+  "images": [
+    "pfirsichkuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

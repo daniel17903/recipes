@@ -1,0 +1,56 @@
+{
+  "id": "gruenkohlchips",
+  "title": "Grünkohlchips",
+  "category": "Snacks",
+  "yield": {
+    "amount": 1,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Grünkohl"
+    },
+    {
+      "group": null,
+      "amount": 45,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Thymian"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Paprika Pulver"
+    }
+  ],
+  "steps": [
+    "Vom Grünkohl die Blätter abzupfen, waschen und trocken schleudern.",
+    "Für die Marinade 3El Olivenöl, Salz und Gewürze mischen.",
+    "Den Grünkohl damit marinieren.",
+    "Den Grünkohl auf einem Backblech verteilen und bei 160C Umluft ca 25min backen.",
+    "Während dem Backen ab und zu den Ofen öffnen damit die Feuchtigkeit entweicht."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/2065201333923104/Gruenkohlchips.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"
+  },
+  "images": [
+    "gruenkohlchips.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

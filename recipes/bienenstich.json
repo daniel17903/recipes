@@ -1,0 +1,127 @@
+{
+  "id": "bienenstich",
+  "title": "Bienenstich",
+  "category": "Torten",
+  "yield": {
+    "amount": 46,
+    "unit": "cm Form"
+  },
+  "ingredients": [
+    {
+      "group": "Hefeteig",
+      "amount": 250,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 40,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 20,
+      "unit": "g",
+      "name": "frische Hefe"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 4,
+      "unit": "g",
+      "name": "Salz"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 75,
+      "unit": "ml",
+      "name": "Pflanzendrink"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 60,
+      "unit": "g",
+      "name": "Sojayoghurt natur"
+    },
+    {
+      "group": "Hefeteig",
+      "amount": 60,
+      "unit": "g",
+      "name": "Margarine, weich"
+    },
+    {
+      "group": "Röstmasse",
+      "amount": 50,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Röstmasse",
+      "amount": 30,
+      "unit": "g",
+      "name": "Agavendicksaft"
+    },
+    {
+      "group": "Röstmasse",
+      "amount": 30,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": "Röstmasse",
+      "amount": 80,
+      "unit": "g",
+      "name": "Pflanzensahne"
+    },
+    {
+      "group": "Röstmasse",
+      "amount": 100,
+      "unit": "g",
+      "name": "Mandelblättchen"
+    },
+    {
+      "group": "Creme",
+      "amount": 800,
+      "unit": "ml",
+      "name": "Sojasahne"
+    },
+    {
+      "group": "Creme",
+      "amount": 12,
+      "unit": "g",
+      "name": "Agar Agar",
+      "note": "entspricht 4 TL"
+    },
+    {
+      "group": "Creme",
+      "amount": 20,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Creme",
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten für den Hefeteig verkneten, kann einige Minuten dauern.",
+    "Falls zu feutch / klebrig noch etwas mehr Mehl dazugeben.",
+    "Bei Raumtemperatur 1-2h gehen lassen.",
+    "Für die Röstmasse alles außer den Mandelblättchen in einem Topf aufkochen.",
+    "Mandelblättchen dazugeben und weitere 5min unter Rühren erhitzen, bis die Masse karamellisiert.",
+    "Sie sollte nicht zu dunkel werden, da sie anschließend noch gebacken wird.",
+    "Wenn sie später abkühlt, wird die Konsistenz fester.",
+    "Den Hefeteig in die Springform geben und die Röstmasse heiß darauf verteilen (wird abgekühlt zu fest).",
+    "Bei 210C Ober- Unterhitze mit Wasserdampf 15-20min goldgelb backen.",
+    "Vollständig abkühlen lassen und in zwei Böden schneiden.",
+    "Die Creme zubereiten (siehe anderes Rezept) und noch leicht warm auf dem unteren Biskuit gießen.",
+    "Den oberen Biskuit zuerst in 12 Stücke schneiden und dann darauf legen.",
+    "Dann kühlen."
+  ],
+  "images": [
+    "bienenstich.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

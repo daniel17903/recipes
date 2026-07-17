@@ -1,0 +1,51 @@
+{
+  "id": "schokopudding",
+  "title": "Schokopudding",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Speisestärke"
+    },
+    {
+      "group": null,
+      "amount": 32,
+      "unit": "g",
+      "name": "Kakao",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Schokolade"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht 1 EL"
+    }
+  ],
+  "steps": [
+    "Etwas von der Pflanzenmilch mit der Speisestärke und dem Kakao glatt anrühren.",
+    "Die restliche Pflanzenmilch mit dem Zucker aufkochen.",
+    "Die angerührte Stärke einrühren und unter Rühren kurz aufkochen, bis der Pudding andickt.",
+    "Die Schokolade darin schmelzen, in Schälchen füllen und abkühlen lassen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

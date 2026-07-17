@@ -1,0 +1,153 @@
+{
+  "id": "pizzabroetchen",
+  "title": "Pizzabrötchen",
+  "category": "Brot",
+  "yield": {
+    "amount": 9,
+    "unit": "brötchen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Teig"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "lauwarmes Wasser"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 21,
+      "unit": "g",
+      "name": "frische Hefe oder 7 g Trockenhefe"
+    },
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Füllung"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Räuchertofu"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Sojasauce",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "Stück",
+      "name": "Tropfen Liquid Smoke (optional)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "rote Paprika"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "Stück",
+      "name": "getrocknete Tomaten"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "Stück",
+      "name": "Oliven"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "getrochneter Oregano",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Thymian",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz&Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zusätzlich"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Marinara Dip oder Hummus"
+    }
+  ],
+  "steps": [
+    "In einer kleinen Schüssel das lauwarme Wasser mit Zucker und Salz verrühren.",
+    "Die Hefe hinzugeben bzw. hineinbröseln und verrühren.",
+    "In eine große Schüssel das Mehl geben und die aufgelöste Hefe hingeben.",
+    "Ohne umzurühren etwa 10 Minuten warten und die Hefe langsam aktivieren lassen.",
+    "Im Anschluss den Teig gut kneten, mit einem feuchten Tuch abdecken und an einem warmen Ort 45 Minuten gehen lassen.",
+    "In der Zwischenzeit die Füllung vorbereiten.",
+    "Dafür den Räuchertofu in kleine Würfel schneiden und in einer Pfanne mit Öl kräftig anbraten.",
+    "Nach etwa 2 Minuten die Sojasauce und das Liquid Smoke hinzufügen und weitere 4-5 Minuten braten.",
+    "Danach zur Seite stellen.",
+    "Die Paprika waschen und in kleine Würfel schneiden.",
+    "Die gerockneten Tomaten und Oliven abtropfen lassen und ebenfalls klein schneiden.",
+    "Wenn der Teig aufgegangen ist, die Füllung und alle Gewürze mit zum Teig geben und unterkneten.",
+    "Den Teig in 8-10 gleichmäßig große Kugeln formen und in einer Auflaufform oder gusseisernern Pfanne platzieren.",
+    "Diese sollten zuvor gut eingettet werden.",
+    "Mit einem Küchentuch abdecken und nochmals mind.",
+    "30 Minuten an einem warmen Ort gehen lassen.",
+    "Den Ofen auf 180°C Umluft vorheizen.",
+    "Bei 180°C ca.",
+    "30 Minuten im Ofen backen, bis die Pizzabrötchen goldbraun sind.",
+    "Mit Marinara-Dip noch warm aus dem Ofen servieren."
+  ],
+  "source": {
+    "url": "https://www.zuckerjagdwurst.com/de/rezepte/vegane-pizzabroetchen"
+  },
+  "images": [
+    "pizzabroetchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

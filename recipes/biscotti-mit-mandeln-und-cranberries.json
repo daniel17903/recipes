@@ -1,0 +1,91 @@
+{
+  "id": "biscotti-mit-mandeln-und-cranberries",
+  "title": "Biscotti mit Mandeln und Cranberries",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 20,
+    "unit": "Stück"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "ml",
+      "name": "Pflanzenmilch",
+      "note": "mit Raumtemperatur"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "neutrales Öl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "abgeriebene Schale von 1–2 Orangen oder Zitronen"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
+    },
+    {
+      "group": null,
+      "amount": 275,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1/4 TL"
+    },
+    {
+      "group": null,
+      "amount": 75,
+      "unit": "g",
+      "name": "ganze Mandeln oder andere Nüsse"
+    },
+    {
+      "group": null,
+      "amount": 65,
+      "unit": "g",
+      "name": "getrocknete Cranberries oder andere Trockenfrüchte"
+    }
+  ],
+  "steps": [
+    "Den Ofen auf 180 °C vorheizen.",
+    "Alle Zutaten außer Mandeln und Cranberries zu einem Teig verkneten.",
+    "Mandeln und Cranberries zugeben und unterkneten.",
+    "Aus dem Teig zwei flache Laibe formen und auf ein mit Backpapier belegtes Blech legen.",
+    "Etwa 25 Minuten backen, bis die Laibe fest sind, dann kurz abkühlen lassen.",
+    "Die Laibe in fingerdicke Scheiben schneiden, diese flach aufs Blech legen.",
+    "Bei 150 °C weitere 15–20 Minuten backen, dabei einmal wenden, bis die Biscotti knusprig sind."
+  ],
+  "source": {
+    "url": "https://domesticgothess.com/blog/2019/12/14/vegan-biscotti/"
+  },
+  "images": [
+    "biscotti-mit-mandeln-und-cranberries.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

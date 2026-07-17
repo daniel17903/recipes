@@ -1,0 +1,65 @@
+{
+  "id": "saftiges-vollkornbrot",
+  "title": "Saftiges Vollkornbrot",
+  "category": "Brot",
+  "yield": {
+    "amount": 1,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Dinkelvollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Kerne, gemischte nach Wahl (z.B. Kürbiskerne, Leinsamen, Sonnenblumenkerne etc.)"
+    },
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "ml",
+      "name": "Wasser"
+    },
+    {
+      "group": null,
+      "amount": 0.75,
+      "unit": "Stück",
+      "name": "Würfel Hefe"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Obstessig, z.B. Apfelessig",
+      "note": "entspricht 2 EL"
+    }
+  ],
+  "steps": [
+    "Hefe im Wasser auflösen.",
+    "Die Zutaten in der genannten Reihenfolge mischen und in der Küchenmaschine oder mit dem Rührgerät mit den Knethaken zu einem Teig verarbeiten.",
+    "30min abgedeckt gehen lassen.",
+    "In eine mit Backpapier ausgelegt Kastenform (meine ist 30 cm lang und 15 cm breit) füllen.",
+    "Wenn das Papier am Rand zerknüllt ist, macht das gar nichts.",
+    "Dann die Form in den kalten (!) Backofen auf den Rost in die Mitte stellen und bei Ober-/Unterhitze 200°C eine Stunde backen.",
+    "Das Brot ist sehr schnell zu machen, superlecker und lange saftig."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/1344331239198800/Saftiges-Vollkornbrot.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"
+  },
+  "images": [
+    "saftiges-vollkornbrot.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

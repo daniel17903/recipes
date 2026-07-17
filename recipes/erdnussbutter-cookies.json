@@ -1,0 +1,66 @@
+{
+  "id": "erdnussbutter-cookies",
+  "title": "Erdnussbutter Cookies",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 240,
+      "unit": "g",
+      "name": "Weizenmehl 405 oder Dinkelmehl 630"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 4.5,
+      "unit": "g",
+      "name": "Natron gehäuft",
+      "note": "entspricht 1,5 TL"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 300,
+      "unit": "g",
+      "name": "Erdnussbutter, crunchy"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": null,
+      "amount": 75,
+      "unit": "g",
+      "name": "Erdnüsse"
+    }
+  ],
+  "steps": [
+    "Mehl, Zucker, Natron und Salz vermengen.",
+    "Erdnussbutter und Pflanzenmilch zugeben und zu einem Teig verkneten, die Erdnüsse unterkneten.",
+    "Aus dem Teig Kugeln formen, auf ein Blech setzen und flach drücken.",
+    "Bei 180 °C etwa 12–15 Minuten backen, bis die Ränder goldbraun sind. Auf dem Blech fest werden lassen."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "images": [
+    "erdnussbutter-cookies.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

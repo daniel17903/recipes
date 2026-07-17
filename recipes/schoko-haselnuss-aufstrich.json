@@ -1,0 +1,63 @@
+{
+  "id": "schoko-haselnuss-aufstrich",
+  "title": "Schoko Haselnuss Aufstrich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Haselnüsse"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Sonnenblumenkerne"
+    },
+    {
+      "group": null,
+      "amount": 160,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Wasser"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Öl"
+    },
+    {
+      "group": null,
+      "amount": 16,
+      "unit": "g",
+      "name": "gehäuft Kakao",
+      "note": "2-3; entspricht 2-3 EL"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 1/2 TL"
+    }
+  ],
+  "steps": [
+    "Datteln bei Bedarf in warmem Wasser einweichen.",
+    "Haselnüsse und Sonnenblumenkerne fein mahlen.",
+    "Mit Datteln, Wasser, Öl, Kakao und Zimt zu einer glatten, streichfähigen Creme pürieren.",
+    "In ein Glas füllen und kühl aufbewahren."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

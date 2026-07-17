@@ -1,0 +1,73 @@
+{
+  "id": "hummus",
+  "title": "Hummus",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Kichererbsen"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Zehe",
+      "name": "Knoblauch",
+      "note": "1 bis 2"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Saft einer halben Zitrone"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Olivenöl (falls nicht zu bitter) oder neutrales Öl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 18,
+      "unit": "g",
+      "name": "Tahini (Sesammus)",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kreuzkümmel"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "evtl frische Kräuter"
+    }
+  ],
+  "steps": [
+    "Seihe die Kichererbsen aus der Dose ab und lass diese kurz abtrocknen.",
+    "Falls du getrocknete Kichererbsen benutzt, musst du diese zuerst für zwölf Stunden in Wasser einweichen und anschließend für eine Stunde kochen.",
+    "Schneide den Knoblauch klein oder presse ihn mit einer Knoblauchpresse.",
+    "Gib ihn zu den Kichererbsen hinzu.",
+    "Gib alle weiteren Zutaten hinzu.",
+    "Püriere so lange, bis du eine weiche Masse ohne Klumpen erhälst.",
+    "Falls die Konsistenz zu dick ist, gib einfach noch etwas Zitronensaft oder Wasser hinzu.",
+    "Optional: Dekoriere den Hummus mit frischer Petersilie, Olivenöl und Paprikapulver."
+  ],
+  "source": {
+    "url": "https://utopia.de/ratgeber/hummus-selber-machen-ein-einfaches-rezept/"
+  },
+  "images": [
+    "hummus.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

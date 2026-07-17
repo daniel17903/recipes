@@ -1,0 +1,107 @@
+{
+  "id": "pasta-mit-brokkoli",
+  "title": "Pasta Mit Brokkoli",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 2,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Pinienkerne oder 150g Cashewkerne"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "Stück",
+      "name": "Knoblauchzehe(n)"
+    },
+    {
+      "group": null,
+      "amount": 800,
+      "unit": "g",
+      "name": "Brokkoli"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Bund",
+      "name": "Petersilie, glatte"
+    },
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "g",
+      "name": "Muschelnudeln"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "g",
+      "name": "Sultaninen"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Bio-Zitronenschale, fein geriebene",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Saft einer Zitrone"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Chiliflocken, getrocknete"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Hefeflocken"
+    }
+  ],
+  "steps": [
+    "Pinienkerne in einer Pfanne ohne Fett goldbraun rösten und herausnehmen.",
+    "Knoblauch in feine Scheiben schneiden.",
+    "Brokkoli putzen und von vorne Richtung Strunk in 1 cm dicke Scheiben schneiden.",
+    "Strunk schälen und klein schneiden.",
+    "Petersilienblätter von den Stielen zupfen und hacken.",
+    "Nudeln in reichlich kochendem Salzwasser nach Packungsanleitung bissfest kochen.",
+    "3 Min. vor Ende der Garzeit den Brokkoli zugeben.3 EL Öl in einer großen Pfanne erhitzen.",
+    "Knoblauch und Sultaninen darin bei mittlerer Hitze 2 Min. dünsten.",
+    "100 ml Nudelkochwasser abschöpfen, zu der Knoblauchmischung gießen und aufkochen lassen.",
+    "Nudeln und Brokkoli abgießen.",
+    "In der Pfanne mit der Knoblauch-Öl-Mischung vermengen.",
+    "Mit Zitronenschale und –saft, Salz und Chiliflocken abschmecken.",
+    "Mit 1 EL Öl beträufeln und mit Pinienkernen, Petersilie und Parmesan bestreut servieren."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/2520541395236214/Pasta-mit-Brokkoli.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"
+  },
+  "images": [
+    "pasta-mit-brokkoli.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

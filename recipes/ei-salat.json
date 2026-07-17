@@ -1,0 +1,76 @@
+{
+  "id": "ei-salat",
+  "title": "Ei Salat",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "g",
+      "name": "Sojamilch"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "neutrales Öl"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Zitronensaft oder Weißwein- oder Apfelessig",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Senf",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "g",
+      "name": "Kurkuma",
+      "note": "entspricht 1/4 TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "gestrichen Kala Namak",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Kichererbsen"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "g",
+      "name": "Nudeln"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Schnittlauch"
+    }
+  ],
+  "steps": [
+    "Für die Mayonnaise Sojamilch, Öl, Zitronensaft, Senf, Kurkuma und Kala Namak mit dem Pürierstab zu einer cremigen Masse aufmixen.",
+    "Nudeln nach Packungsangabe garen und abkühlen lassen; Kichererbsen abgießen und leicht zerdrücken.",
+    "Nudeln, Kichererbsen und gehackten Schnittlauch mit der Mayonnaise vermengen und abschmecken."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

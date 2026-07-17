@@ -1,0 +1,78 @@
+{
+  "id": "suesskartoffel-brownies",
+  "title": "Süßkartoffel Brownies",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "cm Form"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 450,
+      "unit": "g",
+      "name": "geschälte Süßkartoffeln"
+    },
+    {
+      "group": null,
+      "amount": 130,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Banane"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "ml",
+      "name": "Öl",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Haferflocken"
+    },
+    {
+      "group": null,
+      "amount": 16,
+      "unit": "g",
+      "name": "Kakao",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "gehackte Schokolade 70%"
+    },
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 2 TL"
+    }
+  ],
+  "steps": [
+    "Süßkartoffel würfeln und 10min kochen bis sie weich ist.",
+    "Datteln in heißem Wasser einweichen.",
+    "Datteln, Süßkartoffeln und Banane pürieren.",
+    "Mit den restlichen Zutaten verrühren und bei 175C ca 40min backen."
+  ],
+  "source": {
+    "url": "https://www.backenmachtgluecklich.de/rezepte/gesunde-suesskartoffel-brownies-vegan-zuckerfrei.html"
+  },
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kichererbsen",
+  "title": "Kichererbsen",
+  "category": "Raclette",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kichererbsen"
+    }
+  ],
+  "steps": [
+    "Getrocknete Kichererbsen über Nacht in reichlich Wasser einweichen.",
+    "Abgießen, mit frischem Wasser bedecken und etwa 1 Stunde weich kochen. Alternativ Kichererbsen aus der Dose verwenden."
+  ],
+  "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
+  "dateAdded": "2026-07-17"
+}

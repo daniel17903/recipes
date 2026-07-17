@@ -1,0 +1,116 @@
+{
+  "id": "dattel-aprikose-zopf",
+  "title": "Dattel-Aprikose-Zopf",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 6,
+    "unit": "portions"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "ml",
+      "name": "Sojadrink"
+    },
+    {
+      "group": null,
+      "amount": 70,
+      "unit": "g",
+      "name": "Pflanzenmargarine"
+    },
+    {
+      "group": null,
+      "amount": 500,
+      "unit": "g",
+      "name": "Weizenmehl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 0.25 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Würfel Frischhefe"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "g",
+      "name": "Aprikosen, getrocknet"
+    },
+    {
+      "group": null,
+      "amount": 65,
+      "unit": "g",
+      "name": "Walnusskerne, grob gehackt"
+    },
+    {
+      "group": null,
+      "amount": 65,
+      "unit": "g",
+      "name": "Gemahlene Nüsse (Hasel- oder Walnüsse)"
+    },
+    {
+      "group": null,
+      "amount": 125,
+      "unit": "ml",
+      "name": "Sojadrink Vanille"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "große Zitrone, Schalenabrieb"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Rum, optional",
+      "note": "2-3; entspricht 2-3 EL"
+    }
+  ],
+  "steps": [
+    "Sojadrink und Pflanzenmargarine zusammen bei kleiner Hitze erwärmen (nicht aufkochen lassen), bis die Pflanzenbutter geschmolzen vollständig im Pflanzendrink aufgelöst ist.",
+    "Mehl in eine Rührschüssel geben, Salz untermischen und eine größere Mulde in die Mitte drücken.",
+    "Frischhefe in die Mulde bröseln, Zucker darüber streuen und vorsichtig die warme Soja-Alsan-Mischung aufgießen.",
+    "Rührschüssel mit einem sauberen, trockenen Tuch bedecken und den Vorteig so etwa 30 Min. an einem warmen Ort hochgehen lassen.",
+    "Nach der Ruhezeit alle Hefeteig-Zutaten in der Schüssel gründlich verkneten, zunächst mit dem Handrührgerät (Knethaken) und schließlich nochmals 5 Min. mit den Händen auf einer bemehlten Arbeitsplatte.",
+    "Teig zu einer Kugel kneten und abgedeckt in der Schüssel weitere 30-40 Minuten ruhen lassen.",
+    "Inzwischen die Fülle für den Zopf vorbereiten: dazu die Datteln grob stückeln und im Mixer möglichst fein pürieren.",
+    "Getrocknete Aprikosen fein würfeln.",
+    "Grob gehackte Walnusskerne, gemahlene Nüsse, Dattelmus, Aprikosenstücke und Schalenabrieb von einer Zitrone in einer Schüssel mischen.",
+    "Lauwarmen Vanille-Sojadrink zugeben und alle Zutaten und zu einer homogenen Masse kneten.",
+    "Optional kann mit etwas Rum abgeschmeckt werden.",
+    "Fertigen Hefeteig auf etwa Backblechgröße ausrollen und die Dattel-Aprikose-Nussfüllung gleichmäßig auf der Oberfläche verstreichen, schließlich den bestrichenen Teig von der Längsseite her aufrollen.",
+    "Rolle mittig der Länge nach durchschneiden, sodass zwei lange Stränge entstehen (die Rolle am oberen Ende nicht vollständig durchtrennen, sodass die Stränge an einem Ende zusammenhängend bleiben) und diese umeinander eindrehen: jeweils einen Strang über den anderen legen, sodass die Schichtung sichtbar ist.",
+    "Den fertigen Zopf vorsichtig auf ein mit Backpapier belegtes Blech legen und im vorgeheizten Backofen bei 180°C ca.",
+    "30-40 Minuten goldbraun backen.",
+    "Alle Zutaten für den Guss gründlich miteinander glatt rühren und den ofenwarmen Dattel-Aprikose-Zopf mit der Zuckerglasur bestreichen."
+  ],
+  "source": {
+    "url": "https://www.velivery.com/de/rezepte/kuchen-gebaeck/dattel-aprikose-zopf"
+  },
+  "images": [
+    "dattel-aprikose-zopf.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

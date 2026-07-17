@@ -1,0 +1,122 @@
+{
+  "id": "kuerbiskuchen",
+  "title": "Kürbiskuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 110,
+      "unit": "g",
+      "name": "Vollkornmehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 80,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 130,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 3,
+      "unit": "g",
+      "name": "Natron",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1/4 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "g",
+      "name": "gemahlener Ingwer",
+      "note": "entspricht 1/4 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "g",
+      "name": "Muskatnuss",
+      "note": "entspricht 1/4 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Teig",
+      "amount": 250,
+      "unit": "g",
+      "name": "Kürbis"
+    },
+    {
+      "group": "Teig",
+      "amount": 125,
+      "unit": "ml",
+      "name": "Öl"
+    },
+    {
+      "group": "Teig",
+      "amount": 85,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": "Dattelcreme",
+      "amount": 60,
+      "unit": "g",
+      "name": "Datteln"
+    },
+    {
+      "group": "Dattelcreme",
+      "amount": 45,
+      "unit": "ml",
+      "name": "Pflanzenmilch",
+      "note": "3-4; entspricht 3-4 EL"
+    },
+    {
+      "group": "Dattelcreme",
+      "amount": 24,
+      "unit": "g",
+      "name": "Kakaopulver",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": "Dattelcreme",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    }
+  ],
+  "steps": [
+    "Für das Kürbispüree den Kürbis bei 220C für 40-50min backen, bis er sehr weich ist.",
+    "Dann entkernen und pürieren.",
+    "Für den Teig alle Zutaten mischen, zuerst mit etwas weniger Flüssigkeit.",
+    "Dann in einer Kastenform bei 175C für 45-60min backen.",
+    "Für die Dattelcreme die Datteln ca 20min in heißem Wasser einweichen, dann alles pürieren und über den abgekühlten Kuchen streichen."
+  ],
+  "dateAdded": "2026-07-17"
+}

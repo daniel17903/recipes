@@ -1,0 +1,91 @@
+{
+  "id": "rhabarber-blechkuchen",
+  "title": "Rhabarber-Blechkuchen",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "standardbackblech ( x  cm)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1000,
+      "unit": "g",
+      "name": "Rhabarber"
+    },
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "Stück",
+      "name": "Pack. Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "etwas Vanille"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "etwas Stärke"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Mandeln oder Haselnüsse (gemahlen)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "ca! 180 ml Sprudel"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "ca !120 ml Öl (geschmacksneutral)"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Mandeln oder Haselnüsse (gehobelt)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Mohn optional"
+    }
+  ],
+  "steps": [
+    "Rhabarber waschen, schälen und in ca 1cm lange Stücke schneiden.",
+    "In eine Schüssel füllen und mit etwas Stärke und Zucker mischen.",
+    "Die restlichen Zutaten zu einem Teig mischen.",
+    "Teig in Backblech füllen und den Rhabarber, die gehobelten Nüsse und den Mohn gleichmäßig darauf verteilen.",
+    "Bei 170C Umluft ca 45min backen."
+  ],
+  "source": {
+    "url": "https://vegan-taste-week.de/vegane-rezepte/rhabarber-blechkuchen"
+  },
+  "images": [
+    "rhabarber-blechkuchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

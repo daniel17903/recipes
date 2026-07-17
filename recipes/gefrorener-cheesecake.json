@@ -1,0 +1,83 @@
+{
+  "id": "gefrorener-cheesecake",
+  "title": "Gefrorener Cheesecake",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "18cm-Springform"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Bananen"
+    },
+    {
+      "group": null,
+      "amount": 325,
+      "unit": "g",
+      "name": "Heidelbeeren",
+      "note": "plus ein paar zur Deko"
+    },
+    {
+      "group": null,
+      "amount": 275,
+      "unit": "g",
+      "name": "Cashewkerne"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Datteln",
+      "note": "entsteint; plus 3 weitere für Schicht 3"
+    },
+    {
+      "group": null,
+      "amount": 30,
+      "unit": "g",
+      "name": "Kokosraspel"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "ml",
+      "name": "Ahornsirup",
+      "note": "plus 1 EL für Schicht 3"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Zitronensaft",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zitronenscheiben",
+      "note": "nach Belieben"
+    }
+  ],
+  "steps": [
+    "Schicht 1: 200 g Datteln einweichen und pürieren, bei Bedarf mit etwas Einweichwasser. Mit den gemahlenen Mandeln und den Kokosraspeln verkneten, in die Form drücken und einfrieren.",
+    "Schicht 2: Bananen mit den Cashews, dem Ahornsirup und dem Zitronensaft cremig pürieren. Drei Viertel davon auf den Boden geben, 50 g Heidelbeeren hineindrücken und erneut einfrieren.",
+    "Schicht 3: Die restliche Creme mit Heidelbeeren, 3 Datteln und 1 EL Ahornsirup pürieren, aufstreichen und mit Kokosraspeln bestreuen. Wieder einfrieren.",
+    "Vor dem Servieren 20–30 Minuten antauen lassen und mit Heidelbeeren und Zitronenscheiben dekorieren."
+  ],
+  "source": {
+    "url": "https://www.lecker.de/frozen-cheesecake-triple-delight-84647.html"
+  },
+  "images": [
+    "gefrorener-cheesecake.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

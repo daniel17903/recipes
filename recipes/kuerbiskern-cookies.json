@@ -1,0 +1,80 @@
+{
+  "id": "kuerbiskern-cookies",
+  "title": "Kürbiskern Cookies",
+  "category": "Kekse",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Kürbiskerne"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Leinsamenei (1 EL Leinsamen, geschrotet + 3 EL heisses Wasser - 10 Minuten quellen lassen)"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Birkenzucker (oder Zucker nach Wahl)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "vegane Butter"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Ca 60 g Mehl nach wahl (bei mir Mandelmehl)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Zum Verzieren",
+      "amount": 80,
+      "unit": "g",
+      "name": "Zartbitterschokolade"
+    },
+    {
+      "group": "Zum Verzieren",
+      "amount": null,
+      "unit": null,
+      "name": "Kürbiskerne und / oder Pistazien, gehackt"
+    }
+  ],
+  "steps": [
+    "Kürbiskerne in der Pfanne ohne Öl rösten.",
+    "Dabei ständig umrühren, damit nichts verbrennt.",
+    "Die gerösteten Kürbiskerne mit einer Küchenmaschine fein mahlen.",
+    "Restlichen Zutaten beigeben und zu einem Teig vermengen.",
+    "Zu einer Rolle formen und im Kühlschrank ca 30 Minuten ruhen lassen.",
+    "Den Ofen 175°C Umluft vorheizen.",
+    "Von der Rolle ca 15 Cookies schneiden.",
+    "8 Minuten backen und auf dem Blech komplett abkühlen lassen.",
+    "Mit Zartbitterschokolade und Kurbiskernsplitter zur Hälfte dekorieren."
+  ],
+  "images": [
+    "kuerbiskern-cookies.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

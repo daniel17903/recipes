@@ -1,0 +1,96 @@
+{
+  "id": "blumenkohl-weisse-bohnen-pueree",
+  "title": "Blumenkohl Weiße Bohnen Püree",
+  "category": "Suppen",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Knoblauchzehe"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Lauch"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Blumenkohl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Kartoffel"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "weiße Bohnen"
+    },
+    {
+      "group": null,
+      "amount": 600,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Hefeflocken"
+    },
+    {
+      "group": null,
+      "amount": 18,
+      "unit": "g",
+      "name": "Haselnussmus",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Birne"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Thymian"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kreuzkümmel"
+    }
+  ],
+  "steps": [
+    "Lauch und Blumenkohl waschen.",
+    "Zwiebel, Lauch und Blumenkohl schneiden.",
+    "Die Kartoffel schälen und klein schneiden.",
+    "In einem großen Topf die Zwiebeln und den Lauch einige Minuten dünsten.",
+    "Dann das restliche Gemüse einige Minuten mit anbraten.",
+    "Die Gemüsebrühe hinzufügen und ca 10min kochen lassen bis die Kartoffeln und der Blumenkohl weich sind.",
+    "Die Bohnen aus der Dose abtropfen und dazugeben, dann alles pürieren.",
+    "Das Haselnussmus und die klein geschnittene Birne unterrühren.",
+    "Etwas Olivenöl dazugeben und alles mit Salz, Pfeffer, Thymian, Kreuzkümmel und Hefeflocken würzen."
+  ],
+  "dateAdded": "2026-07-17"
+}

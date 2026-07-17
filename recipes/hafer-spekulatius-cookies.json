@@ -1,0 +1,108 @@
+{
+  "id": "hafer-spekulatius-cookies",
+  "title": "Hafer-Spekulatius-Cookies",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 20,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Leinsamen (gemahlen)",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Cranberries (getrocknet)",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "g",
+      "name": "feine Haferflocken"
+    },
+    {
+      "group": null,
+      "amount": 110,
+      "unit": "g",
+      "name": "Dinkelmehl (Type 630)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Pck.",
+      "name": "Vanillezucker"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 9,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 3 TL"
+    },
+    {
+      "group": null,
+      "amount": 12,
+      "unit": "g",
+      "name": "Spekulatiusgewürz",
+      "note": "entspricht 4 TL"
+    },
+    {
+      "group": null,
+      "amount": 40,
+      "unit": "g",
+      "name": "Mandelblättchen",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 160,
+      "unit": "g",
+      "name": "geschmacksneutrales Öl zum Backen (z.B. Rapsöl)"
+    },
+    {
+      "group": null,
+      "amount": 80,
+      "unit": "g",
+      "name": "Ahornsirup*",
+      "note": "entspricht 4 EL"
+    }
+  ],
+  "steps": [
+    "Leinsamen mit der dreifachen Menge Wasser verquirlen und für 5 Minuten quellen lassen.",
+    "Cranberries grob hacken.",
+    "In der Zwischenzeit Haferflocken, Mehl, Backpulver, Vanillezucker, Salz, Zimt, Spekulatiusgewürz und Mandelblättchen in eine Schüssel geben und mit einem Löffel vermengen.",
+    "Anschließend gequollene Leinsamen, Rapsöl, Ahornsirup und Cranberries unterheben.",
+    "Den Teig mit einem Löffel portionsweise abnehmen und mit den Händen zu Kugeln formen.",
+    "Die Kugeln mit etwas Abstand auf ein mit Backpapier belegtes Backblech legen, mit der Hand leicht andrücken und in Cookie-Form bringen.",
+    "Verwende je nach gewünschter Cookiegröße etwa die Menge, die auf einen gehäuften Teelöffel passt - oder etwas mehr für größere Cookies.",
+    "Die Hafer-Spekulatius-Cookies bei 180° C Ober-Unterhitze für ca.",
+    "15-20 Minuten im Backofen backen, bis die Kruste goldbraun ist.",
+    "Anschließend komplett abkühlen lassen und bis zum Verzehr in einer luftdichten Plätzchendose aufbewahren."
+  ],
+  "source": {
+    "url": "https://www.bevegt.de/hafer-spekulatius-cookies/"
+  },
+  "images": [
+    "hafer-spekulatius-cookies.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "leberwurst-aufstrich",
+  "title": "Leberwurst Aufstrich",
+  "category": "Aufstriche",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Dose",
+      "name": "Kidneybohnen"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Räuchertofu (guten)"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "kleine Zwiebel"
+    },
+    {
+      "group": null,
+      "amount": 45,
+      "unit": "ml",
+      "name": "neutrales ÖL",
+      "note": "entspricht 3 EL"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Majoran",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 15,
+      "unit": "ml",
+      "name": "Wasser",
+      "note": "1-4; entspricht 1-4 EL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Tomatenmark"
+    }
+  ],
+  "steps": [
+    "Räuchertofu und Zwiebel klein schneiden und anbraten, bis alles leicht braun ist.",
+    "Majoran 1min mitbraten.",
+    "Alles pürieren."
+  ],
+  "dateAdded": "2026-07-17"
+}

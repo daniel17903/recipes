@@ -1,0 +1,96 @@
+{
+  "id": "kuerbis-rosenkohl-maronen-pfanne",
+  "title": "Kürbis-Rosenkohl-Maronen-Pfanne",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 4,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 600,
+      "unit": "g",
+      "name": "Rosenkohl, TK oder frisch"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "großer Hokkaidokürbis(se), ca. 800 g, gewürfelt"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Marone(n), geschält, gekocht (vakuumiert)"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "Zwiebel(n), gehackt"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "ml",
+      "name": "Wasser, evtl. auch mehr"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "ml",
+      "name": "Öl",
+      "note": "entspricht 4 EL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Butter oder Margarine bzw. anderer pflanzlicher Butterersatz"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz und Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Cranberries"
+    }
+  ],
+  "steps": [
+    "Kürbiswürfel mit 2 EL Öl und 1 TL Salz vermischen und auf einem vorbereiteten Backblech ausbreiten.",
+    "Bei 200 °C Ober-/Unterhitze in ca.",
+    "20 - 30 min im Ofen backen, bis der Kürbis weich ist und etwas Farbe angenommen hat.",
+    "Inzwischen den Rosenkohl in kochendem Salzwasser in ca.",
+    "10 min bissfest garen.",
+    "Mit kaltem Wasser abschrecken und abtropfen lassen.Die Zwiebeln in einer großen hohen Pfanne (mit passendem Deckel) in dem restlichen Öl mit etwas Salz glasig dünsten.",
+    "50 ml Wasser zufügen und mit geschlossenem Deckel ca.",
+    "10 min köcheln lassen.",
+    "Die Vakuum-Verpackung der Maronen mehrmals einstechen und die Maronen 2 min in der Mikrowelle erhitzen (alternativ: mit den Zwiebeln in der Pfanne köcheln), anschließend zu den Zwiebeln in die Pfanne geben.",
+    "Butter und Zucker zufügen und pfeffern.",
+    "Rosenkohl und eventuell noch etwas Wasser zufügen und alles vermischen.",
+    "Den Deckel auflegen und noch ca.",
+    "5 min erhitzen.Zum Schluss den Kürbis unterheben.",
+    "Mit Salz und Pfeffer abschmecken."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/3580011537730273/Kuerbis-Rosenkohl-Maronen-Pfanne.html"
+  },
+  "images": [
+    "kuerbis-rosenkohl-maronen-pfanne.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

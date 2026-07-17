@@ -1,0 +1,79 @@
+{
+  "id": "dampfnudeln",
+  "title": "Dampfnudeln",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 4,
+    "unit": "portion(en)"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 750,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Würfel Hefe"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Prise(n) Zucker"
+    },
+    {
+      "group": null,
+      "amount": 350,
+      "unit": "ml",
+      "name": "Pflanzenmilch"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Margarine"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "etwas Öl"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Prise(n) Salz"
+    }
+  ],
+  "steps": [
+    "Hefe mit etwas Milch und Zucker zum Vorteig verarbeiten und zugedeckt an einem warmen Ort etwa 10 Min. gehen lassen.",
+    "Dann mit Mehl, Milch, Salz und Butter zum Gesamtteig verarbeiten.",
+    "Nochmals 30 Min. gehen lassen.",
+    "Etwa 5 - 6 cm große Kugeln formen und diese nochmals 10 Min. gehen lassen.",
+    "Dann Öl und etwas Salz in die Pfanne geben, die geformten Dampfnudeln hinein legen.",
+    "Eine halbe Tasse lauwarmes Wasser dazugießen und ca. eine halbe Stunde bei mittlerer Temperatur gut zugedeckt backen.",
+    "Wichtig: Dabei den Deckel nicht öffnen, damit die Dampfnudeln nicht zusammenfallen!!!",
+    "Wer die Kruste besonders liebt, kann nach Ende der Backzeit die Dampfnudeln auch wenden und so \"beidseitige\" Dampfnudeln backen.",
+    "Dazu entweder als herzhafte Variante Suppe (z.B.",
+    "Kartoffelsuppe) reichen oder als süße Variante Vanillesauce oder Fruchtkompott."
+  ],
+  "source": {
+    "url": "https://www.chefkoch.de/rezepte/410111130856783/Omas-Dampfnudeln-ohne-Eier.html"
+  },
+  "images": [
+    "dampfnudeln.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

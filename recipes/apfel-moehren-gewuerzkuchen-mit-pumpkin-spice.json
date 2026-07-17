@@ -1,0 +1,117 @@
+{
+  "id": "apfel-moehren-gewuerzkuchen-mit-pumpkin-spice",
+  "title": "Apfel-Möhren-Gewürzkuchen mit Pumpkin Spice",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 1,
+    "unit": "standardbackblech ca. xcm"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 6,
+      "unit": "Stück",
+      "name": "mittelgroße Äpfel (ca 440 g)"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": 2,
+      "unit": "Stück",
+      "name": "mittelgroße Möhren (ca. 180 g)"
+    },
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "ml",
+      "name": "Apfelsaft oder einfach Wasser"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "ml",
+      "name": "geschmacksneutrales Öl"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Apfelmus/ Apfelmark"
+    },
+    {
+      "group": null,
+      "amount": 16,
+      "unit": "g",
+      "name": "Pumpkin Spice (oder 1 EL Zimt, 1½ TL Muskat, ½ zerstoße Nelke oder 1 Prise Nelkenpulver, ½ TL Ingerpulver, ¼ TL Pfeffer)",
+      "note": "entspricht 2 EL"
+    },
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Weizenmehl, gerne auch Weizenvollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": 12,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 4 TL"
+    },
+    {
+      "group": "Optional",
+      "amount": 80,
+      "unit": "g",
+      "name": "Rosinen (dann kann gerne die Zuckermenge um 80 g reduziert werden)"
+    },
+    {
+      "group": "Optional",
+      "amount": 10,
+      "unit": "g",
+      "name": "Rum",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": "Optional",
+      "amount": null,
+      "unit": null,
+      "name": "Etwas warmes Wasser"
+    },
+    {
+      "group": "Optional",
+      "amount": null,
+      "unit": null,
+      "name": "Etwas Puderzucker zum Bestäuben"
+    }
+  ],
+  "steps": [
+    "In 26cm Form besser als in Blech Optional: Wenn Rosinen rein sollen, die kurz abwaschen und in einem Glas mit 1 EL Rum und so viel warmes Wasser auffüllen, bis die Rosinen bedeckt sind.",
+    "Teig: Äpfel waschen, evtl. schälen (ich mache es nicht, weil wir Äpfel aus dem Garten einer Freundin haben), entkernen und in ca.",
+    "2 cm große Stücke schneiden.",
+    "Äpfel in einer Schüssel mit dem Zucker und Rohrzucker vermischen und zur Seite stellen.",
+    "Backblech einfetten oder mit einer Dauer-Backmatte/ Silikonbackmatte/ Backpapier auslegen.",
+    "Ofen auf 175ºC Ober-/Unterhitze vorheizen.",
+    "Möhren klein raspeln.",
+    "Möhren, Apfelsaft/ Wasser, Öl und Apfelmus in eine Rührschüssel geben und mit einem Teigschaber vermischen.",
+    "Sollen Rosinen rein diesen nun ebenfalls dazu geben (ohne die Flüssigkeit, in der sie eingelegt wurden).",
+    "Mehl, Backpulver und Pumpkin Spice dazu sieben und mit dem Teigschaber nur so lange verrühren, bis sich der Teig verbunden hat.",
+    "Die Apfel-Zuckermischung dazu geben und unterheben.",
+    "Auf das Backblech geben und mit einem Tortenheber bzw. einer Winkelpalette verstreichen.",
+    "Im Ofen auf mittlerer Schiene ca.",
+    "30 Minuten backen.",
+    "Der Kuchen ist fertig, wenn ein eingestochenes Stäbchen sauber wieder herauskommt.",
+    "Den Kuchen auf einem Rost auskühlen lassen und vor dem Servieren mit etwas Puderzucker bestäuben."
+  ],
+  "source": {
+    "url": "https://cakeinvasion.de/2015/11/apfel-moehren-gewuerzkuchen/"
+  },
+  "images": [
+    "apfel-moehren-gewuerzkuchen-mit-pumpkin-spice.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

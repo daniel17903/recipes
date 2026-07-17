@@ -1,0 +1,63 @@
+{
+  "id": "broetchen",
+  "title": "Brötchen",
+  "category": "Brot",
+  "yield": {
+    "amount": 1,
+    "unit": "Portionen"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Roggenvollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Dinkelvollkornmehl"
+    },
+    {
+      "group": null,
+      "amount": 320,
+      "unit": "ml",
+      "name": "Wasser lauwarm"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Trockenhefe oder 1/2 Würfel frische Hefe"
+    },
+    {
+      "group": null,
+      "amount": 10,
+      "unit": "g",
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": 100,
+      "unit": "g",
+      "name": "Kürbiskerne"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Honig"
+    }
+  ],
+  "steps": [
+    "Alle Zutaten außer Kürbiskerne zu einem Teig verarbeiten",
+    "1,5h gehen lassen",
+    "Kürbiskerne einarbeiten und 6-8 Brötchen formen",
+    "bei 200C Umluft ca 20min backen"
+  ],
+  "images": [
+    "broetchen.webp"
+  ],
+  "dateAdded": "2026-07-17"
+}

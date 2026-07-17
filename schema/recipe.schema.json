@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daniel17903.github.io/recipes/schema/recipe.schema.json",
+  "title": "Rezept",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "category", "yield", "ingredients", "steps", "dateAdded"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "URL-tauglicher Slug, eindeutig, entspricht dem Dateinamen."
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "yield": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount", "unit"],
+      "properties": {
+        "amount": { "type": "number", "exclusiveMinimum": 0 },
+        "unit": { "type": "string", "minLength": 1 }
+      }
+    },
+    "times": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "prep": { "type": "string" },
+        "cook": { "type": "string" }
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["group", "amount", "unit", "name"],
+        "properties": {
+          "group": { "type": ["string", "null"] },
+          "amount": { "type": ["number", "null"] },
+          "unit": {
+            "type": ["string", "null"],
+            "enum": ["g", "ml", "Stück", "Pck.", "Prise", "Msp.", "Blatt", "Zehe", "Bund", "Dose", "Glas", null]
+          },
+          "name": { "type": "string", "minLength": 1 },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "notes": { "type": "string" },
+    "nutrition": { "type": "string" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "dateAdded": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    }
+  }
+}
