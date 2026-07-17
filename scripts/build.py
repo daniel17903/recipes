@@ -9,7 +9,7 @@ Nur relative Pfade -> läuft unter https://<user>.github.io/recipes/.
 Aufruf:  python scripts/build.py
 """
 from __future__ import annotations
-import json, os, shutil
+import hashlib, json, os, shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
@@ -63,11 +63,28 @@ def main():
     if os.path.isdir(IMAGES):
         shutil.copytree(IMAGES, os.path.join(OUT, "images"))
 
+    # Service-Worker-Cache-Key aus Inhalts-Hash setzen. So ändert sich sw.js
+    # bei jeder relevanten Asset-Änderung → Worker installiert neu und lädt
+    # alles frisch. Kein manuelles Hochzählen von CACHE_NAME nötig.
+    hasher = hashlib.sha256()
+    for name in ["index.html", "style.css", "app.js", "manifest.webmanifest", "sw.js", "recipes.json"]:
+        p = os.path.join(OUT, name)
+        if os.path.exists(p):
+            with open(p, "rb") as fh:
+                hasher.update(fh.read())
+    digest = hasher.hexdigest()[:12]
+    sw_path = os.path.join(OUT, "sw.js")
+    if os.path.exists(sw_path):
+        with open(sw_path, encoding="utf-8") as fh:
+            sw = fh.read()
+        with open(sw_path, "w", encoding="utf-8") as fh:
+            fh.write(sw.replace("__BUILD_HASH__", digest))
+
     # .nojekyll, damit GitHub Pages nichts umschreibt
     open(os.path.join(OUT, ".nojekyll"), "w").close()
 
     print(f"✅ _site/ gebaut: {len(recipes)} Rezepte, "
-          f"{len(categories)} Kategorien.")
+          f"{len(categories)} Kategorien (SW-Cache {digest}).")
 
 
 if __name__ == "__main__":

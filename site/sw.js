@@ -1,6 +1,9 @@
 "use strict";
 
-const CACHE_NAME = "kochbuch-v3";
+// __BUILD_HASH__ wird von scripts/build.py durch einen Inhalts-Hash ersetzt.
+// Dadurch ändert sich sw.js bei jeder Asset-Änderung → Worker installiert neu
+// und lädt alle Dateien frisch. Fallback "dev", falls ungebaut ausgeliefert.
+const CACHE_NAME = "kochbuch-__BUILD_HASH__";
 const APP_FILES = [
   "./",
   "./index.html",

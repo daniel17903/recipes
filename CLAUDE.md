@@ -70,6 +70,29 @@ python scripts/build.py && python -m http.server -d _site
 Automatisch bei jedem Push auf `main` (GitHub Actions → GitHub Pages,
 `.github/workflows/deploy.yml`). Kein manueller Schritt nötig.
 
+## Service Worker / PWA-Cache (wichtig bei Änderungen an `site/`)
+
+Die Seite ist eine installierbare PWA. `site/sw.js` cacht die App-Shell
+(`index.html`, `style.css`, `app.js`, Icons, `recipes.json`, Bilder).
+
+- **Cache-Key ist automatisch.** `site/sw.js` enthält den Platzhalter
+  `kochbuch-__BUILD_HASH__`; `scripts/build.py` ersetzt ihn durch einen
+  Inhalts-Hash über `index.html`, `style.css`, `app.js`,
+  `manifest.webmanifest`, `sw.js` und `recipes.json`. Jede relevante
+  Änderung erzeugt also ein byte-verschiedenes `sw.js` → der Worker
+  installiert neu und lädt alle Dateien frisch. **Kein manuelles Hochzählen
+  von `CACHE_NAME` nötig** – einfach `build.py` laufen lassen (macht der
+  Deploy-Workflow ohnehin).
+- **Statische Assets** (CSS/JS) laufen über **stale-while-revalidate**: Sie
+  werden sofort aus dem Cache geliefert und im Hintergrund neu geladen.
+  Änderungen erscheinen dadurch in der installierten PWA **erst beim
+  übernächsten Öffnen** – niemals sofort. Das ist gewollt (Offline-Fähigkeit),
+  aber beim Testen daran denken.
+- `index.html` und `recipes.json` laufen **network-first**, kommen also
+  (online) sofort aktuell an.
+- Immer über `scripts/build.py` ausliefern/testen, nie `site/` direkt – sonst
+  bleibt der Platzhalter `__BUILD_HASH__` stehen und der Cache bricht nie um.
+
 ## Commit-Konvention
 
 - Neues Rezept: `Rezept hinzugefügt: <Titel>`
