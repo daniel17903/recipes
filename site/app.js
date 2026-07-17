@@ -144,9 +144,9 @@ function renderList(state) {
         autocomplete="off" aria-label="Rezepte durchsuchen">
       <div class="chips" role="group" aria-label="Kategorien">${chips}</div>
     </div>
-    ${list.length
+    <div id="results">${list.length
       ? `<div class="grid">${list.map(card).join("")}</div>`
-      : `<p class="empty">Keine Rezepte gefunden.</p>`}
+      : `<p class="empty">Keine Rezepte gefunden.</p>`}</div>
   `;
 
   const search = document.getElementById("search");
@@ -156,8 +156,7 @@ function renderList(state) {
     t = setTimeout(() => {
       const cur = parseHash();
       history.replaceState(null, "", listHash(search.value, cur.kategorie || kat));
-      renderList({ view: "list", q: search.value, kategorie: kat });
-      document.getElementById("search").focus();
+      updateResults(search.value, kat);
     }, 120);
   });
 
@@ -167,6 +166,17 @@ function renderList(state) {
       location.hash = listHash(search.value, newKat);
     });
   });
+}
+
+function updateResults(q, kat) {
+  const nq = normalize(q);
+  let list = DATA.recipes;
+  if (kat) list = list.filter((r) => r.category === kat);
+  if (nq) list = list.filter((r) => r._hay.includes(nq));
+
+  document.getElementById("results").innerHTML = list.length
+    ? `<div class="grid">${list.map(card).join("")}</div>`
+    : `<p class="empty">Keine Rezepte gefunden.</p>`;
 }
 
 function card(r) {
