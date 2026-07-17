@@ -143,14 +143,15 @@ function renderList(state) {
 
   app.innerHTML = `
     <div class="controls">
-      <input class="search" id="search" type="search" inputmode="search"
-        placeholder="Suche nach Rezept, Zutat …" value="${esc(q)}"
-        autocomplete="off" aria-label="Rezepte durchsuchen">
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">${SEARCH_ICON}</span>
+        <input class="search" id="search" type="search" inputmode="search"
+          placeholder="Rezept, Zutat, Kategorie …" value="${esc(q)}"
+          autocomplete="off" aria-label="Rezepte durchsuchen">
+      </div>
       <div class="chips" role="group" aria-label="Kategorien">${chips}</div>
     </div>
-    <div id="results">${list.length
-      ? `<div class="grid">${list.map(card).join("")}</div>`
-      : `<p class="empty">Keine Rezepte gefunden.</p>`}</div>
+    <div id="results">${resultsHtml(list, q, kat)}</div>
   `;
 
   const search = document.getElementById("search");
@@ -178,17 +179,36 @@ function updateResults(q, kat) {
   if (kat) list = list.filter((r) => r.category === kat);
   if (nq) list = list.filter((r) => r._hay.includes(nq));
 
-  document.getElementById("results").innerHTML = list.length
-    ? `<div class="grid">${list.map(card).join("")}</div>`
-    : `<p class="empty">Keine Rezepte gefunden.</p>`;
+  document.getElementById("results").innerHTML = resultsHtml(list, q, kat);
 }
 
-function card(r) {
+const SEARCH_ICON = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.6"></circle><line x1="11" y1="11" x2="14.4" y2="14.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></line></svg>`;
+
+// Tipp des Tages: deterministisch pro Kalendertag, damit alle Besucher denselben sehen.
+function tippOfTheDay() {
+  if (!DATA.recipes.length) return null;
+  const today = new Date();
+  const seed = today.getFullYear() * 372 + (today.getMonth() + 1) * 31 + today.getDate();
+  return DATA.recipes[seed % DATA.recipes.length].id;
+}
+
+function resultsHtml(list, q, kat) {
+  if (!list.length) return `<p class="empty">Hmm, dazu findet sich nichts. Probier's mal anders! 🍳</p>`;
+  const editorial = !q && !kat;
+  const tippId = editorial ? tippOfTheDay() : null;
+  if (tippId) list = [...list].sort((a, b) => (a.id === tippId ? -1 : 0) - (b.id === tippId ? -1 : 0));
+  return `<div class="grid">${list.map((r, idx) => card(r, editorial && idx === 0)).join("")}</div>`;
+}
+
+function card(r, featured) {
   const img = r.images && r.images.length
     ? `<img class="card-img" loading="lazy" src="images/${esc(r.images[0])}" alt="${esc(r.title)}">`
     : `<div class="card-noimg" aria-hidden="true">🍽️</div>`;
-  return `<a class="card" href="#/rezept/${encodeURIComponent(r.id)}">
-    ${img}
+  return `<a class="card${featured ? " featured" : ""}" href="#/rezept/${encodeURIComponent(r.id)}">
+    <div class="card-media">
+      ${img}
+      ${featured ? `<span class="card-tipp">Tipp des Tages</span>` : ""}
+    </div>
     <div class="card-body">
       <div class="card-cat">${esc(r.category)}</div>
       <h2 class="card-title">${esc(r.title)}</h2>
@@ -226,24 +246,26 @@ function renderRecipe(r) {
     ${meta.length ? `<div class="recipe-meta">${meta.join("")}</div>` : ""}
     ${gallery}
 
-    <section class="panel">
-      <div class="yield-row">
-        <h2>Zutaten</h2>
-        <div class="stepper" role="group" aria-label="Portionen anpassen">
-          <button id="dec" aria-label="weniger">−</button>
-          <input id="portions" type="text" value="${fmtNum(base)}"
-            inputmode="decimal" aria-label="Menge">
-          <span class="yield-unit" id="yield-unit">${esc(yieldUnitLabel(unit, base))}</span>
-          <button id="inc" aria-label="mehr">+</button>
+    <div class="recipe-body">
+      <section class="panel ingredients-panel">
+        <div class="yield-row">
+          <h2>Zutaten</h2>
+          <div class="stepper" role="group" aria-label="Portionen anpassen">
+            <button id="dec" aria-label="weniger">−</button>
+            <input id="portions" type="text" value="${fmtNum(base)}"
+              inputmode="decimal" aria-label="Menge">
+            <span class="yield-unit" id="yield-unit">${esc(yieldUnitLabel(unit, base))}</span>
+            <button id="inc" aria-label="mehr">+</button>
+          </div>
         </div>
-      </div>
-      <div id="ing-list"></div>
-    </section>
+        <div id="ing-list"></div>
+      </section>
 
-    <section class="panel">
-      <h2>Zubereitung</h2>
-      <ol class="steps">${r.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
-    </section>
+      <section class="panel steps-panel">
+        <h2>Zubereitung</h2>
+        <ol class="steps">${r.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
+      </section>
+    </div>
 
     ${r.notes ? `<section class="panel"><h2>Notizen</h2><p class="notes">${esc(r.notes)}</p></section>` : ""}
     ${r.nutrition ? `<section class="panel"><h2>Nährwerte</h2><p class="notes">${esc(r.nutrition)}</p></section>` : ""}
