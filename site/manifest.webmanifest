@@ -1,0 +1,11 @@
+{
+  "name": "Kochbuch – unsere Rezepte",
+  "short_name": "Kochbuch",
+  "description": "Unser gesammeltes Kochbuch – auch offline verfügbar.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffaf3",
+  "theme_color": "#8a3324"
+}
