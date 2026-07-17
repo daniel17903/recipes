@@ -29,6 +29,8 @@ def main():
         src = os.path.join(SITE, name)
         if os.path.isfile(src):
             shutil.copy2(src, os.path.join(OUT, name))
+        elif os.path.isdir(src):
+            shutil.copytree(src, os.path.join(OUT, name))
 
     # Rezepte bündeln
     recipes = []

@@ -6,6 +6,10 @@
 let DATA = null;
 const app = document.getElementById("app");
 
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js"));
+}
+
 fetch("recipes.json")
   .then((r) => r.json())
   .then((data) => {

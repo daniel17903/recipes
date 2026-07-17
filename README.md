@@ -14,6 +14,8 @@ Repository; die Website wird automatisch über GitHub Pages veröffentlicht.
 - **Portionen-Skalierung**: Zutatenmengen skalieren linear per Stepper.
 - **Direktlinks** zu jedem Rezept (`#/rezept/<id>`) und teilbare Filter-URLs.
 - **Druckfreundliche** Rezeptansicht.
+- **Installierbare Progressive Web App**, die alle Rezepte und Bilder für die
+  Nutzung ohne Internetverbindung zwischenspeichert.
 
 ## Aufbau
 
