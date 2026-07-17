@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE_NAME = "kochbuch-v2";
+const CACHE_NAME = "kochbuch-v3";
 const APP_FILES = [
   "./",
   "./index.html",
@@ -71,13 +71,17 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request).then(async (response) => {
-      if (response.ok) {
-        const cache = await caches.open(CACHE_NAME);
-        await cache.put(event.request, response.clone());
-      }
+  // Stale-while-revalidate: sofort aus dem Cache liefern (schnell, offline-fähig),
+  // aber im Hintergrund neu laden, damit Änderungen an CSS/JS beim nächsten Start
+  // automatisch ankommen – ohne CACHE_NAME manuell hochzuzählen.
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    const cached = await cache.match(event.request);
+    const network = fetch(event.request).then(async (response) => {
+      if (response.ok) await cache.put(event.request, response.clone());
       return response;
-    })),
-  );
+    }).catch(() => cached);
+    event.waitUntil(network.catch(() => {}));
+    return cached || network;
+  })());
 });
