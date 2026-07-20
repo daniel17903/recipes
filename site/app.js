@@ -146,9 +146,18 @@ function renderList(state) {
   if (kat) list = list.filter((r) => r.category === kat);
   if (nq) list = list.filter((r) => r._hay.includes(nq));
 
+  // Kategorien nach Summe der Klicks ihrer Rezepte sortieren
+  const clicks = loadClicks();
+  const catClicks = {};
+  DATA.recipes.forEach((r) => {
+    catClicks[r.category] = (catClicks[r.category] || 0) + (clicks[r.id] || 0);
+  });
+  const categories = DATA.categories.slice().sort(
+    (a, b) => (catClicks[b] || 0) - (catClicks[a] || 0));
+
   const chips = [
     `<button class="chip" data-kat="" aria-pressed="${kat === "" ? "true" : "false"}">Alle <span class="count">${DATA.count}</span></button>`,
-    ...DATA.categories.map((c) =>
+    ...categories.map((c) =>
       `<button class="chip" data-kat="${esc(c)}" aria-pressed="${kat === c ? "true" : "false"}">${esc(c)} <span class="count">${DATA.counts[c] || 0}</span></button>`),
   ].join("");
 
@@ -196,6 +205,7 @@ function renderList(state) {
       location.hash = listHash(search.value, newKat);
     });
   });
+
 }
 
 function updateResults(q, kat) {
@@ -220,6 +230,8 @@ function tippOfTheDay() {
 
 function resultsHtml(list, q, kat) {
   if (!list.length) return `<p class="empty">Hmm, dazu findet sich nichts. Probier's mal anders! 🍳</p>`;
+  // Meistgeklickte zuerst; bei Gleichstand bleibt die alphabetische Reihenfolge
+  list = sortByClicks(list);
   const editorial = !q && !kat;
   const tippId = editorial ? tippOfTheDay() : null;
   if (tippId) list = [...list].sort((a, b) => (a.id === tippId ? -1 : 0) - (b.id === tippId ? -1 : 0));
@@ -230,7 +242,7 @@ function card(r, featured) {
   const img = r.images && r.images.length
     ? `<img class="card-img" loading="lazy" src="images/${esc(r.images[0])}" alt="${esc(r.title)}">`
     : `<div class="card-noimg" aria-hidden="true">🍽️</div>`;
-  return `<a class="card${featured ? " featured" : ""}" href="#/rezept/${encodeURIComponent(r.id)}">
+  return `<a class="card${featured ? " featured" : ""}" data-id="${esc(r.id)}" href="#/rezept/${encodeURIComponent(r.id)}">
     <div class="card-media">
       ${img}
       ${featured ? `<span class="card-tipp">Tipp des Tages</span>` : ""}
@@ -396,6 +408,42 @@ function ingredientsHtml(r, factor) {
   if (ul.length) html += `<ul class="ingredients">${ul.join("")}</ul>`;
   return html;
 }
+
+// ---------------------------------------------------------------------------
+// Klick-Zähler (localStorage) – sortiert Rezepte & Kategorien nach Beliebtheit
+// ---------------------------------------------------------------------------
+const CLICKS_KEY = "kochbuch:clicks";
+
+function loadClicks() {
+  try {
+    const obj = JSON.parse(localStorage.getItem(CLICKS_KEY));
+    return obj && typeof obj === "object" ? obj : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function trackClick(id) {
+  try {
+    const clicks = loadClicks();
+    clicks[id] = (clicks[id] || 0) + 1;
+    localStorage.setItem(CLICKS_KEY, JSON.stringify(clicks));
+  } catch (e) {
+    // localStorage nicht verfügbar (z. B. privater Modus) – dann ohne Zählung
+  }
+}
+
+function sortByClicks(list) {
+  const clicks = loadClicks();
+  return list.slice().sort((a, b) => (clicks[b.id] || 0) - (clicks[a.id] || 0));
+}
+
+// Delegierter Listener zählt Klicks auf Rezeptkarten – auch nach dem
+// Re-Render der Trefferliste beim Suchen.
+app.addEventListener("click", (e) => {
+  const card = e.target.closest(".card");
+  if (card && card.dataset.id) trackClick(card.dataset.id);
+});
 
 function hostOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); }
