@@ -78,6 +78,75 @@
     "name": "NutritionFacts.org / The How Not to Die Cookbook",
     "url": "https://nutritionfacts.org/recipe/berry-chocolate-chia-pudding/"
   },
+  "variations": [
+    {
+      "id": "einfach",
+      "title": "Einfach",
+      "description": "Ohne Kochen: Chia-Samen quellen mit Kakao und Mandelmilch über Nacht im Kühlschrank.",
+      "yield": {
+        "amount": 2,
+        "unit": "Portionen"
+      },
+      "ingredients": [
+        {
+          "group": "Pudding",
+          "amount": 60,
+          "unit": "g",
+          "name": "Chia-Samen"
+        },
+        {
+          "group": "Pudding",
+          "amount": 16,
+          "unit": "g",
+          "name": "Backkakao",
+          "note": "entspricht 2 EL"
+        },
+        {
+          "group": "Pudding",
+          "amount": 300,
+          "unit": "ml",
+          "name": "Mandelmilch"
+        },
+        {
+          "group": "Pudding",
+          "amount": 50,
+          "unit": "g",
+          "name": "Agavendicksaft",
+          "note": "entspricht 2–3 EL"
+        },
+        {
+          "group": "Deko",
+          "amount": 50,
+          "unit": "g",
+          "name": "frische Beeren",
+          "note": "z. B. Himbeeren, Heidelbeeren"
+        },
+        {
+          "group": "Deko",
+          "amount": 25,
+          "unit": "g",
+          "name": "Haselnüsse",
+          "note": "entspricht 2–3 EL, gehackt"
+        }
+      ],
+      "steps": [
+        "Chia-Samen und Backkakao in einer Schüssel mischen.",
+        "Mandelmilch und Agavendicksaft zugeben und mit dem Schneebesen gründlich verrühren, bis keine Kakao-Klümpchen mehr zu sehen sind.",
+        "10 Minuten quellen lassen, dann erneut umrühren, damit sich die Chia-Samen nicht absetzen.",
+        "Abgedeckt mindestens 2 Stunden, besser über Nacht, im Kühlschrank quellen lassen.",
+        "Vor dem Servieren umrühren und mit den frischen Beeren und gehackten Haselnüssen anrichten."
+      ],
+      "notes": "Zutaten von der Original-Seite übernommen; Zubereitungsschritte rekonstruiert, da die Quelle nur als Zutaten-Screenshot vorlag. Extra cremig wird der Pudding, wenn er nach dem Quellen kurz püriert wird.",
+      "source": {
+        "name": "einfachbacken.de",
+        "url": "https://www.einfachbacken.de/rezepte/schoko-chia-pudding-cremiger-gehts-nicht"
+      },
+      "times": {
+        "prep": "10 min",
+        "cook": "mindestens 2 h kühlen"
+      }
+    }
+  ],
   "dateAdded": "2026-07-17",
   "images": [
     "berry-chocolate-chia-pudding.webp"
