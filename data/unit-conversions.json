@@ -12,6 +12,7 @@
     "salz": { "target": "g", "tsp": 5, "tbsp": 15 },
     "haferflocken": { "target": "g", "tsp": 3, "tbsp": 6, "cup": 90 },
     "nuesse gemahlen": { "target": "g", "tsp": 3, "tbsp": 7, "cup": 100, "aliases": ["gemahlene mandeln", "gemahlene nuesse", "gemahlene haselnuesse"] },
+    "nuesse gehackt": { "target": "g", "tsp": 3, "tbsp": 10, "cup": 120, "aliases": ["gehackte haselnuesse", "gehackte mandeln", "gehackte walnuesse", "haselnuesse"] },
     "honig": { "target": "g", "tsp": 7, "tbsp": 20, "cup": 340 },
     "sirup": { "target": "g", "tsp": 7, "tbsp": 20, "cup": 340, "aliases": ["ahornsirup", "agavendicksaft", "agavensirup"] },
     "senf": { "target": "g", "tsp": 5, "tbsp": 15 },

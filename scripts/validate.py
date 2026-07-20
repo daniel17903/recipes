@@ -33,6 +33,96 @@ def load_categories() -> list[str]:
         return json.load(fh)
 
 
+def check_yield(y, err, loc: str = "yield") -> None:
+    if not isinstance(y, dict) or "amount" not in y or "unit" not in y:
+        err(f"'{loc}' fehlt oder unvollständig (amount/unit)")
+        return
+    if not isinstance(y["amount"], (int, float)) or y["amount"] <= 0:
+        err(f"'{loc}.amount' muss eine positive Zahl sein: {y['amount']!r}")
+    unit = y["unit"]
+    if not isinstance(unit, str) or not unit:
+        err(f"'{loc}.unit' muss ein nicht-leerer String sein")
+        return
+    if "  " in unit:
+        err(f"'{loc}.unit' enthält Doppel-Leerzeichen: {unit!r}")
+    if YIELD_UNIT_EMPTY_PARENS_RE.search(unit):
+        err(f"'{loc}.unit' enthält leere Klammer-Reste: {unit!r}")
+    if unit.lower() in YIELD_UNIT_BAD_VALUES:
+        err(f"'{loc}.unit' ist unnormalisiert: {unit!r} (erwartet 'Portionen')")
+    if unit.startswith("cm "):
+        err(f"'{loc}.unit' beginnt mit 'cm ': {unit!r}")
+
+
+def check_ingredients(ings, err, loc: str = "ingredients") -> None:
+    if not isinstance(ings, list) or not ings:
+        err(f"'{loc}' fehlt oder ist leer")
+        return
+    for i, ing in enumerate(ings):
+        iloc = f"{loc}[{i}]"
+        if not isinstance(ing, dict):
+            err(f"{iloc} ist kein Objekt")
+            continue
+        for key in ("group", "amount", "unit", "name"):
+            if key not in ing:
+                err(f"{iloc}: Feld '{key}' fehlt")
+        if not isinstance(ing.get("name"), str) or not ing.get("name"):
+            err(f"{iloc}: 'name' fehlt oder leer")
+        amt = ing.get("amount")
+        if amt is not None and not isinstance(amt, (int, float)):
+            err(f"{iloc}: 'amount' muss Zahl oder null sein: {amt!r}")
+        unit = ing.get("unit")
+        if unit in FORBIDDEN_UNITS:
+            err(f"{iloc}: verbotene Einheit {unit!r} (umrechnen!)")
+        elif unit not in ALLOWED_UNITS:
+            err(f"{iloc}: unbekannte Einheit {unit!r}")
+        grp = ing.get("group")
+        if grp is not None and not isinstance(grp, str):
+            err(f"{iloc}: 'group' muss String oder null sein")
+
+
+def check_steps(steps, err, loc: str = "steps") -> None:
+    if not isinstance(steps, list) or not steps:
+        err(f"'{loc}' fehlt oder ist leer")
+    elif any(not isinstance(s, str) or not s.strip() for s in steps):
+        err(f"'{loc}' enthält leere Einträge")
+
+
+VARIATION_KEYS = {"id", "title", "description", "yield", "times",
+                  "ingredients", "steps", "notes", "source"}
+
+
+def check_variations(variations, err) -> None:
+    if not isinstance(variations, list) or not variations:
+        err("'variations' muss eine nicht-leere Liste sein")
+        return
+    seen_ids: set[str] = set()
+    for i, v in enumerate(variations):
+        loc = f"variations[{i}]"
+        if not isinstance(v, dict):
+            err(f"{loc} ist kein Objekt")
+            continue
+        vid = v.get("id")
+        if not isinstance(vid, str) or not SLUG_RE.match(vid or ""):
+            err(f"{loc}: 'id' fehlt oder ist kein gültiger Slug: {vid!r}")
+        elif vid in seen_ids:
+            err(f"{loc}: doppelte Varianten-id {vid!r}")
+        else:
+            seen_ids.add(vid)
+        if not isinstance(v.get("title"), str) or not v.get("title"):
+            err(f"{loc}: 'title' fehlt oder leer")
+        for key in v:
+            if key not in VARIATION_KEYS:
+                err(f"{loc}: unbekanntes Feld {key!r}")
+        if "yield" in v:
+            check_yield(v["yield"], err, f"{loc}.yield")
+        if "ingredients" in v:
+            check_ingredients(v["ingredients"], err, f"{loc}.ingredients")
+        if "steps" in v:
+            check_steps(v["steps"], err, f"{loc}.steps")
+        if "source" in v and not isinstance(v["source"], dict):
+            err(f"{loc}: 'source' muss ein Objekt sein")
+
+
 def validate_recipe(path: str, categories: set[str], errors: list[str],
                     used_images: set[str]) -> None:
     name = os.path.basename(path)
@@ -63,59 +153,13 @@ def validate_recipe(path: str, categories: set[str], errors: list[str],
     if r.get("category") not in categories:
         err(f"Kategorie {r.get('category')!r} nicht in data/categories.json")
 
-    # yield
-    y = r.get("yield")
-    if not isinstance(y, dict) or "amount" not in y or "unit" not in y:
-        err("'yield' fehlt oder unvollständig (amount/unit)")
-    else:
-        if not isinstance(y["amount"], (int, float)) or y["amount"] <= 0:
-            err(f"'yield.amount' muss eine positive Zahl sein: {y['amount']!r}")
-        if not isinstance(y["unit"], str) or not y["unit"]:
-            err("'yield.unit' muss ein nicht-leerer String sein")
-        elif isinstance(y["unit"], str):
-            unit = y["unit"]
-            if "  " in unit:
-                err(f"'yield.unit' enthält Doppel-Leerzeichen: {unit!r}")
-            if YIELD_UNIT_EMPTY_PARENS_RE.search(unit):
-                err(f"'yield.unit' enthält leere Klammer-Reste: {unit!r}")
-            if unit.lower() in YIELD_UNIT_BAD_VALUES:
-                err(f"'yield.unit' ist unnormalisiert: {unit!r} (erwartet 'Portionen')")
-            if unit.startswith("cm "):
-                err(f"'yield.unit' beginnt mit 'cm ': {unit!r}")
+    check_yield(r.get("yield"), err)
+    check_ingredients(r.get("ingredients"), err)
+    check_steps(r.get("steps"), err)
 
-    # ingredients
-    ings = r.get("ingredients")
-    if not isinstance(ings, list) or not ings:
-        err("'ingredients' fehlt oder ist leer")
-    else:
-        for i, ing in enumerate(ings):
-            loc = f"ingredients[{i}]"
-            if not isinstance(ing, dict):
-                err(f"{loc} ist kein Objekt")
-                continue
-            for key in ("group", "amount", "unit", "name"):
-                if key not in ing:
-                    err(f"{loc}: Feld '{key}' fehlt")
-            if not isinstance(ing.get("name"), str) or not ing.get("name"):
-                err(f"{loc}: 'name' fehlt oder leer")
-            amt = ing.get("amount")
-            if amt is not None and not isinstance(amt, (int, float)):
-                err(f"{loc}: 'amount' muss Zahl oder null sein: {amt!r}")
-            unit = ing.get("unit")
-            if unit in FORBIDDEN_UNITS:
-                err(f"{loc}: verbotene Einheit {unit!r} (umrechnen!)")
-            elif unit not in ALLOWED_UNITS:
-                err(f"{loc}: unbekannte Einheit {unit!r}")
-            grp = ing.get("group")
-            if grp is not None and not isinstance(grp, str):
-                err(f"{loc}: 'group' muss String oder null sein")
-
-    # steps
-    steps = r.get("steps")
-    if not isinstance(steps, list) or not steps:
-        err("'steps' fehlt oder ist leer")
-    elif any(not isinstance(s, str) or not s.strip() for s in steps):
-        err("'steps' enthält leere Einträge")
+    # variations (optional)
+    if "variations" in r:
+        check_variations(r["variations"], err)
 
     # images
     imgs = r.get("images")
