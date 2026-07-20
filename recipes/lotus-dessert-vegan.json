@@ -1,0 +1,56 @@
+{
+  "id": "lotus-dessert-vegan",
+  "title": "Veganes Lotus-Dessert im Glas",
+  "category": "Nachtische",
+  "yield": {
+    "amount": 4,
+    "unit": "Portionen"
+  },
+  "times": {
+    "prep": "10 min",
+    "cook": "2h Kühlzeit"
+  },
+  "ingredients": [
+    {
+      "group": "Dessert",
+      "amount": 800,
+      "unit": "g",
+      "name": "ungesüßter Sojajoghurt"
+    },
+    {
+      "group": "Dessert",
+      "amount": 160,
+      "unit": "g",
+      "name": "vegane Lotus-Biscoff-Kekse",
+      "note": "20 Kekse"
+    },
+    {
+      "group": "Topping",
+      "amount": 4,
+      "unit": "Stück",
+      "name": "vegane Lotus-Biscoff-Kekse"
+    },
+    {
+      "group": "Topping",
+      "amount": 25,
+      "unit": "g",
+      "name": "veganer Lotus-Biscoff-Brotaufstrich"
+    }
+  ],
+  "steps": [
+    "20 Lotus-Biscoff-Kekse grob zerbrechen, in einen Gefrierbeutel geben und mit einem Nudelholz zu feinen Bröseln zermahlen.",
+    "Die Brösel und den Sojajoghurt in vier Gläser schichten: jeweils zuerst etwas Keksbrösel, dann Sojajoghurt. Die Schichten noch zweimal wiederholen.",
+    "Das Dessert mindestens 2 Stunden in den Kühlschrank stellen, damit es fester und cremiger wird.",
+    "Kurz vor dem Servieren zwei Kekse zerbröseln und auf die Desserts streuen. Die übrigen zwei Kekse halbieren und je eine Hälfte in ein Glas stecken.",
+    "Optional den Biscoff-Aufstrich etwa 30 Sekunden vorsichtig erwärmen, bis er dickflüssig ist, und zickzackförmig über die Desserts träufeln."
+  ],
+  "notes": "Für ein vollständig veganes Dessert auf pflanzliche Produkte achten: Sojajoghurt, Biscoff-Kekse und Biscoff-Aufstrich müssen vegan sein.",
+  "source": {
+    "name": "Food for the Soul (vegan angepasst)",
+    "url": "https://foodforthesoul.de/lotus-dessert/"
+  },
+  "images": [
+    "lotus-dessert-vegan.webp"
+  ],
+  "dateAdded": "2026-07-20"
+}
