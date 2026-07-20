@@ -322,7 +322,12 @@ function renderRecipe(r, variantId) {
 
   app.querySelectorAll(".variants .chip").forEach((btn) => {
     btn.addEventListener("click", () => {
-      location.hash = recipeHash(r.id, btn.dataset.variant);
+      // Variante wechseln, ohne einen neuen History-Eintrag zu erzeugen: sonst
+      // führt "← Alle Rezepte" (history.back) nur zur vorherigen Variante zurück
+      // statt zur Übersicht. Wie bei der Suche daher replaceState + Neu-Rendern.
+      const variant = btn.dataset.variant;
+      history.replaceState(null, "", recipeHash(r.id, variant));
+      renderRecipe(r, variant);
     });
   });
 
