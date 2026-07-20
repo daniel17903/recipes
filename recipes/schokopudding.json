@@ -49,8 +49,8 @@
   "notes": "Zubereitung aus den Zutaten rekonstruiert (im Original-Export fehlten die Schritte).",
   "variations": [
     {
-      "id": "schoko-chia-pudding",
-      "title": "Schoko-Chia-Pudding",
+      "id": "einfach",
+      "title": "Einfach",
       "description": "Ohne Kochen: Chia-Samen quellen mit Kakao und Mandelmilch über Nacht im Kühlschrank.",
       "yield": {
         "amount": 2,
