@@ -58,7 +58,7 @@ main {
 .search {
   width: 100%;
   font-size: 1rem;
-  padding: .85rem 1.1rem .85rem 2.6rem;
+  padding: .85rem 2.9rem .85rem 2.6rem;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface);
@@ -68,6 +68,19 @@ main {
   transition: border-color .15s, box-shadow .15s;
 }
 .search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+/* Native Clear-Button ausblenden, eigener wird genutzt. */
+.search::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+.search-clear {
+  position: absolute; right: .55rem; top: 50%; transform: translateY(-50%);
+  display: none; align-items: center; justify-content: center;
+  width: 1.9rem; height: 1.9rem; padding: 0;
+  border: 0; border-radius: 50%;
+  background: var(--surface-2); color: var(--muted);
+  cursor: pointer; font-family: inherit;
+  transition: background .15s, color .15s;
+}
+.search-clear:hover { background: var(--accent-soft); color: var(--accent); }
+.search-wrap.has-value .search-clear { display: inline-flex; }
 
 .chips {
   display: flex; gap: .4rem; overflow-x: auto;
