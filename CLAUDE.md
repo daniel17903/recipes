@@ -52,6 +52,16 @@ site/                       Single-Page-App (Vanilla JS, mobile-first)
    als `<slug>.webp` (weitere: `<slug>-2.webp` …). Im Rezept unter `images`
    referenzieren.
 7. **Schritte:** Fließtext in sinnvolle, nummerierbare Schritte gliedern.
+8. **Varianten:** Ist ein neues Rezept nur eine Abwandlung eines bestehenden
+   (gleiches Gericht, andere Ausführung – z. B. vegan, mit Chiasamen, andere
+   Backform), als Eintrag im optionalen `variations`-Array des bestehenden
+   Rezepts anlegen statt als eigene Datei. Jede Variante braucht `id` (Slug,
+   eindeutig innerhalb des Rezepts) und `title`; optional sind `description`,
+   `yield`, `times`, `ingredients`, `steps`, `notes`, `source`. Angegebene
+   Felder ersetzen das jeweilige Feld des Basisrezepts **vollständig**,
+   weggelassene Felder werden geerbt. Ein anderes Gericht bleibt eine eigene
+   Datei. Die Website zeigt Varianten als Umschalter auf der Rezeptseite
+   (`#/rezept/<id>?variante=<varianten-id>`).
 
 ## Vor jedem Commit
 

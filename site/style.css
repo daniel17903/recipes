@@ -142,6 +142,10 @@ main {
 .recipe-meta { color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin-bottom: 1.2rem; }
 .source-link { word-break: break-word; }
 
+/* Varianten-Umschalter auf der Rezeptseite */
+.variants { margin: .1rem 0 .7rem; }
+.variant-desc { color: var(--muted); font-size: .92rem; margin: 0 0 .8rem; }
+
 .recipe-body { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.2rem; align-items: start; margin-top: 1.2rem; }
 
 .panel { background: var(--surface); border: 1px solid var(--hairline); border-radius: 20px; padding: 1.3rem 1.4rem 1.1rem; }

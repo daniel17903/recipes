@@ -48,6 +48,10 @@ function normalizeAe(s) {
 function haystack(r) {
   const parts = [r.title, r.category];
   r.ingredients.forEach((i) => parts.push(i.name));
+  (r.variations || []).forEach((v) => {
+    parts.push(v.title);
+    (v.ingredients || []).forEach((i) => parts.push(i.name));
+  });
   const joined = parts.join(" ");
   return normalize(joined) + " " + normalizeAe(joined);
 }
@@ -94,8 +98,15 @@ function formatAmount(amount, unit, factor) {
 // ---------------------------------------------------------------------------
 function parseHash() {
   const h = location.hash.replace(/^#/, "");
-  const m = h.match(/^\/rezept\/(.+)$/);
-  if (m) return { view: "recipe", id: decodeURIComponent(m[1]) };
+  const m = h.match(/^\/rezept\/([^?]+)(?:\?(.*))?$/);
+  if (m) {
+    const vm = (m[2] || "").match(/(?:^|&)variante=([^&]*)/);
+    return {
+      view: "recipe",
+      id: decodeURIComponent(m[1]),
+      variante: vm ? decodeURIComponent(vm[1]) : "",
+    };
+  }
   const q = h.match(/[?&]q=([^&]*)/);
   const kat = h.match(/[?&]kategorie=([^&]*)/);
   return {
@@ -119,7 +130,7 @@ function render() {
   if (!DATA) return;
   const state = parseHash();
   if (state.view === "recipe" && DATA.byId[state.id]) {
-    renderRecipe(DATA.byId[state.id]);
+    renderRecipe(DATA.byId[state.id], state.variante);
   } else {
     renderList(state);
   }
@@ -216,9 +227,29 @@ function card(r, featured) {
   </a>`;
 }
 
-function renderRecipe(r) {
-  const base = r.yield ? r.yield.amount : 1;
-  const unit = r.yield ? r.yield.unit : "Portionen";
+// Variante über das Basisrezept legen: Varianten überschreiben komplette
+// Felder, alles andere wird geerbt.
+const VARIANT_FIELDS = ["yield", "times", "ingredients", "steps", "notes", "source"];
+
+function mergeVariant(r, v) {
+  if (!v) return r;
+  const m = Object.assign({}, r);
+  VARIANT_FIELDS.forEach((k) => { if (v[k] !== undefined) m[k] = v[k]; });
+  return m;
+}
+
+function recipeHash(id, variantId) {
+  return "#/rezept/" + encodeURIComponent(id) +
+    (variantId ? "?variante=" + encodeURIComponent(variantId) : "");
+}
+
+function renderRecipe(r, variantId) {
+  const variations = r.variations || [];
+  const active = variations.find((v) => v.id === variantId) || null;
+  const m = mergeVariant(r, active);
+
+  const base = m.yield ? m.yield.amount : 1;
+  const unit = m.yield ? m.yield.unit : "Portionen";
   let hero = "";
   if (r.images && r.images.length) {
     hero = `<div class="recipe-hero"><img src="images/${esc(r.images[0])}" alt="${esc(r.title)}"></div>`;
@@ -229,20 +260,33 @@ function renderRecipe(r) {
     : "";
 
   const meta = [];
-  if (r.times && r.times.prep) meta.push(`⏱ Vorbereitung: ${esc(r.times.prep)}`);
-  if (r.times && r.times.cook) meta.push(`🔥 Backen/Kochen: ${esc(r.times.cook)}`);
-  if (r.source && r.source.url) {
-    const label = r.source.name || hostOf(r.source.url);
-    meta.push(`Quelle: <a class="source-link" href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
-  } else if (r.source && r.source.name) {
-    meta.push(`Quelle: ${esc(r.source.name)}`);
+  if (m.times && m.times.prep) meta.push(`⏱ Vorbereitung: ${esc(m.times.prep)}`);
+  if (m.times && m.times.cook) meta.push(`🔥 Backen/Kochen: ${esc(m.times.cook)}`);
+  if (m.source && m.source.url) {
+    const label = m.source.name || hostOf(m.source.url);
+    meta.push(`Quelle: <a class="source-link" href="${esc(m.source.url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
+  } else if (m.source && m.source.name) {
+    meta.push(`Quelle: ${esc(m.source.name)}`);
   }
+
+  const variantTabs = variations.length
+    ? `<div class="chips variants" role="group" aria-label="Varianten">
+        <button class="chip" data-variant="" aria-pressed="${active ? "false" : "true"}">Original</button>
+        ${variations.map((v) =>
+          `<button class="chip" data-variant="${esc(v.id)}" aria-pressed="${active && active.id === v.id ? "true" : "false"}">${esc(v.title)}</button>`).join("")}
+      </div>`
+    : "";
+  const variantDesc = active && active.description
+    ? `<p class="variant-desc">${esc(active.description)}</p>`
+    : "";
 
   app.innerHTML = `
     <button class="back" id="back">← Alle Rezepte</button>
     ${hero}
     <div class="recipe-cat">${esc(r.category)}</div>
     <h1 class="recipe-title">${esc(r.title)}</h1>
+    ${variantTabs}
+    ${variantDesc}
     ${meta.length ? `<div class="recipe-meta">${meta.join("")}</div>` : ""}
     ${gallery}
 
@@ -263,11 +307,11 @@ function renderRecipe(r) {
 
       <section class="panel steps-panel">
         <h2>Zubereitung</h2>
-        <ol class="steps">${r.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
+        <ol class="steps">${m.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
       </section>
     </div>
 
-    ${r.notes ? `<section class="panel"><h2>Notizen</h2><p class="notes">${esc(r.notes)}</p></section>` : ""}
+    ${m.notes ? `<section class="panel"><h2>Notizen</h2><p class="notes">${esc(m.notes)}</p></section>` : ""}
     ${r.nutrition ? `<section class="panel"><h2>Nährwerte</h2><p class="notes">${esc(r.nutrition)}</p></section>` : ""}
   `;
 
@@ -276,12 +320,18 @@ function renderRecipe(r) {
     else location.hash = "#/";
   });
 
+  app.querySelectorAll(".variants .chip").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      location.hash = recipeHash(r.id, btn.dataset.variant);
+    });
+  });
+
   const input = document.getElementById("portions");
   const renderIng = () => {
     let val = parseFloat(String(input.value).replace(",", "."));
     if (!val || val <= 0) val = base;
     const factor = val / base;
-    document.getElementById("ing-list").innerHTML = ingredientsHtml(r, factor);
+    document.getElementById("ing-list").innerHTML = ingredientsHtml(m, factor);
     document.getElementById("yield-unit").textContent = yieldUnitLabel(unit, val);
   };
   document.getElementById("inc").addEventListener("click", () => {
