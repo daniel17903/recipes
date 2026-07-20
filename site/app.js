@@ -154,11 +154,13 @@ function renderList(state) {
 
   app.innerHTML = `
     <div class="controls">
-      <div class="search-wrap">
+      <div class="search-wrap${q ? " has-value" : ""}">
         <span class="search-icon" aria-hidden="true">${SEARCH_ICON}</span>
         <input class="search" id="search" type="search" inputmode="search"
           placeholder="Rezept, Zutat, Kategorie …" value="${esc(q)}"
           autocomplete="off" aria-label="Rezepte durchsuchen">
+        <button class="search-clear" id="search-clear" type="button"
+          aria-label="Suche löschen">${CLEAR_ICON}</button>
       </div>
       <div class="chips" role="group" aria-label="Kategorien">${chips}</div>
     </div>
@@ -166,14 +168,26 @@ function renderList(state) {
   `;
 
   const search = document.getElementById("search");
+  const searchWrap = search.parentElement;
   let t;
   search.addEventListener("input", () => {
+    searchWrap.classList.toggle("has-value", search.value !== "");
     clearTimeout(t);
     t = setTimeout(() => {
       const cur = parseHash();
       history.replaceState(null, "", listHash(search.value, cur.kategorie || kat));
       updateResults(search.value, kat);
     }, 120);
+  });
+
+  document.getElementById("search-clear").addEventListener("click", () => {
+    clearTimeout(t);
+    search.value = "";
+    searchWrap.classList.remove("has-value");
+    const cur = parseHash();
+    history.replaceState(null, "", listHash("", cur.kategorie || kat));
+    updateResults("", kat);
+    search.focus();
   });
 
   app.querySelectorAll(".chip").forEach((btn) => {
@@ -194,6 +208,7 @@ function updateResults(q, kat) {
 }
 
 const SEARCH_ICON = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.6"></circle><line x1="11" y1="11" x2="14.4" y2="14.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></line></svg>`;
+const CLEAR_ICON = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><line x1="4" y1="4" x2="12" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></line><line x1="12" y1="4" x2="4" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></line></svg>`;
 
 // Tipp des Tages: deterministisch pro Kalendertag, damit alle Besucher denselben sehen.
 function tippOfTheDay() {
