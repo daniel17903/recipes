@@ -88,8 +88,128 @@
     "Geschmolzene Margarine, abgeriebene Schale und Saft beider Zitronen, Seidentofu, Naturtofu, Zucker und Vanillepuddingpulver in eine Schüssel geben und glatt pürieren.",
     "Die Tofumasse auf den Boden gießen und glatt streichen. Bei 180C 65min backen. Dann Stäbchenprobe machen."
   ],
+  "variations": [
+    {
+      "id": "muerbeteig-sojajoghurt",
+      "title": "Mit Mürbeteig und Sojajoghurt",
+      "description": "Mürbeteig-Boden und eine Füllung aus Seidentofu und Sojajoghurt statt Naturtofu und Margarine.",
+      "ingredients": [
+        {
+          "group": "Mürbeteig",
+          "amount": 250,
+          "unit": "g",
+          "name": "Weizenmehl (Typ 405) oder Dinkelmehl (Typ 630)"
+        },
+        {
+          "group": "Mürbeteig",
+          "amount": 100,
+          "unit": "g",
+          "name": "vegane Butter (z. B. Alsan oder VioBlock)"
+        },
+        {
+          "group": "Mürbeteig",
+          "amount": 50,
+          "unit": "ml",
+          "name": "Wasser, kalt"
+        },
+        {
+          "group": "Mürbeteig",
+          "amount": 30,
+          "unit": "g",
+          "name": "Zucker"
+        },
+        {
+          "group": "Mürbeteig",
+          "amount": 3,
+          "unit": "g",
+          "name": "Weinsteinbackpulver",
+          "note": "entspricht 1 TL"
+        },
+        {
+          "group": "Mürbeteig",
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Salz"
+        },
+        {
+          "group": "Mürbeteig",
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Zimt, gemahlen"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 800,
+          "unit": "g",
+          "name": "Seidentofu"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 500,
+          "unit": "g",
+          "name": "Soja-Naturjoghurt, ungesüßt"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 160,
+          "unit": "g",
+          "name": "Zucker"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 40,
+          "unit": "g",
+          "name": "Speisestärke"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 6,
+          "unit": "g",
+          "name": "Vanilleextrakt oder Vanillepaste",
+          "note": "entspricht 2 TL"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 1,
+          "unit": "Pck.",
+          "name": "Vanillepuddingpulver"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Bio-Zitrone, davon Schale",
+          "note": "1-2"
+        },
+        {
+          "group": "Käsekuchenmasse",
+          "amount": null,
+          "unit": null,
+          "name": "Kurkuma"
+        }
+      ],
+      "steps": [
+        "Für den Mürbeteig das Mehl mit Zucker, Weinsteinbackpulver, Salz und Zimt in einer Schüssel vermengen (für ein besonders gleichmäßiges Ergebnis mehrmals sieben).",
+        "Die vegane Butter schmelzen, sodass sie gerade so flüssig ist, und zur Mehlmischung geben.",
+        "Wasser hinzufügen und alles kräftig zu einem festen Teig verkneten.",
+        "Eine Springform mit Backpapier auskleiden, den Mürbeteig darin flachdrücken und gleichmäßig ausbreiten. Darauf achten, dass ein ca. 3 Finger hoher, dünner Rand entsteht.",
+        "Für die Käsemasse den Seidentofu in einer Rührschüssel mit dem Handmixer auf höchster Stufe 2-3 Minuten cremig schlagen.",
+        "Die Bio-Zitrone waschen, abtupfen und die Schale vollständig abreiben; nach Geschmack auch etwas vom Saft verwenden.",
+        "Zitronenschale, Sojajoghurt und Vanille zugeben und kräftig untermixen.",
+        "Zucker mit Speisestärke mischen, ebenfalls hinzugeben und untermixen, bis die Masse frei von Klümpchen und schön geschmeidig ist.",
+        "Die geschmeidige Käsemasse vollständig in die mit Mürbeteig ausgekleidete Springform gießen. Geht die Masse etwas über den Teigrand hinaus, ist das nicht schlimm – nach dem Backen und Abkühlen vorsichtig mit einem Messer ablösen.",
+        "Im vorgeheizten Ofen bei 175 °C Umluft auf mittlerer Schiene 75 Minuten backen.",
+        "Den Kuchen herausnehmen und auf einem Kuchengitter abkühlen lassen. Wichtig: Erst nach dem Erkalten anschneiden oder aus der Form lösen!",
+        "Gut gekühlt und mit frischen Früchten, Beerenpüree oder etwas Schlagcreme servieren."
+      ],
+      "source": {
+        "url": "https://heftigvegan.de/wprm_print/15555"
+      }
+    }
+  ],
   "images": [
-    "kaesekuchen.webp"
+    "kaesekuchen.webp",
+    "kaesekuchen-2.webp"
   ],
   "dateAdded": "2026-07-17"
 }

@@ -22,8 +22,8 @@
     {
       "group": null,
       "amount": 1.5,
-      "unit": "Stück",
-      "name": "Pack. Backpulver"
+      "unit": "Pck.",
+      "name": "Backpulver"
     },
     {
       "group": null,
@@ -35,13 +35,15 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "etwas Vanille"
+      "name": "Vanille",
+      "note": "etwas"
     },
     {
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "etwas Stärke"
+      "name": "Stärke",
+      "note": "etwas"
     },
     {
       "group": null,
@@ -51,15 +53,17 @@
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "ca! 180 ml Sprudel"
+      "amount": 180,
+      "unit": "ml",
+      "name": "Sprudel",
+      "note": "ca."
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "ca !120 ml Öl (geschmacksneutral)"
+      "amount": 120,
+      "unit": "ml",
+      "name": "Öl (geschmacksneutral)",
+      "note": "ca."
     },
     {
       "group": null,
@@ -71,7 +75,8 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "Mohn optional"
+      "name": "Mohn",
+      "note": "optional"
     }
   ],
   "steps": [
@@ -81,11 +86,98 @@
     "Teig in Backblech füllen und den Rhabarber, die gehobelten Nüsse und den Mohn gleichmäßig darauf verteilen.",
     "Bei 170C Umluft ca 45min backen."
   ],
+  "variations": [
+    {
+      "id": "hefeteig-vanillepudding",
+      "title": "Mit Hefeteig und Vanillepudding",
+      "description": "Hefeteig-Boden mit Vanillepudding, in den die Rhabarberstücke gedrückt werden.",
+      "ingredients": [
+        {
+          "group": "Teig",
+          "amount": 400,
+          "unit": "g",
+          "name": "Mehl"
+        },
+        {
+          "group": "Teig",
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Würfel Hefe"
+        },
+        {
+          "group": "Teig",
+          "amount": 150,
+          "unit": "ml",
+          "name": "Sojamilch"
+        },
+        {
+          "group": "Teig",
+          "amount": 80,
+          "unit": "g",
+          "name": "Margarine"
+        },
+        {
+          "group": "Teig",
+          "amount": null,
+          "unit": null,
+          "name": "Salz"
+        },
+        {
+          "group": "Teig",
+          "amount": 60,
+          "unit": "g",
+          "name": "Zucker"
+        },
+        {
+          "group": "Belag",
+          "amount": 1000,
+          "unit": "g",
+          "name": "Rhabarber"
+        },
+        {
+          "group": "Belag",
+          "amount": 60,
+          "unit": "g",
+          "name": "Zucker"
+        },
+        {
+          "group": "Belag",
+          "amount": 300,
+          "unit": "ml",
+          "name": "Milch"
+        },
+        {
+          "group": "Belag",
+          "amount": 1,
+          "unit": "Pck.",
+          "name": "Vanillepudding Pulver"
+        },
+        {
+          "group": "Belag",
+          "amount": 100,
+          "unit": "g",
+          "name": "gehobelte Mandeln"
+        }
+      ],
+      "steps": [
+        "Rhabarber schälen, mit Zucker mischen und 2h abtropfen lassen.",
+        "Wasser auffangen.",
+        "Den Hefeteig kneten und 1h gehen lassen.",
+        "Das Blech mit dem ausgerollten Hefeteig auslegen.",
+        "Mit der Milch und dem Rhabarbersaft (insgesamt 400ml) den Vanillepudding zubereiten.",
+        "Auf dem Hefeteig verteilen, danach die Rhabarberstücke hineindrücken.",
+        "Mit gehobelten Mandeln bestreuen.",
+        "20-30min bei 180C Umluft backen."
+      ],
+      "source": {}
+    }
+  ],
   "source": {
     "url": "https://vegan-taste-week.de/vegane-rezepte/rhabarber-blechkuchen"
   },
   "images": [
-    "rhabarber-blechkuchen.webp"
+    "rhabarber-blechkuchen.webp",
+    "rhabarber-blechkuchen-2.webp"
   ],
   "dateAdded": "2026-07-17"
 }
