@@ -2,3 +2,6 @@ _site/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Interne Arbeitsdokumente von KI-Sessions – nicht committen
+FIX_PLAN.md
