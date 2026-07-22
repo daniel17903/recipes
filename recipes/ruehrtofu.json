@@ -1,0 +1,75 @@
+{
+  "id": "ruehrtofu",
+  "title": "Rührtofu",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 1,
+    "unit": "Portion"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Naturtofu",
+      "note": "1 Block (180 g)"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Haferflocken",
+      "note": "1–2 EL (ca. 6–12 g)"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Schwarzsalz (Kala Namak)",
+      "note": "½ TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Msp.",
+      "name": "Kurkuma"
+    },
+    {
+      "group": null,
+      "amount": 60,
+      "unit": "ml",
+      "name": "Wasser"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Öl",
+      "note": "einige EL"
+    },
+    {
+      "group": "Zum Servieren",
+      "amount": null,
+      "unit": null,
+      "name": "frischer Schnittlauch",
+      "note": "gehackt"
+    },
+    {
+      "group": "Zum Servieren",
+      "amount": null,
+      "unit": null,
+      "name": "schwarzer Pfeffer",
+      "note": "frisch gemahlen"
+    }
+  ],
+  "steps": [
+    "Öl in einer Bratpfanne erhitzen. Den mit den Händen zerbröselten Tofu in die Bratpfanne geben und so lange anbraten, bis er leicht gebräunt ist.",
+    "Haferflocken, Salz, Kurkuma und Pfeffer hinzufügen und gründlich mischen. Wasser dazugießen und so lange dünsten, bis das Wasser verdampft ist. Noch eine Weile weiterbraten.",
+    "Mit Schnittlauch und schwarzem Pfeffer bestreuen und mit dem Lieblingsbrot servieren."
+  ],
+  "notes": "Lass dich von dem seltsam klingenden Namen nicht entmutigen. Rührtofu ist ein „Rührei“ aus gebratenem Tofu. Ähnlich wie sein Eieräquivalent ist auch dieses sättigend, schnell in der Zubereitung und schmeckt hervorragend mit Brot. Hefeflocken und Schwarzsalz dürfen nicht fehlen, weil sie dem Rührtofu den Eigeschmack verleihen. Varianten: mit Pilzfüllung, Tomaten oder als Favorit mit roten Zwiebeln und getrockneten Tomaten.",
+  "images": [
+    "ruehrtofu.webp"
+  ],
+  "dateAdded": "2026-07-22"
+}
