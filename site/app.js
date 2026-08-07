@@ -379,7 +379,7 @@ function renderRecipe(r, variantId) {
   renderIng();
 }
 
-const SINGULAR_UNITS = { "Portionen": "Portion", "Pancakes": "Pancake", "kleine Gläser": "kleines Glas" };
+const SINGULAR_UNITS = { "Portionen": "Portion", "Pancakes": "Pancake", "Gläser": "Glas", "kleine Gläser": "kleines Glas" };
 function yieldUnitLabel(unit, value) {
   return value === 1 && SINGULAR_UNITS[unit] ? SINGULAR_UNITS[unit] : unit;
 }
