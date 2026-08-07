@@ -1,0 +1,70 @@
+{
+  "id": "veganer-sibo-joghurt",
+  "title": "Veganer SIBO-Joghurt mit Sojamilch",
+  "category": "Grundrezepte",
+  "yield": {
+    "amount": 7,
+    "unit": "Gläser"
+  },
+  "times": {
+    "prep": "20 Minuten",
+    "cook": "36 Stunden Fermentation + 4 Stunden kühlen"
+  },
+  "ingredients": [
+    {
+      "group": "Grundmasse",
+      "amount": 1400,
+      "unit": "ml",
+      "name": "Sojamilch, ungesüßt",
+      "note": "nur Sojabohnen und Wasser, mind. 3 g Eiweiß pro 100 ml"
+    },
+    {
+      "group": "Grundmasse",
+      "amount": 24,
+      "unit": "g",
+      "name": "Inulin",
+      "note": "entspricht 3 EL; bei empfindlichem Darm mit 8 g (1 EL) beginnen"
+    },
+    {
+      "group": "Grundmasse",
+      "amount": 22,
+      "unit": "g",
+      "name": "Zucker",
+      "note": "entspricht knapp 1 1/2 EL; dient als Futter für die Kulturen und wird beim Fermentieren verbraucht"
+    },
+    {
+      "group": "Grundmasse",
+      "amount": 18,
+      "unit": "g",
+      "name": "Tapiokastärke",
+      "note": "optional, für festere Konsistenz; entspricht 2 EL"
+    },
+    {
+      "group": "Starter – eine der beiden Varianten",
+      "amount": 10,
+      "unit": "Stück",
+      "name": "L.-reuteri-Tabletten (z. B. BioGaia Gastrus)",
+      "note": "für die erste Charge"
+    },
+    {
+      "group": "Starter – eine der beiden Varianten",
+      "amount": 90,
+      "unit": "ml",
+      "name": "Joghurt der vorherigen Charge",
+      "note": "für Folgechargen, entspricht gut 1/3 Tasse"
+    }
+  ],
+  "steps": [
+    "Gläser, Deckel, Löffel und Fermentiergefäß sterilisieren: 10 Minuten auskochen oder 15 Minuten bei 120 °C in den Backofen. Fremdkeime setzen sich sonst in der langen Fermentation durch.",
+    "Für die erste Charge die 10 Tabletten im Mörser fein zerstoßen und mit Inulin und Zucker mischen. Für Folgechargen die Tabletten weglassen und stattdessen 90 ml Joghurt der letzten Charge bereitstellen.",
+    "Etwa 200 ml der Sojamilch abnehmen und die Pulvermischung (mit der Tapiokastärke, falls verwendet) klümpchenfrei einrühren.",
+    "Nur wenn Stärke verwendet wird: diese Milch unter Rühren aufkochen, bis sie leicht andickt, dann auf unter 40 °C abkühlen lassen.",
+    "Die restliche Sojamilch auf etwa 38 °C erwärmen, die angerührte Mischung sowie – bei Folgechargen – den Joghurt der letzten Charge glatt einrühren.",
+    "Die Masse in die sterilen Gläser oder in ein großes Gefäß füllen und locker abdecken.",
+    "36 Stunden bei 36–38 °C fermentieren: Joghurtbereiter, Sous-vide-Becken, Dörrgerät oder Backofen mit eingeschalteter Lampe. Über 43 °C sterben die Kulturen ab, unter 32 °C wird der Joghurt nicht fest.",
+    "Anschließend mindestens 4 Stunden, besser über Nacht, in den Kühlschrank stellen – dabei wird der Joghurt deutlich fester.",
+    "90 ml für die nächste Charge zurückstellen. So lässt sich der Joghurt etwa fünfmal weiterführen, danach mit frischen Tabletten neu ansetzen."
+  ],
+  "notes": "Langzeitfermentierter Joghurt nach dem SIBO-Prinzip (36 Stunden statt der üblichen 8): Die lange Fermentation baut die verwertbaren Zucker fast vollständig ab und liefert eine sehr hohe Keimzahl an Lactobacillus reuteri. Ein Glas entspricht 195 ml; 1400 ml Sojamilch ergeben rund 7 Gläser. Bei SIBO mit 1 TL pro Tag beginnen und die Menge über zwei Wochen langsam steigern – anfangs sind Blähungen möglich. Der Joghurt schmeckt deutlich säuerlicher als gekaufter; absetzende Molke ist normal und kann untergerührt oder abgegossen werden. Im Kühlschrank etwa eine Woche haltbar. Sojamilch mit Zusätzen wie Carrageen, Öl oder Süßungsmitteln fermentiert schlechter.",
+  "dateAdded": "2026-08-07"
+}
