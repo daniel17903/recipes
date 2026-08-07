@@ -458,10 +458,16 @@ function hostOf(url) {
 // iOS/Safari 16.4+ (auch als installierte PWA). Ältere Browser ignorieren das
 // stillschweigend, die Seite funktioniert dort unverändert.
 let wakeLock = null;
+// Wird synchron vor dem ersten await gesetzt: sonst kämen mehrere schnell
+// aufeinanderfolgende Events (z. B. zwei pointerdown) alle an der
+// wakeLock-Prüfung vorbei und würden parallel Locks anfordern – von denen dann
+// nur der zuletzt aufgelöste eine Referenz behält.
+let wakeLockPending = false;
 
 async function requestWakeLock() {
   if (!("wakeLock" in navigator)) return;
-  if (wakeLock || document.visibilityState !== "visible") return;
+  if (wakeLock || wakeLockPending || document.visibilityState !== "visible") return;
+  wakeLockPending = true;
   try {
     const lock = await navigator.wakeLock.request("screen");
     wakeLock = lock;
@@ -473,6 +479,8 @@ async function requestWakeLock() {
     // Verweigert (Akkusparmodus, fehlende Nutzerinteraktion, kein Support) –
     // der nächste Versuch läuft über visibilitychange bzw. den nächsten Tap.
     wakeLock = null;
+  } finally {
+    wakeLockPending = false;
   }
 }
 
