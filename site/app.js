@@ -449,3 +449,45 @@ function hostOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); }
   catch (e) { return url; }
 }
+
+// ---------------------------------------------------------------------------
+// Bildschirm wach halten (Screen Wake Lock API)
+// ---------------------------------------------------------------------------
+// Beim Kochen liegt das Handy daneben, ohne dass man es anfasst – der
+// Bildschirm soll dabei nicht ausgehen. Unterstützt von Android/Chrome 84+ und
+// iOS/Safari 16.4+ (auch als installierte PWA). Ältere Browser ignorieren das
+// stillschweigend, die Seite funktioniert dort unverändert.
+let wakeLock = null;
+// Wird synchron vor dem ersten await gesetzt: sonst kämen mehrere schnell
+// aufeinanderfolgende Events (z. B. zwei pointerdown) alle an der
+// wakeLock-Prüfung vorbei und würden parallel Locks anfordern – von denen dann
+// nur der zuletzt aufgelöste eine Referenz behält.
+let wakeLockPending = false;
+
+async function requestWakeLock() {
+  if (!("wakeLock" in navigator)) return;
+  if (wakeLock || wakeLockPending || document.visibilityState !== "visible") return;
+  wakeLockPending = true;
+  try {
+    const lock = await navigator.wakeLock.request("screen");
+    wakeLock = lock;
+    // Das System gibt den Lock z. B. beim Sperren des Geräts von selbst frei.
+    lock.addEventListener("release", () => {
+      if (wakeLock === lock) wakeLock = null;
+    });
+  } catch (e) {
+    // Verweigert (Akkusparmodus, fehlende Nutzerinteraktion, kein Support) –
+    // der nächste Versuch läuft über visibilitychange bzw. den nächsten Tap.
+    wakeLock = null;
+  } finally {
+    wakeLockPending = false;
+  }
+}
+
+// Nach dem Zurückschalten in die App ist der Lock weg und muss neu geholt werden.
+document.addEventListener("visibilitychange", requestWakeLock);
+// Fallback: Browser, die den Lock nur nach einer Nutzergeste vergeben, bekommen
+// beim ersten Tippen eine zweite Chance. requestWakeLock ist idempotent.
+document.addEventListener("pointerdown", requestWakeLock, { passive: true });
+
+requestWakeLock();
