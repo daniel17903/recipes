@@ -16,7 +16,7 @@ fetch("recipes.json")
     DATA = data;
     data.byId = {};
     data.recipes.forEach((r) => (data.byId[r.id] = r));
-    data.recipes.forEach((r) => (r._hay = haystack(r)));
+    data.recipes.forEach((r) => (r._hay = haystacks(r)));
     const total = document.getElementById("recipe-total");
     if (total) total.textContent = `${data.count} Rezepte`;
     render();
@@ -45,15 +45,39 @@ function normalizeAe(s) {
     .normalize("NFD").replace(/[̀-ͯ]/g, "");
 }
 
-function haystack(r) {
-  const parts = [r.title, r.category];
-  r.ingredients.forEach((i) => parts.push(i.name));
-  (r.variations || []).forEach((v) => {
-    parts.push(v.title);
-    (v.ingredients || []).forEach((i) => parts.push(i.name));
-  });
-  const joined = parts.join(" ");
+// Beide Faltungen in einem Suchfeld, damit "käse", "kase" und "kaese" treffen.
+function folded(parts) {
+  const joined = parts.filter(Boolean).join(" ");
   return normalize(joined) + " " + normalizeAe(joined);
+}
+
+// Drei getrennte Suchfelder: Titel schlägt Zutaten, Zutaten schlagen Fließtext.
+function haystacks(r) {
+  const titles = [r.title];
+  const ings = [];
+  const text = [r.category, r.notes, r.source && r.source.name, ...(r.steps || [])];
+
+  r.ingredients.forEach((i) => ings.push(i.name, i.note));
+  r.ingredients.forEach((i) => text.push(i.group));
+  (r.variations || []).forEach((v) => {
+    titles.push(v.title);
+    (v.ingredients || []).forEach((i) => {
+      ings.push(i.name, i.note);
+      text.push(i.group);
+    });
+    text.push(v.description, v.notes, v.source && v.source.name, ...(v.steps || []));
+  });
+
+  return { title: folded(titles), ing: folded(ings), text: folded(text) };
+}
+
+// 3 = Titeltreffer, 2 = Zutatentreffer, 1 = Treffer im übrigen Text, 0 = kein Treffer.
+function searchScore(r, nq) {
+  if (!nq) return 0;
+  if (r._hay.title.includes(nq)) return 3;
+  if (r._hay.ing.includes(nq)) return 2;
+  if (r._hay.text.includes(nq)) return 1;
+  return 0;
 }
 
 function esc(s) {
@@ -137,14 +161,19 @@ function render() {
   window.scrollTo(0, 0);
 }
 
+function filterRecipes(q, kat) {
+  const nq = normalize(q);
+  let list = DATA.recipes;
+  if (kat) list = list.filter((r) => r.category === kat);
+  if (nq) list = list.filter((r) => searchScore(r, nq) > 0);
+  return list;
+}
+
 function renderList(state) {
   const q = state.q || "";
   const kat = state.kategorie || "";
-  const nq = normalize(q);
 
-  let list = DATA.recipes;
-  if (kat) list = list.filter((r) => r.category === kat);
-  if (nq) list = list.filter((r) => r._hay.includes(nq));
+  const list = filterRecipes(q, kat);
 
   // Kategorien nach Summe der Klicks ihrer Rezepte sortieren
   const clicks = loadClicks();
@@ -209,12 +238,7 @@ function renderList(state) {
 }
 
 function updateResults(q, kat) {
-  const nq = normalize(q);
-  let list = DATA.recipes;
-  if (kat) list = list.filter((r) => r.category === kat);
-  if (nq) list = list.filter((r) => r._hay.includes(nq));
-
-  document.getElementById("results").innerHTML = resultsHtml(list, q, kat);
+  document.getElementById("results").innerHTML = resultsHtml(filterRecipes(q, kat), q, kat);
 }
 
 const SEARCH_ICON = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.6"></circle><line x1="11" y1="11" x2="14.4" y2="14.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></line></svg>`;
@@ -232,6 +256,10 @@ function resultsHtml(list, q, kat) {
   if (!list.length) return `<p class="empty">Hmm, dazu findet sich nichts. Probier's mal anders! 🍳</p>`;
   // Meistgeklickte zuerst; bei Gleichstand bleibt die alphabetische Reihenfolge
   list = sortByClicks(list);
+  // Bei einer Suche zählt zuerst, wo der Treffer sitzt: Titel vor Zutaten vor
+  // Fließtext. Der stabile Sort erhält innerhalb einer Stufe die Klick-Reihenfolge.
+  const nq = normalize(q);
+  if (nq) list.sort((a, b) => searchScore(b, nq) - searchScore(a, nq));
   const editorial = !q && !kat;
   const tippId = editorial ? tippOfTheDay() : null;
   if (tippId) list = [...list].sort((a, b) => (a.id === tippId ? -1 : 0) - (b.id === tippId ? -1 : 0));
