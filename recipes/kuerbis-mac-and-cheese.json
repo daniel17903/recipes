@@ -1,0 +1,124 @@
+{
+  "id": "kuerbis-mac-and-cheese",
+  "title": "Kürbis Mac and Cheese",
+  "category": "Hauptgerichte",
+  "yield": {
+    "amount": 4,
+    "unit": "Portionen"
+  },
+  "times": {
+    "prep": "5 Minuten",
+    "cook": "10 Minuten"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 400,
+      "unit": "g",
+      "name": "Nudeln",
+      "note": "bei Bedarf glutenfreie Nudeln"
+    },
+    {
+      "group": null,
+      "amount": 5,
+      "unit": "ml",
+      "name": "Olivenöl",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "Zehe",
+      "name": "Knoblauch, gehackt",
+      "note": "2-3 Zehen"
+    },
+    {
+      "group": null,
+      "amount": 600,
+      "unit": "g",
+      "name": "Kürbispüree",
+      "note": "gekocht oder aus dem Glas"
+    },
+    {
+      "group": null,
+      "amount": 150,
+      "unit": "g",
+      "name": "Cashewkerne",
+      "note": "mind. 3 Std. in Wasser eingeweicht"
+    },
+    {
+      "group": null,
+      "amount": 18,
+      "unit": "g",
+      "name": "Hefeflocken",
+      "note": "entspricht 3-4 EL"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Paprikapulver",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 20,
+      "unit": "g",
+      "name": "Agavendicksaft",
+      "note": "entspricht 1 EL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Limette",
+      "note": "Saft, nach Geschmack"
+    },
+    {
+      "group": null,
+      "amount": 250,
+      "unit": "ml",
+      "name": "Wasser oder Gemüsebrühe",
+      "note": "nach Bedarf mehr"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Pfeffer"
+    },
+    {
+      "group": "Zum Garnieren (optional)",
+      "amount": 0.5,
+      "unit": "Bund",
+      "name": "frischer Koriander, gehackt"
+    },
+    {
+      "group": "Zum Garnieren (optional)",
+      "amount": null,
+      "unit": null,
+      "name": "veganer Parmesan"
+    }
+  ],
+  "steps": [
+    "Cashewkerne mindestens 3 Stunden (oder über Nacht) in Wasser einweichen, dann abspülen und abtropfen lassen. Alternativ 10-15 Minuten weich kochen.",
+    "Kürbispüree nach separatem Rezept zubereiten oder Kürbisstücke zusammen mit den Cashewkernen weich kochen.",
+    "Nudeln nach Packungsanweisung al dente kochen.",
+    "Olivenöl in einer Pfanne erhitzen und den gehackten Knoblauch 1-2 Minuten anbraten.",
+    "Cashewkerne, Wasser, Kürbispüree, Knoblauch, Hefeflocken, Paprikapulver, Agavendicksaft und Limettensaft in einen Mixer geben und cremig mixen. Bei Bedarf mehr Wasser hinzufügen, bis die Soße die gewünschte Konsistenz hat.",
+    "Nudeln abgießen, zurück in den Topf geben und mit der Soße vermischen. Unter gelegentlichem Rühren erwärmen.",
+    "Mit Salz, Pfeffer, Limettensaft und Agavendicksaft abschmecken und mit frischem Koriander sowie optional veganem Parmesan servieren."
+  ],
+  "notes": "Kürbis- und Cashewmenge sind gegenüber dem Originalrezept um 50 % erhöht; dadurch wird die Soße cremiger und kürbisintensiver und braucht etwas mehr Flüssigkeit. Gewürzt wird mit Agavendicksaft und Limette, garniert mit Koriander statt Petersilie. Statt Cashewkernen gehen auch Sonnenblumenkerne oder pflanzliche Sahne. Als Auflauf: alles in eine Auflaufform füllen, mit Semmelbröseln bestreuen und bei 180 °C ca. 15 Minuten backen. Die Soße hält sich separat im Kühlschrank 3-4 Tage und lässt sich einfrieren.",
+  "source": {
+    "name": "Bianca Zapatka",
+    "url": "https://biancazapatka.com/de/kuerbis-mac-and-cheese-vegan/"
+  },
+  "dateAdded": "2026-09-11"
+}
