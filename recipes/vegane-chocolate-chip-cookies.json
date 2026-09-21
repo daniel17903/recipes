@@ -1,0 +1,197 @@
+{
+  "id": "vegane-chocolate-chip-cookies",
+  "title": "Vegane Chocolate Chip Cookies",
+  "category": "Kekse",
+  "yield": {
+    "amount": 20,
+    "unit": "Stück"
+  },
+  "times": {
+    "prep": "20 Minuten",
+    "cook": "10 Minuten"
+  },
+  "ingredients": [
+    {
+      "group": null,
+      "amount": 280,
+      "unit": "g",
+      "name": "Dinkel- oder Weizenmehl",
+      "note": "oder glutenfreie Mehlmischung 1:1"
+    },
+    {
+      "group": null,
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL; alternativ 1,5 g mehr Natron"
+    },
+    {
+      "group": null,
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Natron",
+      "note": "entspricht 1/2 TL; alternativ 3 g mehr Backpulver"
+    },
+    {
+      "group": null,
+      "amount": 2.5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": 1,
+      "unit": "Prise",
+      "name": "gemahlene Vanille",
+      "note": "oder 5 ml Vanilleextrakt (entspricht 1 TL)"
+    },
+    {
+      "group": null,
+      "amount": 170,
+      "unit": "g",
+      "name": "vegane Butter oder Margarine",
+      "note": "weich; alternativ Kokosöl"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "g",
+      "name": "Rohrohrzucker",
+      "note": "oder ein anderer Zucker"
+    },
+    {
+      "group": null,
+      "amount": 50,
+      "unit": "g",
+      "name": "Apfelmark",
+      "note": "entspricht 3 EL; alternativ zerdrückte Banane oder 12 g gemahlene Leinsamen (entspricht 1,5 EL) mit 45 ml Wasser gemischt"
+    },
+    {
+      "group": null,
+      "amount": 180,
+      "unit": "g",
+      "name": "Schoko-Drops"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "grobes Meersalz",
+      "note": "optional zum Bestreuen"
+    }
+  ],
+  "steps": [
+    "Den Ofen auf 175 °C Ober-/Unterhitze vorheizen. Zwei Backbleche mit Backpapier auslegen (oder kleine Pfannen einfetten, um Pfannen-Cookies zu machen).",
+    "Mehl, Backpulver und gemahlene Vanille in eine große Rührschüssel sieben. Dann Natron und Salz hinzugeben, alles vermischen und beiseite stellen.",
+    "Die weiche vegane Butter, das Apfelmark und den Zucker in eine andere Rührschüssel geben und mit dem Handrührgerät cremig mixen.",
+    "Die Mehlmischung hinzufügen und mit einem Teigschaber oder Löffel verrühren, bis sich alle Zutaten verbunden haben. Dann die Schoko-Drops unterheben.",
+    "Etwa 2 Esslöffel Keksteig abstechen, zu Kugeln rollen (oder gleichmäßig in den vorbereiteten Pfannen verteilen) und auf das Backblech legen. Dabei genügend Platz zwischen den Keksen lassen, da sie beim Backen zerlaufen.",
+    "Die Teigkugeln leicht flachdrücken und nach Belieben mit weiteren Schoko-Drops belegen.",
+    "Die Kekse 10–15 Minuten backen, bis sie goldbraun und außen knusprig, in der Mitte aber noch weich sind. Für zähere Kekse nicht zu lange backen, da sie beim Abkühlen fest werden. Pfannen-Cookies brauchen etwa 3–5 Minuten länger.",
+    "Die Kekse 10 Minuten auf dem Blech ruhen lassen, dann auf ein Gitter setzen und vollständig auskühlen lassen.",
+    "Nach Belieben mit grobem Meersalz bestreuen."
+  ],
+  "notes": "Ergibt 18–20 Kekse oder 4 Pfannen-Cookies. In einer Keksdose halten sie sich 1–2 Wochen; vor dem Servieren kurz erwärmen.",
+  "source": {
+    "name": "Bianca Zapatka",
+    "url": "https://biancazapatka.com/de/wprm_print/vegane-chocolate-chip-cookies"
+  },
+  "dateAdded": "2026-09-21",
+  "variations": [
+    {
+      "id": "mit-himbeeren-und-buchweizen",
+      "title": "Mit Himbeeren und Buchweizen-Crunch",
+      "description": "Statt Schoko-Drops grob gehackte Schokolade nach Gefühl, dazu zerkrümelte gefriergetrocknete Himbeeren im Teig und Buchweizen obendrauf für den Crunch.",
+      "ingredients": [
+        {
+          "group": null,
+          "amount": 280,
+          "unit": "g",
+          "name": "Dinkel- oder Weizenmehl",
+          "note": "oder glutenfreie Mehlmischung 1:1"
+        },
+        {
+          "group": null,
+          "amount": 3,
+          "unit": "g",
+          "name": "Backpulver",
+          "note": "entspricht 1 TL"
+        },
+        {
+          "group": null,
+          "amount": 1.5,
+          "unit": "g",
+          "name": "Natron",
+          "note": "entspricht 1/2 TL"
+        },
+        {
+          "group": null,
+          "amount": 2.5,
+          "unit": "g",
+          "name": "Salz",
+          "note": "entspricht 1/2 TL"
+        },
+        {
+          "group": null,
+          "amount": 1,
+          "unit": "Prise",
+          "name": "gemahlene Vanille",
+          "note": "oder 5 ml Vanilleextrakt (entspricht 1 TL)"
+        },
+        {
+          "group": null,
+          "amount": 170,
+          "unit": "g",
+          "name": "vegane Butter oder Margarine",
+          "note": "weich; alternativ Kokosöl"
+        },
+        {
+          "group": null,
+          "amount": 200,
+          "unit": "g",
+          "name": "Rohrohrzucker"
+        },
+        {
+          "group": null,
+          "amount": 50,
+          "unit": "g",
+          "name": "Apfelmark",
+          "note": "entspricht 3 EL"
+        },
+        {
+          "group": null,
+          "amount": null,
+          "unit": null,
+          "name": "gehackte Schokolade",
+          "note": "nach Gefühl, ca. 180 g"
+        },
+        {
+          "group": null,
+          "amount": null,
+          "unit": null,
+          "name": "gefriergetrocknete Himbeeren",
+          "note": "zerkrümelt, nach Gefühl"
+        },
+        {
+          "group": null,
+          "amount": null,
+          "unit": null,
+          "name": "Buchweizen",
+          "note": "zum Bestreuen, für den Crunch"
+        }
+      ],
+      "steps": [
+        "Den Ofen auf 175 °C Ober-/Unterhitze vorheizen und zwei Backbleche mit Backpapier auslegen.",
+        "Mehl, Backpulver und gemahlene Vanille in eine große Rührschüssel sieben. Dann Natron und Salz hinzugeben, alles vermischen und beiseite stellen.",
+        "Die weiche vegane Butter, das Apfelmark und den Zucker in eine andere Rührschüssel geben und mit dem Handrührgerät cremig mixen.",
+        "Die Mehlmischung hinzufügen und verrühren, bis sich alle Zutaten verbunden haben.",
+        "Die Schokolade grob hacken und zusammen mit den zerkrümelten gefriergetrockneten Himbeeren unterheben.",
+        "Etwa 2 Esslöffel Keksteig abstechen, zu Kugeln rollen und mit genügend Abstand auf das Backblech legen.",
+        "Die Teigkugeln leicht flachdrücken und mit Buchweizen bestreuen.",
+        "Die Kekse 10–15 Minuten backen, bis sie goldbraun und außen knusprig, in der Mitte aber noch weich sind.",
+        "Die Kekse 10 Minuten auf dem Blech ruhen lassen, dann auf ein Gitter setzen und auskühlen lassen."
+      ]
+    }
+  ]
+}
