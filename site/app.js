@@ -27,6 +27,15 @@ fetch("recipes.json")
 
 window.addEventListener("hashchange", render);
 
+// "/" springt in die Suche (wie auf vielen Websites üblich).
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+  const t = e.target;
+  if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+  const search = document.getElementById("search");
+  if (search) { e.preventDefault(); search.focus(); search.select(); }
+});
+
 // ---------------------------------------------------------------------------
 // Helfer
 // ---------------------------------------------------------------------------
@@ -72,12 +81,25 @@ function haystacks(r) {
 }
 
 // 3 = Titeltreffer, 2 = Zutatentreffer, 1 = Treffer im übrigen Text, 0 = kein Treffer.
-function searchScore(r, nq) {
-  if (!nq) return 0;
-  if (r._hay.title.includes(nq)) return 3;
-  if (r._hay.ing.includes(nq)) return 2;
-  if (r._hay.text.includes(nq)) return 1;
+function termScore(r, term) {
+  if (r._hay.title.includes(term)) return 3;
+  if (r._hay.ing.includes(term)) return 2;
+  if (r._hay.text.includes(term)) return 1;
   return 0;
+}
+
+// Mehrere Suchwörter sind UND-verknüpft ("schoko kuchen"), die Wörter dürfen
+// in verschiedenen Feldern stehen. Punkte = Summe der Einzeltreffer, damit
+// Rezepte mit mehr Titeltreffern weiter oben landen.
+function searchScore(r, nq) {
+  const terms = nq.split(/\s+/).filter(Boolean);
+  let sum = 0;
+  for (const term of terms) {
+    const s = termScore(r, term);
+    if (!s) return 0;
+    sum += s;
+  }
+  return sum;
 }
 
 function esc(s) {
@@ -150,15 +172,24 @@ function listHash(q, kategorie) {
 // ---------------------------------------------------------------------------
 // Render
 // ---------------------------------------------------------------------------
+// Scroll-Position der Übersicht merken, damit "← Alle Rezepte" wieder an
+// derselben Stelle landet statt ganz oben.
+const listScroll = {};
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+
 function render() {
   if (!DATA) return;
   const state = parseHash();
   if (state.view === "recipe" && DATA.byId[state.id]) {
-    renderRecipe(DATA.byId[state.id], state.variante);
+    const r = DATA.byId[state.id];
+    document.title = `${r.title} – Kochbuch`;
+    renderRecipe(r, state.variante);
+    window.scrollTo(0, 0);
   } else {
+    document.title = "Kochbuch";
     renderList(state);
+    window.scrollTo(0, listScroll[location.hash] || 0);
   }
-  window.scrollTo(0, 0);
 }
 
 function filterRecipes(q, kat) {
@@ -335,8 +366,13 @@ function renderRecipe(r, variantId) {
     ? `<p class="variant-desc">${esc(active.description)}</p>`
     : "";
 
+  const done = doneState(recipeHash(r.id, active ? active.id : ""));
+
   app.innerHTML = `
-    <button class="back" id="back">← Alle Rezepte</button>
+    <div class="recipe-top">
+      <button class="back" id="back">← Alle Rezepte</button>
+      <button class="share" id="share" type="button">${SHARE_ICON}<span>Teilen</span></button>
+    </div>
     ${hero}
     <div class="recipe-cat">${esc(r.category)}</div>
     <h1 class="recipe-title">${esc(r.title)}</h1>
@@ -362,7 +398,8 @@ function renderRecipe(r, variantId) {
 
       <section class="panel steps-panel">
         <h2>Zubereitung</h2>
-        <ol class="steps">${m.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
+        <ol class="steps">${m.steps.map((s, idx) =>
+          `<li data-idx="${idx}" class="${done.steps.has(idx) ? "done" : ""}">${esc(s)}</li>`).join("")}</ol>
       </section>
     </div>
 
@@ -373,6 +410,23 @@ function renderRecipe(r, variantId) {
   document.getElementById("back").addEventListener("click", () => {
     if (history.length > 1) history.back();
     else location.hash = "#/";
+  });
+
+  document.getElementById("share").addEventListener("click", () => shareRecipe(r, active));
+
+  // Abhaken: Zutaten und Schritte per Tipp als erledigt markieren.
+  const toggle = (set, li) => {
+    const idx = Number(li.dataset.idx);
+    if (set.has(idx)) set.delete(idx); else set.add(idx);
+    li.classList.toggle("done", set.has(idx));
+  };
+  document.getElementById("ing-list").addEventListener("click", (e) => {
+    const li = e.target.closest("li[data-idx]");
+    if (li) toggle(done.ings, li);
+  });
+  app.querySelector("ol.steps").addEventListener("click", (e) => {
+    const li = e.target.closest("li[data-idx]");
+    if (li) toggle(done.steps, li);
   });
 
   app.querySelectorAll(".variants .chip").forEach((btn) => {
@@ -391,7 +445,7 @@ function renderRecipe(r, variantId) {
     let val = parseFloat(String(input.value).replace(",", "."));
     if (!val || val <= 0) val = base;
     const factor = val / base;
-    document.getElementById("ing-list").innerHTML = ingredientsHtml(m, factor);
+    document.getElementById("ing-list").innerHTML = ingredientsHtml(m, factor, done.ings);
     document.getElementById("yield-unit").textContent = yieldUnitLabel(unit, val);
   };
   document.getElementById("inc").addEventListener("click", () => {
@@ -407,6 +461,32 @@ function renderRecipe(r, variantId) {
   renderIng();
 }
 
+// Abgehakte Zutaten/Schritte je Rezept(-variante), nur für diese Sitzung:
+// Wer kurz in die Übersicht wechselt, findet seinen Fortschritt wieder.
+const DONE = {};
+function doneState(key) {
+  return DONE[key] || (DONE[key] = { ings: new Set(), steps: new Set() });
+}
+
+const SHARE_ICON = `<svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 10V2M5 4.8 8 1.8l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 7H3.8A1.3 1.3 0 0 0 2.5 8.3v4.9c0 .7.6 1.3 1.3 1.3h8.4c.7 0 1.3-.6 1.3-1.3V8.3c0-.7-.6-1.3-1.3-1.3h-.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
+
+async function shareRecipe(r, variant) {
+  const title = variant ? `${r.title} (${variant.title})` : r.title;
+  const url = location.href;
+  if (navigator.share) {
+    try { await navigator.share({ title, url }); } catch (e) { /* abgebrochen */ }
+    return;
+  }
+  const btn = document.getElementById("share");
+  try {
+    await navigator.clipboard.writeText(url);
+    btn.querySelector("span").textContent = "Link kopiert";
+  } catch (e) {
+    btn.querySelector("span").textContent = "Kopieren fehlgeschlagen";
+  }
+  setTimeout(() => { if (btn.isConnected) btn.querySelector("span").textContent = "Teilen"; }, 2000);
+}
+
 const SINGULAR_UNITS = { "Portionen": "Portion", "Pancakes": "Pancake", "Gläser": "Glas", "kleine Gläser": "kleines Glas" };
 function yieldUnitLabel(unit, value) {
   return value === 1 && SINGULAR_UNITS[unit] ? SINGULAR_UNITS[unit] : unit;
@@ -415,11 +495,11 @@ function yieldUnitLabel(unit, value) {
 function stepFor(base) { return base >= 4 ? 1 : 0.5; }
 function fmtNum(v) { return String(Math.round(v * 100) / 100).replace(".", ","); }
 
-function ingredientsHtml(r, factor) {
+function ingredientsHtml(r, factor, doneSet) {
   let html = "";
   let lastGroup = null;
   const ul = [];
-  r.ingredients.forEach((i) => {
+  r.ingredients.forEach((i, idx) => {
     if ((i.group || null) !== lastGroup) {
       if (ul.length) { html += `<ul class="ingredients">${ul.join("")}</ul>`; ul.length = 0; }
       lastGroup = i.group || null;
@@ -428,7 +508,7 @@ function ingredientsHtml(r, factor) {
     const amt = formatAmount(i.amount, i.unit, factor);
     const unit = i.unit && i.unit !== "Stück" ? " " + esc(i.unit) : "";
     const amtStr = amt ? `${esc(amt)}${unit}` : "";
-    ul.push(`<li>
+    ul.push(`<li data-idx="${idx}"${doneSet && doneSet.has(idx) ? ` class="done"` : ""}>
       <span class="ing-amt">${amtStr}</span>
       <span class="ing-name">${esc(i.name)}${i.note ? `<span class="ing-note">${esc(i.note)}</span>` : ""}</span>
     </li>`);
@@ -470,7 +550,10 @@ function sortByClicks(list) {
 // Re-Render der Trefferliste beim Suchen.
 app.addEventListener("click", (e) => {
   const card = e.target.closest(".card");
-  if (card && card.dataset.id) trackClick(card.dataset.id);
+  if (card && card.dataset.id) {
+    trackClick(card.dataset.id);
+    listScroll[location.hash] = window.scrollY;
+  }
 });
 
 function hostOf(url) {
