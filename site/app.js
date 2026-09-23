@@ -366,8 +366,6 @@ function renderRecipe(r, variantId) {
     ? `<p class="variant-desc">${esc(active.description)}</p>`
     : "";
 
-  const done = doneState(recipeHash(r.id, active ? active.id : ""));
-
   app.innerHTML = `
     <div class="recipe-top">
       <button class="back" id="back">← Alle Rezepte</button>
@@ -398,8 +396,7 @@ function renderRecipe(r, variantId) {
 
       <section class="panel steps-panel">
         <h2>Zubereitung</h2>
-        <ol class="steps">${m.steps.map((s, idx) =>
-          `<li data-idx="${idx}" class="${done.steps.has(idx) ? "done" : ""}">${esc(s)}</li>`).join("")}</ol>
+        <ol class="steps">${m.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
       </section>
     </div>
 
@@ -413,21 +410,6 @@ function renderRecipe(r, variantId) {
   });
 
   document.getElementById("share").addEventListener("click", () => shareRecipe(r, active));
-
-  // Abhaken: Zutaten und Schritte per Tipp als erledigt markieren.
-  const toggle = (set, li) => {
-    const idx = Number(li.dataset.idx);
-    if (set.has(idx)) set.delete(idx); else set.add(idx);
-    li.classList.toggle("done", set.has(idx));
-  };
-  document.getElementById("ing-list").addEventListener("click", (e) => {
-    const li = e.target.closest("li[data-idx]");
-    if (li) toggle(done.ings, li);
-  });
-  app.querySelector("ol.steps").addEventListener("click", (e) => {
-    const li = e.target.closest("li[data-idx]");
-    if (li) toggle(done.steps, li);
-  });
 
   app.querySelectorAll(".variants .chip").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -445,7 +427,7 @@ function renderRecipe(r, variantId) {
     let val = parseFloat(String(input.value).replace(",", "."));
     if (!val || val <= 0) val = base;
     const factor = val / base;
-    document.getElementById("ing-list").innerHTML = ingredientsHtml(m, factor, done.ings);
+    document.getElementById("ing-list").innerHTML = ingredientsHtml(m, factor);
     document.getElementById("yield-unit").textContent = yieldUnitLabel(unit, val);
   };
   document.getElementById("inc").addEventListener("click", () => {
@@ -459,13 +441,6 @@ function renderRecipe(r, variantId) {
   });
   input.addEventListener("input", renderIng);
   renderIng();
-}
-
-// Abgehakte Zutaten/Schritte je Rezept(-variante), nur für diese Sitzung:
-// Wer kurz in die Übersicht wechselt, findet seinen Fortschritt wieder.
-const DONE = {};
-function doneState(key) {
-  return DONE[key] || (DONE[key] = { ings: new Set(), steps: new Set() });
 }
 
 const SHARE_ICON = `<svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 10V2M5 4.8 8 1.8l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 7H3.8A1.3 1.3 0 0 0 2.5 8.3v4.9c0 .7.6 1.3 1.3 1.3h8.4c.7 0 1.3-.6 1.3-1.3V8.3c0-.7-.6-1.3-1.3-1.3h-.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
@@ -495,11 +470,11 @@ function yieldUnitLabel(unit, value) {
 function stepFor(base) { return base >= 4 ? 1 : 0.5; }
 function fmtNum(v) { return String(Math.round(v * 100) / 100).replace(".", ","); }
 
-function ingredientsHtml(r, factor, doneSet) {
+function ingredientsHtml(r, factor) {
   let html = "";
   let lastGroup = null;
   const ul = [];
-  r.ingredients.forEach((i, idx) => {
+  r.ingredients.forEach((i) => {
     if ((i.group || null) !== lastGroup) {
       if (ul.length) { html += `<ul class="ingredients">${ul.join("")}</ul>`; ul.length = 0; }
       lastGroup = i.group || null;
@@ -508,7 +483,7 @@ function ingredientsHtml(r, factor, doneSet) {
     const amt = formatAmount(i.amount, i.unit, factor);
     const unit = i.unit && i.unit !== "Stück" ? " " + esc(i.unit) : "";
     const amtStr = amt ? `${esc(amt)}${unit}` : "";
-    ul.push(`<li data-idx="${idx}"${doneSet && doneSet.has(idx) ? ` class="done"` : ""}>
+    ul.push(`<li>
       <span class="ing-amt">${amtStr}</span>
       <span class="ing-name">${esc(i.name)}${i.note ? `<span class="ing-note">${esc(i.note)}</span>` : ""}</span>
     </li>`);
