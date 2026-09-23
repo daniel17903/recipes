@@ -1,0 +1,45 @@
+{
+  "id": "feigen-baumnuss-muffins",
+  "title": "Feigen-Baumnuss-Muffins",
+  "category": "Kuchen",
+  "yield": {
+    "amount": 12,
+    "unit": "Muffins"
+  },
+  "times": {
+    "prep": "15 Minuten",
+    "cook": "25–30 Minuten"
+  },
+  "ingredients": [
+    { "group": null, "amount": 6, "unit": "Stück", "name": "Feigen", "note": "6–8 Stück, je nach Größe" },
+    { "group": null, "amount": 1, "unit": "Stück", "name": "Limette" },
+    { "group": null, "amount": 70, "unit": "g", "name": "Baumnüsse (Walnüsse)" },
+    { "group": null, "amount": 150, "unit": "g", "name": "Rohrohrzucker oder Kokosblütenzucker" },
+    { "group": null, "amount": 100, "unit": "ml", "name": "Mineralwasser mit Kohlensäure" },
+    { "group": null, "amount": 100, "unit": "ml", "name": "Pflanzenmilch" },
+    { "group": null, "amount": 100, "unit": "g", "name": "vegane Butter" },
+    { "group": null, "amount": 300, "unit": "g", "name": "Mehl" },
+    { "group": null, "amount": 6, "unit": "g", "name": "Natron", "note": "entspricht 2 TL" },
+    { "group": null, "amount": 3, "unit": "g", "name": "Backpulver", "note": "entspricht 1 TL" },
+    { "group": null, "amount": 1, "unit": "Prise", "name": "Salz" }
+  ],
+  "steps": [
+    "4 Feigen in Stücke schneiden (bei kleinen Feigen gerne mehr). Die Nüsse grob hacken und beides beiseitestellen.",
+    "Zucker, Saft und abgeriebene Schale einer halben Limette sowie die Butter in Stücken in eine Schüssel geben und mit dem Handmixer oder der Küchenmaschine gut verrühren.",
+    "Milch, Wasser, Mehl, Salz, Backpulver und Natron hinzufügen und zu einem glatten Teig verrühren.",
+    "Feigen und Nüsse mit einem Löffel unterheben.",
+    "Den Ofen auf 180 °C vorheizen.",
+    "Ein Muffinblech mit Förmchen auslegen und den Teig darauf verteilen.",
+    "Die restlichen Feigen in Scheiben schneiden und je eine Scheibe auf jeden Muffin legen.",
+    "25–30 Minuten backen."
+  ],
+  "nutrition": "ca. 265 kcal pro Muffin",
+  "source": {
+    "name": "frei-style",
+    "url": "https://www.frei-style.com/feigen-baumnuss-muffins"
+  },
+  "images": [
+    "feigen-baumnuss-muffins.webp"
+  ],
+  "dateAdded": "2026-09-23"
+}
