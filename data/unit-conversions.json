@@ -24,6 +24,7 @@
     "butter": { "target": "g", "tsp": 5, "tbsp": 15, "cup": 225, "aliases": ["margarine", "vegane butter"] },
     "gewuerz gemahlen": { "target": "g", "tsp": 3, "tbsp": 8, "aliases": ["zimt", "paprikapulver", "kreuzkuemmel", "kurkuma", "muskatnuss"] },
     "tahini": { "target": "g", "tsp": 6, "tbsp": 18, "aliases": ["nussmus", "mandelmus", "erdnussmus", "erdnussbutter"] },
-    "chiasamen": { "target": "g", "tsp": 4, "tbsp": 12, "cup": 192 }
+    "chiasamen": { "target": "g", "tsp": 4, "tbsp": 12, "cup": 192 },
+    "sojasosse": { "target": "ml", "tsp": 5, "tbsp": 15, "aliases": ["sojasauce", "tamari", "shoyu"] }
   }
 }
