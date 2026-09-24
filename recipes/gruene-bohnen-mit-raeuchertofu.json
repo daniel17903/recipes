@@ -8,7 +8,7 @@
   },
   "times": {
     "prep": "10 Minuten",
-    "cook": "15 Minuten"
+    "cook": "20 Minuten"
   },
   "ingredients": [
     { "group": null, "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
@@ -22,6 +22,7 @@
   ],
   "steps": [
     "Knoblauch schälen und in dünne Scheiben schneiden. Buschbohnen waschen, die Enden knapp abschneiden und die Bohnen halbieren.",
+    "Die Bohnen in kochendem Salzwasser 3–4 Minuten vorkochen, abgießen und gut abtropfen lassen.",
     "Öl in einer Pfanne erhitzen und den Knoblauch anbraten, bis er duftet und goldbraun ist.",
     "Bohnen hinzugeben und bei mittlerer bis starker Hitze anbraten, bis sie etwas Farbe bekommen haben.",
     "Tofu und Sojasoße hinzufügen, verrühren und mit dem Wasser ablöschen. Sofort abdecken und dünsten, bis die Flüssigkeit verdampft ist.",
