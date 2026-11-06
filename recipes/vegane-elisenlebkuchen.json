@@ -27,9 +27,16 @@
     },
     {
       "group": null,
-      "amount": 50,
+      "amount": 80,
       "unit": "g",
-      "name": "Orangeat"
+      "name": "getrocknete Aprikosen"
+    },
+    {
+      "group": null,
+      "amount": 4,
+      "unit": "Stück",
+      "name": "Bio-Orangen",
+      "note": "nur die abgeriebene Schale"
     },
     {
       "group": null,
@@ -74,7 +81,8 @@
       "group": null,
       "amount": 14,
       "unit": "Blatt",
-      "name": "(70 mm Durchmesser)"
+      "name": "Backoblaten",
+      "note": "70 mm Durchmesser"
     },
     {
       "group": null,
@@ -85,21 +93,14 @@
   ],
   "steps": [
     "Datteln mit kochendem Wasser übergießen und 10 Minuten einweichen.",
-    "Anschließend das Einweichwasser bis auf 3 EL abgießen und alles zusammen mit dem Marzipan fein pürieren.",
-    "Haselnüsse und Mandeln in einer Pfanne ohne Öl bei mittlerer bis hoher Hitze 3-5 Minuten rösten bis sie duften.",
-    "Ab und zu schwenken und aufpassen, dass sie nicht verbrennen Anschließend in einer Küchenmaschine mittelfein mahlen oder alternativ in ein sauberes Tuch einschlagen und mit dem Nudelholz darauf hauen, bis die Nüsse zerkleinert sind.",
-    "Orangeat fein hacken, Marzipan in grobe Stücke brechen.",
-    "Dattelpüree, Nüsse, Orangeat und Marzipan zusammen mit Lebkuchengewürz, Pottasche, Backpulver und 60 ml Wasser in die Kenwood Chef Titanium Küchenmaschine geben und 5 Minuten auf Stufe 2 verrühren.",
-    "Mehl dazu geben und weitere 5 Minuten rühren bis eine zähe, homogene Masse entstanden ist.",
+    "Einweichwasser bis auf ca. 45 ml (3 EL) abgießen und die Datteln zusammen mit dem Marzipan fein pürieren.",
+    "Haselnüsse und Mandeln in einer Pfanne ohne Öl bei mittlerer bis hoher Hitze 3–5 Minuten rösten, bis sie duften, dabei ab und zu schwenken. Anschließend in der Küchenmaschine mittelfein mahlen.",
+    "Aprikosen fein hacken und die Schale der Orangen abreiben.",
+    "Dattel-Marzipan-Püree, Nüsse, Aprikosen, Orangenschale, Lebkuchengewürz, Pottasche, Backpulver und 60 ml Wasser in der Küchenmaschine 5 Minuten auf niedriger Stufe verrühren. Mehl dazugeben und weitere 5 Minuten zu einer zähen, homogenen Masse rühren.",
     "Backofen auf 170 °C Ober-/Unterhitze vorheizen.",
-    "Jeweils ca.",
-    "55 g Lebkuchenmasse zu flachen Patties formen und auf die Oblaten legen.",
-    "Mit den Fingern vorsichtig in Form bringen, so dass die Lebkuchenmasse genau mit der Oblate abschließt.",
-    "Ergibt ca 14 Lebkuchen (knappes Blech).",
-    "Lebkuchen vorsichtig auf ein mit Backpapier ausgelegtes Backblech geben und 15 Minuten backen.",
-    "Anschließend auf einem Kuchengitter komplett auskühlen lassen.",
-    "Für die Glasur die Kuvertüre vorsichtig und langsam im Wasserbad schmelzen.",
-    "Anschließend mit einem Esslöffel auf den Lebkuchen verteilen und gut trocknen lassen."
+    "Je ca. 55 g Masse flach auf eine Oblate drücken, sodass sie bündig mit dem Rand abschließt (ergibt ca. 14 Lebkuchen).",
+    "Lebkuchen auf ein mit Backpapier ausgelegtes Backblech setzen, 12 Minuten backen und auf einem Kuchengitter vollständig auskühlen lassen.",
+    "Kuvertüre langsam im Wasserbad schmelzen, mit einem Löffel auf den Lebkuchen verteilen und trocknen lassen."
   ],
   "source": {
     "url": "https://www.eat-this.org/die-besten-veganen-elisenlebkuchen/"
