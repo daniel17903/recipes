@@ -644,7 +644,8 @@ function renderTimers() {
       el.querySelector("[data-action]"));
     if (target) target.focus();
   }
-  document.body.classList.toggle("has-timers", timers.length > 0);
+  // Seitenende freihalten: Abstand folgt der tatsächlichen Leistenhöhe.
+  document.querySelector(".page").style.paddingBottom = timers.length ? `${tray.offsetHeight + 16}px` : "";
   if (timers.length && !timerTick) timerTick = setInterval(updateTimers, 250);
   if (!timers.length && timerTick) { clearInterval(timerTick); timerTick = null; }
 }
@@ -702,6 +703,10 @@ document.addEventListener("visibilitychange", () => {
     if (audioCtx && audioCtx.state === "suspended") audioCtx.resume();
     updateTimers();
   }
+});
+// Andere Fenster/Tabs haben Timer geändert -> deren Stand übernehmen.
+window.addEventListener("storage", (e) => {
+  if (e.key === TIMERS_KEY) { timers = loadTimers(); renderTimers(); }
 });
 // Nach einem Neuladen mit laufenden Timern: Audio beim ersten Tippen freigeben.
 ["pointerdown", "keydown"].forEach((ev) =>

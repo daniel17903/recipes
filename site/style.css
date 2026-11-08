@@ -249,8 +249,6 @@ ol.steps li:nth-child(even)::before { transform: rotate(5deg); }
 .timer.done { background: var(--accent); color: #fff; animation: timer-pulse 1s ease-in-out infinite; }
 @keyframes timer-pulse { 50% { transform: scale(1.03); } }
 @media (prefers-reduced-motion: reduce) { .timer.done { animation: none; } }
-/* Platz schaffen, damit die Leiste den Seitenschluss nicht verdeckt */
-body.has-timers .page { padding-bottom: 5rem; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--hairline); text-align: center; color: var(--muted); font-size: .85rem; padding: 1.3rem 1rem 2rem; }
