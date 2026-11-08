@@ -208,13 +208,56 @@ ol.steps li:nth-child(even)::before { transform: rotate(5deg); }
 
 .notes { white-space: pre-wrap; }
 
+/* Zeitangaben in Schritten + Timer-Knopf */
+.step-time { white-space: nowrap; font-weight: 600; }
+.step-timer {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.7rem; height: 1.7rem; margin: -.2rem 0 -.2rem .25rem; padding: 0;
+  vertical-align: middle; border: 0; border-radius: 50%;
+  background: var(--accent-soft); color: var(--accent); cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.step-timer:hover, .step-timer:focus-visible { background: var(--accent); color: #fff; outline: none; }
+
+/* Laufende Timer: schwebende Leiste unten */
+.timer-tray {
+  position: fixed; z-index: 50; left: 50%; transform: translateX(-50%);
+  bottom: calc(.8rem + env(safe-area-inset-bottom, 0px));
+  width: min(30rem, calc(100% - 1.5rem - var(--safe-l) - var(--safe-r)));
+  display: flex; flex-direction: column; gap: .45rem; pointer-events: none;
+}
+.timer {
+  pointer-events: auto; display: flex; align-items: center; gap: .5rem;
+  background: var(--text); color: var(--bg); border-radius: 999px;
+  padding: .4rem .45rem .4rem 1rem; box-shadow: 0 6px 22px rgb(0 0 0 / .18);
+}
+.timer-time { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 1.05rem; min-width: 3.4rem; }
+.timer-label {
+  flex: 1; min-width: 0; color: inherit; font-size: .85rem; line-height: 1.25;
+  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+.timer-label:hover { color: inherit; }
+.timer-label span { display: block; opacity: .65; font-size: .78rem; overflow: hidden; text-overflow: ellipsis; }
+.timer button {
+  flex: 0 0 auto; width: 2.1rem; height: 2.1rem; border: 0; border-radius: 50%;
+  background: rgb(255 255 255 / .14); color: inherit; cursor: pointer;
+  font-family: inherit; font-size: .8rem; font-weight: 600;
+}
+.timer button:hover { background: rgb(255 255 255 / .26); }
+.timer.paused .timer-time { opacity: .6; }
+.timer.done { background: var(--accent); color: #fff; animation: timer-pulse 1s ease-in-out infinite; }
+@keyframes timer-pulse { 50% { transform: scale(1.03); } }
+@media (prefers-reduced-motion: reduce) { .timer.done { animation: none; } }
+/* Platz schaffen, damit die Leiste den Seitenschluss nicht verdeckt */
+body.has-timers .page { padding-bottom: 5rem; }
+
 /* Footer */
 .site-footer { border-top: 1px solid var(--hairline); text-align: center; color: var(--muted); font-size: .85rem; padding: 1.3rem 1rem 2rem; }
 .site-footer p { margin: 0; }
 
 /* Print */
 @media print {
-  .site-header, .site-footer, .back, .stepper, .controls { display: none !important; }
+  .site-header, .site-footer, .back, .stepper, .controls, .step-timer, .timer-tray { display: none !important; }
   body { background: #fff; color: #000; }
   .panel, .recipe-hero { box-shadow: none; border: 1px solid #ccc; }
   main { max-width: none; }
