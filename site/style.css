@@ -258,6 +258,7 @@ ol.steps li:nth-child(even)::before { transform: rotate(5deg); }
 @media print {
   .site-header, .site-footer, .back, .stepper, .controls, .step-timer, .timer-tray { display: none !important; }
   body { background: #fff; color: #000; }
+  .page { padding-bottom: 0 !important; }
   .panel, .recipe-hero { box-shadow: none; border: 1px solid #ccc; }
   main { max-width: none; }
   a { color: #000; }

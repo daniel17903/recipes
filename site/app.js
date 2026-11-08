@@ -496,7 +496,7 @@ const NUM_WORDS = {
   "fünfzehn": 15, zwanzig: 20, "dreißig": 30, vierzig: 40, "fünfzig": 50,
   anderthalb: 1.5, eineinhalb: 1.5,
 };
-const NUM_RE = "(?:\\d+(?:[.,]\\d+)?(?:\\s*(?:½|1\\/2))?|½|\\d+\\/\\d+|" +
+const NUM_RE = "(?:\\d+(?:[.,]\\d+)?(?:\\s*(?:½|\\d+\\/\\d+))?|½|\\d+\\/\\d+|" +
   "(?:eine[rn]?\\s+)?halbe[n]?|" +
   Object.keys(NUM_WORDS).sort((a, b) => b.length - a.length).join("|") + ")";
 const UNIT_RE = "(Sekunden?|Sek\\.?|Minuten?|Min\\.?|Stunden?|Std\\.?)";
@@ -513,8 +513,8 @@ function parseNum(s) {
   if (s in NUM_WORDS) return NUM_WORDS[s];
   let m = s.match(/^(\d+)\/(\d+)$/);
   if (m) return Number(m[1]) / Number(m[2]);
-  m = s.match(/^(\d+(?:[.,]\d+)?)\s*(½|1\/2)?$/);
-  if (m) return parseFloat(m[1].replace(",", ".")) + (m[2] ? 0.5 : 0);
+  m = s.match(/^(\d+(?:[.,]\d+)?)\s*(?:(½)|(\d+)\/(\d+))?$/);
+  if (m) return parseFloat(m[1].replace(",", ".")) + (m[2] ? 0.5 : m[3] ? Number(m[3]) / Number(m[4]) : 0);
   if (s === "½") return 0.5;
   return NaN;
 }
