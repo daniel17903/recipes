@@ -362,13 +362,19 @@ function renderRecipe(r, variantId) {
 
       <section class="panel steps-panel">
         <h2>Zubereitung</h2>
-        <ol class="steps">${m.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
+        <ol class="steps">${m.steps.map((s, i) => `<li>${stepHtml(s, i + 1)}</li>`).join("")}</ol>
       </section>
     </div>
 
     ${m.notes ? `<section class="panel"><h2>Notizen</h2><p class="notes">${esc(m.notes)}</p></section>` : ""}
     ${r.nutrition ? `<section class="panel"><h2>Nährwerte</h2><p class="notes">${esc(r.nutrition)}</p></section>` : ""}
   `;
+
+  app.querySelectorAll(".step-timer").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      startTimer(Number(btn.dataset.seconds), btn.dataset.label, recipeHash(r.id, active ? active.id : ""), r.title);
+    });
+  });
 
   document.getElementById("back").addEventListener("click", () => {
     if (history.length > 1) history.back();
@@ -477,6 +483,235 @@ function hostOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); }
   catch (e) { return url; }
 }
+
+// ---------------------------------------------------------------------------
+// Zeitangaben in Schritten erkennen + Küchentimer
+// ---------------------------------------------------------------------------
+// Erkennt z. B. "10 Minuten", "10–15 Min.", "1,5 Stunden", "eine halbe Stunde",
+// "1 Stunde 20 Minuten", "30 Sekunden". Bei Spannen startet der Timer mit dem
+// unteren Wert – lieber einmal zu früh nachsehen als zu spät.
+const NUM_WORDS = {
+  ein: 1, eine: 1, einer: 1, einen: 1, zwei: 2, drei: 3, vier: 4, "fünf": 5,
+  sechs: 6, sieben: 7, acht: 8, neun: 9, zehn: 10, elf: 11, "zwölf": 12,
+  "fünfzehn": 15, zwanzig: 20, "dreißig": 30, vierzig: 40, "fünfzig": 50,
+  anderthalb: 1.5, eineinhalb: 1.5,
+};
+const NUM_RE = "(?:\\d+(?:[.,]\\d+)?(?:\\s*(?:½|\\d+\\/\\d+))?|½|\\d+\\/\\d+|" +
+  "(?:eine[rn]?\\s+)?halbe[n]?|" +
+  Object.keys(NUM_WORDS).sort((a, b) => b.length - a.length).join("|") + ")";
+const UNIT_RE = "(Sekunden?|Sek\\.?|Minuten?|Min\\.?|Stunden?|Std\\.?)";
+const L = "[A-Za-zÄÖÜäöüß]";
+const TIME_RE = new RegExp(
+  `(?<!${L})(${NUM_RE})(?:\\s*(?:[-–—]|bis)\\s*(${NUM_RE}))?\\s*${UNIT_RE}(?!${L})` +
+  // optional: "… Stunde(n) [und] 20 Minuten"
+  `(?:\\s*(?:und\\s+)?(\\d+)\\s*(Minuten?|Min\\.?)(?!${L}))?`,
+  "gi");
+
+function parseNum(s) {
+  s = s.toLowerCase().trim();
+  if (/halbe/.test(s)) return 0.5;
+  if (s in NUM_WORDS) return NUM_WORDS[s];
+  let m = s.match(/^(\d+)\/(\d+)$/);
+  if (m) return Number(m[1]) / Number(m[2]);
+  m = s.match(/^(\d+(?:[.,]\d+)?)\s*(?:(½)|(\d+)\/(\d+))?$/);
+  if (m) return parseFloat(m[1].replace(",", ".")) + (m[2] ? 0.5 : m[3] ? Number(m[3]) / Number(m[4]) : 0);
+  if (s === "½") return 0.5;
+  return NaN;
+}
+
+function unitSeconds(u) {
+  u = u.toLowerCase();
+  if (u.startsWith("sek")) return 1;
+  if (u.startsWith("min")) return 60;
+  return 3600;
+}
+
+// Schritttext escapen und hinter jede Zeitangabe einen Timer-Knopf setzen.
+function stepHtml(text, stepNo) {
+  let out = "", last = 0;
+  TIME_RE.lastIndex = 0;
+  let m;
+  while ((m = TIME_RE.exec(text))) {
+    const n = parseNum(m[1]);
+    let secs = n * unitSeconds(m[3]);
+    if (m[4]) secs += Number(m[4]) * 60;
+    secs = Math.round(secs);
+    if (!(secs > 0) || secs > 48 * 3600) continue;
+    const label = m[0].trim();
+    out += esc(text.slice(last, m.index));
+    out += `<span class="step-time">${esc(label)}<button type="button" class="step-timer"` +
+      ` data-seconds="${secs}" data-label="${esc(`Schritt ${stepNo} · ${label}`)}"` +
+      ` aria-label="Timer ${esc(fmtDuration(secs))} starten" title="Timer starten">${TIMER_ICON}</button></span>`;
+    last = m.index + m[0].length;
+  }
+  return out + esc(text.slice(last));
+}
+
+const TIMER_ICON = `<svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="9" r="5.6" stroke="currentColor" stroke-width="1.6"></circle><line x1="8" y1="9" x2="8" y2="6.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></line><line x1="6.3" y1="1.6" x2="9.7" y2="1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></line></svg>`;
+
+function fmtDuration(secs) {
+  secs = Math.max(0, Math.ceil(secs));
+  const h = Math.floor(secs / 3600), mi = Math.floor((secs % 3600) / 60), s = secs % 60;
+  const pad = (x) => String(x).padStart(2, "0");
+  return h ? `${h}:${pad(mi)}:${pad(s)}` : `${pad(mi)}:${pad(s)}`;
+}
+
+// Timer laufen über Endzeitpunkte (nicht über Zählen), damit gedrosselte
+// Hintergrund-Tabs nicht nachgehen. In localStorage gesichert, damit ein
+// Neuladen der PWA die Timer nicht verliert.
+const TIMERS_KEY = "kochbuch:timers";
+let timers = loadTimers();
+let timerTick = null;
+let audioCtx = null;
+
+function loadTimers() {
+  try {
+    const t = JSON.parse(localStorage.getItem(TIMERS_KEY));
+    return Array.isArray(t) ? t : [];
+  } catch (e) { return []; }
+}
+function saveTimers() {
+  try { localStorage.setItem(TIMERS_KEY, JSON.stringify(timers)); } catch (e) { /* egal */ }
+}
+
+function remainingOf(t) {
+  return t.paused ? t.remaining : (t.endAt - Date.now()) / 1000;
+}
+
+function startTimer(secs, label, href, recipeTitle) {
+  if (!(secs > 0)) return;
+  unlockAudio();
+  timers.push({
+    id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+    label, href, recipe: recipeTitle, total: secs,
+    endAt: Date.now() + secs * 1000, paused: false, remaining: secs, done: false,
+  });
+  saveTimers();
+  renderTimers();
+}
+
+function timerAction(id, action) {
+  const t = timers.find((x) => x.id === id);
+  if (!t) return;
+  if (action === "remove") {
+    timers = timers.filter((x) => x.id !== id);
+  } else if (action === "toggle" && !t.done) {
+    if (t.paused) { t.endAt = Date.now() + t.remaining * 1000; t.paused = false; }
+    else { t.remaining = remainingOf(t); t.paused = true; }
+  } else if (action === "plus") {
+    if (t.done) { t.done = false; t.paused = false; t.endAt = Date.now() + 60000; }
+    else if (t.paused) t.remaining += 60;
+    else t.endAt += 60000;
+  }
+  saveTimers();
+  renderTimers();
+}
+
+function timerTray() {
+  let tray = document.getElementById("timer-tray");
+  if (!tray) {
+    tray = document.createElement("div");
+    tray.id = "timer-tray";
+    tray.className = "timer-tray";
+    document.body.appendChild(tray);
+    tray.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-action]");
+      if (!b) return;
+      unlockAudio(); // Klick (auch per Enter/Leertaste) ist eine Nutzergeste
+      timerAction(b.closest(".timer").dataset.id, b.dataset.action);
+    });
+  }
+  return tray;
+}
+
+function renderTimers() {
+  const tray = timerTray();
+  // Fokus über das Neu-Rendern retten (Tastaturbedienung).
+  const f = tray.contains(document.activeElement) ? document.activeElement : null;
+  const fId = f && f.closest(".timer") ? f.closest(".timer").dataset.id : null;
+  const fAction = f ? f.dataset.action || "link" : null;
+  tray.innerHTML = timers.map((t) => `
+    <div class="timer${t.done ? " done" : ""}${t.paused ? " paused" : ""}" data-id="${esc(t.id)}">
+      <span class="timer-time">${t.done ? "Fertig!" : fmtDuration(remainingOf(t))}</span>
+      <a class="timer-label" href="${esc(t.href)}">${esc(t.label)}<span>${esc(t.recipe)}</span></a>
+      ${t.done ? "" : `<button type="button" data-action="toggle" aria-label="${t.paused ? "Fortsetzen" : "Pausieren"}">${t.paused ? "▶" : "❚❚"}</button>`}
+      <button type="button" data-action="plus" aria-label="Eine Minute mehr">+1</button>
+      <button type="button" data-action="remove" aria-label="${t.done ? "Schließen" : "Timer abbrechen"}">✕</button>
+    </div>`).join("");
+  if (fId) {
+    const el = tray.querySelector(`.timer[data-id="${fId}"]`);
+    const target = el && (el.querySelector(fAction === "link" ? ".timer-label" : `[data-action="${fAction}"]`) ||
+      el.querySelector("[data-action]"));
+    if (target) target.focus();
+  }
+  // Seitenende freihalten: Abstand folgt der tatsächlichen Leistenhöhe.
+  document.querySelector(".page").style.paddingBottom = timers.length ? `${tray.offsetHeight + 16}px` : "";
+  if (timers.length && !timerTick) timerTick = setInterval(updateTimers, 250);
+  if (!timers.length && timerTick) { clearInterval(timerTick); timerTick = null; }
+}
+
+let lastAlarm = 0;
+function updateTimers() {
+  let changed = false, ringing = false;
+  timers.forEach((t) => {
+    if (!t.done && !t.paused && remainingOf(t) <= 0) {
+      t.done = true; t.doneAt = Date.now(); changed = true;
+    }
+    // Bis zu zwei Minuten lang klingeln, bis der Timer geschlossen wird.
+    if (t.done && Date.now() - (t.doneAt || 0) < 120000) ringing = true;
+  });
+  if (changed) { saveTimers(); renderTimers(); }
+  else {
+    timerTray().querySelectorAll(".timer").forEach((el) => {
+      const t = timers.find((x) => x.id === el.dataset.id);
+      const tt = el.querySelector(".timer-time");
+      if (t && !t.done && tt.textContent !== fmtDuration(remainingOf(t))) tt.textContent = fmtDuration(remainingOf(t));
+    });
+  }
+  if (ringing && Date.now() - lastAlarm > 2000) { lastAlarm = Date.now(); alarm(); }
+}
+
+// iOS gibt Audio erst nach einer Nutzergeste frei – daher beim Timerstart.
+function unlockAudio() {
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    if (!audioCtx) audioCtx = new AC();
+    if (audioCtx.state === "suspended") audioCtx.resume();
+  } catch (e) { audioCtx = null; }
+}
+
+function alarm() {
+  if (navigator.vibrate) navigator.vibrate([200, 100, 200, 100, 200]);
+  if (!audioCtx) return;
+  try {
+    const now = audioCtx.currentTime;
+    [0, 0.25, 0.5].forEach((d) => {
+      const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+      o.type = "sine"; o.frequency.value = 880;
+      g.gain.setValueAtTime(0.0001, now + d);
+      g.gain.exponentialRampToValueAtTime(0.3, now + d + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, now + d + 0.18);
+      o.connect(g).connect(audioCtx.destination);
+      o.start(now + d); o.stop(now + d + 0.2);
+    });
+  } catch (e) { /* ohne Ton */ }
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && timers.length) {
+    if (audioCtx && audioCtx.state === "suspended") audioCtx.resume();
+    updateTimers();
+  }
+});
+// Andere Fenster/Tabs haben Timer geändert -> deren Stand übernehmen.
+window.addEventListener("storage", (e) => {
+  if (e.key === TIMERS_KEY) { timers = loadTimers(); renderTimers(); }
+});
+// Nach einem Neuladen mit laufenden Timern: Audio beim ersten Tippen freigeben.
+["pointerdown", "keydown"].forEach((ev) =>
+  document.addEventListener(ev, () => { if (timers.length) unlockAudio(); }, { passive: true }));
+if (timers.length) renderTimers();
 
 // ---------------------------------------------------------------------------
 // Bildschirm wach halten (Screen Wake Lock API)
