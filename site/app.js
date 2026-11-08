@@ -586,7 +586,7 @@ function startTimer(secs, label, href, recipeTitle, key) {
   if (!(secs > 0)) return;
   unlockAudio();
   const existing = timers.find((t) => t.key === key);
-  if (existing && !existing.done) {
+  if (existing && !existing.done && remainingOf(existing) > 0) {
     const el = timerTray().querySelector(`.timer[data-id="${existing.id}"]`);
     if (el) { el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
     return;
