@@ -372,7 +372,8 @@ function renderRecipe(r, variantId) {
 
   app.querySelectorAll(".step-timer").forEach((btn) => {
     btn.addEventListener("click", () => {
-      startTimer(Number(btn.dataset.seconds), btn.dataset.label, recipeHash(r.id, active ? active.id : ""), r.title);
+      const href = recipeHash(r.id, active ? active.id : "");
+      startTimer(Number(btn.dataset.seconds), btn.dataset.label, href, r.title, `${href}|${btn.dataset.key}`);
     });
   });
 
@@ -528,7 +529,7 @@ function unitSeconds(u) {
 
 // Schritttext escapen und hinter jede Zeitangabe einen Timer-Knopf setzen.
 function stepHtml(text, stepNo) {
-  let out = "", last = 0;
+  let out = "", last = 0, k = 0;
   TIME_RE.lastIndex = 0;
   let m;
   while ((m = TIME_RE.exec(text))) {
@@ -540,7 +541,7 @@ function stepHtml(text, stepNo) {
     const label = m[0].trim();
     out += esc(text.slice(last, m.index));
     out += `<span class="step-time">${esc(label)}<button type="button" class="step-timer"` +
-      ` data-seconds="${secs}" data-label="${esc(`Schritt ${stepNo} · ${label}`)}"` +
+      ` data-seconds="${secs}" data-key="${stepNo}.${k++}" data-label="${esc(`Schritt ${stepNo} · ${label}`)}"` +
       ` aria-label="Timer ${esc(fmtDuration(secs))} starten" title="Timer starten">${TIMER_ICON}</button></span>`;
     last = m.index + m[0].length;
   }
@@ -578,12 +579,22 @@ function remainingOf(t) {
   return t.paused ? t.remaining : (t.endAt - Date.now()) / 1000;
 }
 
-function startTimer(secs, label, href, recipeTitle) {
+// key = Rezept/Variante + Schritt + Zeitangabe. Läuft dieser Timer schon,
+// wird kein zweiter gestartet, sondern der bestehende hervorgehoben; ist er
+// abgelaufen, startet er neu.
+function startTimer(secs, label, href, recipeTitle, key) {
   if (!(secs > 0)) return;
   unlockAudio();
+  const existing = timers.find((t) => t.key === key);
+  if (existing && !existing.done) {
+    const el = timerTray().querySelector(`.timer[data-id="${existing.id}"]`);
+    if (el) { el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
+    return;
+  }
+  if (existing) timers = timers.filter((t) => t !== existing);
   timers.push({
     id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
-    label, href, recipe: recipeTitle, total: secs,
+    key, label, href, recipe: recipeTitle, total: secs,
     endAt: Date.now() + secs * 1000, paused: false, remaining: secs, done: false,
   });
   saveTimers();
@@ -712,6 +723,18 @@ window.addEventListener("storage", (e) => {
 ["pointerdown", "keydown"].forEach((ev) =>
   document.addEventListener(ev, () => { if (timers.length) unlockAudio(); }, { passive: true }));
 if (timers.length) renderTimers();
+
+// ---------------------------------------------------------------------------
+// Zoom in der ganzen App sperren
+// ---------------------------------------------------------------------------
+// iOS Safari ignoriert user-scalable=no im Viewport – daher Pinch-Gesten hier
+// abfangen; am Desktop Strg/⌘ + Mausrad bzw. + / - / 0.
+document.addEventListener("gesturestart", (e) => e.preventDefault());
+document.addEventListener("touchmove", (e) => { if (e.touches.length > 1) e.preventDefault(); }, { passive: false });
+document.addEventListener("wheel", (e) => { if (e.ctrlKey || e.metaKey) e.preventDefault(); }, { passive: false });
+document.addEventListener("keydown", (e) => {
+  if ((e.ctrlKey || e.metaKey) && ["+", "-", "=", "0"].includes(e.key)) e.preventDefault();
+});
 
 // ---------------------------------------------------------------------------
 // Bildschirm wach halten (Screen Wake Lock API)
