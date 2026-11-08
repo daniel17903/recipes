@@ -86,27 +86,6 @@
       "unit": "g",
       "name": "Rum, optional",
       "note": "entspricht 2–3 EL"
-    },
-    {
-      "group": "Guss",
-      "amount": 60,
-      "unit": "g",
-      "name": "Puderzucker",
-      "note": "entspricht 6 EL"
-    },
-    {
-      "group": "Guss",
-      "amount": 5,
-      "unit": "ml",
-      "name": "Zitronensaft",
-      "note": "entspricht 1 TL"
-    },
-    {
-      "group": "Guss",
-      "amount": 30,
-      "unit": "ml",
-      "name": "Sojadrink Vanille",
-      "note": "entspricht 2 EL"
     }
   ],
   "steps": [
@@ -116,8 +95,7 @@
     "Für die Füllung Datteln grob stückeln und im Mixer fein pürieren. Aprikosen fein würfeln. Mit Walnüssen, gemahlenen Nüssen, Zitronenschale und dem lauwarmen Vanille-Sojadrink (125 ml) zu einer gleichmäßigen Masse kneten. Optional mit Rum abschmecken.",
     "Teig auf Backblechgröße ausrollen, die Füllung darauf verstreichen und von der Längsseite her aufrollen.",
     "Rolle der Länge nach halbieren, dabei an einem Ende nicht ganz durchschneiden. Die Stränge mit der Schnittfläche nach oben umeinanderdrehen.",
-    "Zopf auf ein mit Backpapier belegtes Blech legen und im vorgeheizten Ofen bei 180 °C ca. 30–40 Minuten goldbraun backen.",
-    "Zutaten für den Guss glatt rühren und den ofenwarmen Zopf damit bestreichen."
+    "Zopf auf ein mit Backpapier belegtes Blech legen und im vorgeheizten Ofen bei 180 °C ca. 30–40 Minuten goldbraun backen."
   ],
   "source": {
     "url": "https://www.velivery.com/de/rezepte/kuchen-gebaeck/dattel-aprikose-zopf"
