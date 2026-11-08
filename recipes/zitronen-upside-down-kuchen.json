@@ -8,119 +8,100 @@
   },
   "ingredients": [
     {
-      "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "Zutaten"
-    },
-    {
-      "group": null,
+      "group": "Belag",
       "amount": 15,
       "unit": "g",
       "name": "pflanzliche Butter",
       "note": "entspricht 1 EL"
     },
     {
-      "group": null,
+      "group": "Belag",
       "amount": 15,
       "unit": "g",
       "name": "weißer Zucker",
-      "note": "1-2; entspricht 1-2 EL"
+      "note": "entspricht 1–2 EL"
     },
     {
-      "group": null,
+      "group": "Belag",
       "amount": 5,
       "unit": "Stück",
       "name": "Zitronen"
     },
     {
-      "group": null,
-      "amount": 50,
-      "unit": "g",
-      "name": "Puderzucker (zum Dekorieren)"
-    },
-    {
-      "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "Teig"
-    },
-    {
-      "group": null,
+      "group": "Teig",
       "amount": 450,
       "unit": "g",
       "name": "Weizenmehl"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 2.5,
       "unit": "g",
       "name": "Salz",
       "note": "entspricht 0.5 TL"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 20,
       "unit": "g",
       "name": "Backpulver"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 8,
       "unit": "g",
-      "name": "Bio Bourbon Vanille-Zucker (z.B. von RUF)"
+      "name": "Bourbon-Vanillezucker"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 5,
       "unit": "g",
-      "name": "Bio Zitronenschale (z.B. von RUF)"
+      "name": "getrocknete Zitronenschale"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 200,
       "unit": "g",
       "name": "Zucker"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 200,
       "unit": "g",
       "name": "pflanzliche Butter"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 150,
       "unit": "ml",
       "name": "pflanzliche Milch"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 100,
       "unit": "ml",
       "name": "Wasser mit Kohlensäure"
     },
     {
-      "group": null,
+      "group": "Teig",
       "amount": 1,
       "unit": "Stück",
-      "name": "Zitrone"
+      "name": "Zitrone (Saft und Schale)"
+    },
+    {
+      "group": "Zum Dekorieren",
+      "amount": 50,
+      "unit": "g",
+      "name": "Puderzucker"
     }
   ],
   "steps": [
-    "Zubereitung Den Ofen auf 180°C Umluft vorheizen.",
-    "Den Boden einer Backform mit Backpapier auslegen.",
-    "Die Backform mit 1 EL pflanzlicher Butter einfetten.",
-    "Den Boden der Form mit 1-2 EL weißem Zucker bestreuen.",
-    "5 Zitronen waschen, in Scheiben schneiden, die Kerne entfernen und den Boden der Form mit den Zitronenscheiben auslegen.",
-    "Die Backform bei Seite stellen.",
-    "In einer kleineren Schüssel Weizenmehl, Salz, Backpulver, Bio Bourbon Vanille-Zucker und Bio Zitronenschale vermischen.",
-    "In einer zweiten Schüssel die vegane Butter mit dem Zucker aufschlagen und nach und nach die Mehlmischung unterrühren.",
-    "Nach und nach ebenfalls die pflanzliche Milch, das Wasser mit Kohlensäure und den Saft und die Schale von einer Zitrone hinzugeben, bis ein glatter Teig entsteht.",
-    "Den Teig in die Backform füllen, sodass alle Zitronenscheiben mit dem Teig bedeckt sind.",
-    "Den Kuchen bei 180°C auf mittlerer Stufe etwa 60 Minuten backen.",
-    "Anschließend 10 Minuten in der Form auskühlen lassen und auf ein Kuchengitter stürzen.",
-    "Mit Puderzucker servieren."
+    "Ofen auf 180 °C Umluft vorheizen. Boden einer Backform mit Backpapier auslegen, die Form mit der Butter (1 EL) einfetten und den Boden mit dem Zucker (1–2 EL) bestreuen.",
+    "5 Zitronen waschen, in Scheiben schneiden, entkernen und den Boden der Form damit auslegen.",
+    "Mehl, Salz, Backpulver, Vanillezucker und getrocknete Zitronenschale mischen.",
+    "Pflanzliche Butter mit dem Zucker (200 g) aufschlagen und nach und nach die Mehlmischung unterrühren. Nach und nach Milch, Sprudelwasser sowie Saft und Schale der übrigen Zitrone dazugeben, bis ein glatter Teig entsteht.",
+    "Teig so in die Form füllen, dass alle Zitronenscheiben bedeckt sind. Auf mittlerer Schiene ca. 60 Minuten backen.",
+    "10 Minuten in der Form abkühlen lassen, auf ein Gitter stürzen und mit Puderzucker servieren."
   ],
   "source": {
     "url": "https://www.zuckerjagdwurst.com/de/rezepte/veganer-zitronen-upside-down-kuchen"

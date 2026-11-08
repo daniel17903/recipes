@@ -17,8 +17,8 @@
       "group": null,
       "amount": 1,
       "unit": "Stück",
-      "name": "Stangen Lauch",
-      "note": "1-2"
+      "name": "Lauch (Stange)",
+      "note": "1–2 Stück"
     },
     {
       "group": null,
@@ -53,7 +53,7 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
+      "unit": "Pck.",
       "name": "Sojasahne"
     },
     {
@@ -73,17 +73,32 @@
       "amount": null,
       "unit": null,
       "name": "Olivenöl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Pfeffer"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Kurkuma"
     }
   ],
   "steps": [
-    "Brokkoli in Röschen schneiden und das restliche Gemüse klein schneiden.",
-    "Linsen in einem Sieb waschen.",
-    "Zwiebeln, Lauch und Knoblauch in einem großen Topf einige Minuten anbraten.",
-    "Brokkoli kurz mitbraten, dann die Gemüsebrühe und die Sojasahne hinzufügen.",
-    "Sobald alles kocht die Linsen dazugeben und ca 15min kochen bis sie weich sind.",
-    "Kurz vor Ende der Kochzeit die Paprika dazugeben.",
-    "Alles pürieren und mit Salz, Pfeffer, Kurkuma und Hefeflocken würzen.",
-    "Vor dem Servieren etwas Olivenöl dazugeben und gehackte Petersilie darüber streuen."
+    "Brokkoli in Röschen teilen, das übrige Gemüse klein schneiden. Linsen in einem Sieb waschen.",
+    "Zwiebeln, Lauch und Knoblauch in einem großen Topf einige Minuten anbraten. Brokkoli kurz mitbraten, dann Gemüsebrühe und Sojasahne dazugeben.",
+    "Sobald alles kocht, die Linsen dazugeben und ca. 15 Minuten weich kochen. Kurz vor Ende die Paprika dazugeben.",
+    "Pürieren und mit Salz, Pfeffer, Kurkuma und Hefeflocken würzen.",
+    "Mit etwas Olivenöl und gehackter Petersilie servieren."
   ],
   "dateAdded": "2026-07-17",
   "images": [

@@ -17,7 +17,7 @@
       "group": null,
       "amount": 100,
       "unit": "g",
-      "name": "Räuchertofu (guten)"
+      "name": "Räuchertofu (guter)"
     },
     {
       "group": null,
@@ -29,7 +29,7 @@
       "group": null,
       "amount": 45,
       "unit": "ml",
-      "name": "neutrales ÖL",
+      "name": "neutrales Öl",
       "note": "entspricht 3 EL"
     },
     {
@@ -44,7 +44,7 @@
       "amount": 15,
       "unit": "ml",
       "name": "Wasser",
-      "note": "1-4; entspricht 1-4 EL"
+      "note": "entspricht 1–4 EL"
     },
     {
       "group": null,
@@ -60,9 +60,8 @@
     }
   ],
   "steps": [
-    "Räuchertofu und Zwiebel klein schneiden und anbraten, bis alles leicht braun ist.",
-    "Majoran 1min mitbraten.",
-    "Alles pürieren."
+    "Räuchertofu und Zwiebel klein schneiden und in etwas Öl anbraten, bis alles leicht braun ist. Majoran 1 Minute mitbraten.",
+    "Mit den übrigen Zutaten pürieren; Wasser nach Bedarf zugeben."
   ],
   "dateAdded": "2026-07-17",
   "images": [

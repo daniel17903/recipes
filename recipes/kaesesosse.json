@@ -45,16 +45,16 @@
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "Saft einer 1/2 Zitrone"
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Zitrone (Saft)"
     },
     {
       "group": null,
       "amount": 1,
       "unit": "Zehe",
       "name": "Knoblauch",
-      "note": "1-2"
+      "note": "1–2 Zehen"
     },
     {
       "group": null,
@@ -84,12 +84,9 @@
     }
   ],
   "steps": [
-    "Kartoffeln schälen, dann Karotten und Kartoffeln klein schneiden.",
-    "10-15min weich kochen.",
-    "Gegen Ende der Kochzeit die Cashewkerne dazugeben.",
-    "Zwiebel glasig dünsten.",
-    "Gegen Ende den Knoblauch dazu pressen.",
-    "50ml Kochwasser mit allen Zutaten pürieren."
+    "Kartoffeln schälen, Kartoffeln und Karotten klein schneiden und 10–15 Minuten weich kochen. Gegen Ende der Kochzeit die Cashews dazugeben.",
+    "Zwiebel glasig dünsten, gegen Ende den Knoblauch dazupressen.",
+    "Alles abgießen und mit 50 ml Kochwasser und allen übrigen Zutaten pürieren."
   ],
   "images": [
     "kaesesosse.webp"

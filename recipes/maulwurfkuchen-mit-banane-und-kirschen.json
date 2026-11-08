@@ -4,7 +4,7 @@
   "category": "Kuchen",
   "yield": {
     "amount": 1,
-    "unit": "Portionen"
+    "unit": "Form (ø 20–22 cm)"
   },
   "ingredients": [
     {
@@ -17,13 +17,13 @@
       "group": "Schokokuchen",
       "amount": 90,
       "unit": "g",
-      "name": "Zucker *siehe Rezeptnotizen"
+      "name": "Zucker"
     },
     {
       "group": "Schokokuchen",
       "amount": 1,
       "unit": "Stück",
-      "name": "gestampfte Banane (ca. 125 g) oder Apfelmus"
+      "name": "Banane, gestampft (ca. 125 g), oder Apfelmus"
     },
     {
       "group": "Schokokuchen",
@@ -43,7 +43,7 @@
       "group": "Schokokuchen",
       "amount": 240,
       "unit": "g",
-      "name": "Mehl *optional glutenfreies Mehl"
+      "name": "Mehl, optional glutenfrei"
     },
     {
       "group": "Schokokuchen",
@@ -115,28 +115,15 @@
     }
   ],
   "steps": [
-    "Schokokuchen: Den Ofen auf 180°C vorheizen und eine runde Backform (20/22 cm) einfetten.",
-    "Mit einem elektrischen Handrührgerät die weiche Margarine (oder vegane Butter) mit Zucker und Bananenmus cremig mixen.",
-    "In einer kleinen Tasse das Backpulver mit dem Apfelessig verrühren und beiseite stellen.",
-    "Das Mehl, Speisestärke, Kakao und Salz in einer Rührschüssel vermischen.",
-    "Nun die Butter-Zucker-Bananen Creme und nach und nach pflanzliche Milch sowie die Backpulver-Essig Mischung hinzugeben und alles zu einem homogenen Teig verrühren. (Ggf. etwas mehr Milch hinzufügen).",
-    "Den Teig in die eingefettete Backform füllen und ca.",
-    "35 Minuten backen (oder bis ein in die Mitte des Kuchens eingestochener Zahnstocher wieder fast sauber herauskommt „Stäbchenprobe“).",
-    "Anschließend den Kuchen abkühlen lassen.",
-    "Nach dem Abkühlen, den Schokokuchen mit einem Esslöffel vorsichtig ausschaben, sodass ein ca.",
-    "1,5 cm hoher Rand und ein ca.",
-    "1 cm dicker Boden übrig bleibt. (Damit ein gleichmäßiger Rand entsteht, kann man vorher den inneren Kreis mit einem Messer leicht einschneiden.) Den ausgeschabten Kuchen in eine Schüssel geben und mit den Fingern zerbröseln. (Die Krümel verwenden wir später für das Topping).",
-    "Banane-Kirsch-Creme: Die pflanzliche Schlagcreme mit einem elektrischen Handrührgerät ca.",
-    "1 Minute auf höchster Stufe schlagen.",
-    "Puderzucker, Sahnesteif und etwas Vanille hinzufügen und weiter schlagen, bis die Sahne steif ist.",
-    "Vorsichtig die geraspelte Schokolade unterheben und bis zur Verwendung in den Kühlschrank stellen.",
-    "Die Bananen schälen, längst halbieren und auf den ausgeschabten Kuchenboden legen.",
-    "Optional noch Kirschkompott (oder anderes Obst) darüber verteilen.",
-    "Die aufgeschlagene Sahne darauf geben und zu einem Hügel formen.",
-    "Die restlichen Kuchenkrümel auf der Creme verteilen und leicht andrücken.",
-    "Es sollte nun wie ein Maulwurfshügel aussehen.",
-    "Den Kuchen vor dem Servieren ca.",
-    "2 Stunden im Kühlschrank kühlen."
+    "Ofen auf 180 °C vorheizen und eine runde Form (20–22 cm) einfetten.",
+    "Weiche Margarine mit Zucker und Bananenmus mit dem Handrührgerät cremig mixen. Backpulver in einer Tasse mit dem Apfelessig verrühren.",
+    "Mehl, Speisestärke, Kakao und Salz mischen. Margarine-Bananen-Creme, nach und nach die Milch und die Backpulver-Essig-Mischung dazugeben und zu einem glatten Teig verrühren (ggf. etwas mehr Milch zugeben).",
+    "Teig in die Form füllen und ca. 35 Minuten backen, bis ein Stäbchen fast sauber herauskommt. Abkühlen lassen.",
+    "Den Kuchen mit einem Esslöffel aushöhlen, sodass ein ca. 1,5 cm hoher Rand und ein ca. 1 cm dicker Boden bleiben (den inneren Kreis vorher leicht mit einem Messer einschneiden). Das Ausgehöhlte fein zerbröseln.",
+    "Schlagcreme ca. 1 Minute auf höchster Stufe schlagen. Puderzucker, Sahnesteif und Vanille dazugeben und steif schlagen. Geraspelte Schokolade unterheben und kalt stellen.",
+    "Bananen schälen, längs halbieren und auf den Boden legen. Optional Kirschkompott (oder anderes Obst) darüber verteilen.",
+    "Sahne zu einem Hügel daraufstreichen, mit den Kuchenkrümeln bestreuen und leicht andrücken.",
+    "Vor dem Servieren ca. 2 Stunden kühlen."
   ],
   "source": {
     "url": "https://biancazapatka.com/de/maulwurfkuchen-vegan/"

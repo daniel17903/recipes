@@ -16,8 +16,8 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Knoblauchzehe"
+      "unit": "Zehe",
+      "name": "Knoblauch"
     },
     {
       "group": null,
@@ -79,18 +79,32 @@
       "amount": null,
       "unit": null,
       "name": "Kreuzkümmel"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Olivenöl"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Salz"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Pfeffer"
     }
   ],
   "steps": [
-    "Lauch und Blumenkohl waschen.",
-    "Zwiebel, Lauch und Blumenkohl schneiden.",
-    "Die Kartoffel schälen und klein schneiden.",
-    "In einem großen Topf die Zwiebeln und den Lauch einige Minuten dünsten.",
-    "Dann das restliche Gemüse einige Minuten mit anbraten.",
-    "Die Gemüsebrühe hinzufügen und ca 10min kochen lassen bis die Kartoffeln und der Blumenkohl weich sind.",
-    "Die Bohnen aus der Dose abtropfen und dazugeben, dann alles pürieren.",
-    "Das Haselnussmus und die klein geschnittene Birne unterrühren.",
-    "Etwas Olivenöl dazugeben und alles mit Salz, Pfeffer, Thymian, Kreuzkümmel und Hefeflocken würzen."
+    "Lauch und Blumenkohl waschen. Zwiebel, Knoblauch, Lauch und Blumenkohl schneiden, Kartoffel schälen und klein schneiden.",
+    "Zwiebel und Lauch in einem großen Topf einige Minuten dünsten, dann das restliche Gemüse einige Minuten mitbraten.",
+    "Gemüsebrühe dazugeben und ca. 10 Minuten kochen, bis Kartoffel und Blumenkohl weich sind.",
+    "Bohnen abtropfen lassen, dazugeben und alles pürieren.",
+    "Haselnussmus und die klein geschnittene Birne unterrühren. Mit etwas Olivenöl, Salz, Pfeffer, Thymian, Kreuzkümmel und Hefeflocken abschmecken."
   ],
   "dateAdded": "2026-07-17",
   "images": [

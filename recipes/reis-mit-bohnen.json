@@ -17,7 +17,7 @@
       "group": null,
       "amount": 2,
       "unit": "Stück",
-      "name": "Zwiebel(n)"
+      "name": "Zwiebeln"
     },
     {
       "group": null,
@@ -34,8 +34,8 @@
     {
       "group": null,
       "amount": 3,
-      "unit": "Stück",
-      "name": "Knoblauchzehe(n)"
+      "unit": "Zehe",
+      "name": "Knoblauch"
     },
     {
       "group": null,
@@ -46,8 +46,8 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "kleine Dose Mais"
+      "unit": "Dose",
+      "name": "Mais (kleine Dose)"
     },
     {
       "group": null,
@@ -69,14 +69,11 @@
     }
   ],
   "steps": [
-    "Zuerst den Reis unter fließendem Wasser waschen, bis das Wasser klar bleibt.",
-    "Die Zwiebel und die Paprikaschote in kleine Würfel schneiden.",
-    "Die Tomaten klein schneiden.",
-    "Dann die Zwiebelwürfel goldbraun anbraten und die Paprika und die Tomaten dazugeben.",
-    "Nun den Knoblauch dazupressen.",
-    "Den Reis und die Bohnen hinzugeben und mit Wasser angießen.",
-    "Mit Salz und schwarzem Pfeffer würzen und 25 Minuten bei schwacher Hitze köcheln lassen, bis der Reis gar ist.",
-    "Kurz vor Ende de Mais dazugeben."
+    "Reis waschen, bis das Wasser klar bleibt.",
+    "Zwiebeln und Paprika fein würfeln, Tomaten klein schneiden.",
+    "Zwiebeln in Öl goldbraun anbraten, Paprika und Tomaten dazugeben und den Knoblauch dazupressen.",
+    "Reis und Bohnen dazugeben und mit Wasser angießen. Mit Salz, Pfeffer und Kurkuma würzen und bei schwacher Hitze ca. 25 Minuten köcheln, bis der Reis gar ist.",
+    "Kurz vor Ende den Mais dazugeben."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/893161194861815/Reis-mit-roten-Bohnen.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"

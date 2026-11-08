@@ -17,7 +17,7 @@
       "group": null,
       "amount": 100,
       "unit": "g",
-      "name": "Sonneblumenöl"
+      "name": "Sonnenblumenöl"
     },
     {
       "group": null,
@@ -66,19 +66,22 @@
       "group": null,
       "amount": 5,
       "unit": "g",
-      "name": "Vanillepaste oder Päckchen Vanillezucker",
+      "name": "Vanillepaste oder 1 Päckchen Vanillezucker",
       "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Guss",
+      "amount": null,
+      "unit": null,
+      "name": "Puderzucker"
     }
   ],
   "steps": [
-    "Backofen auf 160°C Heißluft/Umluft vorheizen.",
-    "Die Rote Beete in kleine Stücke schneiden und mit dem Pürierstab pürieren.",
-    "2 TL davon für den Guss zur Seite stellen.",
-    "Rote Beete mit Sonnenblumenöl, Zucker, Mehl, Backpulver, Kakaopulver, Sojajoghurt, Salz und Vanillepaste (alternativ Vanillezucker) vermengen und gut verrühren.",
-    "Eine Kastenform etwas einfetten und den Teig hineingeben.",
-    "Bei 160°C für 50-60 Minuten backen.",
-    "Mit der Stäbchenprobe überprüfen, ob der Kuchen fertig ist.",
-    "Aus dem Backofen nehmen und abkühlen lassen."
+    "Backofen auf 160 °C Umluft vorheizen.",
+    "Rote Bete klein schneiden und pürieren. 2 TL davon für den Guss beiseitestellen.",
+    "Restliche Rote Bete mit Öl, Zucker, Mehl, Backpulver, Kakao, Sojajoghurt, Salz und Vanille gut verrühren. Gehackte Schokolade unterheben.",
+    "Teig in eine leicht gefettete Kastenform geben und 50–60 Minuten backen (Stäbchenprobe). Abkühlen lassen.",
+    "Die beiseitegestellte Rote Bete mit Puderzucker zu einem Guss verrühren und auf dem Kuchen verteilen."
   ],
   "source": {
     "url": "https://meinebackbox.de/blog/rote-beete-schokokuchen-vegan/"

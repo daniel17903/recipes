@@ -4,7 +4,7 @@
   "category": "Torten",
   "yield": {
     "amount": 1,
-    "unit": "Portionen"
+    "unit": "26cm-Form"
   },
   "ingredients": [
     {
@@ -46,8 +46,8 @@
     {
       "group": "Teig",
       "amount": 1,
-      "unit": "Stück",
-      "name": "Pkg. Vanillezucker"
+      "unit": "Pck.",
+      "name": "Vanillezucker"
     },
     {
       "group": "Teig",
@@ -59,7 +59,7 @@
       "group": "Teig",
       "amount": 80,
       "unit": "g",
-      "name": "vegane Butter weich"
+      "name": "vegane Butter, weich"
     },
     {
       "group": "Teig",
@@ -89,43 +89,21 @@
       "group": "Glasur",
       "amount": 400,
       "unit": "g",
-      "name": "Marillenmarmelade fein passiert"
+      "name": "Marillenmarmelade, fein passiert"
     }
   ],
   "steps": [
-    "Die Butter mit der Schokolade in einem Topf auf mittlerer Hitze schmelzen.",
-    "Achtung, unbedingt darauf aufpassen, dass die Schokolade nicht zu heiß wird und auskristallisiert.",
-    "Schokolade sollte nie über 50°C erhitzt werden, da sich ihre Struktur sonst so verändert, dass sie nicht mehr “rettbar” ist.",
-    "Nun die Hafermilch, das Apfelmus, Zucker und Vanillezucker zusammen leeren und kurz langsam durch rühren lassen.",
-    "Das machen wir aus dem einfachen Grund, den Zucker ein wenig zu lösen.",
-    "Wem es hier zu sehr spritzt kann auch schon eine kleine Partie des Mehls mit dazu leeren Wenn das verrührt ist, das restliche Mehl und zum Schluss das Backpulver unterlaufen lassen.",
-    "Backpulver ist ein chemisches Mittel bestehend aus Natron, Stärke und Zitronen- oder Weinsteinsäure.",
-    "Natron ist ein natürlich vorkommendes Salz.",
-    "Das Natron reagiert mit der Säure und es entsteht CO2.",
-    "Natron kann ohne Probleme deshalb durch Backpulver ersetzt werden.",
-    "Andersrum funktioniert das aber nicht!",
-    "In amerikanischen Rezepten wird meist nur mehr Natron in den Teig gegeben, weil da meist schon im Mehl das Backpulver enthalten ist (self-rising flour).",
-    "Zum Schluss das geschmolzene Schokoladen-Butter-Gemisch unterrühren und kurz vermengen.",
-    "Achtet hier darauf, dass sich am Boden der Rührschüssel keine hellen Teigreste mehr abgelagert haben, sondern alles gut durchmischt ist Die 26cm Springform mit neutralem Öl auspinseln und den fertigen Teig in die Form füllen.",
-    "Vegane Kuchen sind meist gerade am Boden ein wenig feuchter als herkömmliche.",
-    "Wer seiner Kuchenform nicht recht über den Weg traut nimmt ruhig ein Backpapier um ein Ankleben zu verhindern.",
-    "Unser Sacherboden backt jetzt bei 180°C Umluft ca 40 Minuten.",
-    "Um sicher zu gehen,dass er fertig ist, macht vor dem Herausnehmen eine Stäbchenprobe.",
-    "Dazu nehmt ihr einen Zahnstocher oder einen Schaschlikspieß und steckt ihn in die Mitte der Torte, denn ein Kuchen backt immer von außen nach innen.",
-    "Wenn beim Herausziehen noch nasser Teig oder Teigklümpchen hängenbleiben, backt ihr euren Boden einfach noch weiter, dann ist er noch nicht durch.",
-    "Nach dem Backen lasst ihr euren Boden in der Form auskühlen, damit er im nächsten Schritt besser zu schneiden ist Wenn der Boden kalt ist, löst den Ring von der Torte und halbiert ihn mit einem langen Wellenschliff Messer waagerecht in zwei Hälften.",
-    "Wer sich das nicht zutraut, kann den Boden auch ganz lassen und die Torte nur außenrum mit Marmelade bestreichen.",
-    "Nun den einen Boden abnehmen und mit Marmelade bestreichen.",
-    "Die untere Hälfte wird normalerweise mit der Schnittfläche nach unten auf den bestrichenen Boden gegeben.",
-    "So ist eure Oberseite immer gerade, weil der Boden der Torte ja keine Backwölbung entwickeln kann.",
-    "Die passierte Marillenmarmelade unbedingt vorher mit einem Schneebesen glatt rühren, damit keine Klümpchen auf der Torte landen Nun die Torte rundherum mit passierter Marillenmarmelade bestreichen und im Kühlschrank ein wenig fest werden lassen Inzwischen könnt ihr eure Glasur kochen.",
-    "Dazu das Wasser in einen Topf leeren und den Zucker dazu geben.",
-    "So wird der Zucker sofort feucht und kann in Folge nicht mehr am Topfboden karamellisieren oder anbrennen Wenn der Zucker ca 10 Minuten sprudelnd gekocht hat und sich die Zucker Wasser Mischung klärt, den Läuterzucker über die klein gehackte Schokolade leeren und ca auf Körpertemperatur abkühlen lassen Wenn die Glasur schön dickflüssig ist und nicht zu schnell von der Teigspachtel rinnt, kann die Torte glasiert werden.",
-    "Dazu die Torte auf ein Glasiergitter geben und die Glasur schön oben drauf leeren bis die Oberfläche bedeckt ist.",
-    "Nun die Torte mit dem Gitter in die Hand nehmen und vorsichtig in alle Richtungen kippen, sodass die Glasur an der Seite herunter laufen kann.",
-    "Wenn jetzt noch Lücken am Rand zu sehen sind, könnt ihr einen Pinsel in die Glasur tunken und damit die Lücken verschließen.",
-    "Wenn unten am Gitter keine Glasur mehr abtropft, kann die Torte auf eine Servierplatte gegeben werden.",
-    "Die Glasur unbedingt fest werden lassen und dann erst servieren."
+    "Vegane Butter mit der Schokolade (150 g) bei mittlerer Hitze schmelzen – nicht über 50 °C erhitzen, sonst wird die Schokolade unbrauchbar.",
+    "Milch, Apfelmus, Zucker und Vanillezucker kurz verrühren, damit sich der Zucker etwas löst.",
+    "Mehl mit Kakao, Salz, Backpulver und Natron mischen und unterrühren (wenn es spritzt, zuerst nur einen Teil des Mehls zugeben).",
+    "Die Schokoladen-Butter-Mischung unterrühren, bis keine hellen Teigreste mehr am Schüsselboden sind.",
+    "Eine 26-cm-Springform mit Öl auspinseln (oder mit Backpapier auslegen) und den Teig einfüllen. Bei 180 °C Umluft ca. 40 Minuten backen (Stäbchenprobe).",
+    "In der Form vollständig auskühlen lassen. Dann den Ring lösen und den Boden waagerecht halbieren (alternativ ganz lassen).",
+    "Marmelade mit dem Schneebesen glatt rühren. Den unteren Boden damit bestreichen und den oberen mit der Schnittfläche nach unten daraufsetzen, damit die Oberseite eben ist.",
+    "Die Torte rundherum mit Marmelade bestreichen und im Kühlschrank etwas fest werden lassen.",
+    "Für die Glasur die Sojasahne erhitzen, über die gehackte Schokolade (175 g) gießen und glatt rühren. Auf etwa Körpertemperatur abkühlen lassen, bis sie dickflüssig ist.",
+    "Torte auf ein Gitter setzen, die Glasur darübergießen und durch vorsichtiges Kippen an den Seiten herunterlaufen lassen; Lücken mit einem Pinsel schließen.",
+    "Wenn nichts mehr abtropft, auf eine Platte setzen und die Glasur vor dem Servieren fest werden lassen."
   ],
   "source": {
     "url": "https://www.backademie.com/rezept/vegane-sachertorte/"

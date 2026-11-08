@@ -18,13 +18,13 @@
       "amount": 1,
       "unit": "Zehe",
       "name": "Knoblauch",
-      "note": "1 bis 2"
+      "note": "1–2 Zehen"
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "Saft einer halben Zitrone"
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Zitrone (Saft)"
     },
     {
       "group": null,
@@ -50,18 +50,20 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "evtl frische Kräuter"
+      "name": "frische Kräuter (z. B. Petersilie), optional"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Paprikapulver, optional"
     }
   ],
   "steps": [
-    "Seihe die Kichererbsen aus der Dose ab und lass diese kurz abtrocknen.",
-    "Falls du getrocknete Kichererbsen benutzt, musst du diese zuerst für zwölf Stunden in Wasser einweichen und anschließend für eine Stunde kochen.",
-    "Schneide den Knoblauch klein oder presse ihn mit einer Knoblauchpresse.",
-    "Gib ihn zu den Kichererbsen hinzu.",
-    "Gib alle weiteren Zutaten hinzu.",
-    "Püriere so lange, bis du eine weiche Masse ohne Klumpen erhälst.",
-    "Falls die Konsistenz zu dick ist, gib einfach noch etwas Zitronensaft oder Wasser hinzu.",
-    "Optional: Dekoriere den Hummus mit frischer Petersilie, Olivenöl und Paprikapulver."
+    "Kichererbsen abgießen und kurz abtropfen lassen. (Getrocknete Kichererbsen vorher 12 Stunden einweichen und 1 Stunde kochen.)",
+    "Knoblauch klein schneiden oder pressen und mit allen übrigen Zutaten zu den Kichererbsen geben.",
+    "Glatt pürieren. Ist die Masse zu dick, etwas Zitronensaft oder Wasser dazugeben.",
+    "Optional mit frischer Petersilie, Olivenöl und Paprikapulver garnieren."
   ],
   "source": {
     "url": "https://utopia.de/ratgeber/hummus-selber-machen-ein-einfaches-rezept/"

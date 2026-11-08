@@ -53,24 +53,11 @@
     }
   ],
   "steps": [
-    "Den Apfel schälen, entkernen und fein reiben (alternativ kann man auch Apfelmus nehmen, dem kein Zucker zugesetzt wurde), die Bananen gut zerdrücken.",
-    "Nun mit den zwei Eiern schaumig schlagen.",
-    "Mehl, Backpulver und Zimt mischen, zum Bananen-Apfel-Ei-Brei geben und kurz, aber gut verrühren.",
-    "Zum Schluss die gehackten Walnüsse unterheben und alles in eine Kastenform füllen, je größer die Form, desto flacher das Brot.",
-    "Nun bei 180°C etwa 45 Minuten backen (Stäbchenprobe!).Das Brot geht im Ofen gut hoch, fällt aber beim Abkühlen wieder etwas zusammen (so wie z.",
-    "B.",
-    "Käsekuchen).",
-    "Der Teig bleibt eher \"schlonzig\", also kompakter als z.",
-    "B.",
-    "Kuchenteig.",
-    "Vor dem Anschneiden unbedingt gut auskühlen lassen!So gebacken hat bei 12 Stücken eines ca.",
-    "127 kcal.",
-    "Das gesamte Brot hat dann also ca.",
-    "1524 kcal.In einer Dose hält das Brot ca. eine Woche und schmeckt durchgezogen meiner Meinung nach sogar noch etwas besser als frisch.",
-    "Auch Einfrieren klappt sehr gut.Wer's lauwarm mag, kann die Scheiben vor dem Verzehr einfach nochmal kurz in die Mikrowelle geben.Varianten:Man kann den Teig auch in einer Springform oder in einem Muffinblech backen (Backzeiten evtl. etwas anpassen) und als Kuchen genießen, wenn der Teig nicht süß genug ist, kann man z.",
-    "B. mit Honig oder Sirup nachhelfen.Auch lässt sich das Brot nach dem Auskühlen nach Belieben z.",
-    "B. mit Kuvertüre überziehen, dann hat es noch mehr Kuchencharakter.",
-    "Schokostückchen im Teig passen auch sehr gut, dann ist es allerdings natürlich weniger gesund.Wer lieber mit Fett backt, kann den Apfel, der ersetzt nämlich hier das Fett, durch 60 ml Öl oder 80 g Butter ersetzten.Aufgrund seiner Zusammensetzung eignet sich das Brot prima als Geburtstagskuchen für Kleinkinder oder als Snack für unterwegs, da kein zusätzliches Fett und kein extra Zucker in den Teig kommt und das Brot damit sehr nahrhaft, aber auch sehr lecker wird.Ich backe es meistens nach Rezept und esse es lauwarm mit einer dünnen Schicht Schokocreme."
+    "Apfel schälen, entkernen und fein reiben (oder ungesüßtes Apfelmus verwenden). Bananen gut zerdrücken und mit Apfel und Leinsamen-Eiern schaumig schlagen.",
+    "Mehl, Backpulver und Zimt mischen, dazugeben und kurz, aber gut verrühren.",
+    "Walnüsse unterheben und den Teig in eine Kastenform füllen (je größer die Form, desto flacher das Brot).",
+    "Bei 180 °C etwa 45 Minuten backen (Stäbchenprobe).",
+    "Vor dem Anschneiden gut auskühlen lassen."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/2733891425739452/Bananenbrot-ohne-extra-Fett-und-Zucker.html"
@@ -78,5 +65,7 @@
   "images": [
     "bananenbrot.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Das Brot geht im Ofen gut hoch und fällt beim Abkühlen wieder etwas zusammen; der Teig bleibt eher kompakt („schlonzig“). In einer Dose hält es ca. eine Woche und schmeckt durchgezogen sogar besser. Lässt sich gut einfrieren; lauwarm kurz in der Mikrowelle aufwärmen.\n\nVarianten: Auch in Springform oder Muffinblech backbar (Backzeit anpassen). Bei Bedarf mit Honig oder Sirup süßen, nach dem Auskühlen mit Kuvertüre überziehen oder Schokostückchen in den Teig geben. Statt Apfel (ersetzt das Fett) gehen auch 60 ml Öl oder 80 g Butter.",
+  "nutrition": "ca. 127 kcal pro Stück (bei 12 Stück), ganzes Brot ca. 1524 kcal"
 }

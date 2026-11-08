@@ -19,14 +19,14 @@
       "amount": null,
       "unit": null,
       "name": "Hefeflocken",
-      "note": "1–2 EL"
+      "note": "entspricht 1–2 EL"
     },
     {
       "group": null,
       "amount": 2.5,
       "unit": "g",
       "name": "Schwarzsalz (Kala Namak)",
-      "note": "½ TL"
+      "note": "entspricht ½ TL"
     },
     {
       "group": null,
@@ -45,7 +45,7 @@
       "amount": null,
       "unit": null,
       "name": "Öl",
-      "note": "einige EL"
+      "note": "einige Esslöffel"
     },
     {
       "group": "Zum Servieren",
@@ -63,11 +63,11 @@
     }
   ],
   "steps": [
-    "Öl in einer Bratpfanne erhitzen. Den mit den Händen zerbröselten Tofu in die Bratpfanne geben und so lange anbraten, bis er leicht gebräunt ist.",
-    "Hefeflocken, Salz, Kurkuma und Pfeffer hinzufügen und gründlich mischen. Wasser dazugießen und so lange dünsten, bis das Wasser verdampft ist. Noch eine Weile weiterbraten.",
-    "Mit Schnittlauch und schwarzem Pfeffer bestreuen und mit dem Lieblingsbrot servieren."
+    "Öl in einer Pfanne erhitzen. Tofu mit den Händen hineinbröseln und anbraten, bis er leicht gebräunt ist.",
+    "Hefeflocken, Schwarzsalz, Kurkuma und Pfeffer gründlich untermischen. Wasser dazugießen und dünsten, bis es verdampft ist, dann noch etwas weiterbraten.",
+    "Mit Schnittlauch und Pfeffer bestreuen und mit Brot servieren."
   ],
-  "notes": "Lass dich von dem seltsam klingenden Namen nicht entmutigen. Rührtofu ist ein „Rührei“ aus gebratenem Tofu. Ähnlich wie sein Eieräquivalent ist auch dieses sättigend, schnell in der Zubereitung und schmeckt hervorragend mit Brot. Hefeflocken und Schwarzsalz dürfen nicht fehlen, weil sie dem Rührtofu den Eigeschmack verleihen. Varianten: mit Pilzfüllung, Tomaten oder als Favorit mit roten Zwiebeln und getrockneten Tomaten.",
+  "notes": "Rührtofu ist ein „Rührei“ aus gebratenem Tofu – sättigend, schnell gemacht und lecker mit Brot. Hefeflocken und Schwarzsalz sorgen für den Eigeschmack. Varianten: mit Pilzen, Tomaten oder roten Zwiebeln und getrockneten Tomaten.",
   "images": [
     "ruehrtofu.webp"
   ],

@@ -3,8 +3,8 @@
   "title": "Vegane Elisenlebkuchen",
   "category": "Weihnachten",
   "yield": {
-    "amount": 10,
-    "unit": "Portionen"
+    "amount": 14,
+    "unit": "Stück"
   },
   "ingredients": [
     {
@@ -92,15 +92,14 @@
     }
   ],
   "steps": [
-    "Datteln mit kochendem Wasser übergießen und 10 Minuten einweichen.",
-    "Einweichwasser bis auf ca. 45 ml (3 EL) abgießen und die Datteln zusammen mit dem Marzipan fein pürieren.",
-    "Haselnüsse und Mandeln in einer Pfanne ohne Öl bei mittlerer bis hoher Hitze 3–5 Minuten rösten, bis sie duften, dabei ab und zu schwenken. Anschließend in der Küchenmaschine mittelfein mahlen.",
-    "Aprikosen fein hacken und die Schale der Orangen abreiben.",
-    "Dattel-Marzipan-Püree, Nüsse, Aprikosen, Orangenschale, Lebkuchengewürz, Pottasche, Backpulver und 60 ml Wasser in der Küchenmaschine 5 Minuten auf niedriger Stufe verrühren. Mehl dazugeben und weitere 5 Minuten zu einer zähen, homogenen Masse rühren.",
+    "Datteln mit kochendem Wasser übergießen und 10 Minuten einweichen. Wasser bis auf ca. 45 ml (3 EL) abgießen und Datteln mit dem Marzipan fein pürieren.",
+    "Haselnüsse und Mandeln ohne Öl bei mittlerer bis hoher Hitze 3–5 Minuten rösten, bis sie duften, dabei ab und zu schwenken. In der Küchenmaschine mittelfein mahlen.",
+    "Aprikosen fein hacken, Orangenschale abreiben.",
+    "Dattel-Marzipan-Püree, Nüsse, Aprikosen, Orangenschale, Lebkuchengewürz, Pottasche, Backpulver und Wasser in der Küchenmaschine 5 Minuten auf niedriger Stufe verrühren. Mehl dazugeben und weitere 5 Minuten zu einer zähen Masse rühren.",
     "Backofen auf 170 °C Ober-/Unterhitze vorheizen.",
-    "Je ca. 55 g Masse flach auf eine Oblate drücken, sodass sie bündig mit dem Rand abschließt (ergibt ca. 14 Lebkuchen).",
-    "Lebkuchen auf ein mit Backpapier ausgelegtes Backblech setzen, 12 Minuten backen und auf einem Kuchengitter vollständig auskühlen lassen.",
-    "Kuvertüre langsam im Wasserbad schmelzen, mit einem Löffel auf den Lebkuchen verteilen und trocknen lassen."
+    "Je ca. 55 g Masse bündig auf eine Oblate drücken und auf ein mit Backpapier ausgelegtes Blech setzen.",
+    "12 Minuten backen und auf einem Gitter vollständig auskühlen lassen.",
+    "Kuvertüre langsam im Wasserbad schmelzen, auf den Lebkuchen verteilen und trocknen lassen."
   ],
   "source": {
     "url": "https://www.eat-this.org/die-besten-veganen-elisenlebkuchen/"

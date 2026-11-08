@@ -4,7 +4,7 @@
   "category": "Kuchen",
   "yield": {
     "amount": 1,
-    "unit": "Portionen"
+    "unit": "Gugelhupfform"
   },
   "ingredients": [
     {
@@ -54,7 +54,7 @@
       "group": "Für dunklen Teig zusätzlich",
       "amount": 30,
       "unit": "g",
-      "name": "Kakaopulver ((Backkakao))"
+      "name": "Kakaopulver (Backkakao)"
     },
     {
       "group": "Für dunklen Teig zusätzlich",
@@ -71,15 +71,11 @@
     }
   ],
   "steps": [
-    "Für Gugelhupf Form Alle Zutaten für den hellen Teig kurz gut durchmixen.(Mit einem elektrischen Handmixer oder Rührlöffel)Nicht lange rühren.",
-    "Einen Teil des Teiges in eine zweite Schüssel geben.(ca. ein Drittel des Teiges) und die Zutaten für den dunklen Teig hinzufügen.",
-    "Kurz gut untermixen.",
-    "In die Backform füllen: Hellen und dunklen Teig abwechselnd in die Backform füllen.",
-    "Eine Gabel durch den Teig ziehen, so dass ein Muster entsteht.",
-    "Backen: Im vorgeheizten Ofen bei 180 °C (Ober-Unterhitze) ca 70 Minuten backen.(Stäbchenprobe) Den Kuchen in der Backform auf einem Kuchengitter abkühlen lassen.",
-    "Erst aus der Form nehmen, wenn er ganz abgekühlt ist.",
-    "Evtl. verzieren:: Als Deko eignet sich Puderzucker oder Schokoglasur.",
-    "Der Kuchen kann auch noch mit Zuckerstreuseln, gehackten Nüssen oder Schokolinsen usw. verziert werden."
+    "Ofen auf 180 °C Ober-/Unterhitze vorheizen und eine Gugelhupfform vorbereiten.",
+    "Alle Zutaten für den hellen Teig mit Handmixer oder Rührlöffel kurz, aber gut verrühren – nicht lange rühren.",
+    "Ca. ein Drittel des Teigs in eine zweite Schüssel geben, die Zutaten für den dunklen Teig dazugeben und kurz untermixen.",
+    "Hellen und dunklen Teig abwechselnd in die Form füllen und mit einer Gabel ein Muster hineinziehen.",
+    "Ca. 70 Minuten backen (Stäbchenprobe). In der Form auf einem Gitter vollständig abkühlen lassen, dann stürzen."
   ],
   "source": {
     "url": "https://veggie-einhorn.de/veganer-marmorkuchen-ohne-ei/"
@@ -87,5 +83,6 @@
   "images": [
     "marmorkuchen.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Nach Belieben mit Puderzucker, Schokoglasur, Zuckerstreuseln, gehackten Nüssen oder Schokolinsen verzieren."
 }

@@ -35,7 +35,7 @@
       "group": null,
       "amount": 10,
       "unit": "g",
-      "name": "abgeriebene Zitrone (ungespritzt!)",
+      "name": "abgeriebene Zitronenschale (unbehandelt)",
       "note": "entspricht 1 EL"
     },
     {
@@ -72,14 +72,14 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "Puderzucker"
+      "name": "Puderzucker zum Bestäuben"
     },
     {
       "group": null,
       "amount": 30,
       "unit": "g",
-      "name": "Pflanzenmargarine",
-      "note": "2-3; entspricht 2-3 EL"
+      "name": "Pflanzenmargarine zum Bestreichen",
+      "note": "entspricht 2–3 EL"
     }
   ],
   "steps": [
@@ -87,7 +87,7 @@
     "Sultaninen bzw. Trockenfrüchte unterarbeiten und den Teig abgedeckt an einem warmen Ort etwa 1 Stunde gehen lassen.",
     "Das Marzipan zu einer Rolle formen. Den Teig länglich ausrollen, das Marzipan mittig einlegen und den Stollen formen.",
     "Auf ein Blech setzen und bei 180 °C etwa 50–60 Minuten backen; bei zu starker Bräunung mit Backpapier abdecken.",
-    "Den noch warmen Stollen mit 30 g geschmolzener Margarine bestreichen und dick mit Puderzucker bestäuben."
+    "Den noch warmen Stollen mit der geschmolzenen Margarine (30 g) bestreichen und dick mit Puderzucker bestäuben."
   ],
   "variations": [
     {
@@ -201,21 +201,14 @@
         }
       ],
       "steps": [
-        "Walnüsse hacken und zusammen mit Orangeat, Zitronat und Rosinen in eine Schüssel geben.",
-        "Orangensaft dazugeben und das Ganze über Nacht ziehen lassen.",
-        "Mehl, Zucker, gemahlene Mandeln, Christstollengewürz, Trockenhefe und Vanillezucker in einer Schüssel vermischen.",
-        "Anschließend Pflanzenöl, pflanzliche Butter, Bittermandelaroma und pflanzliche Milch dazugeben.",
-        "Die Zutaten zu einem leicht klebrigen Teig verkneten.",
-        "Überschüssigen Orangensaft der eingeweichten Früchtemischung abgießen, die Mischung zum Teig geben und unterkneten. Dabei so viel Mehl wie nötig dazugeben, damit der Teig nicht mehr klebt.",
-        "Den Teig ca. 30 Minuten an einem warmen Platz ruhen lassen.",
-        "In der Zwischenzeit den Ofen auf 180°C (Umluft) vorheizen und ein Backblech mit Backpapier auslegen.",
-        "Den Teig auf einer bemehlten Fläche ca. 2-3 cm dick ausrollen und in kleine Stücke schneiden.",
-        "Die Stücke auf dem vorbereiteten Backblech verteilen – wahrscheinlich werden zwei Backbleche benötigt; entweder zwei Bleche in den Ofen schieben oder das Konfekt in Portionen backen.",
-        "Das Stollenkonfekt ca. 13 Minuten backen. Es sollte an der Oberfläche noch nicht gebräunt und knusprig sein, sondern eher noch etwas zu weich wirken.",
-        "Die kleinen Stücke auf einem Kuchengitter abkühlen lassen; danach ggf. die restlichen Stücke backen.",
-        "Das Stollenkonfekt dick mit Puderzucker bestäuben und in einem luftdichten Behälter aufbewahren."
+        "Walnüsse hacken, mit Orangeat, Zitronat, Rosinen und Orangensaft mischen und über Nacht ziehen lassen.",
+        "Mehl, Zucker, Mandeln, Stollengewürz, Hefe und Vanillezucker mischen. Öl, Butter, Bittermandelaroma und Milch dazugeben und zu einem leicht klebrigen Teig verkneten.",
+        "Früchte abtropfen lassen und unterkneten; dabei so viel Mehl zugeben, dass der Teig nicht mehr klebt. Ca. 30 Minuten an einem warmen Ort ruhen lassen.",
+        "Ofen auf 180 °C Umluft vorheizen und Bleche mit Backpapier auslegen.",
+        "Teig auf einer bemehlten Fläche 2–3 cm dick ausrollen, in kleine Stücke schneiden und auf die Bleche verteilen (ggf. in mehreren Durchgängen backen).",
+        "Ca. 13 Minuten backen – die Stücke sollen noch hell und eher etwas zu weich sein. Auf einem Gitter abkühlen lassen.",
+        "Dick mit Puderzucker bestäuben und luftdicht aufbewahren."
       ],
-      "notes": "",
       "source": {
         "url": "https://www.zuckerjagdwurst.com/de/rezepte/veganes-stollenkonfekt"
       }

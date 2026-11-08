@@ -37,7 +37,7 @@
       "amount": 1.33,
       "unit": "Pck.",
       "name": "Vanille-Puddingpulver",
-      "note": "alternativ: 40 g Speisestärke + 1 TL Vanilleextrakt"
+      "note": "alternativ: ca. 53 g Speisestärke + ca. 4 g Vanilleextrakt (je Päckchen 40 g Stärke + 1 TL Vanilleextrakt)"
     },
     {
       "group": null,
@@ -92,17 +92,12 @@
     }
   ],
   "steps": [
-    "Den Ofen auf 180 °C Ober-/ Unterhitze vorheizen.",
-    "Die Seiten einer runden 22 cm Backform einfetten und den Boden mit Backpapier auslegen (oder eine eckige Backform oder eine Kastenform mit Backpapier auslegen).",
-    "Soja-Joghurt, Kokosmilch, Vanilleextrakt, Kurkuma, Vanille-Puddingpulver und Zucker in eine große Schüssel geben und mit einem Handmixer cremig mixen.",
-    "Dann das Mehl und Backpulver hineinsieben und kurz untermixen.",
-    "Die Äpfel sehr fein hobeln und das Kerngehäuse entfernen.",
-    "Dann mit einem Teigschaber unter den Teig mischen.",
-    "Den Teig in die vorbereitete Backform geben und glatt streichen.",
-    "Nach Belieben mit noch ein paar Apfelscheiben dekorieren.",
-    "Gehobelte Mandeln und etwas braunen Zucker darüber streuen und den Kuchen etwa ca 55 Minuten lang backen, bis die Oberfläche nicht mehr flüssig ist.",
-    "Anschließend herausnehmen und zunächst auf Raumtemperatur abkühlen lassen.",
-    "Dann über Nacht in den Kühlschrank stellen, damit der Kuchen vollständig fest wirst."
+    "Ofen auf 180 °C Ober-/Unterhitze vorheizen. Den Rand einer 26-cm-Springform einfetten und den Boden mit Backpapier auslegen.",
+    "Soja-Joghurt, Kokosmilch, Vanilleextrakt, Kurkuma, Puddingpulver und Zucker mit dem Handmixer cremig mixen. Mehl und Backpulver dazusieben und kurz untermixen.",
+    "Äpfel entkernen, sehr fein hobeln und mit einem Teigschaber unter den Teig mischen.",
+    "Teig in die Form geben und glatt streichen. Nach Belieben mit Apfelscheiben belegen und mit Mandeln und braunem Zucker bestreuen.",
+    "Ca. 55 Minuten backen, bis die Oberfläche nicht mehr flüssig ist.",
+    "Auf Raumtemperatur abkühlen lassen und dann über Nacht in den Kühlschrank stellen, damit der Kuchen fest wird."
   ],
   "source": {
     "url": "https://biancazapatka.com/de/wprm_print/66146"
@@ -110,5 +105,6 @@
   "dateAdded": "2026-07-17",
   "images": [
     "apfel-pudding-kuchen.webp"
-  ]
+  ],
+  "notes": "Statt einer runden Form kann auch eine eckige Form oder Kastenform (mit Backpapier ausgelegt) verwendet werden."
 }

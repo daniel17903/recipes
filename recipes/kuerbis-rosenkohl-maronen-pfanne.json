@@ -17,19 +17,19 @@
       "group": null,
       "amount": 1,
       "unit": "Stück",
-      "name": "großer Hokkaidokürbis(se), ca. 800 g, gewürfelt"
+      "name": "großer Hokkaidokürbis, ca. 800 g, gewürfelt"
     },
     {
       "group": null,
       "amount": 200,
       "unit": "g",
-      "name": "Marone(n), geschält, gekocht (vakuumiert)"
+      "name": "Maronen, geschält, gekocht (vakuumiert)"
     },
     {
       "group": null,
       "amount": 2,
       "unit": "Stück",
-      "name": "Zwiebel(n), gehackt"
+      "name": "Zwiebeln, gehackt"
     },
     {
       "group": null,
@@ -71,22 +71,13 @@
     }
   ],
   "steps": [
-    "Kürbiswürfel mit 2 EL Öl und 1 TL Salz vermischen und auf einem vorbereiteten Backblech ausbreiten.",
-    "Bei 200 °C Ober-/Unterhitze in ca.",
-    "20 - 30 min im Ofen backen, bis der Kürbis weich ist und etwas Farbe angenommen hat.",
-    "Inzwischen den Rosenkohl in kochendem Salzwasser in ca.",
-    "10 min bissfest garen.",
-    "Mit kaltem Wasser abschrecken und abtropfen lassen.",
-    "Den abgetropften Rosenkohl in einer Pfanne mit etwas Öl bei mittlerer bis hoher Hitze ca. 5 min unter gelegentlichem Wenden goldbraun anbraten und beiseitestellen.",
-    "Die Zwiebeln in einer großen hohen Pfanne (mit passendem Deckel) in dem restlichen Öl mit etwas Salz glasig dünsten.",
-    "50 ml Wasser zufügen und mit geschlossenem Deckel ca.",
-    "10 min köcheln lassen.",
-    "Die Vakuum-Verpackung der Maronen mehrmals einstechen und die Maronen 2 min in der Mikrowelle erhitzen (alternativ: mit den Zwiebeln in der Pfanne köcheln), anschließend zu den Zwiebeln in die Pfanne geben.",
-    "Butter und Zucker zufügen und pfeffern.",
-    "Den angebratenen Rosenkohl und eventuell noch etwas Wasser zufügen und alles vermischen.",
-    "Den Deckel auflegen und noch ca.",
-    "5 min erhitzen.Zum Schluss den Kürbis unterheben.",
-    "Mit Salz und Pfeffer abschmecken."
+    "Ofen auf 200 °C Ober-/Unterhitze vorheizen. Kürbiswürfel mit 2 EL Öl und 1 TL Salz mischen, auf einem Backblech verteilen und 20–30 Minuten backen, bis sie weich sind und Farbe angenommen haben.",
+    "Inzwischen den Rosenkohl in kochendem Salzwasser ca. 10 Minuten bissfest garen, kalt abschrecken und abtropfen lassen.",
+    "Rosenkohl in einer Pfanne mit etwas Öl bei mittlerer bis hoher Hitze ca. 5 Minuten unter gelegentlichem Wenden goldbraun anbraten und beiseitestellen.",
+    "Zwiebeln im restlichen Öl mit etwas Salz in einer großen Pfanne mit Deckel glasig dünsten. Das Wasser dazugeben und zugedeckt ca. 10 Minuten köcheln.",
+    "Maronen-Verpackung mehrmals einstechen und die Maronen 2 Minuten in der Mikrowelle erhitzen (oder mit den Zwiebeln köcheln). Zu den Zwiebeln geben, Butter und Zucker dazugeben und pfeffern.",
+    "Angebratenen Rosenkohl und ggf. etwas mehr Wasser dazugeben, vermischen und zugedeckt ca. 5 Minuten erhitzen.",
+    "Kürbis unterheben, mit Salz und Pfeffer abschmecken und mit Cranberries bestreuen."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/3580011537730273/Kuerbis-Rosenkohl-Maronen-Pfanne.html"
