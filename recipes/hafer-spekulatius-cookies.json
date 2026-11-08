@@ -16,6 +16,13 @@
     },
     {
       "group": null,
+      "amount": 90,
+      "unit": "ml",
+      "name": "Wasser",
+      "note": "entspricht 6 EL, dreifache Menge der Leinsamen"
+    },
+    {
+      "group": null,
       "amount": 40,
       "unit": "g",
       "name": "Cranberries (getrocknet)",
@@ -82,21 +89,17 @@
       "group": null,
       "amount": 80,
       "unit": "g",
-      "name": "Ahornsirup*",
+      "name": "Ahornsirup",
       "note": "entspricht 4 EL"
     }
   ],
   "steps": [
-    "Leinsamen mit der dreifachen Menge Wasser verquirlen und für 5 Minuten quellen lassen.",
-    "Cranberries grob hacken.",
-    "In der Zwischenzeit Haferflocken, Mehl, Backpulver, Vanillezucker, Salz, Zimt, Spekulatiusgewürz und Mandelblättchen in eine Schüssel geben und mit einem Löffel vermengen.",
-    "Anschließend gequollene Leinsamen, Rapsöl, Ahornsirup und Cranberries unterheben.",
-    "Den Teig mit einem Löffel portionsweise abnehmen und mit den Händen zu Kugeln formen.",
-    "Die Kugeln mit etwas Abstand auf ein mit Backpapier belegtes Backblech legen, mit der Hand leicht andrücken und in Cookie-Form bringen.",
-    "Verwende je nach gewünschter Cookiegröße etwa die Menge, die auf einen gehäuften Teelöffel passt - oder etwas mehr für größere Cookies.",
-    "Die Hafer-Spekulatius-Cookies bei 180° C Ober-Unterhitze für ca.",
-    "15-20 Minuten im Backofen backen, bis die Kruste goldbraun ist.",
-    "Anschließend komplett abkühlen lassen und bis zum Verzehr in einer luftdichten Plätzchendose aufbewahren."
+    "Leinsamen mit dem Wasser verquirlen und 5 Minuten quellen lassen. Cranberries grob hacken.",
+    "Haferflocken, Mehl, Backpulver, Vanillezucker, Salz, Zimt, Spekulatiusgewürz und Mandelblättchen vermengen.",
+    "Gequollene Leinsamen, Öl, Ahornsirup und Cranberries unterheben.",
+    "Je ca. einen gehäuften Teelöffel Teig (oder mehr für größere Cookies) zu Kugeln formen, mit Abstand auf ein mit Backpapier belegtes Blech legen und flach drücken.",
+    "Bei 180 °C Ober-/Unterhitze ca. 15–20 Minuten goldbraun backen.",
+    "Vollständig abkühlen lassen und in einer luftdichten Dose aufbewahren."
   ],
   "source": {
     "url": "https://www.bevegt.de/hafer-spekulatius-cookies/"

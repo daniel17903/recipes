@@ -80,11 +80,10 @@
     }
   ],
   "steps": [
-    "Rhabarber waschen, schälen und in ca 1cm lange Stücke schneiden.",
-    "In eine Schüssel füllen und mit etwas Stärke und Zucker mischen.",
-    "Die restlichen Zutaten zu einem Teig mischen.",
-    "Teig in Backblech füllen und den Rhabarber, die gehobelten Nüsse und den Mohn gleichmäßig darauf verteilen.",
-    "Bei 170C Umluft ca 45min backen."
+    "Rhabarber waschen, schälen, in ca. 1 cm lange Stücke schneiden und mit etwas Stärke und Zucker mischen.",
+    "Die übrigen Zutaten (außer gehobelten Nüssen und Mohn) zu einem Teig mischen und auf dem Backblech verteilen.",
+    "Rhabarber, gehobelte Nüsse und Mohn gleichmäßig darauf verteilen.",
+    "Bei 170 °C Umluft ca. 45 Minuten backen."
   ],
   "variations": [
     {
@@ -102,7 +101,7 @@
           "group": "Teig",
           "amount": 1,
           "unit": "Stück",
-          "name": "Würfel Hefe"
+          "name": "Hefe (Würfel)"
         },
         {
           "group": "Teig",
@@ -150,7 +149,7 @@
           "group": "Belag",
           "amount": 1,
           "unit": "Pck.",
-          "name": "Vanillepudding Pulver"
+          "name": "Vanillepuddingpulver"
         },
         {
           "group": "Belag",
@@ -160,14 +159,11 @@
         }
       ],
       "steps": [
-        "Rhabarber schälen, mit Zucker mischen und 2h abtropfen lassen.",
-        "Wasser auffangen.",
-        "Den Hefeteig kneten und 1h gehen lassen.",
-        "Das Blech mit dem ausgerollten Hefeteig auslegen.",
-        "Mit der Milch und dem Rhabarbersaft (insgesamt 400ml) den Vanillepudding zubereiten.",
-        "Auf dem Hefeteig verteilen, danach die Rhabarberstücke hineindrücken.",
-        "Mit gehobelten Mandeln bestreuen.",
-        "20-30min bei 180C Umluft backen."
+        "Rhabarber schälen, in Stücke schneiden, mit dem Zucker mischen und 2 Stunden ziehen lassen; den austretenden Saft auffangen.",
+        "Zutaten für den Hefeteig verkneten und 1 Stunde gehen lassen. Ausrollen und das Blech damit auslegen.",
+        "Aus Milch und Rhabarbersaft (zusammen 400 ml) mit dem Puddingpulver einen Pudding kochen.",
+        "Pudding auf dem Teig verteilen, Rhabarberstücke hineindrücken und mit Mandeln bestreuen.",
+        "Bei 180 °C Umluft 20–30 Minuten backen."
       ],
       "source": {}
     }

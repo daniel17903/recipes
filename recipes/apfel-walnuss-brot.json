@@ -9,6 +9,12 @@
   "ingredients": [
     {
       "group": null,
+      "amount": 200,
+      "unit": "ml",
+      "name": "warmes Wasser"
+    },
+    {
+      "group": null,
       "amount": 50,
       "unit": "ml",
       "name": "Reisdrink (ersatzweise Haferdrink)"
@@ -34,9 +40,10 @@
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "Salz"
+      "amount": 5,
+      "unit": "g",
+      "name": "Salz",
+      "note": "entspricht 1 TL"
     },
     {
       "group": null,
@@ -68,34 +75,22 @@
       "amount": null,
       "unit": null,
       "name": "Mehl zum Arbeiten"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "ml",
+      "name": "Wasser für den Backofen"
     }
   ],
   "steps": [
-    "Den Reisdrink mit 200 ml warmem Wasser in einer Schüssel verrühren.",
-    "Die Hefe hineinbröckeln, Zucker dazugeben und glatt rühren.",
-    "Zugedeckt 15 Min. bei Zimmertemperatur ruhen lassen.",
-    "Das Mehl in eine große Schüssel sieben, 1 TL Salz untermischen.",
-    "Hefemischung dazugießen und alles in ca.",
-    "5 Min. zu einem glatten, geschmeidigen Teig verkneten.",
-    "Den Teig zu einer Kugel formen und zugedeckt an einem warmen Ort 25 Min. gehen lassen.",
-    "Inzwischen die Walnüsse grob hacken.",
-    "Die Äpfel schälen, längs vierteln und entkernen.",
-    "Die Apfelviertel längs halbieren und quer in Scheiben schneiden.",
-    "Die Apfelscheiben mit dem Zitronensaft mischen.",
-    "Die Datteln hacken und untermengen.",
-    "Ein Backblech mit Backpapier auslegen.",
-    "Walnüsse und Apfelmischung unter den Teig kneten.",
-    "Den Teig auf der leicht bemehlten Arbeitsfläche zu einem runden Laib formen und auf das Backpapier legen.",
-    "Die Oberfläche rautenförmig ca.",
-    "1 cm tief einschneiden.",
-    "Das Brot mit Mehl bestäuben und zugedeckt 15 Min. an einem warmen Ort gehen lassen.",
-    "Den Backofen auf 250° vorheizen.",
-    "Eine ofenfeste Form mit ca.",
-    "200 ml Wasser auf den Backofenboden stellen.",
-    "Das Brot im Ofen (Mitte) 10 Min. backen.",
-    "Die Temperatur auf 200° zurückschalten und das Brot in 40 Min. fertig backen.",
-    "Aus dem Ofen nehmen.",
-    "Das Brot schmeckt warm oder abgekühlt."
+    "Reisdrink und warmes Wasser verrühren. Hefe hineinbröckeln, Zucker dazugeben und glatt rühren. Zugedeckt 15 Minuten bei Zimmertemperatur ruhen lassen.",
+    "Mehl in eine große Schüssel sieben und mit dem Salz mischen. Hefemischung dazugießen und ca. 5 Minuten zu einem glatten Teig verkneten. Zur Kugel formen und zugedeckt an einem warmen Ort 25 Minuten gehen lassen.",
+    "Inzwischen Walnüsse grob hacken. Äpfel schälen, vierteln, entkernen, die Viertel längs halbieren und quer in Scheiben schneiden. Mit Zitronensaft mischen. Datteln hacken und untermengen.",
+    "Walnüsse und Apfelmischung unter den Teig kneten. Auf der bemehlten Arbeitsfläche zu einem runden Laib formen und auf ein mit Backpapier ausgelegtes Blech legen.",
+    "Oberfläche rautenförmig ca. 1 cm tief einschneiden, mit Mehl bestäuben und zugedeckt 15 Minuten an einem warmen Ort gehen lassen.",
+    "Backofen auf 250 °C vorheizen und eine ofenfeste Form mit dem Wasser auf den Ofenboden stellen.",
+    "Brot auf mittlerer Schiene 10 Minuten backen, dann bei 200 °C in 40 Minuten fertig backen. Schmeckt warm oder abgekühlt."
   ],
   "images": [
     "apfel-walnuss-brot.webp"

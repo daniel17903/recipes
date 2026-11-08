@@ -67,7 +67,8 @@
       "group": "Optional",
       "amount": 80,
       "unit": "g",
-      "name": "Rosinen (dann kann gerne die Zuckermenge um 80 g reduziert werden)"
+      "name": "Rosinen",
+      "note": "dann kann die Zuckermenge um 80 g reduziert werden"
     },
     {
       "group": "Optional",
@@ -80,32 +81,23 @@
       "group": "Optional",
       "amount": null,
       "unit": null,
-      "name": "Etwas warmes Wasser"
+      "name": "warmes Wasser"
     },
     {
       "group": "Optional",
       "amount": null,
       "unit": null,
-      "name": "Etwas Puderzucker zum Bestäuben"
+      "name": "Puderzucker zum Bestäuben"
     }
   ],
   "steps": [
-    "In 26cm Form besser als in Blech Optional: Wenn Rosinen rein sollen, die kurz abwaschen und in einem Glas mit 1 EL Rum und so viel warmes Wasser auffüllen, bis die Rosinen bedeckt sind.",
-    "Teig: Äpfel waschen, evtl. schälen (ich mache es nicht, weil wir Äpfel aus dem Garten einer Freundin haben), entkernen und in ca.",
-    "2 cm große Stücke schneiden.",
-    "Äpfel in einer Schüssel mit dem Zucker und Rohrzucker vermischen und zur Seite stellen.",
-    "Backblech einfetten oder mit einer Dauer-Backmatte/ Silikonbackmatte/ Backpapier auslegen.",
-    "Ofen auf 175ºC Ober-/Unterhitze vorheizen.",
-    "Möhren klein raspeln.",
-    "Möhren, Apfelsaft/ Wasser, Öl und Apfelmus in eine Rührschüssel geben und mit einem Teigschaber vermischen.",
-    "Sollen Rosinen rein diesen nun ebenfalls dazu geben (ohne die Flüssigkeit, in der sie eingelegt wurden).",
-    "Mehl, Backpulver und Pumpkin Spice dazu sieben und mit dem Teigschaber nur so lange verrühren, bis sich der Teig verbunden hat.",
-    "Die Apfel-Zuckermischung dazu geben und unterheben.",
-    "Auf das Backblech geben und mit einem Tortenheber bzw. einer Winkelpalette verstreichen.",
-    "Im Ofen auf mittlerer Schiene ca.",
-    "30 Minuten backen.",
-    "Der Kuchen ist fertig, wenn ein eingestochenes Stäbchen sauber wieder herauskommt.",
-    "Den Kuchen auf einem Rost auskühlen lassen und vor dem Servieren mit etwas Puderzucker bestäuben."
+    "Optional: Rosinen kurz abwaschen, in ein Glas geben, den Rum dazugeben und mit warmem Wasser auffüllen, bis die Rosinen bedeckt sind.",
+    "Äpfel waschen, nach Belieben schälen, entkernen und in ca. 2 cm große Stücke schneiden. Mit dem Zucker vermischen und beiseitestellen.",
+    "Backblech einfetten oder mit Backpapier bzw. Backmatte auslegen. Ofen auf 175 °C Ober-/Unterhitze vorheizen.",
+    "Möhren fein raspeln und mit Apfelsaft (oder Wasser), Öl und Apfelmus in einer Rührschüssel mit dem Teigschaber vermischen. Ggf. die abgetropften Rosinen (ohne Einweichflüssigkeit) dazugeben.",
+    "Mehl, Backpulver und Pumpkin Spice dazusieben und nur so lange verrühren, bis sich der Teig verbunden hat. Die Apfel-Zucker-Mischung unterheben.",
+    "Teig auf dem Blech verstreichen und auf mittlerer Schiene ca. 30 Minuten backen (Stäbchenprobe).",
+    "Auf einem Rost auskühlen lassen und vor dem Servieren mit Puderzucker bestäuben."
   ],
   "source": {
     "url": "https://cakeinvasion.de/2015/11/apfel-moehren-gewuerzkuchen/"
@@ -113,5 +105,6 @@
   "images": [
     "apfel-moehren-gewuerzkuchen-mit-pumpkin-spice.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Gelingt in einer 26-cm-Form besser als auf dem Blech."
 }

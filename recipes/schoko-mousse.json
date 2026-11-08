@@ -35,7 +35,7 @@
       "group": "Soße",
       "amount": 0.5,
       "unit": "Stück",
-      "name": "Zitrone"
+      "name": "Zitrone (Saft)"
     },
     {
       "group": "Soße",
@@ -46,11 +46,9 @@
   ],
   "steps": [
     "Datteln in heißem Wasser einweichen.",
-    "Schokolade im Topf schmelzen.",
-    "Dann den Seidentofu und die Datteln in den Topf geben und alles pürieren.",
-    "Dann in Gläser füllen und kühlen.",
-    "Die Beeren auftauen lassen, dann mit etwas Zitronensaft und Puderzucker pürieren.",
-    "In die abgekühlten Gläser füllen."
+    "Schokolade im Topf schmelzen. Seidentofu und abgetropfte Datteln dazugeben und alles pürieren.",
+    "In Gläser füllen und kühlen.",
+    "Beeren auftauen lassen und mit Zitronensaft und Puderzucker nach Geschmack pürieren. Auf die gekühlte Mousse geben."
   ],
   "images": [
     "schoko-mousse.webp"

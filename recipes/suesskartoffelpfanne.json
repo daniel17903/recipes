@@ -48,7 +48,7 @@
       "amount": 6,
       "unit": "g",
       "name": "pikante Gewürzmischung",
-      "note": "2-3; entspricht 2-3 TL"
+      "note": "entspricht 2–3 TL"
     },
     {
       "group": null,
@@ -62,25 +62,20 @@
       "amount": 30,
       "unit": "g",
       "name": "Umami-Soße",
-      "note": "3-4; entspricht 3-4 EL"
+      "note": "entspricht 3–4 EL"
     }
   ],
   "steps": [
-    "Ofen auf 220C vorheizen und ein Backblech mit Backpapier auslegen.",
-    "Die Süßkartoffel auf dem Backblech verteilen und 10min im Ofen rösten.",
-    "Blech herausnehmen und Blumenkohl hinzufügen.",
-    "Weitere 20min im Ofen rösten, bis die Kartoffeln und der Blumenkohl bisszart sind.",
-    "Aus dem Ofen nehmen und beiseitestellen.",
-    "In einer Pfanne 2 EL Wasser auf mittlerer Flamme erhitzen.",
-    "Zwiebel hineingeben, abdecken und 5min weich dünsten.",
-    "Paprika und Pilze hinzufügen und ohne Deckel ca 5min unter Rühren schmoren, bis das Gemüse weich ist.",
-    "Bohnen, pikante Gewürzmischung, Cayennepfeffer und geröstetes Gemüse in die Pfanne geben und 5min braten, bis alles gut durchgewärmt ist.",
-    "Auf Wunsch die Zutaten leicht mit einem Pfannenwender zerdrücken.",
-    "Mit Umami-Soße beträufeln und warm servieren.",
-    "Geht auch mit Zuchini oder anderem Gemüse statt Blumenkohl."
+    "Ofen auf 220 °C vorheizen und ein Blech mit Backpapier auslegen. Süßkartoffel darauf verteilen und 10 Minuten rösten.",
+    "Blumenkohl dazugeben und weitere 20 Minuten rösten, bis alles bissfest ist.",
+    "In einer Pfanne 2 EL Wasser bei mittlerer Hitze erhitzen, Zwiebel darin zugedeckt 5 Minuten weich dünsten.",
+    "Paprika und Pilze dazugeben und ohne Deckel unter Rühren ca. 5 Minuten schmoren, bis das Gemüse weich ist.",
+    "Bohnen, Gewürzmischung, Cayennepfeffer und das geröstete Gemüse dazugeben und 5 Minuten braten, bis alles heiß ist. Nach Wunsch leicht zerdrücken.",
+    "Mit Umami-Soße beträufeln und warm servieren."
   ],
   "images": [
     "suesskartoffelpfanne.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Statt Blumenkohl geht auch Zucchini oder anderes Gemüse."
 }

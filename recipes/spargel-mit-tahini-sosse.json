@@ -17,7 +17,7 @@
       "group": null,
       "amount": 15,
       "unit": "ml",
-      "name": "Natives Olivenöl extra",
+      "name": "natives Olivenöl extra",
       "note": "entspricht 1 EL"
     },
     {
@@ -56,9 +56,9 @@
     {
       "group": "Für die Soße",
       "amount": 2,
-      "unit": "Stück",
-      "name": "Knoblauchzehen",
-      "note": "2-3"
+      "unit": "Zehe",
+      "name": "Knoblauch",
+      "note": "2–3 Zehen"
     },
     {
       "group": "Für die Soße",
@@ -81,9 +81,10 @@
     }
   ],
   "steps": [
-    "Spargel schälen und auf einem Backpapier mit Olivenöl, Salz und Pfeffer marinieren.",
-    "Dann für 25-30min bei 200C backen.",
-    "Dann alle Zutaten für die Soße verrühren."
+    "Spargel schälen, auf ein Blech mit Backpapier legen und mit Olivenöl, Salz und Pfeffer marinieren.",
+    "Bei 200 °C 25–30 Minuten backen.",
+    "Knoblauch pressen und mit den übrigen Zutaten für die Soße verrühren.",
+    "Spargel mit der Soße und gehackter Petersilie servieren."
   ],
   "source": {
     "url": "https://ellerepublic.de/geroesteter-spargel-mit-tahin-zitronen-sosse/"

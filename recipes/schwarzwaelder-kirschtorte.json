@@ -109,7 +109,7 @@
       "group": "Kirschfüllung",
       "amount": 0.75,
       "unit": "Glas",
-      "name": "Schattenmorellen (350g Abtropfgewicht)"
+      "name": "Schattenmorellen (350 g Abtropfgewicht)"
     },
     {
       "group": "Kirschfüllung",
@@ -164,27 +164,15 @@
     }
   ],
   "steps": [
-    "Alle Zutaten für den Nussboden vermischen.",
-    "Kalte Margarine mit einer Gabel zerdrücken.",
-    "Ca 25min bei 180C Ober- Unterhitze backen.",
-    "Backpapier in die Springform legen, damit der Boden beim Rausnehmen nicht zerbricht.",
-    "Für das Biskuit alle Zutaten zu einem glatten Teig verrühren.",
-    "Dann ca 25min bei 180C backen.",
-    "Stäbchenprobe machen.",
-    "Abkühlen lassen, dann in der Mitte auseinanderschneiden.",
-    "Sahne zubereiten und kühlen (siehe anderes Rezept).",
-    "5EL Kirschsaft mit Stärke und Zucker glatt rühren.",
-    "Den restlichen Kirschsaft aufkochen, vom Herd nehmen und die Stärkemischung mit dem Schneebeesen einrühren.",
-    "Dann nochmal kurz aufkochen.",
-    "Dann vom Herd nehmen, etwas abkühlen lassen, dann die Kirschen dazugeben.",
-    "Sollte nicht ganz abkühlen bevor es auf die Torte kommt da es sonst schon zu fest wird.",
-    "Den Nussboden auf eine Tortenplatte legen und mit einem Tortenring oder einer Springform umschließen.",
-    "Dann die Kirschfüllung darauf verteilen.",
-    "Einen Biskuit darauf legen.",
-    "Mit Kirschwasser beträufeln.",
-    "Darauf einige EL Sahne verteilen.",
-    "Dann den zweiten Biskuit darauf legen, mit Kirschwasser beträufeln und die Sahne rundherum gleichmäßig verstreichen.",
-    "Zuerst mit Kirschen, dann mit der Schokolade dekorieren."
+    "Springform mit Backpapier auslegen. Zutaten für den Nussboden vermischen, dabei die kalte Margarine mit einer Gabel zerdrücken. In die Form drücken und bei 180 °C Ober-/Unterhitze ca. 25 Minuten backen.",
+    "Für den Biskuit alle Zutaten glatt rühren und bei 180 °C ca. 25 Minuten backen (Stäbchenprobe). Abkühlen lassen und waagerecht halbieren.",
+    "Für die Sahne 10 % der Sojasahne beiseitestellen, den Rest mit dem Agar Agar kurz aufkochen und vollständig abkühlen lassen. Vanillezucker und die restliche Sahne untermixen (wie Agar Agar Sahne) und kühlen.",
+    "5 EL Kirschsaft mit Stärke und Zucker glatt rühren. Restlichen Saft aufkochen, vom Herd nehmen, die Stärkemischung einrühren und nochmals kurz aufkochen.",
+    "Etwas abkühlen lassen und die Kirschen unterheben. Nicht ganz abkühlen lassen, sonst wird die Füllung zu fest.",
+    "Nussboden auf eine Tortenplatte setzen, mit Tortenring umschließen und die Kirschfüllung darauf verteilen.",
+    "Einen Biskuitboden auflegen, mit Kirschwasser beträufeln und einige Esslöffel Sahne darauf verteilen.",
+    "Zweiten Biskuitboden auflegen, mit Kirschwasser beträufeln und die Torte rundherum mit der Sahne einstreichen.",
+    "Mit Kirschen und Schokoladenraspeln dekorieren."
   ],
   "images": [
     "schwarzwaelder-kirschtorte.webp",

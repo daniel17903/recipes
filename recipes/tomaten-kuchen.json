@@ -4,7 +4,7 @@
   "category": "Kuchen",
   "yield": {
     "amount": 1,
-    "unit": "Portionen"
+    "unit": "Gugelhupfform"
   },
   "ingredients": [
     {
@@ -66,9 +66,9 @@
     }
   ],
   "steps": [
-    "Tomaten, Orangenschalen, Banane, Öl und Ingwer pürieren.",
-    "Dann mit den restlichen Zutaten vermischen.",
-    "Bei 180C für ca 50min in einer Gugelhupf Form backen."
+    "Tomaten, Orangenschale, Banane, Öl und Ingwer (bzw. Safran) pürieren.",
+    "Mit den restlichen Zutaten vermischen.",
+    "In einer Gugelhupfform bei 180 °C ca. 50 Minuten backen."
   ],
   "dateAdded": "2026-07-17",
   "images": [

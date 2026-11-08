@@ -35,7 +35,7 @@
       "group": "Füllung",
       "amount": 3,
       "unit": "Stück",
-      "name": "Blöcke Naturtofu (180-200g)"
+      "name": "Naturtofu (Blöcke à 180–200 g)"
     },
     {
       "group": "Füllung",
@@ -92,7 +92,7 @@
       "group": "Schokoladenguss",
       "amount": 50,
       "unit": "g",
-      "name": "dunkle Schokoladen"
+      "name": "dunkle Schokolade"
     },
     {
       "group": "Schokoladenguss",
@@ -102,18 +102,13 @@
     }
   ],
   "steps": [
-    "Alle Zutaten für den Nussboden vermischen.",
-    "Kalte Margarine mit einer Gabel zerdrücken.",
-    "Ca 25min bei 180C Ober- Unterhitze backen.",
-    "Backpapier in die Springform legen, damit der Boden beim Rausnehmen nicht zerbricht.",
-    "Dann abkühlen lassen.",
-    "Tofu zerbröseln.",
-    "Zusammen mit Zitronensaft, Vanille und Salz pürieren.",
-    "Pflanzenmilch, Schokolade, Zucker, Kakaopulver und Agar Agar erhitzen, dabei die ganze Zeit rühren und 2min köcheln lassen.",
-    "Tofumasse zsm mit Schokomasse pürieren, dann in die Form füllen und 2-3h kühlen.",
-    "Für den Schokoladenguss alle Zutaten erhitzen bis die Schokolade geschmolzen ist.",
-    "Dann wieder so lange abkühlen lassen bis sie nicht mehr ganz flüssig ist und auf dem Kuchen verteilen.",
-    "Dann kühlen."
+    "Springform mit Backpapier auslegen, damit der Boden sich später gut lösen lässt.",
+    "Zutaten für den Nussboden vermischen, dabei die kalte Margarine mit einer Gabel zerdrücken. In die Form drücken.",
+    "Bei 180 °C Ober-/Unterhitze ca. 25 Minuten backen und abkühlen lassen.",
+    "Tofu zerbröseln und mit Zitronensaft, Vanille und Salz pürieren.",
+    "Pflanzenmilch, Schokolade, Zucker, Kakao und Agar Agar unter ständigem Rühren erhitzen und 2 Minuten köcheln.",
+    "Tofu- und Schokomasse zusammen pürieren, auf den Boden füllen und 2–3 Stunden kühlen.",
+    "Für den Guss Schokolade und Espresso erhitzen, bis die Schokolade geschmolzen ist. Abkühlen lassen, bis er nicht mehr ganz flüssig ist, auf dem Kuchen verteilen und kühlen."
   ],
   "dateAdded": "2026-07-17",
   "images": [

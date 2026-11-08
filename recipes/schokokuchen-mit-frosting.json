@@ -85,19 +85,16 @@
     }
   ],
   "steps": [
-    "Alle Zutaten für den Teig verrühren.",
-    "Bei 180C ca 50min (Achtung vermutlich länger) backen.",
-    "Mit einem Zahnstocher testen.",
-    "Abkühlen lassen.",
-    "Frosting Die Kokosmilch in einem Topf erhitzen bis sie fast aufkocht.",
-    "Die gehackte Schokolade in eine hitzebeständige Schüssel geben und mit der heißen Kokosmilch begießen.",
-    "Kurz stehen lassen, sodass die Schokolade schmilzt.",
-    "Dann verrühren, bis eine cremige Ganache entsteht.",
-    "Anschließend abkühlen lassen und bei Bedarf in den Kühlschrank stellen, damit aus der Ganache ein streichfähiges Frosting entsteht.",
-    "Den Kuchen mit dem Frosting bestreichen und nach Belieben You can find this recipe here: https://biancazapatka.com/de/veganer-schokokuchen/#recipe ."
+    "Alle Zutaten für den Teig verrühren und in die Form füllen.",
+    "Bei 180 °C ca. 50 Minuten backen (evtl. länger, Stäbchenprobe). Abkühlen lassen.",
+    "Für das Frosting die Kokosmilch fast zum Kochen bringen und über die gehackte Schokolade gießen. Kurz stehen lassen, dann zu einer cremigen Ganache verrühren.",
+    "Abkühlen lassen (bei Bedarf im Kühlschrank), bis sie streichfähig ist, und den Kuchen damit bestreichen."
   ],
   "dateAdded": "2026-07-17",
   "images": [
     "schokokuchen-mit-frosting.webp"
-  ]
+  ],
+  "source": {
+    "url": "https://biancazapatka.com/de/veganer-schokokuchen/"
+  }
 }

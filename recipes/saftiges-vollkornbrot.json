@@ -17,7 +17,7 @@
       "group": null,
       "amount": 150,
       "unit": "g",
-      "name": "Kerne, gemischte nach Wahl (z.B. Kürbiskerne, Leinsamen, Sonnenblumenkerne etc.)"
+      "name": "gemischte Kerne nach Wahl (z. B. Kürbiskerne, Leinsamen, Sonnenblumenkerne)"
     },
     {
       "group": null,
@@ -29,7 +29,7 @@
       "group": null,
       "amount": 0.75,
       "unit": "Stück",
-      "name": "Würfel Hefe"
+      "name": "Hefe (Würfel)"
     },
     {
       "group": null,
@@ -48,12 +48,9 @@
   ],
   "steps": [
     "Hefe im Wasser auflösen.",
-    "Die Zutaten in der genannten Reihenfolge mischen und in der Küchenmaschine oder mit dem Rührgerät mit den Knethaken zu einem Teig verarbeiten.",
-    "30min abgedeckt gehen lassen.",
-    "In eine mit Backpapier ausgelegt Kastenform (meine ist 30 cm lang und 15 cm breit) füllen.",
-    "Wenn das Papier am Rand zerknüllt ist, macht das gar nichts.",
-    "Dann die Form in den kalten (!) Backofen auf den Rost in die Mitte stellen und bei Ober-/Unterhitze 200°C eine Stunde backen.",
-    "Das Brot ist sehr schnell zu machen, superlecker und lange saftig."
+    "Alle Zutaten in der angegebenen Reihenfolge dazugeben und mit den Knethaken zu einem Teig verarbeiten. Abgedeckt 30 Minuten gehen lassen.",
+    "In eine mit Backpapier ausgelegte Kastenform (ca. 30 × 15 cm) füllen.",
+    "In den kalten Ofen auf mittlerer Schiene stellen und bei 200 °C Ober-/Unterhitze 1 Stunde backen."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/1344331239198800/Saftiges-Vollkornbrot.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"
@@ -61,5 +58,6 @@
   "images": [
     "saftiges-vollkornbrot.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Schnell gemacht und lange saftig."
 }

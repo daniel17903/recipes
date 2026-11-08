@@ -9,12 +9,6 @@
   "ingredients": [
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "ZUTATEN"
-    },
-    {
-      "group": null,
       "amount": 500,
       "unit": "g",
       "name": "Mehl"
@@ -29,7 +23,7 @@
       "group": null,
       "amount": 1,
       "unit": "Stück",
-      "name": "großes Stück Ingwer"
+      "name": "Ingwer (großes Stück)"
     },
     {
       "group": null,
@@ -77,16 +71,10 @@
     }
   ],
   "steps": [
-    "SCHRITT 1 Eine Springform mit Backpapier auslegen und den Rand einfetten.",
-    "Den Backofen auf 175° C Umluft vorheizen.",
-    "Die Zitrone abwaschen und fein reiben.",
-    "Anschließend die Zitrone auspressen.",
-    "Den Ingwer schälen und ebenfalls fein reiben.",
-    "Das glutenfreie Mehl mit Wasser, Zucker, Vanillezucker, Backpulver, Zitronenabrieb, 4 EL Zitronensaft, Ingwer, Apfelessig, Kokosöl und Salz mit einem Handrührgerät oder einer Küchenmaschine verrühren.",
-    "Die Teigmasse in die Springform füllen und den Backofen auf den mittleren Rost schieben.",
-    "In ca.",
-    "45 Minuten fertig backen.",
-    "Optional noch Glasur mit Zitronensaft + Puderzucker"
+    "Eine Springform mit Backpapier auslegen und den Rand einfetten. Ofen auf 175 °C Umluft vorheizen.",
+    "Zitronenschale fein abreiben und die Zitrone auspressen. Ingwer schälen und fein reiben.",
+    "Mehl, Wasser, Zucker, Vanillezucker, Backpulver, Zitronenschale, 4 EL Zitronensaft, Ingwer, Apfelessig, Kokosöl und Salz mit dem Handrührgerät verrühren.",
+    "Teig in die Form füllen und auf mittlerer Schiene ca. 45 Minuten backen."
   ],
   "source": {
     "url": "https://www.heimgourmet.com/rezept-56580-schneller-zitronen-ingwer-kuchen-vegan-glutenfrei.htm"
@@ -94,5 +82,6 @@
   "images": [
     "zitronen-ingwer-kuchen.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Optional mit einer Glasur aus Zitronensaft und Puderzucker überziehen. Mit glutenfreiem Mehl wird der Kuchen glutenfrei."
 }

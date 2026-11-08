@@ -36,15 +36,13 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "Paprika Pulver"
+      "name": "Paprikapulver"
     }
   ],
   "steps": [
-    "Vom Grünkohl die Blätter abzupfen, waschen und trocken schleudern.",
-    "Für die Marinade 3El Olivenöl, Salz und Gewürze mischen.",
-    "Den Grünkohl damit marinieren.",
-    "Den Grünkohl auf einem Backblech verteilen und bei 160C Umluft ca 25min backen.",
-    "Während dem Backen ab und zu den Ofen öffnen damit die Feuchtigkeit entweicht."
+    "Grünkohlblätter abzupfen, waschen und trocken schleudern.",
+    "Olivenöl, Salz und Gewürze mischen und den Grünkohl damit marinieren.",
+    "Auf einem Backblech verteilen und bei 160 °C Umluft ca. 25 Minuten backen. Dabei ab und zu die Ofentür öffnen, damit die Feuchtigkeit entweicht."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/2065201333923104/Gruenkohlchips.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"

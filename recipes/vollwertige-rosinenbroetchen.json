@@ -36,14 +36,14 @@
       "amount": 5,
       "unit": "g",
       "name": "Salz",
-      "note": "entspricht 1/1 TL"
+      "note": "entspricht 1 TL"
     },
     {
       "group": null,
       "amount": null,
       "unit": null,
       "name": "Hefe",
-      "note": "ein wenig; ca. 1/2 TL Trockenhefe oder 1/10 Würfel Frischhefe"
+      "note": "ein wenig: ca. 1/2 TL Trockenhefe oder 1/10 Würfel Frischhefe"
     },
     {
       "group": null,
@@ -55,24 +55,16 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "etwas Sojadrink (optional)"
+      "name": "Sojadrink zum Bestreichen (optional)"
     }
   ],
   "steps": [
-    "Apfelmark, Pflanzendrink und Rapsöl mischen und in einem Topf erwärmen (maximal 40°).",
-    "Mehl, Salz und Hefe in einer Schüssel mischen. (Ich mache auch bei Frischhefe keinen Vorteig, sondern verkrümel sie einfach mit dem Mehl.",
-    "Du kannst aber natürlich auch einen Vorteig machen.) Alles z.B. mit der Küchenmaschine gründlich für mehrere Minuten miteinander verkneten.",
-    "Die Rosinen zugeben und nochmals kurz kneten.",
-    "Mit einem Tuch zudecken und über Nacht bei Zimmertemperatur gehen lassen.",
-    "Wenn du den Teig kürzer gehen lassen möchtest benötigst du mehr Hefe.",
-    "Ich empfehle für 1 Stunde Gehzeit 1 Pk Trockenhefe oder 1/2 Hefewürfel, für 2 Stunden Gehzeit 1/2 Pk Trockenhefe oder 1/4 Hefewürfel.",
-    "Umso wärmer, desto weniger Hefe benötigst du.",
-    "Am Morgen ein Backblech fetten oder mit Backpapier belegen und den Ofen auf 180° vorheizen.",
-    "Den Teig vorsichtig von Hand kurz kneten, in 8 Stücke teilen und Brötchen daraus formen.",
-    "Wenn du möchtest, kreuzweise einschneiden.",
-    "Für eine schönere Farbe mit Sojadrink bepinseln.",
-    "Die Brötchen bei Ober-Unter-Hitze 25-30 Minuten backen.",
-    "Für einen schönen Glanz noch heiß nochmals mit Sojadrink bestreichen und abkühlen lassen."
+    "Apfelmark, Pflanzendrink und Öl in einem Topf auf maximal 40 °C erwärmen.",
+    "Mehl, Salz und Hefe mischen (Frischhefe einfach ins Mehl krümeln). Mit der Flüssigkeit mehrere Minuten gründlich verkneten, dann die Rosinen kurz unterkneten.",
+    "Zugedeckt über Nacht bei Zimmertemperatur gehen lassen.",
+    "Ofen auf 180 °C Ober-/Unterhitze vorheizen und ein Blech fetten oder mit Backpapier belegen.",
+    "Teig kurz von Hand kneten, in 8 Stücke teilen und zu Brötchen formen. Nach Belieben kreuzweise einschneiden und mit Sojadrink bepinseln.",
+    "25–30 Minuten backen. Für Glanz noch heiß erneut mit Sojadrink bestreichen und abkühlen lassen."
   ],
   "source": {
     "url": "https://www.baeckerei-zuckerfrei.de/recipe/vollwertige-rosinenbroetchen/"
@@ -80,5 +72,6 @@
   "dateAdded": "2026-07-17",
   "images": [
     "vollwertige-rosinenbroetchen.webp"
-  ]
+  ],
+  "notes": "Kürzere Gehzeit braucht mehr Hefe: für 1 Stunde 1 Pck. Trockenhefe oder ½ Würfel, für 2 Stunden ½ Pck. Trockenhefe oder ¼ Würfel. Je wärmer, desto weniger Hefe. Ein Vorteig ist möglich, aber nicht nötig."
 }

@@ -40,9 +40,9 @@
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "geriebene Schale von 2 großen Orangen"
+      "amount": 2,
+      "unit": "Stück",
+      "name": "große Orangen (abgeriebene Schale)"
     },
     {
       "group": null,
@@ -64,12 +64,9 @@
     }
   ],
   "steps": [
-    "Alle Zutaten außer Schokolade zu einem Teig verarbeiten.",
-    "Falls zu fest moch etwas Wasser oder Pflanzendrink hinzufügen.",
-    "Schokolade am Ende unterheben.",
-    "Teig kalt stellen bis er fest geworden ist.",
-    "12 Kekse formen.",
-    "Sollten ca 1cm hoch sein.",
+    "Alle Zutaten außer der Schokolade zu einem Teig verarbeiten; ist er zu fest, etwas Wasser oder Pflanzendrink zugeben. Schokolade unterheben.",
+    "Teig kalt stellen, bis er fest ist.",
+    "12 Kekse von ca. 1 cm Höhe formen.",
     "Bei 180 °C Ober-/Unterhitze ca. 15 Minuten backen."
   ],
   "images": [

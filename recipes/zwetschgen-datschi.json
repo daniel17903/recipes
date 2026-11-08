@@ -17,7 +17,7 @@
       "group": null,
       "amount": 250,
       "unit": "g",
-      "name": "Vollkorn Mehl"
+      "name": "Vollkornmehl"
     },
     {
       "group": null,
@@ -41,7 +41,7 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "Gewürze (Zimt, Kardamon, Nelken, Piment)"
+      "name": "Gewürze (Zimt, Kardamom, Nelken, Piment)"
     },
     {
       "group": null,
@@ -51,10 +51,13 @@
     }
   ],
   "steps": [
-    "ca 25min bei 200C backen"
+    "Mehl, Vollkornmehl, Margarine, Sojamilch und Zucker zu einem Teig verkneten und auf einem Blech ausrollen.",
+    "Zwetschgen entsteinen, dicht auf den Teig legen und mit den Gewürzen bestreuen.",
+    "Bei 200 °C ca. 25 Minuten backen."
   ],
   "dateAdded": "2026-07-17",
   "images": [
     "zwetschgen-datschi.webp"
-  ]
+  ],
+  "notes": "Zubereitung bis auf Backzeit und Temperatur aus den Zutaten rekonstruiert (im Original fehlten die Schritte)."
 }
