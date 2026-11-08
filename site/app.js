@@ -362,7 +362,7 @@ function renderRecipe(r, variantId) {
 
       <section class="panel steps-panel">
         <h2>Zubereitung</h2>
-        <ol class="steps">${m.steps.map((s) => `<li>${stepHtml(s)}</li>`).join("")}</ol>
+        <ol class="steps">${m.steps.map((s, i) => `<li>${stepHtml(s, i + 1)}</li>`).join("")}</ol>
       </section>
     </div>
 
@@ -527,7 +527,7 @@ function unitSeconds(u) {
 }
 
 // Schritttext escapen und hinter jede Zeitangabe einen Timer-Knopf setzen.
-function stepHtml(text) {
+function stepHtml(text, stepNo) {
   let out = "", last = 0;
   TIME_RE.lastIndex = 0;
   let m;
@@ -540,7 +540,7 @@ function stepHtml(text) {
     const label = m[0].trim();
     out += esc(text.slice(last, m.index));
     out += `<span class="step-time">${esc(label)}<button type="button" class="step-timer"` +
-      ` data-seconds="${secs}" data-label="${esc(label)}"` +
+      ` data-seconds="${secs}" data-label="${esc(`Schritt ${stepNo} · ${label}`)}"` +
       ` aria-label="Timer ${esc(fmtDuration(secs))} starten" title="Timer starten">${TIMER_ICON}</button></span>`;
     last = m.index + m[0].length;
   }
@@ -613,11 +613,12 @@ function timerTray() {
     tray = document.createElement("div");
     tray.id = "timer-tray";
     tray.className = "timer-tray";
-    tray.setAttribute("aria-live", "polite");
     document.body.appendChild(tray);
     tray.addEventListener("click", (e) => {
       const b = e.target.closest("[data-action]");
-      if (b) timerAction(b.closest(".timer").dataset.id, b.dataset.action);
+      if (!b) return;
+      unlockAudio(); // Klick (auch per Enter/Leertaste) ist eine Nutzergeste
+      timerAction(b.closest(".timer").dataset.id, b.dataset.action);
     });
   }
   return tray;
@@ -625,6 +626,10 @@ function timerTray() {
 
 function renderTimers() {
   const tray = timerTray();
+  // Fokus über das Neu-Rendern retten (Tastaturbedienung).
+  const f = tray.contains(document.activeElement) ? document.activeElement : null;
+  const fId = f && f.closest(".timer") ? f.closest(".timer").dataset.id : null;
+  const fAction = f ? f.dataset.action || "link" : null;
   tray.innerHTML = timers.map((t) => `
     <div class="timer${t.done ? " done" : ""}${t.paused ? " paused" : ""}" data-id="${esc(t.id)}">
       <span class="timer-time">${t.done ? "Fertig!" : fmtDuration(remainingOf(t))}</span>
@@ -633,6 +638,12 @@ function renderTimers() {
       <button type="button" data-action="plus" aria-label="Eine Minute mehr">+1</button>
       <button type="button" data-action="remove" aria-label="${t.done ? "Schließen" : "Timer abbrechen"}">✕</button>
     </div>`).join("");
+  if (fId) {
+    const el = tray.querySelector(`.timer[data-id="${fId}"]`);
+    const target = el && (el.querySelector(fAction === "link" ? ".timer-label" : `[data-action="${fAction}"]`) ||
+      el.querySelector("[data-action]"));
+    if (target) target.focus();
+  }
   document.body.classList.toggle("has-timers", timers.length > 0);
   if (timers.length && !timerTick) timerTick = setInterval(updateTimers, 250);
   if (!timers.length && timerTick) { clearInterval(timerTick); timerTick = null; }
@@ -652,7 +663,8 @@ function updateTimers() {
   else {
     timerTray().querySelectorAll(".timer").forEach((el) => {
       const t = timers.find((x) => x.id === el.dataset.id);
-      if (t && !t.done) el.querySelector(".timer-time").textContent = fmtDuration(remainingOf(t));
+      const tt = el.querySelector(".timer-time");
+      if (t && !t.done && tt.textContent !== fmtDuration(remainingOf(t))) tt.textContent = fmtDuration(remainingOf(t));
     });
   }
   if (ringing && Date.now() - lastAlarm > 2000) { lastAlarm = Date.now(); alarm(); }
@@ -692,7 +704,8 @@ document.addEventListener("visibilitychange", () => {
   }
 });
 // Nach einem Neuladen mit laufenden Timern: Audio beim ersten Tippen freigeben.
-document.addEventListener("pointerdown", () => { if (timers.length) unlockAudio(); }, { passive: true });
+["pointerdown", "keydown"].forEach((ev) =>
+  document.addEventListener(ev, () => { if (timers.length) unlockAudio(); }, { passive: true }));
 if (timers.length) renderTimers();
 
 // ---------------------------------------------------------------------------

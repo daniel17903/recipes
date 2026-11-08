@@ -225,6 +225,7 @@ ol.steps li:nth-child(even)::before { transform: rotate(5deg); }
   bottom: calc(.8rem + env(safe-area-inset-bottom, 0px));
   width: min(30rem, calc(100% - 1.5rem - var(--safe-l) - var(--safe-r)));
   display: flex; flex-direction: column; gap: .45rem; pointer-events: none;
+  max-height: calc(100dvh - 1.6rem - env(safe-area-inset-bottom, 0px)); overflow-y: auto;
 }
 .timer {
   pointer-events: auto; display: flex; align-items: center; gap: .5rem;
