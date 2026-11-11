@@ -15,7 +15,7 @@
       "group": "Dessert",
       "amount": 800,
       "unit": "g",
-      "name": "ungesüßter Sojajoghurt"
+      "name": "ungesüßter Soja-Skyr-Joghurt"
     },
     {
       "group": "Dessert",
@@ -39,12 +39,12 @@
   ],
   "steps": [
     "20 Lotus-Biscoff-Kekse grob zerbrechen, in einen Gefrierbeutel geben und mit einem Nudelholz zu feinen Bröseln zermahlen.",
-    "Die Brösel und den Sojajoghurt in vier Gläser schichten: jeweils zuerst etwas Keksbrösel, dann Sojajoghurt. Die Schichten noch zweimal wiederholen.",
+    "Die Brösel und den Soja-Skyr-Joghurt in vier Gläser schichten: jeweils zuerst etwas Keksbrösel, dann Soja-Skyr-Joghurt. Die Schichten noch zweimal wiederholen.",
     "Das Dessert mindestens 2 Stunden in den Kühlschrank stellen, damit es fester und cremiger wird.",
     "Kurz vor dem Servieren zwei Kekse zerbröseln und auf die Desserts streuen. Die übrigen zwei Kekse halbieren und je eine Hälfte in ein Glas stecken.",
     "Optional den Biscoff-Aufstrich etwa 30 Sekunden vorsichtig erwärmen, bis er dickflüssig ist, und zickzackförmig über die Desserts träufeln."
   ],
-  "notes": "Für ein vollständig veganes Dessert auf pflanzliche Produkte achten: Sojajoghurt, Biscoff-Kekse und Biscoff-Aufstrich müssen vegan sein.",
+  "notes": "Für ein vollständig veganes Dessert auf pflanzliche Produkte achten: Soja-Skyr-Joghurt, Biscoff-Kekse und Biscoff-Aufstrich müssen vegan sein.",
   "source": {
     "name": "Food for the Soul (vegan angepasst)",
     "url": "https://foodforthesoul.de/lotus-dessert/"
@@ -52,5 +52,59 @@
   "images": [
     "lotus-dessert-vegan.webp"
   ],
-  "dateAdded": "2026-07-20"
+  "dateAdded": "2026-07-20",
+  "variations": [
+    {
+      "id": "orange",
+      "title": "Mit Orange",
+      "description": "Der Joghurt wird mit Orangensaft verrührt, als Topping gibt es geriebene Orangenschale.",
+      "ingredients": [
+        {
+          "group": "Dessert",
+          "amount": 800,
+          "unit": "g",
+          "name": "ungesüßter Soja-Skyr-Joghurt"
+        },
+        {
+          "group": "Dessert",
+          "amount": 120,
+          "unit": "ml",
+          "name": "Orangensaft"
+        },
+        {
+          "group": "Dessert",
+          "amount": 160,
+          "unit": "g",
+          "name": "vegane Lotus-Biscoff-Kekse",
+          "note": "20 Kekse"
+        },
+        {
+          "group": "Topping",
+          "amount": 4,
+          "unit": "Stück",
+          "name": "vegane Lotus-Biscoff-Kekse"
+        },
+        {
+          "group": "Topping",
+          "amount": 25,
+          "unit": "g",
+          "name": "veganer Lotus-Biscoff-Brotaufstrich"
+        },
+        {
+          "group": "Topping",
+          "amount": 1,
+          "unit": "Stück",
+          "name": "Bio-Orange",
+          "note": "nur die Schale, fein gerieben"
+        }
+      ],
+      "steps": [
+        "20 Lotus-Biscoff-Kekse grob zerbrechen, in einen Gefrierbeutel geben und mit einem Nudelholz zu feinen Bröseln zermahlen.",
+        "Den Soja-Skyr-Joghurt mit dem Orangensaft glatt verrühren. Die Brösel und die Orangen-Joghurt-Creme in vier Gläser schichten: jeweils zuerst etwas Keksbrösel, dann Creme. Die Schichten noch zweimal wiederholen.",
+        "Das Dessert mindestens 2 Stunden in den Kühlschrank stellen, damit es fester und cremiger wird.",
+        "Kurz vor dem Servieren zwei Kekse zerbröseln und auf die Desserts streuen. Die übrigen zwei Kekse halbieren und je eine Hälfte in ein Glas stecken. Die Schale der Bio-Orange fein darüber reiben.",
+        "Optional den Biscoff-Aufstrich etwa 30 Sekunden vorsichtig erwärmen, bis er dickflüssig ist, und zickzackförmig über die Desserts träufeln."
+      ]
+    }
+  ]
 }
