@@ -1,0 +1,140 @@
+{
+  "id": "vegane-lebkuchen-happen",
+  "title": "Vegane Lebkuchen-Happen",
+  "category": "Weihnachten",
+  "yield": {
+    "amount": 36,
+    "unit": "Stück"
+  },
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": 14,
+      "unit": "g",
+      "name": "geschroteter Leinsamen",
+      "note": "entspricht 2 EL; ersetzt zusammen mit dem Wasser 2 Eier"
+    },
+    {
+      "group": "Teig",
+      "amount": 90,
+      "unit": "ml",
+      "name": "Wasser",
+      "note": "entspricht 6 EL"
+    },
+    {
+      "group": "Teig",
+      "amount": 50,
+      "unit": "g",
+      "name": "brauner Zucker"
+    },
+    {
+      "group": "Teig",
+      "amount": 100,
+      "unit": "ml",
+      "name": "Zuckerrübensirup oder Ahornsirup",
+      "note": "statt flüssigem Honig"
+    },
+    {
+      "group": "Teig",
+      "amount": 100,
+      "unit": "g",
+      "name": "gemahlene Mandeln"
+    },
+    {
+      "group": "Teig",
+      "amount": 150,
+      "unit": "g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": 3,
+      "unit": "g",
+      "name": "Backpulver",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 1.5,
+      "unit": "g",
+      "name": "Natron",
+      "note": "entspricht ½ TL; gleicht das fehlende Aufschlagen der Eier aus"
+    },
+    {
+      "group": "Teig",
+      "amount": 6,
+      "unit": "g",
+      "name": "Lebkuchengewürz",
+      "note": "entspricht 2 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 3,
+      "unit": "g",
+      "name": "Zimt",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Teig",
+      "amount": 20,
+      "unit": "g",
+      "name": "Backkakao"
+    },
+    {
+      "group": "Teig",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Teig",
+      "amount": 100,
+      "unit": "g",
+      "name": "vegane Margarine",
+      "note": "statt Butter"
+    },
+    {
+      "group": "Teig",
+      "amount": 100,
+      "unit": "ml",
+      "name": "Hafer- oder Mandeldrink",
+      "note": "statt Milch"
+    },
+    {
+      "group": "Teig",
+      "amount": 5,
+      "unit": "ml",
+      "name": "Apfelessig",
+      "note": "entspricht 1 TL"
+    },
+    {
+      "group": "Glasur",
+      "amount": 200,
+      "unit": "g",
+      "name": "dunkle Kuchenglasur oder Zartbitterkuvertüre",
+      "note": "auf „vegan“ auf dem Etikett achten"
+    },
+    {
+      "group": "Glasur",
+      "amount": 200,
+      "unit": "g",
+      "name": "vegane helle Schokolade oder Kuvertüre",
+      "note": "statt Vollmilch-Kuchenglasur, z. B. auf Hafer- oder Reisbasis"
+    }
+  ],
+  "steps": [
+    "Leinsamen mit dem Wasser verrühren und ca. 10 Minuten quellen lassen, bis eine gelartige Masse entsteht.",
+    "Margarine, Pflanzendrink und Sirup in einem Topf erwärmen, bis die Margarine geschmolzen ist und sich alles verbunden hat. Etwas abkühlen lassen.",
+    "Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
+    "Leinsamen-Gel, Zucker, Salz und Apfelessig verrühren. Die lauwarme Margarine-Sirup-Mischung unterrühren.",
+    "Mehl, Mandeln, Backpulver, Natron, Kakao, Zimt und Lebkuchengewürz vermischen und kurz unterrühren, nur bis alles verbunden ist.",
+    "Den Teig in einen Spritzbeutel füllen und in kleine Silikonformen geben. Die Mulden nur bis knapp unter den Rand füllen.",
+    "Ca. 10–12 Minuten backen (Stäbchenprobe). Kurz in der Form abkühlen lassen, dann herauslösen und vollständig auskühlen lassen.",
+    "Beide Glasuren getrennt über dem Wasserbad schmelzen. Die Happen hineintauchen oder damit bestreichen und auf einem Gitter fest werden lassen."
+  ],
+  "notes": "Vegane Abwandlung eines Rezepts aus r/Backen. Das Original war im Screenshot nach dem Einfüllen in die Formen abgeschnitten – Backtemperatur, Backzeit und das Glasieren sind daher ergänzt und sollten beim ersten Backen geprüft werden. Zuckerrübensirup schmeckt am ehesten nach Lebkuchen. Statt Leinsamen-Ei gehen auch 160 g Apfelmus.",
+  "source": {
+    "name": "r/Backen (Reddit), vegan abgewandelt"
+  },
+  "dateAdded": "2026-11-15"
+}
