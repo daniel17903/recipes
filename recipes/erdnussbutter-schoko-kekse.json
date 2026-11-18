@@ -11,8 +11,8 @@
       "group": null,
       "amount": 3,
       "unit": "Stück",
-      "name": "reife Banenen",
-      "note": "3-4"
+      "name": "reife Bananen",
+      "note": "3–4 Stück"
     },
     {
       "group": null,
@@ -22,9 +22,10 @@
     },
     {
       "group": null,
-      "amount": null,
-      "unit": null,
-      "name": "ca 150g Vollkornmehl"
+      "amount": 150,
+      "unit": "g",
+      "name": "Vollkornmehl",
+      "note": "ca."
     },
     {
       "group": null,
@@ -53,12 +54,9 @@
     }
   ],
   "steps": [
-    "Die Schokolade grob hacken.",
-    "Die Banenen zerdrücken.",
-    "Den Backofen auf 200C vorheizen.",
+    "Backofen auf 200 °C vorheizen. Schokolade grob hacken, Bananen zerdrücken.",
     "Alle Zutaten vermischen und 12 Kekse formen.",
-    "Auf einem mit Backpapier ausgelegten Backblech ca 20-30min backen bis sie sich fest anfühlen.",
-    "In der Mitte sollten sie aber noch weich sein."
+    "Auf einem mit Backpapier ausgelegten Blech ca. 20–30 Minuten backen, bis sie sich außen fest anfühlen; innen sollen sie noch weich sein."
   ],
   "images": [
     "erdnussbutter-schoko-kekse.webp"

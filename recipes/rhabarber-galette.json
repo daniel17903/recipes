@@ -35,19 +35,19 @@
       "group": null,
       "amount": 100,
       "unit": "g",
-      "name": "Haselnüsse / Mandeln"
+      "name": "Haselnüsse oder Mandeln (optional)"
     }
   ],
   "steps": [
-    "Mehl mit Zucker und Margarine zu einem Teig kneten und für ca 30min in den Kühlschrank stellen",
-    "Rhabarber schälen",
-    "Teig ausrollen, Nüsse (optional) und Rhabarber drauflegen und außen umklappen",
-    "etwas Zucker über den Rhabarber streuen",
-    "Nüsse drüber streuen und am Rand festdrücken",
-    "Bei 200C Ober- / Unterhitze für ca 30min backen Rhabarber kann auch ersetzt werden, z.B. mit Grapefruit"
+    "Mehl, Zucker (etwas zum Bestreuen zurückbehalten) und Margarine zu einem Teig kneten und ca. 30 Minuten kühlen.",
+    "Rhabarber schälen.",
+    "Teig ausrollen, nach Belieben einen Teil der Nüsse daraufstreuen, Rhabarber darauflegen und den Rand nach innen umklappen.",
+    "Rhabarber mit etwas Zucker bestreuen, die übrigen Nüsse darüberstreuen und am Rand festdrücken.",
+    "Bei 200 °C Ober-/Unterhitze ca. 30 Minuten backen."
   ],
   "images": [
     "rhabarber-galette.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Statt Rhabarber geht z. B. auch Grapefruit."
 }

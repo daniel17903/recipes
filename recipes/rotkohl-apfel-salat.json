@@ -17,13 +17,13 @@
       "group": null,
       "amount": 250,
       "unit": "g",
-      "name": "Äpfel, säuerliche"
+      "name": "säuerliche Äpfel"
     },
     {
       "group": null,
       "amount": 150,
       "unit": "g",
-      "name": "Möhre(n)"
+      "name": "Möhren"
     },
     {
       "group": null,
@@ -35,7 +35,7 @@
       "group": null,
       "amount": 50,
       "unit": "g",
-      "name": "Frühlingszwiebel(n)"
+      "name": "Frühlingszwiebeln"
     },
     {
       "group": null,
@@ -75,15 +75,13 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "etwas Zucker oder Honig, evtl."
+      "name": "Zucker oder Honig, optional"
     }
   ],
   "steps": [
-    "Aus Öl, Senf, Essig und Apfelsaft ein Dressing anrühren.",
-    "Vom Rotkohl den Strunk entfernen, den Kohl fein raspeln.",
-    "Die Äpfel und die geschälten Möhren raspeln, die Frühlingszwiebeln fein hacken.Das Gemüse und das Dressing gut mischen.",
-    "Nach Geschmack salzen, pfeffern und evtl. etwas zuckern.",
-    "Kurz ziehen lassen.",
+    "Öl, Senf, Essig und Apfelsaft zu einem Dressing verrühren.",
+    "Strunk vom Rotkohl entfernen und den Kohl fein raspeln. Äpfel und geschälte Möhren raspeln, Frühlingszwiebeln fein hacken.",
+    "Gemüse mit dem Dressing gut mischen, mit Salz, Pfeffer und evtl. etwas Zucker abschmecken und kurz ziehen lassen.",
     "Mit Schnittlauch servieren."
   ],
   "source": {

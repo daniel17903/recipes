@@ -30,14 +30,14 @@
       "group": null,
       "amount": 30,
       "unit": "ml",
-      "name": "Eiswasser (grobe Angabe)",
-      "note": "entspricht 2 EL"
+      "name": "Eiswasser",
+      "note": "entspricht 2 EL; grobe Angabe, ggf. bis 3 EL"
     },
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Knoblauchzehe"
+      "unit": "Zehe",
+      "name": "Knoblauch"
     },
     {
       "group": null,
@@ -61,8 +61,9 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Soja-Sahne + evtl noch Sojamilch (zum Kochen)"
+      "unit": "Pck.",
+      "name": "Soja-Sahne (zum Kochen)",
+      "note": "evtl. zusätzlich etwas Sojamilch"
     },
     {
       "group": null,
@@ -84,28 +85,15 @@
     }
   ],
   "steps": [
-    "Das Mehl mit der kalten veganen Butter in kleinen Stückchen, dem Salz sowie 1 EL Eiswasser in eine Schüssel geben und zügig mit den Knethaken oder Händen zunächst zu Streuseln, dann zu einem glatten Teig verarbeiten.",
-    "Wenn die Masse sehr trocken ist, weitere 1-2 EL Eiswasser zugeben.",
-    "Teig zu einer großen Kugel formen und in Folie gewickelt mindestens 30 Minuten kühlstellen.",
-    "Man kann den Teig auch gut schon 1-2 Tage im Voraus machen.",
-    "Ofen auf 175 Grad Ober- und Unterhitze vorheizen.",
-    "Den Teig auf einer leicht bemehlten Arbeitsfläche oder noch besser zwischen Folie so groß ausrollen, dass er eure Form plus Rand auskleiden kann.",
-    "Über das Nudelholz legen und vorsichtig in die Form legen.",
-    "Einen kleinen Rand hochziehen; eventuell überstehenden Teig mit einem Messer abschneiden.",
-    "Teig in der Form nochmal mindestens 15 Minuten kühlstellen.",
-    "Den Boden mehrfach mit einer Gabel einstechen und 10 Minuten vorbacken.",
-    "Währenddessen die Kirschtomaten waschen und halbieren.",
-    "Knoblauch und Zwiebel fein hacken und einige Minuten in einer Pfanne im Öl anschwitzen.",
-    "Die Speisestärke in ca.",
-    "2 EL Sojasahne glatt rühren.",
-    "Restliche Sahne mit in die Pfanne geben, kurz unter Rühren aufkochen, dann die angerührte Stärke ebenfalls mit einrühren und alles kurz köcheln lassen.",
-    "Den Guss mit Salz, Pfeffer und Kräutern abschmecken. und auf den vorgebackenen Boden geben.",
-    "Dann die halbierten Tomaten (am besten mit der Schnittfläche nach oben) darauf verteilen.",
-    "Quiche ca.",
-    "50 Minuten goldgelb backen; eventuell gegen Ende abdecken.",
-    "Der Guss blubbert beim Backen auf, fällt danach aber wieder etwas ein.",
-    "Quiche vor dem Anschneiden evtl. zum Festwerden kühlstellen.",
-    "Sie kann kalt, zimmerwarm oder nochmals kurz erwärmt serviert werden."
+    "Mehl, kalte Butter in kleinen Stücken, Salz und 1 EL Eiswasser zügig zu Streuseln, dann zu einem glatten Teig verarbeiten. Ist er zu trocken, noch 1–2 EL Eiswasser zugeben.",
+    "Zur Kugel formen und in Folie gewickelt mindestens 30 Minuten kühlen (geht auch 1–2 Tage im Voraus).",
+    "Ofen auf 175 °C Ober-/Unterhitze vorheizen. Teig auf wenig Mehl oder zwischen Folie ausrollen, in die Form legen und einen kleinen Rand hochziehen; Überstand abschneiden. Nochmals mindestens 15 Minuten kühlen.",
+    "Boden mehrfach mit einer Gabel einstechen und 10 Minuten vorbacken.",
+    "Inzwischen Tomaten waschen und halbieren. Knoblauch und Zwiebel fein hacken und im Öl einige Minuten anschwitzen.",
+    "Stärke in ca. 2 EL Sojasahne glatt rühren. Restliche Sahne in die Pfanne geben, aufkochen, die Stärke einrühren und kurz köcheln. Mit Salz, Pfeffer und Kräutern abschmecken.",
+    "Guss auf den vorgebackenen Boden geben und die Tomaten mit der Schnittfläche nach oben darauf verteilen.",
+    "Ca. 50 Minuten goldgelb backen, gegen Ende evtl. abdecken.",
+    "Vor dem Anschneiden evtl. kühlen, damit sie fest wird. Kalt, zimmerwarm oder aufgewärmt servieren."
   ],
   "source": {
     "url": "https://www.backenmachtgluecklich.de/rezepte/vegane-tomatenquiche-ohne-tofu.html#wprm-recipe-container-454754"
@@ -113,5 +101,6 @@
   "images": [
     "tomatenquiche.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Der Guss blubbert beim Backen auf und fällt danach wieder etwas ein."
 }

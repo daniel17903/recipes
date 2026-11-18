@@ -22,8 +22,8 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Knoblauchzehe, fein gehackt"
+      "unit": "Zehe",
+      "name": "Knoblauch, fein gehackt"
     },
     {
       "group": null,
@@ -62,24 +62,20 @@
       "group": null,
       "amount": 320,
       "unit": "g",
-      "name": "gekoche schwarzaugen Bohnen oder 1 Dose"
+      "name": "gekochte Schwarzaugenbohnen (oder 1 Dose)"
     },
     {
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "dazu Quinoa, roter, schwarzer oder Naturreis"
+      "name": "Quinoa oder Reis (rot, schwarz oder Natur) zum Servieren"
     }
   ],
   "steps": [
-    "Kohlblätter in einem großen Topf mit kochendem Wasser ca 20min weich kochen.",
-    "4 EL des Kochwassers aufbewahren, den Rest abgießen.",
-    "Kohlblätter grob hacken und beiseitestellen.",
-    "Das aufbewahrte Kochwasser in einer großen Pfanne auf mittlerer Flamme erhitzen.",
-    "Zwiebel, Knoblauch, Paprikapulver, Kurkuma und pikante Gewürzmischung nach Geschmack einrühren.",
-    "Abdecken und 4min köcheln lassen, bis die Zwiebel weich ist.",
-    "Misopaste, Tomaten, Schwarzaugenbohnen, gehackte Kohlblätter nach Geschmack einrühren.",
-    "10min köcheln lassen."
+    "Kohlblätter in kochendem Wasser ca. 20 Minuten weich kochen. 4 EL Kochwasser aufbewahren, den Rest abgießen. Kohlblätter grob hacken.",
+    "Das Kochwasser in einer großen Pfanne bei mittlerer Hitze erhitzen. Zwiebel, Knoblauch, Paprikapulver, Kurkuma und Gewürzmischung nach Geschmack einrühren und zugedeckt 4 Minuten köcheln, bis die Zwiebel weich ist.",
+    "Misopaste, Tomaten, Bohnen und Kohlblätter einrühren und 10 Minuten köcheln.",
+    "Mit Quinoa oder Reis servieren."
   ],
   "images": [
     "rauchige-schwarzaugenbohnen-kohlblaetter.webp"

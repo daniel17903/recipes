@@ -22,8 +22,8 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Prise(n) Zucker"
+      "unit": "Prise",
+      "name": "Zucker"
     },
     {
       "group": null,
@@ -48,26 +48,28 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "etwas Öl"
+      "name": "Öl"
     },
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Prise(n) Salz"
+      "unit": "Prise",
+      "name": "Salz für die Pfanne"
+    },
+    {
+      "group": null,
+      "amount": 120,
+      "unit": "ml",
+      "name": "lauwarmes Wasser",
+      "note": "entspricht ½ Tasse"
     }
   ],
   "steps": [
-    "Hefe mit etwas Milch und Zucker zum Vorteig verarbeiten und zugedeckt an einem warmen Ort etwa 10 Min. gehen lassen.",
-    "Dann mit Mehl, Milch, Salz und Butter zum Gesamtteig verarbeiten.",
-    "Nochmals 30 Min. gehen lassen.",
-    "Etwa 5 - 6 cm große Kugeln formen und diese nochmals 10 Min. gehen lassen.",
-    "Dann Öl und etwas Salz in die Pfanne geben, die geformten Dampfnudeln hinein legen.",
-    "Eine halbe Tasse lauwarmes Wasser dazugießen und ca. eine halbe Stunde bei mittlerer Temperatur gut zugedeckt backen.",
-    "Wichtig: Dabei den Deckel nicht öffnen, damit die Dampfnudeln nicht zusammenfallen!!!",
-    "Wer die Kruste besonders liebt, kann nach Ende der Backzeit die Dampfnudeln auch wenden und so \"beidseitige\" Dampfnudeln backen.",
-    "Dazu entweder als herzhafte Variante Suppe (z.B.",
-    "Kartoffelsuppe) reichen oder als süße Variante Vanillesauce oder Fruchtkompott."
+    "Hefe mit etwas Milch und dem Zucker zu einem Vorteig verrühren und zugedeckt an einem warmen Ort ca. 10 Minuten gehen lassen.",
+    "Mit Mehl, restlicher Milch, Salz und Margarine zu einem Teig verarbeiten und 30 Minuten gehen lassen.",
+    "5–6 cm große Kugeln formen und weitere 10 Minuten gehen lassen.",
+    "Öl und eine Prise Salz in eine Pfanne geben und die Dampfnudeln hineinlegen. Das Wasser dazugießen.",
+    "Gut zugedeckt bei mittlerer Hitze ca. 30 Minuten backen. Dabei den Deckel nicht öffnen, sonst fallen die Dampfnudeln zusammen."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/410111130856783/Omas-Dampfnudeln-ohne-Eier.html"
@@ -75,5 +77,6 @@
   "images": [
     "dampfnudeln.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Für extra Kruste die Dampfnudeln nach der Backzeit wenden und auch die andere Seite backen. Herzhaft mit Suppe (z. B. Kartoffelsuppe) oder süß mit Vanillesauce oder Kompott servieren."
 }

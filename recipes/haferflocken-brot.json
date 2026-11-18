@@ -62,13 +62,9 @@
     }
   ],
   "steps": [
-    "Die trockenen Zutaten gut vermischen und mit dem Wasser verrühren.",
-    "Erfahrungsgemäß braucht das Rezept viel Wasser, damit das Brot nicht bröselig wird.",
-    "Die Masse in eine Brotkastenform füllen und glattstreichen.",
-    "Am besten vorher Backpapier in die Form legen.",
-    "2 Stunden quellen lassen.",
-    "40 Minuten bei 180 Grad im Backofen backen, dann das Brot aus der Form nehmen und ohne Form weitere 30 Minuten bei 180 Grad fertigbacken.",
-    "Das Brot hält sich am besten im Kühlschrank in ein Küchentuch eingewickelt."
+    "Trockene Zutaten gut mischen und mit dem Wasser verrühren (das Brot braucht viel Wasser, sonst wird es bröselig).",
+    "Masse in eine mit Backpapier ausgelegte Kastenform füllen, glatt streichen und 2 Stunden quellen lassen.",
+    "Bei 180 °C 40 Minuten backen, dann aus der Form nehmen und ohne Form weitere 30 Minuten backen."
   ],
   "source": {
     "url": "https://yogaammeer.de/glutenfreies-brot/"
@@ -76,5 +72,6 @@
   "images": [
     "haferflocken-brot.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Hält sich am besten in ein Küchentuch eingewickelt im Kühlschrank."
 }

@@ -11,7 +11,7 @@
       "group": "Teig",
       "amount": 500,
       "unit": "g",
-      "name": "Mandel(n), gemahlen"
+      "name": "gemahlene Mandeln"
     },
     {
       "group": "Teig",
@@ -72,23 +72,21 @@
       "amount": 150,
       "unit": "g",
       "name": "Puderzucker"
+    },
+    {
+      "group": "Zum Garnieren",
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Zimt"
     }
   ],
   "steps": [
-    "Den Puderzucker in eine Schüssel sieben.",
-    "Zimt, gemahlene Mandeln und gemahlene Haselnüsse dazugeben.",
-    "Alles gut vermischen.",
-    "Den frischen Zitronensaft und das kalte Wasser ebenfalls hinzugeben und mit den Händen verkneten.",
-    "Den Teig auf ein Backpapier legen.",
-    "Mit einem weiteren Backpapier belegen und zwischen den zwei Lagen Backpapier ca.",
-    "0.5 cm dick ausrollen.",
-    "Mit einem Ausstecher in Sternform ca.",
-    "30 Zimtsterne ausstechen und auf ein Backblech mit Backpapier legen.",
-    "Die Zimtsterne im vorgeheizten Backofen bei 160°C Umluft 6-8 Minuten backen.",
-    "Die Sterne sollten kaum braun werden (und auf gar keinen Fall knusprig).",
-    "Für den Zuckerguss den Puderzucker in eine kleine Schüssel geben und nach und nach die pflanzliche Milch unterrühren, bis ihr eine dicke, weiße Glasur erhaltet.",
-    "Sie sollte auf gar keinen Fall zu dünn werden.",
-    "Die Zuckerglasur mit einem Löffel auf den ausgekühlten Zimtsternen verteilen und mit einer Prise Zimt garnieren."
+    "Puderzucker in eine Schüssel sieben, Zimt und Mandeln dazugeben und gut vermischen.",
+    "Rum-Aroma, Likör, Zitronensaft und kaltes Wasser dazugeben und mit den Händen verkneten.",
+    "Teig zwischen zwei Lagen Backpapier ca. 0,5 cm dick ausrollen. Ca. 30 Sterne ausstechen und auf ein Blech mit Backpapier legen.",
+    "Im vorgeheizten Ofen bei 160 °C Umluft 6–8 Minuten backen – sie sollen kaum braun und keinesfalls knusprig werden. Auskühlen lassen.",
+    "Für den Guss Puderzucker mit Zitronensaft und nach und nach so viel Milch verrühren, dass eine dicke, weiße Glasur entsteht (nicht zu dünn).",
+    "Glasur mit einem Löffel auf den Sternen verteilen und mit einer Prise Zimt garnieren."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/37481012562226/Zimtsterne.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%20Sharing%20CTA&amp;utm_campaign=Sharing-iOS"

@@ -19,12 +19,24 @@
       "unit": "g",
       "name": "Agar Agar",
       "note": "entspricht 1/2 TL"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Zucker"
+    },
+    {
+      "group": null,
+      "amount": null,
+      "unit": null,
+      "name": "Vanille"
     }
   ],
   "steps": [
-    "10% der Sahne zur Seite stellen.",
-    "Den Rest mit dem Agar Agar kurz aufkochen, dann komplett auskühlen lassen.",
-    "Zucker / Vanille dazugeben und mit dem Rest flüssiger Sahne mixen."
+    "10 % der Sahne beiseitestellen.",
+    "Die restliche Sahne mit dem Agar Agar kurz aufkochen und vollständig abkühlen lassen.",
+    "Zucker, Vanille und die beiseitegestellte Sahne dazugeben und mixen."
   ],
   "dateAdded": "2026-07-17",
   "images": [

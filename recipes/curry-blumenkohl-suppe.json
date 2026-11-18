@@ -22,8 +22,8 @@
     {
       "group": null,
       "amount": 1,
-      "unit": "Stück",
-      "name": "Knoblauchzehe, fein gehackt"
+      "unit": "Zehe",
+      "name": "Knoblauch, fein gehackt"
     },
     {
       "group": null,
@@ -57,7 +57,7 @@
       "group": null,
       "amount": 1,
       "unit": "Stück",
-      "name": "Kopf Blumenkohl, grob gehackt"
+      "name": "Blumenkohl (Kopf), grob gehackt"
     },
     {
       "group": null,
@@ -74,17 +74,14 @@
     }
   ],
   "steps": [
-    "In einem großen Topf 250ml Gemüsebrühe auf mittlerer bis hoher Flamme erhitzen.",
-    "Zwiebel hineingeben und ca 5min köcheln lassen, bis sie weich ist.",
-    "Knoblauch, Ingwer, Currypulver, Dattelzucker und pikante Gewürzmischung hinzufügen.",
-    "Blumenkohl und die restlichen 750ml Gemüsebrühe zugeben und zum Kochen bringen.",
-    "Flamme niedrig stellen, Topf abdecken und 30min köcheln lassen, bis der Blumenkohl weich ist.",
-    "Suppe pürieren, Zitrone einrühren.",
-    "Abschmecken und mit gehackter Tomate garnieren.",
-    "Variationen: Vor dem Servieren eine oder mehrere der folgenden Zutaten hinzufügen: gekochten roten / schwarzen oder Naturreis, grüne Erbsen, gehackten gedünsteten Spinat, fein gehackten Schnittlauch oder gehackte Frühlingszwiebeln."
+    "250 ml Gemüsebrühe in einem großen Topf bei mittlerer bis hoher Hitze erhitzen. Zwiebel darin ca. 5 Minuten weich köcheln.",
+    "Knoblauch, Ingwer, Currypulver, Dattelzucker und Gewürzmischung dazugeben.",
+    "Blumenkohl und die restlichen 750 ml Brühe dazugeben und aufkochen. Zugedeckt bei niedriger Hitze 30 Minuten köcheln, bis der Blumenkohl weich ist.",
+    "Suppe pürieren, Zitrone einrühren, abschmecken und mit der Tomate garnieren."
   ],
   "images": [
     "curry-blumenkohl-suppe.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Variationen: Vor dem Servieren z. B. gekochten Reis (rot, schwarz oder Natur), Erbsen, gedünsteten Spinat, Schnittlauch oder Frühlingszwiebeln dazugeben."
 }

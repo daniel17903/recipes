@@ -68,10 +68,10 @@
     }
   ],
   "steps": [
-    "Avocadofruchtfleisch, Beeren, Kakaopulver, Mandelmus, Dattelsirup und Mandelmilch in einem Hochleistungsmixer oder einer Küchenmaschine vollständig glatt pürieren.",
-    "Die Mischung in eine Schüssel geben und die Chiasamen einrühren, bis sie gleichmäßig verteilt sind.",
-    "Abdecken und mindestens 8 Stunden kalt stellen.",
-    "In 4 kleine Dessertschalen verteilen und nach Wunsch garnieren. Vor dem Servieren weitere 20 Minuten kühlen."
+    "Avocadofruchtfleisch, Beeren, Kakao, Mandelmus, Dattelsirup und Mandelmilch im Mixer glatt pürieren.",
+    "In eine Schüssel geben und die Chiasamen gleichmäßig einrühren.",
+    "Abgedeckt mindestens 8 Stunden kalt stellen.",
+    "Auf 4 Dessertschalen verteilen, nach Wunsch garnieren und vor dem Servieren weitere 20 Minuten kühlen."
   ],
   "notes": "Veganes Dessert. Wenn im Original neben Volumenangaben g/ml angegeben waren, wurden diese Originalwerte übernommen; nur Kakaopulver und Mandelmus haben dort ausschließlich EL-Angaben.",
   "source": {
@@ -82,7 +82,7 @@
     {
       "id": "einfach",
       "title": "Einfach",
-      "description": "Ohne Kochen: Chia-Samen quellen mit Kakao und Mandelmilch über Nacht im Kühlschrank.",
+      "description": "Ohne Kochen: Chia-Samen quellen mit Kakao und Mandelmilch mindestens 2 Stunden (besser über Nacht) im Kühlschrank.",
       "yield": {
         "amount": 2,
         "unit": "Portionen"
@@ -130,11 +130,10 @@
         }
       ],
       "steps": [
-        "Chia-Samen und Backkakao in einer Schüssel mischen.",
-        "Mandelmilch und Agavendicksaft zugeben und mit dem Schneebesen gründlich verrühren, bis keine Kakao-Klümpchen mehr zu sehen sind.",
-        "10 Minuten quellen lassen, dann erneut umrühren, damit sich die Chia-Samen nicht absetzen.",
+        "Chia-Samen und Kakao mischen. Mandelmilch und Agavendicksaft dazugeben und mit dem Schneebesen klümpchenfrei verrühren.",
+        "10 Minuten quellen lassen und erneut umrühren, damit sich die Samen nicht absetzen.",
         "Abgedeckt mindestens 2 Stunden, besser über Nacht, im Kühlschrank quellen lassen.",
-        "Vor dem Servieren umrühren und mit den frischen Beeren und gehackten Haselnüssen anrichten."
+        "Umrühren und mit Beeren und gehackten Haselnüssen anrichten."
       ],
       "notes": "Zutaten von der Original-Seite übernommen; Zubereitungsschritte rekonstruiert, da die Quelle nur als Zutaten-Screenshot vorlag. Extra cremig wird der Pudding, wenn er nach dem Quellen kurz püriert wird.",
       "source": {

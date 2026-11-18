@@ -11,31 +11,31 @@
       "group": null,
       "amount": 450,
       "unit": "g",
-      "name": "Süßkartoffel(n)"
+      "name": "Süßkartoffeln"
     },
     {
       "group": null,
       "amount": 1,
       "unit": "Stück",
-      "name": "große Paprikaschote(n), rot"
+      "name": "große rote Paprikaschote"
     },
     {
       "group": null,
       "amount": 200,
       "unit": "g",
-      "name": "Linsen, rote"
+      "name": "rote Linsen"
     },
     {
       "group": null,
       "amount": 2,
       "unit": "Stück",
-      "name": "m.-große Zwiebel(n)"
+      "name": "mittelgroße Zwiebeln"
     },
     {
       "group": null,
       "amount": 2,
-      "unit": "Stück",
-      "name": "Knoblauchzehe(n)"
+      "unit": "Zehe",
+      "name": "Knoblauch"
     },
     {
       "group": null,
@@ -92,14 +92,10 @@
     }
   ],
   "steps": [
-    "Die Süßkartoffeln schälen und würfeln.",
-    "Die Paprikaschote würfeln, den Knoblauch schälen und die Zwiebeln klein schneiden.",
-    "Das Olivenöl in einem großen Topf erhitzen und die Zwiebeln glasig anschwitzen.",
-    "Den Knoblauch durch die Presse in den Topf drücken, kurz mitbraten und dann Süßkartoffeln und Paprika in den Topf geben.",
-    "Das Tomatenmark und die Gewürze dazugeben, kurz mitbraten, anschließend die Linsen hinzufügen.",
-    "Nun alles mit Kokosmilch und Gemüsebrühe aufgießen und ca.",
-    "25 min. köcheln lassen.",
-    "Das Curry schmeckt am nächsten Tag meist noch besser und lässt sich auch gut einfrieren."
+    "Süßkartoffeln schälen und würfeln. Paprika würfeln, Zwiebeln klein schneiden, Knoblauch schälen.",
+    "Olivenöl in einem großen Topf erhitzen und die Zwiebeln glasig dünsten. Knoblauch dazupressen, kurz mitbraten, dann Süßkartoffeln und Paprika dazugeben.",
+    "Tomatenmark und Gewürze kurz mitbraten, dann die Linsen dazugeben.",
+    "Mit Kokosmilch und Gemüsebrühe aufgießen und ca. 25 Minuten köcheln. Mit Salz und Pfeffer abschmecken."
   ],
   "source": {
     "url": "https://www.chefkoch.de/rezepte/3023041455110341/Rote-Linsen-Curry-mit-Suesskartoffeln.html?utm_source=com.apple.UIKit.activity.CopyToPasteboard&amp;utm_medium=Social%2520Sharing%2520CTA&amp;utm_campaign=Sharing-iOS"
@@ -107,5 +103,6 @@
   "images": [
     "rote-linsen-curry-mit-suesskartoffeln.webp"
   ],
-  "dateAdded": "2026-07-17"
+  "dateAdded": "2026-07-17",
+  "notes": "Schmeckt am nächsten Tag meist noch besser und lässt sich gut einfrieren."
 }

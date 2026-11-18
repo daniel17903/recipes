@@ -92,7 +92,7 @@
       "amount": 1,
       "unit": "Stück",
       "name": "Bio-Zitrone, davon Schale",
-      "note": "1-2"
+      "note": "1–2 Stück"
     },
     {
       "group": "Käsekuchenmasse",
@@ -102,18 +102,17 @@
     }
   ],
   "steps": [
-    "Für den Mürbeteig das Mehl mit Zucker, Weinsteinbackpulver, Salz und Zimt in einer Schüssel vermengen (für ein besonders gleichmäßiges Ergebnis mehrmals sieben).",
-    "Die vegane Butter schmelzen, sodass sie gerade so flüssig ist, und zur Mehlmischung geben.",
-    "Wasser hinzufügen und alles kräftig zu einem festen Teig verkneten.",
-    "Eine Springform mit Backpapier auskleiden, den Mürbeteig darin flachdrücken und gleichmäßig ausbreiten. Darauf achten, dass ein ca. 3 Finger hoher, dünner Rand entsteht.",
-    "Für die Käsemasse den Seidentofu in einer Rührschüssel mit dem Handmixer auf höchster Stufe 2-3 Minuten cremig schlagen.",
-    "Die Bio-Zitrone waschen, abtupfen und die Schale vollständig abreiben; nach Geschmack auch etwas vom Saft verwenden.",
-    "Zitronenschale, Sojajoghurt und Vanille zugeben und kräftig untermixen.",
-    "Zucker mit Speisestärke mischen, ebenfalls hinzugeben und untermixen, bis die Masse frei von Klümpchen und schön geschmeidig ist.",
-    "Die geschmeidige Käsemasse vollständig in die mit Mürbeteig ausgekleidete Springform gießen. Geht die Masse etwas über den Teigrand hinaus, ist das nicht schlimm – nach dem Backen und Abkühlen vorsichtig mit einem Messer ablösen.",
-    "Im vorgeheizten Ofen bei 175 °C Umluft auf mittlerer Schiene 75 Minuten backen.",
-    "Den Kuchen herausnehmen und auf einem Kuchengitter abkühlen lassen. Wichtig: Erst nach dem Erkalten anschneiden oder aus der Form lösen!",
-    "Gut gekühlt und mit frischen Früchten, Beerenpüree oder etwas Schlagcreme servieren."
+    "Ofen auf 175 °C Umluft vorheizen.",
+    "Mehl, Zucker, Weinsteinbackpulver, Salz und Zimt vermengen (für ein gleichmäßiges Ergebnis mehrmals sieben).",
+    "Butter gerade eben flüssig schmelzen und mit dem Wasser zur Mehlmischung geben. Kräftig zu einem festen Teig verkneten.",
+    "Eine Springform mit Backpapier auskleiden und den Teig gleichmäßig darin ausdrücken, mit einem dünnen, ca. 3 Finger hohen Rand.",
+    "Seidentofu mit dem Handmixer auf höchster Stufe 2–3 Minuten cremig schlagen.",
+    "Zitrone waschen und die Schale abreiben (nach Geschmack auch etwas Saft verwenden). Mit Sojajoghurt und Vanille kräftig untermixen.",
+    "Zucker, Speisestärke, Puddingpulver und eine Prise Kurkuma mischen und untermixen, bis die Masse glatt ist.",
+    "Masse in die Form gießen. Läuft sie etwas über den Teigrand, ist das nicht schlimm – nach dem Abkühlen vorsichtig mit einem Messer lösen.",
+    "Auf mittlerer Schiene 75 Minuten backen.",
+    "Auf einem Gitter vollständig erkalten lassen, erst dann anschneiden oder aus der Form lösen.",
+    "Gut gekühlt mit frischen Früchten, Beerenpüree oder Schlagcreme servieren."
   ],
   "source": {
     "url": "https://heftigvegan.de/wprm_print/15555"

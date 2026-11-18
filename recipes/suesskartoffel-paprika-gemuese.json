@@ -11,7 +11,7 @@
       "group": null,
       "amount": 2,
       "unit": "Stück",
-      "name": "Süßkartoffeln (ca 700g)"
+      "name": "Süßkartoffeln (ca. 700 g)"
     },
     {
       "group": null,
@@ -57,7 +57,13 @@
       "amount": 30,
       "unit": "ml",
       "name": "Zitronensaft",
-      "note": "2-4; entspricht 2-4 EL"
+      "note": "entspricht 2–4 EL"
+    },
+    {
+      "group": null,
+      "amount": 200,
+      "unit": "ml",
+      "name": "Wasser"
     },
     {
       "group": null,
@@ -81,21 +87,16 @@
       "group": null,
       "amount": null,
       "unit": null,
-      "name": "Bulgur oder Couscous"
+      "name": "Bulgur oder Couscous zum Servieren"
     }
   ],
   "steps": [
-    "Süßkartoffeln schälen, längs halbieren und quer in ca 0,5cm dicke Scheiben schneiden.",
-    "Paprikaschote putzen, waschen und in lange breite Streifen schneiden und quer dritteln.",
-    "Den Sesam ohne Fett hellbraun anrösten, herausnehmen.",
-    "Das Öl in der Pfanne erhitzen.",
-    "Darin Paprika und Süßkartoffeln ca 5min anbraten.",
-    "Ahornsirup dazugeben, kurz karamellisieren lassen.",
-    "Das Süßkartoffel-Paprika-Gemüse mit Zimt und Kreuzkümmel würzen, Zitronensaft dazugeben und ganz kurz einkochen lassen.",
-    "200ml Wasser dazugießen, mit Kräutersalz würzen, Rosinen hinzufügen und bei geringer Hitze ca 10min zugedeckt köcheln lassen.",
-    "Den Sesam unter das Gemüse mischen, mit Kräutersalz, Pfeffer und evtl Zitronensaft abschmecken.",
-    "Gemüse auf Teller verteilen und servieren.",
-    "Dazu passen Bulgur oder Couscous."
+    "Süßkartoffeln schälen, längs halbieren und quer in ca. 0,5 cm dicke Scheiben schneiden. Paprika putzen, waschen, in breite Streifen schneiden und diese quer dritteln.",
+    "Sesam ohne Fett hellbraun rösten und herausnehmen.",
+    "Öl in der Pfanne erhitzen und Paprika und Süßkartoffeln darin ca. 5 Minuten anbraten. Ahornsirup dazugeben und kurz karamellisieren lassen.",
+    "Mit Zimt und Kreuzkümmel würzen, Zitronensaft dazugeben (etwas für später zurückbehalten) und ganz kurz einkochen lassen.",
+    "Wasser dazugießen, mit Kräutersalz würzen, Rosinen dazugeben und zugedeckt bei geringer Hitze ca. 10 Minuten köcheln.",
+    "Sesam untermischen, mit Kräutersalz, Pfeffer und ggf. restlichem Zitronensaft abschmecken. Mit Bulgur oder Couscous servieren."
   ],
   "images": [
     "suesskartoffel-paprika-gemuese.webp"

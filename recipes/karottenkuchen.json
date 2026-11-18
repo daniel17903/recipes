@@ -4,7 +4,7 @@
   "category": "Kuchen",
   "yield": {
     "amount": 1,
-    "unit": "Portionen"
+    "unit": "26cm-Form"
   },
   "ingredients": [
     {
@@ -108,11 +108,10 @@
     }
   ],
   "steps": [
-    "Cashewkerne über Nacht in Wasser einweichen.",
-    "Karotten grob raspeln und Leinsamen in warmem Wasser für einige Minuten einweichen.",
-    "Backofen auf 180C vorheizen.",
-    "Alle Zutaten für den Teig mischen und in einer 26cm Springform für 40-45min backen.",
-    "Für die Creme alle Zutaten pürieren und den Kuchen nach dem Ablühlen damit bestreichen."
+    "Cashews über Nacht in Wasser einweichen.",
+    "Backofen auf 180 °C vorheizen. Karotten grob raspeln, Leinsamen einige Minuten in warmem Wasser quellen lassen.",
+    "Alle Zutaten für den Teig mischen und in einer 26-cm-Springform 40–45 Minuten backen.",
+    "Abgetropfte Cashews mit den übrigen Zutaten für die Creme pürieren und den abgekühlten Kuchen damit bestreichen."
   ],
   "dateAdded": "2026-07-17",
   "images": [

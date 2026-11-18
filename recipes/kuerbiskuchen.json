@@ -95,7 +95,7 @@
       "amount": 45,
       "unit": "ml",
       "name": "Pflanzenmilch",
-      "note": "3-4; entspricht 3-4 EL"
+      "note": "entspricht 3–4 EL"
     },
     {
       "group": "Dattelcreme",
@@ -112,11 +112,10 @@
     }
   ],
   "steps": [
-    "Für das Kürbispüree den Kürbis bei 220C für 40-50min backen, bis er sehr weich ist.",
-    "Dann entkernen und pürieren.",
-    "Für den Teig alle Zutaten mischen, zuerst mit etwas weniger Flüssigkeit.",
-    "Dann in einer Kastenform bei 175C für 45-60min backen.",
-    "Für die Dattelcreme die Datteln ca 20min in heißem Wasser einweichen, dann alles pürieren und über den abgekühlten Kuchen streichen."
+    "Kürbis bei 220 °C 40–50 Minuten backen, bis er sehr weich ist. Entkernen und pürieren.",
+    "Alle Zutaten für den Teig mischen; Flüssigkeit zunächst etwas sparsamer zugeben.",
+    "In einer Kastenform bei 175 °C 45–60 Minuten backen und abkühlen lassen.",
+    "Datteln ca. 20 Minuten in heißem Wasser einweichen, mit den übrigen Zutaten der Dattelcreme pürieren und auf den Kuchen streichen."
   ],
   "variations": [
     {
@@ -179,8 +178,8 @@
         {
           "group": null,
           "amount": 70,
-          "unit": "g",
-          "name": "starker Earl-Grey Tee oder schwarzen Tee oder Pflanzenmilch"
+          "unit": "ml",
+          "name": "starker Earl-Grey-Tee, schwarzer Tee oder Pflanzenmilch"
         }
       ],
       "steps": [
